@@ -1,0 +1,227 @@
+{
+  "topicSlug": "grade-1",
+  "lessons": [
+    {
+      "id": "grade1-01",
+      "slug": "in-the-school-playground",
+      "topicSlug": "grade-1",
+      "title": "In the school playground",
+      "titleVi": "Trên sân trường (Quả bóng, Sách)",
+      "order": 1,
+      "vocabulary": [
+        {
+          "id": "v-g1-ball",
+          "word": "ball",
+          "meaningVi": "Quả bóng",
+          "ipa": "/bɔːl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/grade-1/ball.webp",
+          "exampleSentence": "I have a ball.",
+          "exampleSentenceVi": "Tôi có một quả bóng."
+        },
+        {
+          "id": "v-g1-book",
+          "word": "book",
+          "meaningVi": "Quyển sách",
+          "ipa": "/bʊk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/grade-1/book.webp",
+          "exampleSentence": "This is my book.",
+          "exampleSentenceVi": "Đây là quyển sách của tôi."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-g1-ihave",
+          "phrase": "I have a...",
+          "meaningVi": "Tôi có một...",
+          "ipa": "/aɪ hæv ə/",
+          "usage": "Dùng để nói bạn đang có một đồ vật gì đó."
+        }
+      ],
+      "dialogues": [],
+      "practice": [
+        {
+          "id": "q-g1-1-1",
+          "type": "multiple-choice",
+          "question": "What is the meaning of 'ball'?",
+          "questionVi": "Từ 'ball' có nghĩa là gì?",
+          "options": ["Quyển sách", "Quả bóng", "Bút chì"],
+          "correctAnswer": 1,
+          "explanation": "'Ball' là quả bóng. Quyển sách là 'book'."
+        }
+      ]
+    },
+    {
+      "id": "grade1-02",
+      "slug": "at-the-birthday-party",
+      "topicSlug": "grade-1",
+      "title": "At the birthday party",
+      "titleVi": "Bữa tiệc sinh nhật (Số đếm 1-10)",
+      "order": 2,
+      "vocabulary": [
+        {
+          "id": "v-g1-one",
+          "word": "one",
+          "meaningVi": "Số 1",
+          "ipa": "/wʌn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/grade-1/one.webp",
+          "exampleSentence": "I have one balloon.",
+          "exampleSentenceVi": "Tôi có 1 quả bóng bay."
+        },
+        {
+          "id": "v-g1-two",
+          "word": "two",
+          "meaningVi": "Số 2",
+          "ipa": "/tuː/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/grade-1/two.webp",
+          "exampleSentence": "She has two gifts.",
+          "exampleSentenceVi": "Cô ấy có 2 món quà."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-g1-howold",
+          "phrase": "How old are you?",
+          "meaningVi": "Bạn mấy tuổi?",
+          "ipa": "/haʊ oʊld ɑːr juː/",
+          "usage": "Dùng để hỏi tuổi."
+        },
+        {
+          "id": "p-g1-iam",
+          "phrase": "I am ... years old.",
+          "meaningVi": "Mình ... tuổi.",
+          "ipa": "/aɪ æm ... jɪrz oʊld/",
+          "usage": "Dùng để trả lời tuổi."
+        }
+      ],
+      "dialogues": [],
+      "practice": [
+        {
+          "id": "q-g1-2-1",
+          "type": "multiple-choice",
+          "question": "How do you answer: 'How old are you?'",
+          "questionVi": "Bạn trả lời câu 'How old are you?' như thế nào?",
+          "options": ["I am fine.", "I am six years old.", "My name is Nam."],
+          "correctAnswer": 1,
+          "explanation": "'How old are you?' dùng để hỏi tuổi, nên đáp án là 'I am six years old.'"
+        }
+      ]
+    },
+    {
+      "id": "grade1-03",
+      "slug": "at-home",
+      "topicSlug": "grade-1",
+      "title": "At home",
+      "titleVi": "Ở nhà (Gia đình)",
+      "order": 3,
+      "vocabulary": [
+        {
+          "id": "v-g1-mother",
+          "word": "mother",
+          "meaningVi": "Mẹ",
+          "ipa": "/ˈmʌðər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/grade-1/mother.webp",
+          "exampleSentence": "This is my mother.",
+          "exampleSentenceVi": "Đây là mẹ của mình."
+        },
+        {
+          "id": "v-g1-father",
+          "word": "father",
+          "meaningVi": "Bố",
+          "ipa": "/ˈfɑːðər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/grade-1/father.webp",
+          "exampleSentence": "This is my father.",
+          "exampleSentenceVi": "Đây là bố của mình."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-g1-thisis",
+          "phrase": "This is my...",
+          "meaningVi": "Đây là ... của mình.",
+          "ipa": "/ðɪs ɪz maɪ/",
+          "usage": "Dùng để giới thiệu ai hoặc đồ vật gì."
+        }
+      ],
+      "dialogues": [],
+      "practice": [
+        {
+          "id": "q-g1-3-1",
+          "type": "multiple-choice",
+          "question": "Which word means 'Bố'?",
+          "questionVi": "Từ nào có nghĩa là 'Bố'?",
+          "options": ["brother", "mother", "father"],
+          "correctAnswer": 2,
+          "explanation": "'Father' nghĩa là Bố. 'Mother' là Mẹ."
+        }
+      ]
+    },
+    {
+      "id": "grade1-04",
+      "slug": "in-the-classroom",
+      "topicSlug": "grade-1",
+      "title": "In the classroom",
+      "titleVi": "Trong lớp học (Đồ dùng)",
+      "order": 4,
+      "vocabulary": [
+        {
+          "id": "v-g1-pen",
+          "word": "pen",
+          "meaningVi": "Cái bút mực",
+          "ipa": "/pen/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/grade-1/pen.webp",
+          "exampleSentence": "I have a pen.",
+          "exampleSentenceVi": "Tôi có một cái bút mực."
+        },
+        {
+          "id": "v-g1-ruler",
+          "word": "ruler",
+          "meaningVi": "Cái thước kẻ",
+          "ipa": "/ˈruːlər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/grade-1/ruler.webp",
+          "exampleSentence": "I have a ruler.",
+          "exampleSentenceVi": "Tôi có một cái thước kẻ."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-g1-whatisthis",
+          "phrase": "What is this?",
+          "meaningVi": "Đây là cái gì?",
+          "ipa": "/hwʌt ɪz ðɪs/",
+          "usage": "Hỏi về một vật ở gần."
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-g1-class",
+          "title": "In the classroom",
+          "titleVi": "Trong lớp học",
+          "situation": "Hai bạn đang hỏi về đồ dùng học tập.",
+          "lines": [
+            { "speaker": "Lan", "text": "What is this?", "textVi": "Đây là cái gì?", "ipa": "" },
+            { "speaker": "Nam", "text": "It is a pen.", "textVi": "Đó là một cái bút mực.", "ipa": "" }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "q-g1-4-1",
+          "type": "multiple-choice",
+          "question": "What is a 'ruler'?",
+          "questionVi": "Ruler là đồ vật gì?",
+          "options": ["Cái thước kẻ", "Cái bút chì", "Cục tẩy"],
+          "correctAnswer": 0,
+          "explanation": "'Ruler' nghĩa là cái thước kẻ."
+        }
+      ]
+    }
+  ]
+}

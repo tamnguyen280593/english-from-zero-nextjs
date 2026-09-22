@@ -1,0 +1,220 @@
+{
+  "topicSlug": "grade-2",
+  "lessons": [
+    {
+      "id": "grade2-01",
+      "slug": "in-the-toy-shop",
+      "topicSlug": "grade-2",
+      "title": "In the toy shop",
+      "titleVi": "Trong cửa hàng đồ chơi",
+      "order": 1,
+      "vocabulary": [
+        {
+          "id": "v-g2-car",
+          "word": "car",
+          "meaningVi": "Ô tô đồ chơi",
+          "ipa": "/kɑːr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/grade-2/car.webp",
+          "exampleSentence": "I like the red car.",
+          "exampleSentenceVi": "Mình thích chiếc ô tô màu đỏ."
+        },
+        {
+          "id": "v-g2-kite",
+          "word": "kite",
+          "meaningVi": "Cái diều",
+          "ipa": "/kaɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/grade-2/kite.webp",
+          "exampleSentence": "I have a kite.",
+          "exampleSentenceVi": "Mình có một chiếc diều."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-g2-ilike",
+          "phrase": "I like...",
+          "meaningVi": "Mình thích...",
+          "ipa": "/aɪ laɪk/",
+          "usage": "Dùng để diễn tả sở thích."
+        }
+      ],
+      "dialogues": [],
+      "practice": [
+        {
+          "id": "q-g2-1-1",
+          "type": "multiple-choice",
+          "question": "How do you say 'Mình thích ô tô'?",
+          "questionVi": "Bạn nói 'Mình thích ô tô' như thế nào?",
+          "options": ["I have a car", "I like cars", "This is a car"],
+          "correctAnswer": 1,
+          "explanation": "'I like' dùng để nói về sở thích."
+        }
+      ]
+    },
+    {
+      "id": "grade2-02",
+      "slug": "at-the-farm",
+      "topicSlug": "grade-2",
+      "title": "At the farm",
+      "titleVi": "Ở trang trại (Con vật)",
+      "order": 2,
+      "vocabulary": [
+        {
+          "id": "v-g2-pig",
+          "word": "pig",
+          "meaningVi": "Con lợn",
+          "ipa": "/pɪɡ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/grade-2/pig.webp",
+          "exampleSentence": "The pig is pink.",
+          "exampleSentenceVi": "Con lợn có màu hồng."
+        },
+        {
+          "id": "v-g2-cow",
+          "word": "cow",
+          "meaningVi": "Con bò sữa",
+          "ipa": "/kaʊ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/grade-2/cow.webp",
+          "exampleSentence": "I see a cow.",
+          "exampleSentenceVi": "Mình nhìn thấy một con bò."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-g2-isee",
+          "phrase": "I see a...",
+          "meaningVi": "Mình nhìn thấy...",
+          "ipa": "/aɪ siː ə/",
+          "usage": "Dùng khi bạn nhìn thấy vật gì đó."
+        }
+      ],
+      "dialogues": [],
+      "practice": [
+        {
+          "id": "q-g2-2-1",
+          "type": "multiple-choice",
+          "question": "What is 'cow' in Vietnamese?",
+          "questionVi": "Từ 'cow' trong tiếng Việt nghĩa là gì?",
+          "options": ["Con lợn", "Con bò sữa", "Con vịt"],
+          "correctAnswer": 1,
+          "explanation": "'Cow' là con bò sữa, 'pig' là con lợn."
+        }
+      ]
+    },
+    {
+      "id": "grade2-03",
+      "slug": "my-body",
+      "topicSlug": "grade-2",
+      "title": "My body",
+      "titleVi": "Cơ thể của mình",
+      "order": 3,
+      "vocabulary": [
+        {
+          "id": "v-g2-hand",
+          "word": "hand",
+          "meaningVi": "Bàn tay",
+          "ipa": "/hænd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/grade-2/hand.webp",
+          "exampleSentence": "Touch your hand.",
+          "exampleSentenceVi": "Hãy chạm vào bàn tay của bạn."
+        },
+        {
+          "id": "v-g2-eye",
+          "word": "eye",
+          "meaningVi": "Con mắt",
+          "ipa": "/aɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/grade-2/eye.webp",
+          "exampleSentence": "I have two eyes.",
+          "exampleSentenceVi": "Mình có hai con mắt."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-g2-touch",
+          "phrase": "Touch your...",
+          "meaningVi": "Chạm vào ... của bạn",
+          "ipa": "/tʌtʃ jʊər/",
+          "usage": "Dùng để yêu cầu ai đó chạm vào bộ phận cơ thể."
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-g2-body",
+          "title": "In the PE class",
+          "titleVi": "Trong lớp thể dục",
+          "situation": "Giáo viên hướng dẫn tập thể dục",
+          "lines": [
+            { "speaker": "Teacher", "text": "Touch your head.", "textVi": "Các em hãy chạm vào đầu.", "ipa": "" },
+            { "speaker": "Class", "text": "Yes, teacher.", "textVi": "Vâng ạ.", "ipa": "" }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "q-g2-3-1",
+          "type": "multiple-choice",
+          "question": "Touch your 'eye' means:",
+          "questionVi": "Touch your 'eye' có nghĩa là gì?",
+          "options": ["Chạm vào mắt", "Chạm vào mũi", "Chạm vào tay"],
+          "correctAnswer": 0,
+          "explanation": "'Eye' là con mắt."
+        }
+      ]
+    },
+    {
+      "id": "grade2-04",
+      "slug": "in-the-food-court",
+      "topicSlug": "grade-2",
+      "title": "In the food court",
+      "titleVi": "Trong khu ăn uống",
+      "order": 4,
+      "vocabulary": [
+        {
+          "id": "v-g2-chicken",
+          "word": "chicken",
+          "meaningVi": "Thịt gà",
+          "ipa": "/ˈtʃɪk.ɪn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/grade-2/chicken.webp",
+          "exampleSentence": "I want some chicken.",
+          "exampleSentenceVi": "Mình muốn ăn chút thịt gà."
+        },
+        {
+          "id": "v-g2-water",
+          "word": "water",
+          "meaningVi": "Nước lọc",
+          "ipa": "/ˈwɔː.tər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/grade-2/water.webp",
+          "exampleSentence": "Can I have some water?",
+          "exampleSentenceVi": "Cho mình xin chút nước lọc được không?"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-g2-iwant",
+          "phrase": "I want some...",
+          "meaningVi": "Mình muốn (ăn/uống)...",
+          "ipa": "/aɪ wɑːnt sʌm/",
+          "usage": "Dùng khi bạn muốn gọi món."
+        }
+      ],
+      "dialogues": [],
+      "practice": [
+        {
+          "id": "q-g2-4-1",
+          "type": "multiple-choice",
+          "question": "If you are thirsty, you ask for:",
+          "questionVi": "Nếu bạn khát nước, bạn sẽ xin gì?",
+          "options": ["chicken", "water", "apple"],
+          "correctAnswer": 1,
+          "explanation": "'Water' là nước lọc."
+        }
+      ]
+    }
+  ]
+}

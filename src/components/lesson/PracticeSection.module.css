@@ -1,0 +1,251 @@
+.container {
+  margin-top: var(--space-2xl);
+}
+
+.title {
+  margin-bottom: var(--space-md);
+}
+
+.progressContainer {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+
+.progressBar {
+  flex: 1;
+  height: 8px;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: var(--gradient-primary);
+  transition: width 0.3s ease;
+}
+
+.progressText {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.questionCard {
+  background: var(--bg-card);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  box-shadow: var(--shadow-card);
+}
+
+.questionEn {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: var(--space-xs);
+}
+
+.questionVi {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: var(--space-xl);
+}
+
+.optionsList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  margin-bottom: var(--space-xl);
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: var(--space-md);
+  background: rgba(255, 255, 255, 0.03);
+  border: 2px solid var(--glass-border);
+  border-radius: var(--radius-md);
+  transition: all 0.2s ease;
+  text-align: left;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.option:not(:disabled):hover, .option:not(:disabled):active {
+  background: rgba(255, 255, 255, 0.08);
+  transform: translateY(-2px);
+}
+
+.option.selected {
+  border-color: var(--accent-primary);
+  background: rgba(108, 92, 231, 0.1);
+}
+
+.option.correct {
+  border-color: var(--accent-success);
+  background: rgba(0, 184, 148, 0.1);
+}
+
+.option.wrong {
+  border-color: var(--accent-danger);
+  background: rgba(255, 118, 117, 0.1);
+}
+
+.option.disabled {
+  opacity: 0.5;
+}
+
+.optionLetter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-full);
+  margin-right: var(--space-md);
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.option.selected .optionLetter {
+  background: var(--accent-primary);
+  color: white;
+}
+
+.option.correct .optionLetter {
+  background: var(--accent-success);
+  color: white;
+}
+
+.option.wrong .optionLetter {
+  background: var(--accent-danger);
+  color: white;
+}
+
+.optionText {
+  flex: 1;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.statusIcon {
+  font-size: 1.25rem;
+}
+
+.feedbackBox {
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-xl);
+  animation: fadeIn 0.3s ease-out;
+}
+
+.feedbackCorrect {
+  background: rgba(0, 184, 148, 0.1);
+  border: 1px solid rgba(0, 184, 148, 0.3);
+}
+
+.feedbackWrong {
+  background: rgba(255, 118, 117, 0.1);
+  border: 1px solid rgba(255, 118, 117, 0.3);
+}
+
+.feedbackTitle {
+  font-size: 1.125rem;
+  margin-bottom: var(--space-xs);
+  color: white;
+}
+
+.feedbackText {
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.actionRow {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.submitBtn, .nextBtn {
+  width: 100%;
+  padding: var(--space-md) var(--space-xl);
+  border-radius: var(--radius-full);
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: white;
+  transition: all 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (min-width: 768px) {
+  .submitBtn, .nextBtn {
+    width: auto;
+    min-width: 200px;
+  }
+}
+
+.submitBtn {
+  background: var(--gradient-primary);
+  box-shadow: 0 4px 15px rgba(108, 92, 231, 0.4);
+}
+
+.submitBtn:not(:disabled):active {
+  transform: scale(0.95);
+}
+
+.submitBtn:disabled {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-muted);
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
+.nextBtn {
+  background: var(--bg-card-hover);
+  border: 1px solid var(--accent-primary);
+}
+
+.nextBtn:active {
+  transform: scale(0.95);
+  background: var(--accent-primary);
+}
+
+.completionBox {
+  background: var(--bg-card);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-2xl) var(--space-lg);
+  text-align: center;
+  box-shadow: var(--shadow-card);
+  animation: fadeIn 0.5s ease-out;
+}
+
+.trophy {
+  font-size: 4rem;
+  margin-bottom: var(--space-md);
+  animation: pulse 2s infinite;
+}
+
+.completionTitle {
+  font-size: 1.5rem;
+  margin-bottom: var(--space-sm);
+  color: white;
+}
+
+.completionScore {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--accent-success);
+  margin-bottom: var(--space-lg);
+}
+
+.completionMessage {
+  color: var(--text-secondary);
+  line-height: 1.5;
+}

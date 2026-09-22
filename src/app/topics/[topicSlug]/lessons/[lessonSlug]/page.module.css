@@ -1,0 +1,108 @@
+.main {
+  animation: fadeIn 0.4s ease-out;
+  padding-bottom: var(--space-2xl);
+}
+
+.header {
+  margin-bottom: var(--space-2xl);
+  padding-bottom: var(--space-lg);
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.numberBadge {
+  display: inline-block;
+  background: var(--gradient-primary);
+  color: white;
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  font-size: 0.875rem;
+  font-weight: 700;
+  margin-bottom: var(--space-md);
+}
+
+.title {
+  color: white;
+  margin-bottom: var(--space-xs);
+}
+
+.titleVi {
+  font-size: 1.25rem;
+  color: var(--accent-primary);
+}
+
+.section {
+  margin-bottom: var(--space-2xl);
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  margin-bottom: var(--space-lg);
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  color: white;
+}
+
+.vocabularyList {
+  display: flex;
+  flex-direction: column;
+}
+
+.phraseList {
+  display: flex;
+  flex-direction: column;
+}
+
+.navFooter {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: var(--space-md);
+  margin-top: var(--space-2xl);
+  padding-top: var(--space-xl);
+  border-top: 1px solid var(--glass-border);
+}
+
+@media (min-width: 640px) {
+  .navFooter {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.backBtn, .nextLessonBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-md) var(--space-lg);
+  border-radius: var(--radius-full);
+  font-weight: 600;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.backBtn {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-primary);
+  border: 1px solid var(--glass-border);
+}
+
+.backBtn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.nextLessonBtn {
+  background: var(--gradient-primary);
+  color: white;
+  box-shadow: 0 4px 15px rgba(108, 92, 231, 0.4);
+}
+
+.nextLessonBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(108, 92, 231, 0.6);
+}
+
+.nextLessonBtn:active {
+  transform: translateY(0);
+}

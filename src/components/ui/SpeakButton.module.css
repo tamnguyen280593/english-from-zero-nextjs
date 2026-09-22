@@ -1,0 +1,47 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  color: var(--accent-primary);
+  border-radius: var(--radius-full);
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.button:active {
+  transform: scale(0.9);
+  background: rgba(108, 92, 231, 0.2);
+}
+
+.small {
+  width: 32px;
+  height: 32px;
+  font-size: 1rem;
+}
+
+.medium {
+  width: 44px;
+  height: 44px;
+  font-size: 1.25rem;
+}
+
+.large {
+  width: 56px;
+  height: 56px;
+  font-size: 1.5rem;
+  background: var(--gradient-primary);
+  color: white;
+  border: none;
+  box-shadow: 0 4px 12px rgba(108, 92, 231, 0.4);
+}
+
+.large:active {
+  box-shadow: 0 2px 6px rgba(108, 92, 231, 0.4);
+}
+
+.icon {
+  line-height: 1;
+}

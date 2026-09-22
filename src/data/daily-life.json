@@ -1,0 +1,155 @@
+{
+  "topicSlug": "daily-life",
+  "lessons": [
+    {
+      "id": "daily-01",
+      "slug": "my-day",
+      "topicSlug": "daily-life",
+      "title": "My Day",
+      "titleVi": "Một ngày của tôi",
+      "order": 1,
+      "vocabulary": [
+        { "id": "v-wake-up", "word": "Wake up", "meaningVi": "Thức dậy", "ipa": "/weɪk ʌp/", "partOfSpeech": "verb", "image": "/images/lessons/daily-life/wake-up.webp", "exampleSentence": "I wake up at 6 AM.", "exampleSentenceVi": "Tôi thức dậy lúc 6 giờ sáng." },
+        { "id": "v-eat", "word": "Eat", "meaningVi": "Ăn", "ipa": "/iːt/", "partOfSpeech": "verb", "image": "/images/lessons/daily-life/eat.webp", "exampleSentence": "I eat breakfast every morning.", "exampleSentenceVi": "Tôi ăn sáng mỗi buổi sáng." },
+        { "id": "v-go", "word": "Go", "meaningVi": "Đi", "ipa": "/ɡoʊ/", "partOfSpeech": "verb", "image": "/images/lessons/daily-life/go.webp", "exampleSentence": "I go to work at 8 AM.", "exampleSentenceVi": "Tôi đi làm lúc 8 giờ sáng." },
+        { "id": "v-work", "word": "Work", "meaningVi": "Làm việc", "ipa": "/wɜːrk/", "partOfSpeech": "verb", "image": "/images/lessons/daily-life/work.webp", "exampleSentence": "I work from 8 to 5.", "exampleSentenceVi": "Tôi làm việc từ 8 đến 5 giờ." },
+        { "id": "v-sleep", "word": "Sleep", "meaningVi": "Ngủ", "ipa": "/sliːp/", "partOfSpeech": "verb", "image": "/images/lessons/daily-life/sleep.webp", "exampleSentence": "I sleep at 10 PM.", "exampleSentenceVi": "Tôi ngủ lúc 10 giờ tối." }
+      ],
+      "phrases": [
+        { "id": "p-wake-up-at", "phrase": "I wake up at 6 o'clock.", "meaningVi": "Tôi thức dậy lúc 6 giờ.", "ipa": "/aɪ weɪk ʌp æt sɪks əˈklɑːk/", "usage": "Nói về giờ thức dậy" },
+        { "id": "p-go-to-work", "phrase": "I go to work by bus.", "meaningVi": "Tôi đi làm bằng xe buýt.", "ipa": "/aɪ ɡoʊ tuː wɜːrk baɪ bʌs/", "usage": "Nói về phương tiện đi làm" },
+        { "id": "p-come-home", "phrase": "I come home at 6 PM.", "meaningVi": "Tôi về nhà lúc 6 giờ tối.", "ipa": "/aɪ kʌm hoʊm æt sɪks piː ɛm/", "usage": "Nói về giờ về nhà" }
+      ],
+      "dialogues": [
+        {
+          "id": "d-daily-01-01", "title": "Daily routine", "titleVi": "Thói quen hàng ngày",
+          "situation": "Nam kể về một ngày bình thường của mình.",
+          "lines": [
+            { "speaker": "Lisa", "text": "What time do you wake up?", "textVi": "Bạn thức dậy lúc mấy giờ?", "ipa": "/wɑːt taɪm duː juː weɪk ʌp/" },
+            { "speaker": "Nam", "text": "I wake up at 6 AM. Then I eat breakfast.", "textVi": "Mình thức dậy lúc 6 giờ sáng. Sau đó mình ăn sáng.", "ipa": "/aɪ weɪk ʌp æt sɪks eɪ ɛm ðɛn aɪ iːt ˈbrɛkfəst/" },
+            { "speaker": "Lisa", "text": "What time do you go to work?", "textVi": "Bạn đi làm lúc mấy giờ?", "ipa": "/wɑːt taɪm duː juː ɡoʊ tuː wɜːrk/" },
+            { "speaker": "Nam", "text": "I go to work at 8. I come home at 6 PM.", "textVi": "Mình đi làm lúc 8 giờ. Mình về nhà lúc 6 giờ tối.", "ipa": "/aɪ ɡoʊ tuː wɜːrk æt eɪt aɪ kʌm hoʊm æt sɪks piː ɛm/" }
+          ]
+        }
+      ],
+      "practice": [
+        { "id": "q-daily-01-01", "type": "multiple-choice", "question": "What does 'wake up' mean?", "questionVi": "'Wake up' nghĩa là gì?", "options": ["Đi ngủ", "Ăn sáng", "Thức dậy", "Đi làm"], "correctAnswer": 2, "explanation": "'Wake up' = Thức dậy." },
+        { "id": "q-daily-01-02", "type": "fill-blank", "question": "I _____ to work at 8 AM.", "questionVi": "Điền động từ đúng", "options": ["eat", "go", "sleep", "wake"], "correctAnswer": 1, "explanation": "'I go to work' = Tôi đi làm. 'Go' = đi." },
+        { "id": "q-daily-01-03", "type": "match-meaning", "question": "Match: 'Sleep'", "questionVi": "Nối nghĩa: 'Sleep'", "options": ["Ăn", "Làm việc", "Ngủ", "Đi"], "correctAnswer": 2, "explanation": "'Sleep' = Ngủ." },
+        { "id": "q-daily-01-04", "type": "multiple-choice", "question": "I eat _____ every morning.", "questionVi": "Tôi ăn _____ mỗi sáng.", "options": ["dinner", "lunch", "breakfast", "snack"], "correctAnswer": 2, "explanation": "'Breakfast' = bữa sáng. 'Lunch' = bữa trưa. 'Dinner' = bữa tối." }
+      ]
+    },
+    {
+      "id": "daily-02",
+      "slug": "days-and-time",
+      "topicSlug": "daily-life",
+      "title": "Days & Time",
+      "titleVi": "Ngày & Thời gian",
+      "order": 2,
+      "vocabulary": [
+        { "id": "v-monday", "word": "Monday", "meaningVi": "Thứ Hai", "ipa": "/ˈmʌndeɪ/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/monday.webp", "exampleSentence": "I start work on Monday.", "exampleSentenceVi": "Tôi bắt đầu làm việc vào thứ Hai." },
+        { "id": "v-today", "word": "Today", "meaningVi": "Hôm nay", "ipa": "/təˈdeɪ/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/today.webp", "exampleSentence": "What day is today?", "exampleSentenceVi": "Hôm nay là thứ mấy?" },
+        { "id": "v-tomorrow", "word": "Tomorrow", "meaningVi": "Ngày mai", "ipa": "/təˈmɑːroʊ/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/tomorrow.webp", "exampleSentence": "See you tomorrow!", "exampleSentenceVi": "Hẹn gặp lại ngày mai!" },
+        { "id": "v-yesterday", "word": "Yesterday", "meaningVi": "Hôm qua", "ipa": "/ˈjɛstərdeɪ/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/yesterday.webp", "exampleSentence": "Yesterday was Sunday.", "exampleSentenceVi": "Hôm qua là Chủ Nhật." },
+        { "id": "v-oclock", "word": "O'clock", "meaningVi": "Giờ (đúng)", "ipa": "/əˈklɑːk/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/oclock.webp", "exampleSentence": "It's 3 o'clock.", "exampleSentenceVi": "Bây giờ là 3 giờ đúng." }
+      ],
+      "phrases": [
+        { "id": "p-what-day", "phrase": "What day is today?", "meaningVi": "Hôm nay là thứ mấy?", "ipa": "/wɑːt deɪ ɪz təˈdeɪ/", "usage": "Hỏi thứ trong tuần" },
+        { "id": "p-what-time", "phrase": "What time is it?", "meaningVi": "Mấy giờ rồi?", "ipa": "/wɑːt taɪm ɪz ɪt/", "usage": "Hỏi giờ" },
+        { "id": "p-its-oclock", "phrase": "It's 3 o'clock.", "meaningVi": "3 giờ đúng.", "ipa": "/ɪts θriː əˈklɑːk/", "usage": "Trả lời giờ đúng" }
+      ],
+      "dialogues": [
+        {
+          "id": "d-daily-02-01", "title": "Asking about time", "titleVi": "Hỏi giờ",
+          "situation": "Phương hỏi giờ ở trạm xe buýt.",
+          "lines": [
+            { "speaker": "Phương", "text": "Excuse me, what time is it?", "textVi": "Xin lỗi, mấy giờ rồi ạ?", "ipa": "/ɪkˈskjuːz miː wɑːt taɪm ɪz ɪt/" },
+            { "speaker": "Mike", "text": "It's 3 o'clock.", "textVi": "3 giờ đúng.", "ipa": "/ɪts θriː əˈklɑːk/" },
+            { "speaker": "Phương", "text": "Thank you! What day is today?", "textVi": "Cảm ơn! Hôm nay thứ mấy nhỉ?", "ipa": "/θæŋk juː wɑːt deɪ ɪz təˈdeɪ/" },
+            { "speaker": "Mike", "text": "Today is Monday.", "textVi": "Hôm nay là thứ Hai.", "ipa": "/təˈdeɪ ɪz ˈmʌndeɪ/" }
+          ]
+        }
+      ],
+      "practice": [
+        { "id": "q-daily-02-01", "type": "multiple-choice", "question": "How do you ask the time?", "questionVi": "Bạn hỏi giờ như thế nào?", "options": ["What day is it?", "What time is it?", "How are you?", "Where is it?"], "correctAnswer": 1, "explanation": "'What time is it?' = Mấy giờ rồi?" },
+        { "id": "q-daily-02-02", "type": "fill-blank", "question": "Today is _____ . (ngày đầu tuần)", "questionVi": "Điền ngày đầu tuần", "options": ["Sunday", "Saturday", "Monday", "Friday"], "correctAnswer": 2, "explanation": "'Monday' = Thứ Hai, ngày đầu tuần làm việc." },
+        { "id": "q-daily-02-03", "type": "match-meaning", "question": "Match: 'Tomorrow'", "questionVi": "Nối nghĩa: 'Tomorrow'", "options": ["Hôm qua", "Hôm nay", "Ngày mai", "Tuần sau"], "correctAnswer": 2, "explanation": "'Tomorrow' = Ngày mai." },
+        { "id": "q-daily-02-04", "type": "multiple-choice", "question": "Which day comes after Friday?", "questionVi": "Ngày nào sau Friday?", "options": ["Thursday", "Saturday", "Sunday", "Monday"], "correctAnswer": 1, "explanation": "Friday (Thứ 6) → Saturday (Thứ 7)." }
+      ]
+    },
+    {
+      "id": "daily-03",
+      "slug": "my-family",
+      "topicSlug": "daily-life",
+      "title": "My Family",
+      "titleVi": "Gia đình tôi",
+      "order": 3,
+      "vocabulary": [
+        { "id": "v-family", "word": "Family", "meaningVi": "Gia đình", "ipa": "/ˈfæməli/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/family.webp", "exampleSentence": "I love my family.", "exampleSentenceVi": "Tôi yêu gia đình tôi." },
+        { "id": "v-mother", "word": "Mother", "meaningVi": "Mẹ", "ipa": "/ˈmʌðər/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/mother.webp", "exampleSentence": "My mother is kind.", "exampleSentenceVi": "Mẹ tôi rất tốt bụng." },
+        { "id": "v-father", "word": "Father", "meaningVi": "Bố", "ipa": "/ˈfɑːðər/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/father.webp", "exampleSentence": "My father is a teacher.", "exampleSentenceVi": "Bố tôi là giáo viên." },
+        { "id": "v-brother", "word": "Brother", "meaningVi": "Anh/em trai", "ipa": "/ˈbrʌðər/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/brother.webp", "exampleSentence": "I have one brother.", "exampleSentenceVi": "Tôi có một anh trai." },
+        { "id": "v-sister", "word": "Sister", "meaningVi": "Chị/em gái", "ipa": "/ˈsɪstər/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/sister.webp", "exampleSentence": "My sister is a student.", "exampleSentenceVi": "Chị gái tôi là sinh viên." }
+      ],
+      "phrases": [
+        { "id": "p-i-have", "phrase": "I have two brothers.", "meaningVi": "Tôi có hai anh trai.", "ipa": "/aɪ hæv tuː ˈbrʌðərz/", "usage": "Nói về thành viên gia đình" },
+        { "id": "p-how-many", "phrase": "How many brothers do you have?", "meaningVi": "Bạn có bao nhiêu anh em trai?", "ipa": "/haʊ ˈmɛni ˈbrʌðərz duː juː hæv/", "usage": "Hỏi số lượng thành viên gia đình" },
+        { "id": "p-this-is-my", "phrase": "This is my mother.", "meaningVi": "Đây là mẹ tôi.", "ipa": "/ðɪs ɪz maɪ ˈmʌðər/", "usage": "Giới thiệu thành viên gia đình" }
+      ],
+      "dialogues": [
+        {
+          "id": "d-daily-03-01", "title": "Talking about family", "titleVi": "Nói về gia đình",
+          "situation": "Hai bạn chia sẻ về gia đình.",
+          "lines": [
+            { "speaker": "Amy", "text": "Do you have brothers or sisters?", "textVi": "Bạn có anh chị em không?", "ipa": "/duː juː hæv ˈbrʌðərz ɔːr ˈsɪstərz/" },
+            { "speaker": "Tuấn", "text": "Yes, I have one sister. How about you?", "textVi": "Có, mình có một chị gái. Còn bạn?", "ipa": "/jɛs aɪ hæv wʌn ˈsɪstər haʊ əˈbaʊt juː/" },
+            { "speaker": "Amy", "text": "I have two brothers. My family is big!", "textVi": "Mình có hai anh trai. Gia đình mình đông lắm!", "ipa": "/aɪ hæv tuː ˈbrʌðərz maɪ ˈfæməli ɪz bɪɡ/" }
+          ]
+        }
+      ],
+      "practice": [
+        { "id": "q-daily-03-01", "type": "multiple-choice", "question": "What does 'Mother' mean?", "questionVi": "'Mother' nghĩa là gì?", "options": ["Bố", "Mẹ", "Anh trai", "Chị gái"], "correctAnswer": 1, "explanation": "'Mother' = Mẹ. 'Father' = Bố." },
+        { "id": "q-daily-03-02", "type": "fill-blank", "question": "I _____ two sisters.", "questionVi": "Điền động từ đúng", "options": ["am", "is", "have", "do"], "correctAnswer": 2, "explanation": "'I have...' = Tôi có... 'Have' dùng để nói về sở hữu." },
+        { "id": "q-daily-03-03", "type": "match-meaning", "question": "Match: 'Family'", "questionVi": "Nối nghĩa: 'Family'", "options": ["Bạn bè", "Gia đình", "Trường học", "Công ty"], "correctAnswer": 1, "explanation": "'Family' = Gia đình." },
+        { "id": "q-daily-03-04", "type": "multiple-choice", "question": "'Brother' means _____.", "questionVi": "'Brother' nghĩa là _____.", "options": ["Chị gái", "Em gái", "Anh/em trai", "Bố"], "correctAnswer": 2, "explanation": "'Brother' = Anh trai hoặc em trai." }
+      ]
+    },
+    {
+      "id": "daily-04",
+      "slug": "my-home",
+      "topicSlug": "daily-life",
+      "title": "My Home",
+      "titleVi": "Nhà của tôi",
+      "order": 4,
+      "vocabulary": [
+        { "id": "v-house", "word": "House", "meaningVi": "Nhà, ngôi nhà", "ipa": "/haʊs/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/house.webp", "exampleSentence": "I live in a small house.", "exampleSentenceVi": "Tôi sống trong một ngôi nhà nhỏ." },
+        { "id": "v-room", "word": "Room", "meaningVi": "Phòng", "ipa": "/ruːm/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/room.webp", "exampleSentence": "My room is clean.", "exampleSentenceVi": "Phòng tôi sạch sẽ." },
+        { "id": "v-kitchen", "word": "Kitchen", "meaningVi": "Nhà bếp", "ipa": "/ˈkɪtʃɪn/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/kitchen.webp", "exampleSentence": "My mother is in the kitchen.", "exampleSentenceVi": "Mẹ tôi đang ở trong bếp." },
+        { "id": "v-bathroom", "word": "Bathroom", "meaningVi": "Phòng tắm", "ipa": "/ˈbæθruːm/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/bathroom.webp", "exampleSentence": "The bathroom is clean.", "exampleSentenceVi": "Phòng tắm sạch sẽ." },
+        { "id": "v-bedroom", "word": "Bedroom", "meaningVi": "Phòng ngủ", "ipa": "/ˈbɛdruːm/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/bedroom.webp", "exampleSentence": "I study in my bedroom.", "exampleSentenceVi": "Tôi học trong phòng ngủ." }
+      ],
+      "phrases": [
+        { "id": "p-there-is", "phrase": "There is a table in the kitchen.", "meaningVi": "Có một cái bàn trong bếp.", "ipa": "/ðɛr ɪz ə ˈteɪbəl ɪn ðə ˈkɪtʃɪn/", "usage": "Mô tả có gì trong phòng (số ít)" },
+        { "id": "p-there-are", "phrase": "There are two bedrooms.", "meaningVi": "Có hai phòng ngủ.", "ipa": "/ðɛr ɑːr tuː ˈbɛdruːmz/", "usage": "Mô tả có gì trong nhà (số nhiều)" },
+        { "id": "p-where-is", "phrase": "Where is the bathroom?", "meaningVi": "Phòng tắm ở đâu?", "ipa": "/wɛr ɪz ðə ˈbæθruːm/", "usage": "Hỏi vị trí phòng" }
+      ],
+      "dialogues": [
+        {
+          "id": "d-daily-04-01", "title": "Showing the house", "titleVi": "Giới thiệu nhà",
+          "situation": "Hà giới thiệu nhà cho bạn nước ngoài.",
+          "lines": [
+            { "speaker": "Hà", "text": "Welcome to my house! This is the living room.", "textVi": "Chào mừng đến nhà mình! Đây là phòng khách.", "ipa": "/ˈwɛlkəm tuː maɪ haʊs ðɪs ɪz ðə ˈlɪvɪŋ ruːm/" },
+            { "speaker": "Ben", "text": "It's very nice! Where is the kitchen?", "textVi": "Đẹp quá! Nhà bếp ở đâu?", "ipa": "/ɪts ˈvɛri naɪs wɛr ɪz ðə ˈkɪtʃɪn/" },
+            { "speaker": "Hà", "text": "The kitchen is over there. And there are two bedrooms.", "textVi": "Nhà bếp ở đằng kia. Và có hai phòng ngủ.", "ipa": "/ðə ˈkɪtʃɪn ɪz ˈoʊvər ðɛr ænd ðɛr ɑːr tuː ˈbɛdruːmz/" }
+          ]
+        }
+      ],
+      "practice": [
+        { "id": "q-daily-04-01", "type": "multiple-choice", "question": "What is a 'Kitchen'?", "questionVi": "'Kitchen' là gì?", "options": ["Phòng ngủ", "Phòng tắm", "Nhà bếp", "Phòng khách"], "correctAnswer": 2, "explanation": "'Kitchen' = Nhà bếp." },
+        { "id": "q-daily-04-02", "type": "fill-blank", "question": "There _____ a table in the room.", "questionVi": "Điền 'is' hoặc 'are'", "options": ["am", "is", "are", "have"], "correctAnswer": 1, "explanation": "'There is' dùng cho số ít (a table = 1 cái bàn)." },
+        { "id": "q-daily-04-03", "type": "match-meaning", "question": "Match: 'Bedroom'", "questionVi": "Nối nghĩa: 'Bedroom'", "options": ["Nhà bếp", "Phòng tắm", "Phòng ngủ", "Phòng khách"], "correctAnswer": 2, "explanation": "'Bedroom' = Phòng ngủ. 'Bed' = giường." },
+        { "id": "q-daily-04-04", "type": "multiple-choice", "question": "There _____ three rooms in my house.", "questionVi": "Điền 'is' hoặc 'are'", "options": ["is", "are", "am", "has"], "correctAnswer": 1, "explanation": "'There are' dùng cho số nhiều (three rooms)." }
+      ]
+    }
+  ]
+}

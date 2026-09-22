@@ -1,0 +1,157 @@
+{
+  "topicSlug": "food-drink",
+  "lessons": [
+    {
+      "id": "food-01",
+      "slug": "common-foods",
+      "topicSlug": "food-drink",
+      "title": "Common Foods",
+      "titleVi": "Đồ ăn thường gặp",
+      "order": 1,
+      "vocabulary": [
+        { "id": "v-rice", "word": "Rice", "meaningVi": "Cơm, gạo", "ipa": "/raɪs/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/rice.webp", "exampleSentence": "I eat rice every day.", "exampleSentenceVi": "Tôi ăn cơm mỗi ngày." },
+        { "id": "v-chicken", "word": "Chicken", "meaningVi": "Thịt gà", "ipa": "/ˈtʃɪkɪn/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/chicken.webp", "exampleSentence": "I like chicken.", "exampleSentenceVi": "Tôi thích thịt gà." },
+        { "id": "v-fish", "word": "Fish", "meaningVi": "Cá", "ipa": "/fɪʃ/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/fish.webp", "exampleSentence": "This fish is delicious.", "exampleSentenceVi": "Con cá này ngon." },
+        { "id": "v-bread", "word": "Bread", "meaningVi": "Bánh mì", "ipa": "/brɛd/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/bread.webp", "exampleSentence": "I eat bread for breakfast.", "exampleSentenceVi": "Tôi ăn bánh mì cho bữa sáng." },
+        { "id": "v-egg", "word": "Egg", "meaningVi": "Trứng", "ipa": "/ɛɡ/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/egg.webp", "exampleSentence": "I want two eggs.", "exampleSentenceVi": "Tôi muốn hai quả trứng." }
+      ],
+      "phrases": [
+        { "id": "p-i-want", "phrase": "I want some rice, please.", "meaningVi": "Tôi muốn một ít cơm, làm ơn.", "ipa": "/aɪ wɑːnt sʌm raɪs pliːz/", "usage": "Gọi món hoặc yêu cầu đồ ăn" },
+        { "id": "p-delicious", "phrase": "This is delicious!", "meaningVi": "Cái này ngon quá!", "ipa": "/ðɪs ɪz dɪˈlɪʃəs/", "usage": "Khen đồ ăn ngon" },
+        { "id": "p-im-hungry", "phrase": "I'm hungry.", "meaningVi": "Tôi đói.", "ipa": "/aɪm ˈhʌŋɡri/", "usage": "Nói khi bạn đói bụng" }
+      ],
+      "dialogues": [
+        {
+          "id": "d-food-01-01", "title": "At the market", "titleVi": "Ở chợ",
+          "situation": "Hương đi chợ mua đồ ăn.",
+          "lines": [
+            { "speaker": "Hương", "text": "I want some chicken and rice, please.", "textVi": "Tôi muốn một ít gà và cơm, làm ơn.", "ipa": "/aɪ wɑːnt sʌm ˈtʃɪkɪn ænd raɪs pliːz/" },
+            { "speaker": "Seller", "text": "Sure! Anything else?", "textVi": "Được! Còn gì khác không?", "ipa": "/ʃʊr ˈɛnɪθɪŋ ɛls/" },
+            { "speaker": "Hương", "text": "Yes, two eggs and some bread.", "textVi": "Có, hai quả trứng và một ít bánh mì.", "ipa": "/jɛs tuː ɛɡz ænd sʌm brɛd/" },
+            { "speaker": "Seller", "text": "Here you go!", "textVi": "Đây ạ!", "ipa": "/hɪr juː ɡoʊ/" }
+          ]
+        }
+      ],
+      "practice": [
+        { "id": "q-food-01-01", "type": "multiple-choice", "question": "What does 'Rice' mean?", "questionVi": "'Rice' nghĩa là gì?", "options": ["Bánh mì", "Cơm/gạo", "Thịt gà", "Trứng"], "correctAnswer": 1, "explanation": "'Rice' = Cơm, gạo." },
+        { "id": "q-food-01-02", "type": "fill-blank", "question": "I _____ some chicken, please.", "questionVi": "Điền từ khi gọi món", "options": ["am", "is", "have", "want"], "correctAnswer": 3, "explanation": "'I want...' = Tôi muốn... Dùng khi gọi món." },
+        { "id": "q-food-01-03", "type": "match-meaning", "question": "Match: 'Bread'", "questionVi": "Nối nghĩa: 'Bread'", "options": ["Cá", "Trứng", "Bánh mì", "Gạo"], "correctAnswer": 2, "explanation": "'Bread' = Bánh mì." },
+        { "id": "q-food-01-04", "type": "multiple-choice", "question": "'I'm hungry' means _____.", "questionVi": "'I'm hungry' nghĩa là _____.", "options": ["Tôi no", "Tôi khát", "Tôi đói", "Tôi mệt"], "correctAnswer": 2, "explanation": "'I'm hungry' = Tôi đói. 'Hungry' = đói." }
+      ]
+    },
+    {
+      "id": "food-02",
+      "slug": "drinks",
+      "topicSlug": "food-drink",
+      "title": "Drinks",
+      "titleVi": "Đồ uống",
+      "order": 2,
+      "vocabulary": [
+        { "id": "v-water", "word": "Water", "meaningVi": "Nước", "ipa": "/ˈwɔːtər/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/water.webp", "exampleSentence": "Can I have some water?", "exampleSentenceVi": "Cho tôi xin ít nước?" },
+        { "id": "v-coffee", "word": "Coffee", "meaningVi": "Cà phê", "ipa": "/ˈkɔːfi/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/coffee.webp", "exampleSentence": "I drink coffee every morning.", "exampleSentenceVi": "Tôi uống cà phê mỗi sáng." },
+        { "id": "v-tea", "word": "Tea", "meaningVi": "Trà", "ipa": "/tiː/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/tea.webp", "exampleSentence": "Would you like some tea?", "exampleSentenceVi": "Bạn muốn uống trà không?" },
+        { "id": "v-juice", "word": "Juice", "meaningVi": "Nước ép", "ipa": "/dʒuːs/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/juice.webp", "exampleSentence": "I like orange juice.", "exampleSentenceVi": "Tôi thích nước cam." },
+        { "id": "v-milk", "word": "Milk", "meaningVi": "Sữa", "ipa": "/mɪlk/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/milk.webp", "exampleSentence": "Children drink milk.", "exampleSentenceVi": "Trẻ em uống sữa." }
+      ],
+      "phrases": [
+        { "id": "p-can-i-have", "phrase": "Can I have a coffee, please?", "meaningVi": "Cho tôi xin một ly cà phê?", "ipa": "/kæn aɪ hæv ə ˈkɔːfi pliːz/", "usage": "Gọi đồ uống lịch sự" },
+        { "id": "p-would-you-like", "phrase": "Would you like some tea?", "meaningVi": "Bạn muốn uống trà không?", "ipa": "/wʊd juː laɪk sʌm tiː/", "usage": "Mời ai đó uống gì" },
+        { "id": "p-im-thirsty", "phrase": "I'm thirsty.", "meaningVi": "Tôi khát nước.", "ipa": "/aɪm ˈθɜːrsti/", "usage": "Nói khi bạn khát" }
+      ],
+      "dialogues": [
+        {
+          "id": "d-food-02-01", "title": "At a café", "titleVi": "Ở quán café",
+          "situation": "Đức gọi đồ uống tại quán café.",
+          "lines": [
+            { "speaker": "Waiter", "text": "Hello! What would you like to drink?", "textVi": "Xin chào! Bạn muốn uống gì?", "ipa": "/həˈloʊ wɑːt wʊd juː laɪk tuː drɪŋk/" },
+            { "speaker": "Đức", "text": "Can I have a coffee, please?", "textVi": "Cho tôi xin một ly cà phê?", "ipa": "/kæn aɪ hæv ə ˈkɔːfi pliːz/" },
+            { "speaker": "Waiter", "text": "Of course! Anything else?", "textVi": "Tất nhiên! Còn gì khác không?", "ipa": "/ʌv kɔːrs ˈɛnɪθɪŋ ɛls/" },
+            { "speaker": "Đức", "text": "And a glass of water, please. Thank you!", "textVi": "Và một ly nước, làm ơn. Cảm ơn!", "ipa": "/ænd ə ɡlæs ʌv ˈwɔːtər pliːz θæŋk juː/" }
+          ]
+        }
+      ],
+      "practice": [
+        { "id": "q-food-02-01", "type": "multiple-choice", "question": "How do you politely order a drink?", "questionVi": "Gọi đồ uống lịch sự thế nào?", "options": ["Give me coffee!", "Can I have a coffee, please?", "I need coffee.", "Coffee now."], "correctAnswer": 1, "explanation": "'Can I have a coffee, please?' là cách gọi lịch sự nhất." },
+        { "id": "q-food-02-02", "type": "fill-blank", "question": "I'm _____ . Can I have some water?", "questionVi": "Điền từ khi khát nước", "options": ["hungry", "thirsty", "tired", "happy"], "correctAnswer": 1, "explanation": "'Thirsty' = khát. 'Hungry' = đói." },
+        { "id": "q-food-02-03", "type": "match-meaning", "question": "Match: 'Juice'", "questionVi": "Nối nghĩa: 'Juice'", "options": ["Sữa", "Trà", "Nước ép", "Cà phê"], "correctAnswer": 2, "explanation": "'Juice' = Nước ép (cam, táo, ...)." },
+        { "id": "q-food-02-04", "type": "multiple-choice", "question": "'Would you like some tea?' is used to _____.", "questionVi": "Câu này dùng để _____.", "options": ["gọi trà", "mời ai uống trà", "từ chối trà", "mua trà"], "correctAnswer": 1, "explanation": "'Would you like...?' = Bạn có muốn...? Dùng để mời." }
+      ]
+    },
+    {
+      "id": "food-03",
+      "slug": "at-a-restaurant",
+      "topicSlug": "food-drink",
+      "title": "At a Restaurant",
+      "titleVi": "Ở nhà hàng",
+      "order": 3,
+      "vocabulary": [
+        { "id": "v-menu", "word": "Menu", "meaningVi": "Thực đơn", "ipa": "/ˈmɛnjuː/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/menu.webp", "exampleSentence": "Can I see the menu?", "exampleSentenceVi": "Cho tôi xem thực đơn?" },
+        { "id": "v-order", "word": "Order", "meaningVi": "Gọi món", "ipa": "/ˈɔːrdər/", "partOfSpeech": "verb", "image": "/images/lessons/food-drink/order.webp", "exampleSentence": "I'd like to order.", "exampleSentenceVi": "Tôi muốn gọi món." },
+        { "id": "v-bill", "word": "Bill", "meaningVi": "Hóa đơn", "ipa": "/bɪl/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/bill.webp", "exampleSentence": "Can I have the bill, please?", "exampleSentenceVi": "Cho tôi xin hóa đơn?" },
+        { "id": "v-waiter", "word": "Waiter", "meaningVi": "Phục vụ (nam)", "ipa": "/ˈweɪtər/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/waiter.webp", "exampleSentence": "The waiter is very friendly.", "exampleSentenceVi": "Người phục vụ rất thân thiện." },
+        { "id": "v-table", "word": "Table", "meaningVi": "Bàn", "ipa": "/ˈteɪbəl/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/table.webp", "exampleSentence": "A table for two, please.", "exampleSentenceVi": "Cho tôi một bàn cho hai người." }
+      ],
+      "phrases": [
+        { "id": "p-table-for", "phrase": "A table for two, please.", "meaningVi": "Cho tôi bàn cho hai người.", "ipa": "/ə ˈteɪbəl fɔːr tuː pliːz/", "usage": "Yêu cầu bàn khi vào nhà hàng" },
+        { "id": "p-id-like", "phrase": "I'd like to order, please.", "meaningVi": "Tôi muốn gọi món, làm ơn.", "ipa": "/aɪd laɪk tuː ˈɔːrdər pliːz/", "usage": "Khi bạn sẵn sàng gọi món" },
+        { "id": "p-how-much", "phrase": "How much is this?", "meaningVi": "Cái này bao nhiêu tiền?", "ipa": "/haʊ mʌtʃ ɪz ðɪs/", "usage": "Hỏi giá" }
+      ],
+      "dialogues": [
+        {
+          "id": "d-food-03-01", "title": "Ordering food", "titleVi": "Gọi món ăn",
+          "situation": "Linh và bạn đi ăn nhà hàng.",
+          "lines": [
+            { "speaker": "Waiter", "text": "Good evening! A table for two?", "textVi": "Chào buổi tối! Bàn cho hai người ạ?", "ipa": "/ɡʊd ˈiːvnɪŋ ə ˈteɪbəl fɔːr tuː/" },
+            { "speaker": "Linh", "text": "Yes, please. Can I see the menu?", "textVi": "Vâng, làm ơn. Cho tôi xem thực đơn?", "ipa": "/jɛs pliːz kæn aɪ siː ðə ˈmɛnjuː/" },
+            { "speaker": "Waiter", "text": "Here you go. Are you ready to order?", "textVi": "Đây ạ. Quý khách đã sẵn sàng gọi món chưa?", "ipa": "/hɪr juː ɡoʊ ɑːr juː ˈrɛdi tuː ˈɔːrdər/" },
+            { "speaker": "Linh", "text": "I'd like chicken and rice, please.", "textVi": "Tôi muốn gà và cơm, làm ơn.", "ipa": "/aɪd laɪk ˈtʃɪkɪn ænd raɪs pliːz/" }
+          ]
+        }
+      ],
+      "practice": [
+        { "id": "q-food-03-01", "type": "multiple-choice", "question": "What does 'Menu' mean?", "questionVi": "'Menu' nghĩa là gì?", "options": ["Hóa đơn", "Bàn ăn", "Thực đơn", "Phục vụ"], "correctAnswer": 2, "explanation": "'Menu' = Thực đơn." },
+        { "id": "q-food-03-02", "type": "fill-blank", "question": "Can I have the _____ , please? (khi muốn thanh toán)", "questionVi": "Điền từ khi muốn thanh toán", "options": ["menu", "table", "order", "bill"], "correctAnswer": 3, "explanation": "'Bill' = Hóa đơn. 'Can I have the bill?' = Cho tôi hóa đơn." },
+        { "id": "q-food-03-03", "type": "match-meaning", "question": "Match: 'A table for two'", "questionVi": "Nối nghĩa", "options": ["Hai cái bàn", "Bàn cho hai người", "Hai phần ăn", "Hai người phục vụ"], "correctAnswer": 1, "explanation": "'A table for two' = Một bàn cho hai người." },
+        { "id": "q-food-03-04", "type": "multiple-choice", "question": "'How much is this?' is used to ask about _____.", "questionVi": "Câu này dùng để hỏi về _____.", "options": ["thời gian", "giá tiền", "số lượng", "địa chỉ"], "correctAnswer": 1, "explanation": "'How much is this?' = Cái này bao nhiêu tiền?" }
+      ]
+    },
+    {
+      "id": "food-04",
+      "slug": "i-like-i-dont-like",
+      "topicSlug": "food-drink",
+      "title": "I like / I don't like",
+      "titleVi": "Tôi thích / Tôi không thích",
+      "order": 4,
+      "vocabulary": [
+        { "id": "v-like", "word": "Like", "meaningVi": "Thích", "ipa": "/laɪk/", "partOfSpeech": "verb", "image": "/images/lessons/food-drink/like.webp", "exampleSentence": "I like pizza.", "exampleSentenceVi": "Tôi thích pizza." },
+        { "id": "v-love", "word": "Love", "meaningVi": "Yêu, rất thích", "ipa": "/lʌv/", "partOfSpeech": "verb", "image": "/images/lessons/food-drink/love.webp", "exampleSentence": "I love Vietnamese food!", "exampleSentenceVi": "Tôi rất thích đồ ăn Việt Nam!" },
+        { "id": "v-hate", "word": "Hate", "meaningVi": "Ghét", "ipa": "/heɪt/", "partOfSpeech": "verb", "image": "/images/lessons/food-drink/hate.webp", "exampleSentence": "I hate bitter food.", "exampleSentenceVi": "Tôi ghét đồ ăn đắng." },
+        { "id": "v-favorite", "word": "Favorite", "meaningVi": "Yêu thích nhất", "ipa": "/ˈfeɪvərɪt/", "partOfSpeech": "adjective", "image": "/images/lessons/food-drink/favorite.webp", "exampleSentence": "My favorite food is pho.", "exampleSentenceVi": "Món ăn yêu thích nhất của tôi là phở." },
+        { "id": "v-fruit", "word": "Fruit", "meaningVi": "Trái cây", "ipa": "/fruːt/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/fruit.webp", "exampleSentence": "I like fruit.", "exampleSentenceVi": "Tôi thích trái cây." }
+      ],
+      "phrases": [
+        { "id": "p-i-like", "phrase": "I like chicken.", "meaningVi": "Tôi thích gà.", "ipa": "/aɪ laɪk ˈtʃɪkɪn/", "usage": "Nói thích gì" },
+        { "id": "p-i-dont-like", "phrase": "I don't like fish.", "meaningVi": "Tôi không thích cá.", "ipa": "/aɪ doʊnt laɪk fɪʃ/", "usage": "Nói không thích gì" },
+        { "id": "p-whats-your-fav", "phrase": "What's your favorite food?", "meaningVi": "Món ăn yêu thích của bạn là gì?", "ipa": "/wɑːts jʊr ˈfeɪvərɪt fuːd/", "usage": "Hỏi món ăn yêu thích" }
+      ],
+      "dialogues": [
+        {
+          "id": "d-food-04-01", "title": "Food preferences", "titleVi": "Sở thích ăn uống",
+          "situation": "Hai bạn nói về sở thích ăn uống.",
+          "lines": [
+            { "speaker": "Kim", "text": "What's your favorite food?", "textVi": "Món ăn yêu thích của bạn là gì?", "ipa": "/wɑːts jʊr ˈfeɪvərɪt fuːd/" },
+            { "speaker": "Alex", "text": "I love pho! It's delicious. How about you?", "textVi": "Mình rất thích phở! Nó ngon lắm. Còn bạn?", "ipa": "/aɪ lʌv fʌ ɪts dɪˈlɪʃəs haʊ əˈbaʊt juː/" },
+            { "speaker": "Kim", "text": "I like chicken rice. I don't like fish.", "textVi": "Mình thích cơm gà. Mình không thích cá.", "ipa": "/aɪ laɪk ˈtʃɪkɪn raɪs aɪ doʊnt laɪk fɪʃ/" },
+            { "speaker": "Alex", "text": "Really? I love fish!", "textVi": "Thật á? Mình rất thích cá!", "ipa": "/ˈrɪəli aɪ lʌv fɪʃ/" }
+          ]
+        }
+      ],
+      "practice": [
+        { "id": "q-food-04-01", "type": "multiple-choice", "question": "How do you say you don't like something?", "questionVi": "Nói không thích cái gì đó thế nào?", "options": ["I like not...", "I don't like...", "I no like...", "I am not like..."], "correctAnswer": 1, "explanation": "'I don't like...' = Tôi không thích... 'Don't' = do not." },
+        { "id": "q-food-04-02", "type": "fill-blank", "question": "What's your _____ food?", "questionVi": "Điền từ hỏi về sở thích", "options": ["good", "nice", "best", "favorite"], "correctAnswer": 3, "explanation": "'Favorite' = yêu thích nhất. 'What's your favorite food?' = Món yêu thích nhất?" },
+        { "id": "q-food-04-03", "type": "match-meaning", "question": "Match: 'I love coffee'", "questionVi": "Nối nghĩa: 'I love coffee'", "options": ["Tôi ghét cà phê", "Tôi thích cà phê", "Tôi rất thích cà phê", "Tôi uống cà phê"], "correctAnswer": 2, "explanation": "'Love' = yêu, rất thích. Mạnh hơn 'like'." },
+        { "id": "q-food-04-04", "type": "multiple-choice", "question": "'Fruit' means _____.", "questionVi": "'Fruit' nghĩa là _____.", "options": ["Rau", "Thịt", "Trái cây", "Bánh"], "correctAnswer": 2, "explanation": "'Fruit' = Trái cây (apple, banana, orange, ...)." }
+      ]
+    }
+  ]
+}

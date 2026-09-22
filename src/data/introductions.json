@@ -1,0 +1,156 @@
+{
+  "topicSlug": "introductions",
+  "lessons": [
+    {
+      "id": "intro-01",
+      "slug": "my-name-is",
+      "topicSlug": "introductions",
+      "title": "My name is...",
+      "titleVi": "Tên tôi là...",
+      "order": 1,
+      "vocabulary": [
+        { "id": "v-name", "word": "Name", "meaningVi": "Tên", "ipa": "/neɪm/", "partOfSpeech": "noun", "image": "/images/lessons/introductions/name.webp", "exampleSentence": "My name is Anna.", "exampleSentenceVi": "Tên tôi là Anna." },
+        { "id": "v-i", "word": "I", "meaningVi": "Tôi", "ipa": "/aɪ/", "partOfSpeech": "pronoun", "image": "/images/lessons/introductions/i.webp", "exampleSentence": "I am a student.", "exampleSentenceVi": "Tôi là sinh viên." },
+        { "id": "v-am", "word": "Am", "meaningVi": "Là (dùng với I)", "ipa": "/æm/", "partOfSpeech": "verb", "image": "/images/lessons/introductions/am.webp", "exampleSentence": "I am from Vietnam.", "exampleSentenceVi": "Tôi đến từ Việt Nam." },
+        { "id": "v-you", "word": "You", "meaningVi": "Bạn", "ipa": "/juː/", "partOfSpeech": "pronoun", "image": "/images/lessons/introductions/you.webp", "exampleSentence": "What is your name?", "exampleSentenceVi": "Tên bạn là gì?" },
+        { "id": "v-what", "word": "What", "meaningVi": "Cái gì, gì", "ipa": "/wɑːt/", "partOfSpeech": "pronoun", "image": "/images/lessons/introductions/what.webp", "exampleSentence": "What is this?", "exampleSentenceVi": "Đây là cái gì?" }
+      ],
+      "phrases": [
+        { "id": "p-my-name-is", "phrase": "My name is...", "meaningVi": "Tên tôi là...", "ipa": "/maɪ neɪm ɪz/", "usage": "Cách giới thiệu tên phổ biến nhất" },
+        { "id": "p-im", "phrase": "I'm...", "meaningVi": "Tôi là...", "ipa": "/aɪm/", "usage": "Cách nói tắt thân mật hơn 'My name is'" },
+        { "id": "p-whats-your-name", "phrase": "What's your name?", "meaningVi": "Tên bạn là gì?", "ipa": "/wɑːts jʊr neɪm/", "usage": "Cách hỏi tên người khác" },
+        { "id": "p-call-me", "phrase": "You can call me...", "meaningVi": "Bạn có thể gọi tôi là...", "ipa": "/juː kæn kɔːl miː/", "usage": "Dùng khi muốn người khác gọi tên thân mật" }
+      ],
+      "dialogues": [
+        {
+          "id": "d-intro-01-01", "title": "Introducing yourself", "titleVi": "Giới thiệu bản thân",
+          "situation": "Hai bạn mới gặp nhau ở lớp học.",
+          "lines": [
+            { "speaker": "Minh", "text": "Hello! My name is Minh.", "textVi": "Xin chào! Tên tôi là Minh.", "ipa": "/həˈloʊ maɪ neɪm ɪz mɪn/" },
+            { "speaker": "Emma", "text": "Hi Minh! I'm Emma. Nice to meet you!", "textVi": "Chào Minh! Tôi là Emma. Rất vui được gặp bạn!", "ipa": "/haɪ mɪn aɪm ˈɛmə naɪs tuː miːt juː/" },
+            { "speaker": "Minh", "text": "Nice to meet you too, Emma!", "textVi": "Mình cũng rất vui được gặp bạn, Emma!", "ipa": "/naɪs tuː miːt juː tuː ˈɛmə/" }
+          ]
+        }
+      ],
+      "practice": [
+        { "id": "q-intro-01-01", "type": "multiple-choice", "question": "How do you say your name in English?", "questionVi": "Bạn nói tên mình bằng tiếng Anh như thế nào?", "options": ["You name is...", "My name is...", "His name is...", "Her name is..."], "correctAnswer": 1, "explanation": "'My name is...' = Tên tôi là... 'My' = của tôi." },
+        { "id": "q-intro-01-02", "type": "fill-blank", "question": "_____ is your name?", "questionVi": "Điền từ để hỏi tên", "options": ["Where", "How", "What", "When"], "correctAnswer": 2, "explanation": "'What is your name?' = Tên bạn là gì? 'What' = cái gì." },
+        { "id": "q-intro-01-03", "type": "match-meaning", "question": "Match: 'I'm Anna'", "questionVi": "Nối nghĩa: 'I'm Anna'", "options": ["Bạn là Anna", "Tôi là Anna", "Cô ấy là Anna", "Anh ấy là Anna"], "correctAnswer": 1, "explanation": "'I'm Anna' = Tôi là Anna. 'I'm' = I am = Tôi là." },
+        { "id": "q-intro-01-04", "type": "multiple-choice", "question": "'I'm' is the short form of _____.", "questionVi": "'I'm' là viết tắt của _____.", "options": ["I was", "I am", "I have", "I will"], "correctAnswer": 1, "explanation": "'I'm' = 'I am'. Đây là dạng viết tắt (contraction) rất phổ biến." }
+      ]
+    },
+    {
+      "id": "intro-02",
+      "slug": "where-are-you-from",
+      "topicSlug": "introductions",
+      "title": "Where are you from?",
+      "titleVi": "Bạn đến từ đâu?",
+      "order": 2,
+      "vocabulary": [
+        { "id": "v-where", "word": "Where", "meaningVi": "Ở đâu", "ipa": "/wɛr/", "partOfSpeech": "adverb", "image": "/images/lessons/introductions/where.webp", "exampleSentence": "Where are you from?", "exampleSentenceVi": "Bạn đến từ đâu?" },
+        { "id": "v-from", "word": "From", "meaningVi": "Từ, đến từ", "ipa": "/frɑːm/", "partOfSpeech": "preposition", "image": "/images/lessons/introductions/from.webp", "exampleSentence": "I'm from Vietnam.", "exampleSentenceVi": "Tôi đến từ Việt Nam." },
+        { "id": "v-country", "word": "Country", "meaningVi": "Quốc gia, đất nước", "ipa": "/ˈkʌntri/", "partOfSpeech": "noun", "image": "/images/lessons/introductions/country.webp", "exampleSentence": "Vietnam is a beautiful country.", "exampleSentenceVi": "Việt Nam là một đất nước xinh đẹp." },
+        { "id": "v-city", "word": "City", "meaningVi": "Thành phố", "ipa": "/ˈsɪti/", "partOfSpeech": "noun", "image": "/images/lessons/introductions/city.webp", "exampleSentence": "I live in Ho Chi Minh City.", "exampleSentenceVi": "Tôi sống ở Thành phố Hồ Chí Minh." },
+        { "id": "v-live", "word": "Live", "meaningVi": "Sống, ở", "ipa": "/lɪv/", "partOfSpeech": "verb", "image": "/images/lessons/introductions/live.webp", "exampleSentence": "I live in Hanoi.", "exampleSentenceVi": "Tôi sống ở Hà Nội." }
+      ],
+      "phrases": [
+        { "id": "p-where-are-you-from", "phrase": "Where are you from?", "meaningVi": "Bạn đến từ đâu?", "ipa": "/wɛr ɑːr juː frɑːm/", "usage": "Hỏi quốc gia hoặc thành phố của người khác" },
+        { "id": "p-im-from", "phrase": "I'm from Vietnam.", "meaningVi": "Tôi đến từ Việt Nam.", "ipa": "/aɪm frɑːm ˌviːɛtˈnɑːm/", "usage": "Trả lời về quê hương" },
+        { "id": "p-i-live-in", "phrase": "I live in Ho Chi Minh City.", "meaningVi": "Tôi sống ở TP. Hồ Chí Minh.", "ipa": "/aɪ lɪv ɪn hoʊ tʃiː mɪn ˈsɪti/", "usage": "Nói nơi bạn đang sống" }
+      ],
+      "dialogues": [
+        {
+          "id": "d-intro-02-01", "title": "Where are you from?", "titleVi": "Bạn đến từ đâu?",
+          "situation": "Lan nói chuyện với bạn mới tên Jack ở quán café.",
+          "lines": [
+            { "speaker": "Lan", "text": "Hi Jack! Where are you from?", "textVi": "Chào Jack! Bạn đến từ đâu?", "ipa": "/haɪ dʒæk wɛr ɑːr juː frɑːm/" },
+            { "speaker": "Jack", "text": "I'm from the United States. And you?", "textVi": "Mình đến từ Mỹ. Còn bạn?", "ipa": "/aɪm frɑːm ðə juːˈnaɪtɪd steɪts ænd juː/" },
+            { "speaker": "Lan", "text": "I'm from Vietnam. I live in Hanoi.", "textVi": "Mình đến từ Việt Nam. Mình sống ở Hà Nội.", "ipa": "/aɪm frɑːm ˌviːɛtˈnɑːm aɪ lɪv ɪn hæˈnɔɪ/" },
+            { "speaker": "Jack", "text": "That's great! Hanoi is a beautiful city.", "textVi": "Tuyệt vời! Hà Nội là thành phố xinh đẹp.", "ipa": "/ðæts ɡreɪt hæˈnɔɪ ɪz ə ˈbjuːtɪfəl ˈsɪti/" }
+          ]
+        }
+      ],
+      "practice": [
+        { "id": "q-intro-02-01", "type": "fill-blank", "question": "_____ are you from?", "questionVi": "Điền từ để hỏi quê quán", "options": ["What", "How", "Where", "When"], "correctAnswer": 2, "explanation": "'Where are you from?' = Bạn đến từ đâu? 'Where' = ở đâu." },
+        { "id": "q-intro-02-02", "type": "multiple-choice", "question": "I'm _____ Vietnam.", "questionVi": "Chọn giới từ đúng", "options": ["in", "at", "from", "to"], "correctAnswer": 2, "explanation": "'I'm from Vietnam' = Tôi đến từ Việt Nam. 'From' = từ, đến từ." },
+        { "id": "q-intro-02-03", "type": "match-meaning", "question": "Match: 'Country'", "questionVi": "Nối nghĩa: 'Country'", "options": ["Thành phố", "Quốc gia", "Đường phố", "Trường học"], "correctAnswer": 1, "explanation": "'Country' = Quốc gia, đất nước." },
+        { "id": "q-intro-02-04", "type": "multiple-choice", "question": "I _____ in Ho Chi Minh City.", "questionVi": "Điền động từ đúng", "options": ["am", "is", "live", "from"], "correctAnswer": 2, "explanation": "'I live in...' = Tôi sống ở... 'Live' = sống." }
+      ]
+    },
+    {
+      "id": "intro-03",
+      "slug": "i-am-a",
+      "topicSlug": "introductions",
+      "title": "I am a...",
+      "titleVi": "Tôi là một...",
+      "order": 3,
+      "vocabulary": [
+        { "id": "v-student", "word": "Student", "meaningVi": "Sinh viên, học sinh", "ipa": "/ˈstuːdənt/", "partOfSpeech": "noun", "image": "/images/lessons/introductions/student.webp", "exampleSentence": "I am a student.", "exampleSentenceVi": "Tôi là sinh viên." },
+        { "id": "v-teacher", "word": "Teacher", "meaningVi": "Giáo viên", "ipa": "/ˈtiːtʃər/", "partOfSpeech": "noun", "image": "/images/lessons/introductions/teacher.webp", "exampleSentence": "She is a teacher.", "exampleSentenceVi": "Cô ấy là giáo viên." },
+        { "id": "v-doctor", "word": "Doctor", "meaningVi": "Bác sĩ", "ipa": "/ˈdɑːktər/", "partOfSpeech": "noun", "image": "/images/lessons/introductions/doctor.webp", "exampleSentence": "He is a doctor.", "exampleSentenceVi": "Anh ấy là bác sĩ." },
+        { "id": "v-engineer", "word": "Engineer", "meaningVi": "Kỹ sư", "ipa": "/ˌɛndʒɪˈnɪr/", "partOfSpeech": "noun", "image": "/images/lessons/introductions/engineer.webp", "exampleSentence": "I am an engineer.", "exampleSentenceVi": "Tôi là kỹ sư." },
+        { "id": "v-worker", "word": "Worker", "meaningVi": "Công nhân", "ipa": "/ˈwɜːrkər/", "partOfSpeech": "noun", "image": "/images/lessons/introductions/worker.webp", "exampleSentence": "He is a worker.", "exampleSentenceVi": "Anh ấy là công nhân." }
+      ],
+      "phrases": [
+        { "id": "p-i-am-a", "phrase": "I am a student.", "meaningVi": "Tôi là sinh viên.", "ipa": "/aɪ æm ə ˈstuːdənt/", "usage": "Nói về nghề nghiệp của mình" },
+        { "id": "p-what-do-you-do", "phrase": "What do you do?", "meaningVi": "Bạn làm nghề gì?", "ipa": "/wɑːt duː juː duː/", "usage": "Hỏi nghề nghiệp ai đó" },
+        { "id": "p-i-work-as", "phrase": "I work as a teacher.", "meaningVi": "Tôi làm việc như một giáo viên.", "ipa": "/aɪ wɜːrk æz ə ˈtiːtʃər/", "usage": "Cách khác để nói về nghề nghiệp" }
+      ],
+      "dialogues": [
+        {
+          "id": "d-intro-03-01", "title": "Talking about jobs", "titleVi": "Nói về nghề nghiệp",
+          "situation": "Hai người mới quen nói về công việc.",
+          "lines": [
+            { "speaker": "Trang", "text": "What do you do, Mark?", "textVi": "Bạn làm nghề gì, Mark?", "ipa": "/wɑːt duː juː duː mɑːrk/" },
+            { "speaker": "Mark", "text": "I'm a doctor. And you?", "textVi": "Mình là bác sĩ. Còn bạn?", "ipa": "/aɪm ə ˈdɑːktər ænd juː/" },
+            { "speaker": "Trang", "text": "I'm an engineer. I work in Ho Chi Minh City.", "textVi": "Mình là kỹ sư. Mình làm việc ở TP. HCM.", "ipa": "/aɪm ən ˌɛndʒɪˈnɪr aɪ wɜːrk ɪn hoʊ tʃiː mɪn ˈsɪti/" },
+            { "speaker": "Mark", "text": "That's cool!", "textVi": "Tuyệt vời!", "ipa": "/ðæts kuːl/" }
+          ]
+        }
+      ],
+      "practice": [
+        { "id": "q-intro-03-01", "type": "multiple-choice", "question": "How do you ask about someone's job?", "questionVi": "Bạn hỏi nghề nghiệp ai đó như thế nào?", "options": ["Where are you?", "What do you do?", "How are you?", "Who are you?"], "correctAnswer": 1, "explanation": "'What do you do?' = Bạn làm nghề gì?" },
+        { "id": "q-intro-03-02", "type": "fill-blank", "question": "I am _____ engineer.", "questionVi": "Điền mạo từ đúng", "options": ["a", "an", "the", "is"], "correctAnswer": 1, "explanation": "'An' dùng trước từ bắt đầu bằng nguyên âm (a, e, i, o, u). Engineer bắt đầu bằng 'e' → an engineer." },
+        { "id": "q-intro-03-03", "type": "match-meaning", "question": "Match: 'Doctor'", "questionVi": "Nối nghĩa: 'Doctor'", "options": ["Giáo viên", "Kỹ sư", "Bác sĩ", "Sinh viên"], "correctAnswer": 2, "explanation": "'Doctor' = Bác sĩ." },
+        { "id": "q-intro-03-04", "type": "multiple-choice", "question": "She _____ a teacher.", "questionVi": "Chọn 'to be' đúng", "options": ["am", "is", "are", "do"], "correctAnswer": 1, "explanation": "'She is a teacher.' I am / You are / He-She-It is." }
+      ]
+    },
+    {
+      "id": "intro-04",
+      "slug": "numbers-and-age",
+      "topicSlug": "introductions",
+      "title": "Numbers & Age",
+      "titleVi": "Số đếm & Tuổi",
+      "order": 4,
+      "vocabulary": [
+        { "id": "v-one", "word": "One", "meaningVi": "Một (1)", "ipa": "/wʌn/", "partOfSpeech": "noun", "image": "/images/lessons/introductions/one.webp", "exampleSentence": "I have one brother.", "exampleSentenceVi": "Tôi có một anh trai." },
+        { "id": "v-two", "word": "Two", "meaningVi": "Hai (2)", "ipa": "/tuː/", "partOfSpeech": "noun", "image": "/images/lessons/introductions/two.webp", "exampleSentence": "I have two sisters.", "exampleSentenceVi": "Tôi có hai chị gái." },
+        { "id": "v-ten", "word": "Ten", "meaningVi": "Mười (10)", "ipa": "/tɛn/", "partOfSpeech": "noun", "image": "/images/lessons/introductions/ten.webp", "exampleSentence": "I have ten fingers.", "exampleSentenceVi": "Tôi có mười ngón tay." },
+        { "id": "v-old", "word": "Old", "meaningVi": "Già, tuổi", "ipa": "/oʊld/", "partOfSpeech": "adjective", "image": "/images/lessons/introductions/old.webp", "exampleSentence": "How old are you?", "exampleSentenceVi": "Bạn bao nhiêu tuổi?" },
+        { "id": "v-year", "word": "Year", "meaningVi": "Năm, tuổi", "ipa": "/jɪr/", "partOfSpeech": "noun", "image": "/images/lessons/introductions/year.webp", "exampleSentence": "I am 25 years old.", "exampleSentenceVi": "Tôi 25 tuổi." }
+      ],
+      "phrases": [
+        { "id": "p-how-old", "phrase": "How old are you?", "meaningVi": "Bạn bao nhiêu tuổi?", "ipa": "/haʊ oʊld ɑːr juː/", "usage": "Hỏi tuổi ai đó" },
+        { "id": "p-i-am-years-old", "phrase": "I am 25 years old.", "meaningVi": "Tôi 25 tuổi.", "ipa": "/aɪ æm ˈtwɛnti faɪv jɪrz oʊld/", "usage": "Nói tuổi của mình" },
+        { "id": "p-number-phone", "phrase": "What's your phone number?", "meaningVi": "Số điện thoại bạn là gì?", "ipa": "/wɑːts jʊr foʊn ˈnʌmbər/", "usage": "Hỏi số điện thoại" }
+      ],
+      "dialogues": [
+        {
+          "id": "d-intro-04-01", "title": "Asking about age", "titleVi": "Hỏi về tuổi",
+          "situation": "Hai bạn mới quen trò chuyện.",
+          "lines": [
+            { "speaker": "Huy", "text": "How old are you, Lisa?", "textVi": "Bạn bao nhiêu tuổi, Lisa?", "ipa": "/haʊ oʊld ɑːr juː ˈliːsə/" },
+            { "speaker": "Lisa", "text": "I'm twenty-three years old. And you?", "textVi": "Mình 23 tuổi. Còn bạn?", "ipa": "/aɪm ˈtwɛnti θriː jɪrz oʊld ænd juː/" },
+            { "speaker": "Huy", "text": "I'm twenty-five.", "textVi": "Mình 25 tuổi.", "ipa": "/aɪm ˈtwɛnti faɪv/" }
+          ]
+        }
+      ],
+      "practice": [
+        { "id": "q-intro-04-01", "type": "multiple-choice", "question": "How do you ask someone's age?", "questionVi": "Hỏi tuổi ai đó như thế nào?", "options": ["What is your name?", "Where are you from?", "How old are you?", "What do you do?"], "correctAnswer": 2, "explanation": "'How old are you?' = Bạn bao nhiêu tuổi?" },
+        { "id": "q-intro-04-02", "type": "fill-blank", "question": "I am 30 _____ old.", "questionVi": "Điền từ thích hợp", "options": ["days", "months", "years", "times"], "correctAnswer": 2, "explanation": "'I am 30 years old.' = Tôi 30 tuổi. 'Years' = năm/tuổi." },
+        { "id": "q-intro-04-03", "type": "match-meaning", "question": "Match: 'Twenty'", "questionVi": "Nối nghĩa: 'Twenty'", "options": ["12", "20", "22", "2"], "correctAnswer": 1, "explanation": "'Twenty' = 20. 'Twelve' = 12, 'Twenty-two' = 22." },
+        { "id": "q-intro-04-04", "type": "multiple-choice", "question": "What number comes after 'nine'?", "questionVi": "Số nào đứng sau 'nine'?", "options": ["Eight", "Ten", "Seven", "Eleven"], "correctAnswer": 1, "explanation": "Nine (9) → Ten (10). 'Ten' đứng sau 'Nine'." }
+      ]
+    }
+  ]
+}
