@@ -108,6 +108,25 @@
   margin-bottom: var(--space-sm);
 }
 
+.removePlayerBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--space-md);
+  background: rgba(214, 48, 49, 0.1);
+  color: #ff7675;
+  border: 1px solid rgba(214, 48, 49, 0.3);
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.removePlayerBtn:hover {
+  background: rgba(214, 48, 49, 0.2);
+}
+
 .input {
   flex: 1;
   padding: var(--space-md);
@@ -238,10 +257,16 @@
   overflow: hidden;
 }
 
+@media (max-width: 768px) {
+  .gameBoard {
+    padding: var(--space-lg) 12px;
+  }
+}
+
 .quitBtn {
   position: absolute;
-  top: var(--space-lg);
-  right: var(--space-lg);
+  top: 12px;
+  right: 12px;
   padding: var(--space-sm) var(--space-md);
   background: rgba(214, 48, 49, 0.1);
   color: #ff7675;
@@ -283,9 +308,12 @@
 
 .scoreBoard {
   display: flex;
-  justify-content: center;
   gap: var(--space-lg);
-  margin-bottom: var(--space-xl);
+  margin: 36px auto var(--space-xl);
+  width: fit-content;
+  max-width: 100%;
+  overflow-x: auto;
+  padding-bottom: 8px;
 }
 
 .scoreItem {
@@ -296,6 +324,7 @@
   align-items: center;
   gap: var(--space-xs);
   font-weight: 600;
+  flex-shrink: 0;
 }
 
 .scoreItemActive {
@@ -336,6 +365,10 @@
 }
 
 .optionBtn {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  text-align: left;
   padding: var(--space-xl);
   background: rgba(255, 255, 255, 0.05);
   border: 2px solid var(--glass-border);
@@ -346,9 +379,35 @@
   transition: all 0.2s;
 }
 
+@media (max-width: 768px) {
+  .optionBtn {
+    padding: var(--space-md);
+    font-size: 1rem;
+  }
+}
+
 .optionBtn:hover {
   background: rgba(255, 255, 255, 0.1);
   border-color: rgba(255, 255, 255, 0.3);
+}
+
+.optionLetter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  flex-shrink: 0;
+}
+
+.optionBtn:hover .optionLetter {
+  background: var(--accent-primary);
+  color: white;
 }
 
 .optionCorrect {

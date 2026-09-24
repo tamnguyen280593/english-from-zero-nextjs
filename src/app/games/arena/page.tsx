@@ -12,7 +12,7 @@ export default function GameArena() {
   const { gameState, availableTopics, startGame, nextTurn, resetGame } = useGameEngine();
   const { showToast } = useToast();
   const playerInputRefs = useRef<(HTMLInputElement | null)[]>([]);
-  
+
   // Setup State
   const [mode, setMode] = useState<GameMode>('single');
   const [players, setPlayers] = useState<Omit<Player, 'score' | 'streak'>[]>([
@@ -49,7 +49,7 @@ export default function GameArena() {
       return;
     }
     const finalTopics = selectedTopics.length > 0 ? selectedTopics : availableTopics.map(t => t.slug);
-    
+
     startGame({
       mode,
       players,
@@ -62,10 +62,10 @@ export default function GameArena() {
 
   const handleOptionSelect = (index: number) => {
     if (isAnswered || !gameState.currentQuestion) return;
-    
+
     setSelectedOption(index);
     setIsAnswered(true);
-    
+
     const isCorrect = index === gameState.currentQuestion.correctAnswer;
 
     if (isCorrect && (gameState.currentQuestion as PracticeQuestion & { wordToSpeak?: string }).wordToSpeak) {
@@ -83,7 +83,7 @@ export default function GameArena() {
     if (gameState.status !== 'playing' || timeLimit === 0 || isAnswered || !gameState.currentQuestion) {
       return;
     }
-    
+
     const timer = setInterval(() => {
       setTimeLeft(prev => {
         if (prev <= 1) {
@@ -101,7 +101,7 @@ export default function GameArena() {
   const handleNextTurn = () => {
     if (!gameState.currentQuestion) return;
     const isCorrect = selectedOption === gameState.currentQuestion.correctAnswer;
-    
+
     setSelectedOption(null);
     setIsAnswered(false);
     if (timeLimit > 0) setTimeLeft(timeLimit);
@@ -113,7 +113,7 @@ export default function GameArena() {
       <div className={styles.formGroup}>
         <label className={styles.label}>Chế độ chơi</label>
         <div className={styles.modeToggle}>
-          <button 
+          <button
             className={mode === 'single' ? styles.modeBtnActive : styles.modeBtn}
             onClick={() => {
               setMode('single');
@@ -122,7 +122,7 @@ export default function GameArena() {
           >
             👤 1 Người chơi
           </button>
-          <button 
+          <button
             className={mode === 'multi' ? styles.modeBtnActive : styles.modeBtn}
             onClick={() => {
               setMode('multi');
@@ -141,7 +141,7 @@ export default function GameArena() {
         <label className={styles.label}>Người chơi</label>
         {players.map((p, idx) => (
           <div key={p.id} className={styles.playerInputGroup}>
-            <select 
+            <select
               className={styles.avatarSelect}
               value={p.avatar}
               onChange={(e) => {
@@ -152,7 +152,7 @@ export default function GameArena() {
             >
               {AVATARS.map(a => <option key={a} value={a}>{a}</option>)}
             </select>
-            <input 
+            <input
               ref={(el) => { playerInputRefs.current[idx] = el; }}
               className={styles.input}
               placeholder={`Tên người chơi ${idx + 1}`}
@@ -163,12 +163,25 @@ export default function GameArena() {
                 setPlayers(newP);
               }}
             />
+            {mode === 'multi' && players.length > 2 && (
+              <button 
+                className={styles.removePlayerBtn}
+                onClick={() => {
+                  const newP = [...players];
+                  newP.splice(idx, 1);
+                  setPlayers(newP);
+                }}
+                title="Xóa người chơi"
+              >
+                ✕
+              </button>
+            )}
           </div>
         ))}
         {mode === 'multi' && (
-          <button 
-            className={styles.modeBtn} 
-            style={{marginTop: '10px'}}
+          <button
+            className={styles.modeBtn}
+            style={{ marginTop: '10px' }}
             onClick={() => setPlayers([...players, { id: `p${players.length + 1}`, name: '', avatar: AVATARS[players.length % AVATARS.length] }])}
           >
             + Thêm người chơi
@@ -179,8 +192,8 @@ export default function GameArena() {
       <div className={styles.inlineFormRow}>
         <div className={styles.formGroup}>
           <label className={styles.label}>Số câu hỏi mỗi người</label>
-          <select 
-            className={styles.inputSelect} 
+          <select
+            className={styles.inputSelect}
             value={questionCount}
             onChange={(e) => setQuestionCount(Number(e.target.value))}
           >
@@ -193,8 +206,8 @@ export default function GameArena() {
 
         <div className={styles.formGroup}>
           <label className={styles.label}>Thời gian trả lời (Time Attack)</label>
-          <select 
-            className={styles.inputSelect} 
+          <select
+            className={styles.inputSelect}
             value={timeLimit}
             onChange={(e) => setTimeLimit(Number(e.target.value))}
           >
@@ -208,15 +221,15 @@ export default function GameArena() {
 
       <div className={styles.formGroup}>
         <label className={styles.label}>
-          Chủ đề <span style={{fontSize: '0.9rem', color: 'var(--text-secondary)', fontWeight: 'normal'}}>(Bỏ trống để tự động chọn tất cả chủ đề)</span>
+          Chủ đề <span style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', fontWeight: 'normal' }}>(Bỏ trống để tự động chọn tất cả chủ đề)</span>
         </label>
         <div className={styles.topicsGrid}>
           {availableTopics.map(topic => {
             const isChecked = selectedTopics.includes(topic.slug);
             return (
               <label key={topic.id} className={`${styles.topicCheckboxLabel} ${isChecked ? styles.topicCheckboxLabelActive : ''}`}>
-                <input 
-                  type="checkbox" 
+                <input
+                  type="checkbox"
                   className={styles.hiddenCheckbox}
                   checked={isChecked}
                   onChange={(e) => {
@@ -250,7 +263,7 @@ export default function GameArena() {
 
     return (
       <div className={styles.gameBoard}>
-        <button 
+        <button
           className={styles.quitBtn}
           onClick={() => {
             if (window.confirm("Bạn có chắc chắn muốn thoát game không? Điểm số sẽ bị hủy.")) {
@@ -258,7 +271,7 @@ export default function GameArena() {
             }
           }}
         >
-          ✕ Thoát / Thiết lập lại
+          ✕ Thiết lập lại
         </button>
 
         <div className={styles.scoreBoard}>
@@ -276,7 +289,7 @@ export default function GameArena() {
             {currentPlayer.avatar} Lượt của {currentPlayer.name}
           </div>
           {timeLimit > 0 && (
-            <div style={{fontSize: '1.2rem', fontWeight: 'bold', color: timeLeft <= 5 ? '#ff7675' : 'var(--accent-primary)', marginTop: '8px'}}>
+            <div style={{ fontSize: '1.2rem', fontWeight: 'bold', color: timeLeft <= 5 ? '#ff7675' : 'var(--accent-primary)', marginTop: '8px' }}>
               ⏱ {timeLeft}s
             </div>
           )}
@@ -295,13 +308,14 @@ export default function GameArena() {
                 else if (idx === selectedOption) btnClass += ` ${styles.optionWrong}`;
               }
               return (
-                <button 
-                  key={idx} 
+                <button
+                  key={idx}
                   className={btnClass}
                   onClick={() => handleOptionSelect(idx)}
                   disabled={isAnswered}
                 >
-                  {opt}
+                  <span className={styles.optionLetter}>{['A', 'B', 'C', 'D'][idx]}</span>
+                  <span>{opt}</span>
                 </button>
               );
             })}
@@ -335,11 +349,11 @@ export default function GameArena() {
       <div className={styles.resultsBoard}>
         <div className={styles.trophy}>🏆</div>
         <div className={styles.winnerText}>
-          {gameState.players.length > 1 
-            ? `Chúc mừng ${winner.name} đã chiến thắng!` 
+          {gameState.players.length > 1
+            ? `Chúc mừng ${winner.name} đã chiến thắng!`
             : 'Hoàn thành chặng đường!'}
         </div>
-        
+
         <div className={styles.leaderboard}>
           {sortedPlayers.map((p, idx) => (
             <div key={p.id} className={`${styles.rankItem} ${idx === 0 ? styles.rank1 : ''}`}>
@@ -368,7 +382,7 @@ export default function GameArena() {
         <h1 className={styles.title}>Đấu Trường Tiếng Anh</h1>
         <p className={styles.subtitle}>Cùng nhau học từ vựng thật vui và hiệu quả!</p>
       </header>
-      
+
       {gameState.status === 'setup' && renderSetup()}
       {gameState.status === 'playing' && renderPlaying()}
       {gameState.status === 'results' && renderResults()}
