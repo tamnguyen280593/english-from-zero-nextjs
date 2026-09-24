@@ -59,6 +59,7 @@ export default function GameArena() {
       timeLimit
     });
     if (timeLimit > 0) setTimeLeft(timeLimit);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleOptionSelect = (index: number) => {
@@ -99,8 +100,28 @@ export default function GameArena() {
     return () => clearInterval(timer);
   }, [gameState.status, timeLimit, isAnswered, gameState.currentQuestion, handleTimeOut]);
 
+  // Handle side-effects for playing state (hide footer, scroll to top)
+  useEffect(() => {
+    if (gameState.status === 'playing') {
+      const footer = document.querySelector('footer');
+      if (footer) footer.style.display = 'none';
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      const footer = document.querySelector('footer');
+      if (footer) footer.style.display = '';
+    }
+
+    return () => {
+      const footer = document.querySelector('footer');
+      if (footer) footer.style.display = '';
+    };
+  }, [gameState.status]);
+
   const handleNextTurn = () => {
     if (!gameState.currentQuestion) return;
+
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+
     const isCorrect = selectedOption === gameState.currentQuestion.correctAnswer;
 
     setSelectedOption(null);
@@ -398,10 +419,12 @@ export default function GameArena() {
 
   return (
     <main className={styles.container}>
-      <header className={styles.header}>
-        <h1 className={styles.title}>Đấu Trường Tiếng Anh</h1>
-        <p className={styles.subtitle}>Cùng nhau học từ vựng thật vui và hiệu quả!</p>
-      </header>
+      {gameState.status !== 'playing' && (
+        <header className={styles.header}>
+          <h1 className={styles.title}>Đấu Trường Tiếng Anh</h1>
+          <p className={styles.subtitle}>Cùng nhau học từ vựng thật vui và hiệu quả!</p>
+        </header>
+      )}
 
       {gameState.status === 'setup' && renderSetup()}
       {gameState.status === 'playing' && renderPlaying()}
