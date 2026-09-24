@@ -7,11 +7,13 @@ import Badge from '../ui/Badge';
 interface TopicCardProps {
   topic: Topic;
   progress: number; // percentage 0-100
+  href?: string;
 }
 
-export default function TopicCard({ topic, progress }: TopicCardProps) {
+export default function TopicCard({ topic, progress, href }: TopicCardProps) {
+  const linkHref = href || `/topics/${topic.slug}`;
   return (
-    <Link href={`/topics/${topic.slug}`} className={styles.card}>
+    <Link href={linkHref} className={styles.card}>
       <div 
         className={styles.imageHeader}
         style={{ 

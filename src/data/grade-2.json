@@ -2,218 +2,254 @@
   "topicSlug": "grade-2",
   "lessons": [
     {
-      "id": "grade2-01",
-      "slug": "in-the-toy-shop",
-      "topicSlug": "grade-2",
-      "title": "In the toy shop",
-      "titleVi": "Trong cửa hàng đồ chơi",
-      "order": 1,
+      "id": "grade2-01", "slug": "at-my-birthday-party", "topicSlug": "grade-2", "title": "At my birthday party", "titleVi": "Bữa tiệc sinh nhật", "order": 1,
       "vocabulary": [
-        {
-          "id": "v-g2-car",
-          "word": "car",
-          "meaningVi": "Ô tô đồ chơi",
-          "ipa": "/kɑːr/",
-          "partOfSpeech": "noun",
-          "image": "/images/lessons/grade-2/car.webp",
-          "exampleSentence": "I like the red car.",
-          "exampleSentenceVi": "Mình thích chiếc ô tô màu đỏ."
-        },
-        {
-          "id": "v-g2-kite",
-          "word": "kite",
-          "meaningVi": "Cái diều",
-          "ipa": "/kaɪt/",
-          "partOfSpeech": "noun",
-          "image": "/images/lessons/grade-2/kite.webp",
-          "exampleSentence": "I have a kite.",
-          "exampleSentenceVi": "Mình có một chiếc diều."
-        }
+        { "id": "v-g2-01-one", "word": "one", "meaningVi": "Số 1", "ipa": "/wʌn/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I have one cake.", "exampleSentenceVi": "Mình có một cái bánh." },
+        { "id": "v-g2-01-two", "word": "two", "meaningVi": "Số 2", "ipa": "/tuː/", "partOfSpeech": "noun", "image": "", "exampleSentence": "She has two gifts.", "exampleSentenceVi": "Bạn ấy có 2 món quà." },
+        { "id": "v-g2-01-balloon", "word": "balloon", "meaningVi": "Bóng bay", "ipa": "/bəˈluːn/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The balloon is red.", "exampleSentenceVi": "Quả bóng bay màu đỏ." }
       ],
       "phrases": [
-        {
-          "id": "p-g2-ilike",
-          "phrase": "I like...",
-          "meaningVi": "Mình thích...",
-          "ipa": "/aɪ laɪk/",
-          "usage": "Dùng để diễn tả sở thích."
-        }
+        { "id": "p-g2-01-a", "phrase": "How old are you?", "meaningVi": "Bạn mấy tuổi?", "ipa": "/haʊ oʊld ɑːr juː/", "usage": "Hỏi tuổi." },
+        { "id": "p-g2-01-b", "phrase": "I am ... years old.", "meaningVi": "Mình ... tuổi.", "ipa": "", "usage": "Trả lời tuổi." },
+        { "id": "p-g2-01-c", "phrase": "Happy birthday!", "meaningVi": "Chúc mừng sinh nhật!", "ipa": "/ˈhæpi ˈbɜːrθdeɪ/", "usage": "Chúc mừng sinh nhật ai đó." }
       ],
-      "dialogues": [],
+      "dialogues": [{ "id": "d-g2-01", "title": "Birthday party", "titleVi": "Tiệc sinh nhật", "situation": "Bạn bè đến dự sinh nhật.", "lines": [
+        { "speaker": "Friends", "text": "Happy birthday, Lan!", "textVi": "Chúc mừng sinh nhật, Lan!", "ipa": "" },
+        { "speaker": "Lan", "text": "Thank you! I am seven years old.", "textVi": "Cảm ơn! Mình 7 tuổi rồi.", "ipa": "" }
+      ]}],
       "practice": [
-        {
-          "id": "q-g2-1-1",
-          "type": "multiple-choice",
-          "question": "How do you say 'Mình thích ô tô'?",
-          "questionVi": "Bạn nói 'Mình thích ô tô' như thế nào?",
-          "options": ["I have a car", "I like cars", "This is a car"],
-          "correctAnswer": 1,
-          "explanation": "'I like' dùng để nói về sở thích."
-        }
+        { "id": "q-g2-01-1", "type": "multiple-choice", "question": "How old are you? — I am ___.", "questionVi": "Trả lời câu hỏi tuổi.", "options": ["I am fine.", "I am seven years old.", "My name is Nam."], "correctAnswer": 1, "explanation": "Trả lời tuổi bằng 'I am ... years old.'" }
       ]
     },
     {
-      "id": "grade2-02",
-      "slug": "at-the-farm",
-      "topicSlug": "grade-2",
-      "title": "At the farm",
-      "titleVi": "Ở trang trại (Con vật)",
-      "order": 2,
+      "id": "grade2-02", "slug": "in-the-backyard", "topicSlug": "grade-2", "title": "In the backyard", "titleVi": "Trong sân sau", "order": 2,
       "vocabulary": [
-        {
-          "id": "v-g2-pig",
-          "word": "pig",
-          "meaningVi": "Con lợn",
-          "ipa": "/pɪɡ/",
-          "partOfSpeech": "noun",
-          "image": "/images/lessons/grade-2/pig.webp",
-          "exampleSentence": "The pig is pink.",
-          "exampleSentenceVi": "Con lợn có màu hồng."
-        },
-        {
-          "id": "v-g2-cow",
-          "word": "cow",
-          "meaningVi": "Con bò sữa",
-          "ipa": "/kaʊ/",
-          "partOfSpeech": "noun",
-          "image": "/images/lessons/grade-2/cow.webp",
-          "exampleSentence": "I see a cow.",
-          "exampleSentenceVi": "Mình nhìn thấy một con bò."
-        }
+        { "id": "v-g2-02-dog", "word": "dog", "meaningVi": "Con chó", "ipa": "/dɔːɡ/", "partOfSpeech": "noun", "image": "", "exampleSentence": "My dog is brown.", "exampleSentenceVi": "Con chó mình màu nâu." },
+        { "id": "v-g2-02-cat", "word": "cat", "meaningVi": "Con mèo", "ipa": "/kæt/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The cat is sleeping.", "exampleSentenceVi": "Con mèo đang ngủ." },
+        { "id": "v-g2-02-rabbit", "word": "rabbit", "meaningVi": "Con thỏ", "ipa": "/ˈræbɪt/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The rabbit is white.", "exampleSentenceVi": "Con thỏ trắng." }
       ],
       "phrases": [
-        {
-          "id": "p-g2-isee",
-          "phrase": "I see a...",
-          "meaningVi": "Mình nhìn thấy...",
-          "ipa": "/aɪ siː ə/",
-          "usage": "Dùng khi bạn nhìn thấy vật gì đó."
-        }
+        { "id": "p-g2-02-a", "phrase": "I have a pet.", "meaningVi": "Mình có thú cưng.", "ipa": "", "usage": "Nói về thú cưng." },
+        { "id": "p-g2-02-b", "phrase": "It is cute/funny.", "meaningVi": "Nó dễ thương/vui nhộn.", "ipa": "", "usage": "Miêu tả thú cưng." }
       ],
-      "dialogues": [],
-      "practice": [
-        {
-          "id": "q-g2-2-1",
-          "type": "multiple-choice",
-          "question": "What is 'cow' in Vietnamese?",
-          "questionVi": "Từ 'cow' trong tiếng Việt nghĩa là gì?",
-          "options": ["Con lợn", "Con bò sữa", "Con vịt"],
-          "correctAnswer": 1,
-          "explanation": "'Cow' là con bò sữa, 'pig' là con lợn."
-        }
+      "dialogues": [], "practice": [
+        { "id": "q-g2-02-1", "type": "multiple-choice", "question": "'Rabbit' nghĩa là gì?", "questionVi": "'Rabbit' nghĩa là gì?", "options": ["Con chó", "Con mèo", "Con thỏ"], "correctAnswer": 2, "explanation": "'Rabbit' là con thỏ." }
       ]
     },
     {
-      "id": "grade2-03",
-      "slug": "my-body",
-      "topicSlug": "grade-2",
-      "title": "My body",
-      "titleVi": "Cơ thể của mình",
-      "order": 3,
+      "id": "grade2-03", "slug": "at-the-seaside", "topicSlug": "grade-2", "title": "At the seaside", "titleVi": "Ở bờ biển", "order": 3,
       "vocabulary": [
-        {
-          "id": "v-g2-hand",
-          "word": "hand",
-          "meaningVi": "Bàn tay",
-          "ipa": "/hænd/",
-          "partOfSpeech": "noun",
-          "image": "/images/lessons/grade-2/hand.webp",
-          "exampleSentence": "Touch your hand.",
-          "exampleSentenceVi": "Hãy chạm vào bàn tay của bạn."
-        },
-        {
-          "id": "v-g2-eye",
-          "word": "eye",
-          "meaningVi": "Con mắt",
-          "ipa": "/aɪ/",
-          "partOfSpeech": "noun",
-          "image": "/images/lessons/grade-2/eye.webp",
-          "exampleSentence": "I have two eyes.",
-          "exampleSentenceVi": "Mình có hai con mắt."
-        }
+        { "id": "v-g2-03-sand", "word": "sand", "meaningVi": "Cát", "ipa": "/sænd/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I play with sand.", "exampleSentenceVi": "Mình chơi cát." },
+        { "id": "v-g2-03-sea", "word": "sea", "meaningVi": "Biển", "ipa": "/siː/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The sea is blue.", "exampleSentenceVi": "Biển xanh." },
+        { "id": "v-g2-03-swim", "word": "swim", "meaningVi": "Bơi", "ipa": "/swɪm/", "partOfSpeech": "verb", "image": "", "exampleSentence": "I can swim.", "exampleSentenceVi": "Tôi biết bơi." }
       ],
       "phrases": [
-        {
-          "id": "p-g2-touch",
-          "phrase": "Touch your...",
-          "meaningVi": "Chạm vào ... của bạn",
-          "ipa": "/tʌtʃ jʊər/",
-          "usage": "Dùng để yêu cầu ai đó chạm vào bộ phận cơ thể."
-        }
+        { "id": "p-g2-03-a", "phrase": "I can/can't swim.", "meaningVi": "Tôi biết/không biết bơi.", "ipa": "", "usage": "Nói về khả năng bơi." }
       ],
-      "dialogues": [
-        {
-          "id": "d-g2-body",
-          "title": "In the PE class",
-          "titleVi": "Trong lớp thể dục",
-          "situation": "Giáo viên hướng dẫn tập thể dục",
-          "lines": [
-            { "speaker": "Teacher", "text": "Touch your head.", "textVi": "Các em hãy chạm vào đầu.", "ipa": "" },
-            { "speaker": "Class", "text": "Yes, teacher.", "textVi": "Vâng ạ.", "ipa": "" }
-          ]
-        }
-      ],
-      "practice": [
-        {
-          "id": "q-g2-3-1",
-          "type": "multiple-choice",
-          "question": "Touch your 'eye' means:",
-          "questionVi": "Touch your 'eye' có nghĩa là gì?",
-          "options": ["Chạm vào mắt", "Chạm vào mũi", "Chạm vào tay"],
-          "correctAnswer": 0,
-          "explanation": "'Eye' là con mắt."
-        }
+      "dialogues": [], "practice": [
+        { "id": "q-g2-03-1", "type": "multiple-choice", "question": "'Sea' nghĩa là gì?", "questionVi": "'Sea' nghĩa là gì?", "options": ["Cát", "Biển", "Hồ"], "correctAnswer": 1, "explanation": "'Sea' là biển." }
       ]
     },
     {
-      "id": "grade2-04",
-      "slug": "in-the-food-court",
-      "topicSlug": "grade-2",
-      "title": "In the food court",
-      "titleVi": "Trong khu ăn uống",
-      "order": 4,
+      "id": "grade2-04", "slug": "in-the-countryside", "topicSlug": "grade-2", "title": "In the countryside", "titleVi": "Ở miền quê", "order": 4,
       "vocabulary": [
-        {
-          "id": "v-g2-chicken",
-          "word": "chicken",
-          "meaningVi": "Thịt gà",
-          "ipa": "/ˈtʃɪk.ɪn/",
-          "partOfSpeech": "noun",
-          "image": "/images/lessons/grade-2/chicken.webp",
-          "exampleSentence": "I want some chicken.",
-          "exampleSentenceVi": "Mình muốn ăn chút thịt gà."
-        },
-        {
-          "id": "v-g2-water",
-          "word": "water",
-          "meaningVi": "Nước lọc",
-          "ipa": "/ˈwɔː.tər/",
-          "partOfSpeech": "noun",
-          "image": "/images/lessons/grade-2/water.webp",
-          "exampleSentence": "Can I have some water?",
-          "exampleSentenceVi": "Cho mình xin chút nước lọc được không?"
-        }
+        { "id": "v-g2-04-field", "word": "field", "meaningVi": "Cánh đồng", "ipa": "/fiːld/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The field is green.", "exampleSentenceVi": "Cánh đồng xanh." },
+        { "id": "v-g2-04-river", "word": "river", "meaningVi": "Dòng sông", "ipa": "/ˈrɪvər/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I see a river.", "exampleSentenceVi": "Mình thấy dòng sông." },
+        { "id": "v-g2-04-mountain", "word": "mountain", "meaningVi": "Ngọn núi", "ipa": "/ˈmaʊntɪn/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The mountain is high.", "exampleSentenceVi": "Ngọn núi cao." }
       ],
       "phrases": [
-        {
-          "id": "p-g2-iwant",
-          "phrase": "I want some...",
-          "meaningVi": "Mình muốn (ăn/uống)...",
-          "ipa": "/aɪ wɑːnt sʌm/",
-          "usage": "Dùng khi bạn muốn gọi món."
-        }
+        { "id": "p-g2-04-a", "phrase": "It is beautiful!", "meaningVi": "Đẹp quá!", "ipa": "/ɪt ɪz ˈbjuːtɪfəl/", "usage": "Khen đẹp." }
       ],
-      "dialogues": [],
+      "dialogues": [], "practice": [
+        { "id": "q-g2-04-1", "type": "multiple-choice", "question": "'River' nghĩa là gì?", "questionVi": "'River' nghĩa là gì?", "options": ["Ngọn núi", "Dòng sông", "Cánh đồng"], "correctAnswer": 1, "explanation": "'River' là dòng sông." }
+      ]
+    },
+    {
+      "id": "grade2-05", "slug": "in-the-classroom-g2", "topicSlug": "grade-2", "title": "In the classroom", "titleVi": "Trong lớp học", "order": 5,
+      "vocabulary": [
+        { "id": "v-g2-05-desk", "word": "desk", "meaningVi": "Bàn học", "ipa": "/desk/", "partOfSpeech": "noun", "image": "", "exampleSentence": "My desk is clean.", "exampleSentenceVi": "Bàn học sạch." },
+        { "id": "v-g2-05-chair", "word": "chair", "meaningVi": "Cái ghế", "ipa": "/tʃer/", "partOfSpeech": "noun", "image": "", "exampleSentence": "Sit on the chair.", "exampleSentenceVi": "Ngồi lên ghế." },
+        { "id": "v-g2-05-board", "word": "board", "meaningVi": "Bảng", "ipa": "/bɔːrd/", "partOfSpeech": "noun", "image": "", "exampleSentence": "Look at the board.", "exampleSentenceVi": "Nhìn lên bảng." }
+      ],
+      "phrases": [
+        { "id": "p-g2-05-a", "phrase": "Sit down, please.", "meaningVi": "Hãy ngồi xuống.", "ipa": "", "usage": "Chỉ dẫn trong lớp." },
+        { "id": "p-g2-05-b", "phrase": "Stand up, please.", "meaningVi": "Hãy đứng lên.", "ipa": "", "usage": "Chỉ dẫn trong lớp." }
+      ],
+      "dialogues": [], "practice": [
+        { "id": "q-g2-05-1", "type": "multiple-choice", "question": "'Board' nghĩa là gì?", "questionVi": "'Board' nghĩa là gì?", "options": ["Bàn học", "Cái ghế", "Bảng"], "correctAnswer": 2, "explanation": "'Board' là cái bảng." }
+      ]
+    },
+    {
+      "id": "grade2-06", "slug": "on-the-farm", "topicSlug": "grade-2", "title": "On the farm", "titleVi": "Ở trang trại", "order": 6,
+      "vocabulary": [
+        { "id": "v-g2-06-pig", "word": "pig", "meaningVi": "Con lợn", "ipa": "/pɪɡ/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The pig is pink.", "exampleSentenceVi": "Con lợn hồng." },
+        { "id": "v-g2-06-cow", "word": "cow", "meaningVi": "Con bò", "ipa": "/kaʊ/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I see a cow.", "exampleSentenceVi": "Mình thấy con bò." },
+        { "id": "v-g2-06-chicken", "word": "chicken", "meaningVi": "Con gà", "ipa": "/ˈtʃɪkɪn/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The chicken lays eggs.", "exampleSentenceVi": "Con gà đẻ trứng." },
+        { "id": "v-g2-06-horse", "word": "horse", "meaningVi": "Con ngựa", "ipa": "/hɔːrs/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The horse can run fast.", "exampleSentenceVi": "Con ngựa chạy nhanh." }
+      ],
+      "phrases": [
+        { "id": "p-g2-06-a", "phrase": "What animal is this?", "meaningVi": "Đây là con gì?", "ipa": "", "usage": "Hỏi về con vật." }
+      ],
+      "dialogues": [], "practice": [
+        { "id": "q-g2-06-1", "type": "multiple-choice", "question": "Which animal says 'moo'?", "questionVi": "Con vật nào kêu 'moo'?", "options": ["pig", "cow", "chicken"], "correctAnswer": 1, "explanation": "Bò (cow) kêu 'moo'." },
+        { "id": "q-g2-06-2", "type": "multiple-choice", "question": "'Horse' nghĩa là gì?", "questionVi": "'Horse' là gì?", "options": ["Con lợn", "Con gà", "Con ngựa"], "correctAnswer": 2, "explanation": "'Horse' là con ngựa." }
+      ]
+    },
+    {
+      "id": "grade2-07", "slug": "in-the-kitchen", "topicSlug": "grade-2", "title": "In the kitchen", "titleVi": "Trong bếp", "order": 7,
+      "vocabulary": [
+        { "id": "v-g2-07-cup", "word": "cup", "meaningVi": "Cái cốc", "ipa": "/kʌp/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I drink from a cup.", "exampleSentenceVi": "Tôi uống bằng cốc." },
+        { "id": "v-g2-07-plate", "word": "plate", "meaningVi": "Cái đĩa", "ipa": "/pleɪt/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The plate is on the table.", "exampleSentenceVi": "Đĩa ở trên bàn." },
+        { "id": "v-g2-07-spoon", "word": "spoon", "meaningVi": "Cái thìa", "ipa": "/spuːn/", "partOfSpeech": "noun", "image": "", "exampleSentence": "Use a spoon.", "exampleSentenceVi": "Dùng thìa đi." }
+      ],
+      "phrases": [
+        { "id": "p-g2-07-a", "phrase": "Put it on the table.", "meaningVi": "Đặt nó lên bàn.", "ipa": "", "usage": "Chỉ dẫn đặt đồ." }
+      ],
+      "dialogues": [], "practice": [
+        { "id": "q-g2-07-1", "type": "multiple-choice", "question": "You drink from a ___.", "questionVi": "Bạn uống bằng ___.", "options": ["plate", "spoon", "cup"], "correctAnswer": 2, "explanation": "Uống bằng cốc (cup)." }
+      ]
+    },
+    {
+      "id": "grade2-08", "slug": "in-the-village", "topicSlug": "grade-2", "title": "In the village", "titleVi": "Trong làng", "order": 8,
+      "vocabulary": [
+        { "id": "v-g2-08-house", "word": "house", "meaningVi": "Ngôi nhà", "ipa": "/haʊs/", "partOfSpeech": "noun", "image": "", "exampleSentence": "This is my house.", "exampleSentenceVi": "Đây là nhà mình." },
+        { "id": "v-g2-08-garden", "word": "garden", "meaningVi": "Khu vườn", "ipa": "/ˈɡɑːrdən/", "partOfSpeech": "noun", "image": "", "exampleSentence": "We have a garden.", "exampleSentenceVi": "Nhà mình có vườn." },
+        { "id": "v-g2-08-pond", "word": "pond", "meaningVi": "Cái ao", "ipa": "/pɑːnd/", "partOfSpeech": "noun", "image": "", "exampleSentence": "Fish swim in the pond.", "exampleSentenceVi": "Cá bơi trong ao." }
+      ],
+      "phrases": [
+        { "id": "p-g2-08-a", "phrase": "Where do you live?", "meaningVi": "Bạn sống ở đâu?", "ipa": "", "usage": "Hỏi nơi ở." },
+        { "id": "p-g2-08-b", "phrase": "I live in a village/city.", "meaningVi": "Mình sống ở làng/thành phố.", "ipa": "", "usage": "Trả lời nơi ở." }
+      ],
+      "dialogues": [], "practice": [
+        { "id": "q-g2-08-1", "type": "multiple-choice", "question": "'Pond' nghĩa là gì?", "questionVi": "'Pond' nghĩa là gì?", "options": ["Khu vườn", "Ngôi nhà", "Cái ao"], "correctAnswer": 2, "explanation": "'Pond' là cái ao." }
+      ]
+    },
+    {
+      "id": "grade2-09", "slug": "in-the-grocery-store", "topicSlug": "grade-2", "title": "In the grocery store", "titleVi": "Trong cửa hàng tạp hóa", "order": 9,
+      "vocabulary": [
+        { "id": "v-g2-09-candy", "word": "candy", "meaningVi": "Kẹo", "ipa": "/ˈkændi/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I like candy.", "exampleSentenceVi": "Mình thích kẹo." },
+        { "id": "v-g2-09-icecream", "word": "ice cream", "meaningVi": "Kem", "ipa": "/aɪs kriːm/", "partOfSpeech": "noun", "image": "", "exampleSentence": "Can I have ice cream?", "exampleSentenceVi": "Cho mình xin kem được không?" },
+        { "id": "v-g2-09-cookie", "word": "cookie", "meaningVi": "Bánh quy", "ipa": "/ˈkʊki/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The cookie is sweet.", "exampleSentenceVi": "Bánh quy ngọt." }
+      ],
+      "phrases": [
+        { "id": "p-g2-09-a", "phrase": "How much is this?", "meaningVi": "Cái này bao nhiêu?", "ipa": "", "usage": "Hỏi giá." },
+        { "id": "p-g2-09-b", "phrase": "I want some...", "meaningVi": "Mình muốn ít...", "ipa": "", "usage": "Mua đồ." }
+      ],
+      "dialogues": [], "practice": [
+        { "id": "q-g2-09-1", "type": "multiple-choice", "question": "'Ice cream' nghĩa là gì?", "questionVi": "'Ice cream' nghĩa là gì?", "options": ["Kẹo", "Kem", "Bánh quy"], "correctAnswer": 1, "explanation": "'Ice cream' là kem." }
+      ]
+    },
+    {
+      "id": "grade2-10", "slug": "at-the-zoo-g2", "topicSlug": "grade-2", "title": "At the zoo", "titleVi": "Ở sở thú", "order": 10,
+      "vocabulary": [
+        { "id": "v-g2-10-tiger", "word": "tiger", "meaningVi": "Con hổ", "ipa": "/ˈtaɪɡər/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The tiger is strong.", "exampleSentenceVi": "Con hổ khỏe." },
+        { "id": "v-g2-10-bear", "word": "bear", "meaningVi": "Con gấu", "ipa": "/ber/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The bear is big.", "exampleSentenceVi": "Con gấu to." },
+        { "id": "v-g2-10-snake", "word": "snake", "meaningVi": "Con rắn", "ipa": "/sneɪk/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I am scared of snakes.", "exampleSentenceVi": "Mình sợ rắn." }
+      ],
+      "phrases": [
+        { "id": "p-g2-10-a", "phrase": "I am scared/not scared.", "meaningVi": "Tôi sợ/không sợ.", "ipa": "", "usage": "Diễn tả cảm xúc." },
+        { "id": "p-g2-10-b", "phrase": "It is dangerous/friendly.", "meaningVi": "Nó nguy hiểm/thân thiện.", "ipa": "", "usage": "Miêu tả con vật." }
+      ],
+      "dialogues": [], "practice": [
+        { "id": "q-g2-10-1", "type": "multiple-choice", "question": "'Tiger' nghĩa là gì?", "questionVi": "'Tiger' nghĩa là gì?", "options": ["Con gấu", "Con hổ", "Con rắn"], "correctAnswer": 1, "explanation": "'Tiger' là con hổ." }
+      ]
+    },
+    {
+      "id": "grade2-11", "slug": "in-the-playground-g2", "topicSlug": "grade-2", "title": "In the playground", "titleVi": "Trên sân chơi", "order": 11,
+      "vocabulary": [
+        { "id": "v-g2-11-slide", "word": "slide", "meaningVi": "Cầu trượt", "ipa": "/slaɪd/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I go on the slide.", "exampleSentenceVi": "Mình chơi cầu trượt." },
+        { "id": "v-g2-11-swing", "word": "swing", "meaningVi": "Xích đu", "ipa": "/swɪŋ/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I like the swing.", "exampleSentenceVi": "Mình thích xích đu." },
+        { "id": "v-g2-11-seesaw", "word": "seesaw", "meaningVi": "Bập bênh", "ipa": "/ˈsiːsɔː/", "partOfSpeech": "noun", "image": "", "exampleSentence": "Let's play on the seesaw.", "exampleSentenceVi": "Chơi bập bênh đi." }
+      ],
+      "phrases": [
+        { "id": "p-g2-11-a", "phrase": "Let's play on the...", "meaningVi": "Đi chơi ... nào.", "ipa": "", "usage": "Rủ bạn chơi." },
+        { "id": "p-g2-11-b", "phrase": "It is fun!", "meaningVi": "Vui lắm!", "ipa": "", "usage": "Bày tỏ vui vẻ." }
+      ],
+      "dialogues": [], "practice": [
+        { "id": "q-g2-11-1", "type": "multiple-choice", "question": "'Swing' nghĩa là gì?", "questionVi": "'Swing' nghĩa là gì?", "options": ["Cầu trượt", "Xích đu", "Bập bênh"], "correctAnswer": 1, "explanation": "'Swing' là xích đu." }
+      ]
+    },
+    {
+      "id": "grade2-12", "slug": "at-the-cafe", "topicSlug": "grade-2", "title": "At the cafe", "titleVi": "Ở quán café", "order": 12,
+      "vocabulary": [
+        { "id": "v-g2-12-tea", "word": "tea", "meaningVi": "Trà", "ipa": "/tiː/", "partOfSpeech": "noun", "image": "", "exampleSentence": "Mom drinks tea.", "exampleSentenceVi": "Mẹ uống trà." },
+        { "id": "v-g2-12-juice", "word": "juice", "meaningVi": "Nước ép", "ipa": "/dʒuːs/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I want orange juice.", "exampleSentenceVi": "Mình muốn nước cam." },
+        { "id": "v-g2-12-sandwich", "word": "sandwich", "meaningVi": "Bánh kẹp", "ipa": "/ˈsænwɪtʃ/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I eat a sandwich.", "exampleSentenceVi": "Mình ăn bánh kẹp." }
+      ],
+      "phrases": [
+        { "id": "p-g2-12-a", "phrase": "What would you like?", "meaningVi": "Bạn muốn dùng gì?", "ipa": "", "usage": "Hỏi khách muốn gì." },
+        { "id": "p-g2-12-b", "phrase": "I would like a/some...", "meaningVi": "Mình muốn...", "ipa": "", "usage": "Gọi món lịch sự." }
+      ],
+      "dialogues": [{ "id": "d-g2-12", "title": "At the cafe", "titleVi": "Ở quán", "situation": "Gọi đồ ở quán.", "lines": [
+        { "speaker": "Waiter", "text": "What would you like?", "textVi": "Bạn muốn dùng gì?", "ipa": "" },
+        { "speaker": "Child", "text": "I would like some juice, please.", "textVi": "Cho mình xin nước ép ạ.", "ipa": "" }
+      ]}],
       "practice": [
-        {
-          "id": "q-g2-4-1",
-          "type": "multiple-choice",
-          "question": "If you are thirsty, you ask for:",
-          "questionVi": "Nếu bạn khát nước, bạn sẽ xin gì?",
-          "options": ["chicken", "water", "apple"],
-          "correctAnswer": 1,
-          "explanation": "'Water' là nước lọc."
-        }
+        { "id": "q-g2-12-1", "type": "multiple-choice", "question": "'I would like some ___.' (nước ép)", "questionVi": "Điền vào: nước ép.", "options": ["tea", "juice", "milk"], "correctAnswer": 1, "explanation": "'Juice' là nước ép." }
+      ]
+    },
+    {
+      "id": "grade2-13", "slug": "in-the-maths-class", "topicSlug": "grade-2", "title": "In the maths class", "titleVi": "Trong lớp Toán", "order": 13,
+      "vocabulary": [
+        { "id": "v-g2-13-three", "word": "three", "meaningVi": "Số 3", "ipa": "/θriː/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I have three apples.", "exampleSentenceVi": "Mình có 3 quả táo." },
+        { "id": "v-g2-13-four", "word": "four", "meaningVi": "Số 4", "ipa": "/fɔːr/", "partOfSpeech": "noun", "image": "", "exampleSentence": "There are four cats.", "exampleSentenceVi": "Có 4 con mèo." },
+        { "id": "v-g2-13-five", "word": "five", "meaningVi": "Số 5", "ipa": "/faɪv/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I see five birds.", "exampleSentenceVi": "Mình thấy 5 con chim." }
+      ],
+      "phrases": [
+        { "id": "p-g2-13-a", "phrase": "How many...are there?", "meaningVi": "Có bao nhiêu ...?", "ipa": "", "usage": "Hỏi số lượng." },
+        { "id": "p-g2-13-b", "phrase": "There are.../There is...", "meaningVi": "Có.../Có một...", "ipa": "", "usage": "Trả lời số lượng." }
+      ],
+      "dialogues": [], "practice": [
+        { "id": "q-g2-13-1", "type": "multiple-choice", "question": "How many? 🍎🍎🍎", "questionVi": "Đếm số táo.", "options": ["two", "three", "four"], "correctAnswer": 1, "explanation": "Có 3 quả táo → 'three'." }
+      ]
+    },
+    {
+      "id": "grade2-14", "slug": "at-home-g2", "topicSlug": "grade-2", "title": "At home", "titleVi": "Ở nhà", "order": 14,
+      "vocabulary": [
+        { "id": "v-g2-14-living", "word": "living room", "meaningVi": "Phòng khách", "ipa": "/ˈlɪvɪŋ ruːm/", "partOfSpeech": "noun", "image": "", "exampleSentence": "We watch TV in the living room.", "exampleSentenceVi": "Chúng mình xem TV ở phòng khách." },
+        { "id": "v-g2-14-bathroom", "word": "bathroom", "meaningVi": "Phòng tắm", "ipa": "/ˈbæθruːm/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I wash my hands in the bathroom.", "exampleSentenceVi": "Mình rửa tay trong phòng tắm." },
+        { "id": "v-g2-14-kitchen", "word": "kitchen", "meaningVi": "Nhà bếp", "ipa": "/ˈkɪtʃɪn/", "partOfSpeech": "noun", "image": "", "exampleSentence": "Mom cooks in the kitchen.", "exampleSentenceVi": "Mẹ nấu ăn trong bếp." }
+      ],
+      "phrases": [
+        { "id": "p-g2-14-a", "phrase": "Where is Mom/Dad?", "meaningVi": "Mẹ/Bố ở đâu?", "ipa": "", "usage": "Hỏi ai ở đâu." },
+        { "id": "p-g2-14-b", "phrase": "She/He is in the...", "meaningVi": "Mẹ/Bố ở trong...", "ipa": "", "usage": "Trả lời về vị trí." }
+      ],
+      "dialogues": [], "practice": [
+        { "id": "q-g2-14-1", "type": "multiple-choice", "question": "Mom cooks in the ___.", "questionVi": "Mẹ nấu ăn ở ___.", "options": ["bathroom", "living room", "kitchen"], "correctAnswer": 2, "explanation": "Nấu ăn ở 'kitchen' (nhà bếp)." }
+      ]
+    },
+    {
+      "id": "grade2-15", "slug": "in-the-clothes-shop", "topicSlug": "grade-2", "title": "In the clothes shop", "titleVi": "Trong cửa hàng quần áo", "order": 15,
+      "vocabulary": [
+        { "id": "v-g2-15-dress", "word": "dress", "meaningVi": "Váy", "ipa": "/dres/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The dress is pink.", "exampleSentenceVi": "Váy màu hồng." },
+        { "id": "v-g2-15-trousers", "word": "trousers", "meaningVi": "Quần dài", "ipa": "/ˈtraʊzərz/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I wear trousers.", "exampleSentenceVi": "Mình mặc quần dài." },
+        { "id": "v-g2-15-tshirt", "word": "T-shirt", "meaningVi": "Áo phông", "ipa": "/ˈtiː ʃɜːrt/", "partOfSpeech": "noun", "image": "", "exampleSentence": "My T-shirt is yellow.", "exampleSentenceVi": "Áo phông mình vàng." }
+      ],
+      "phrases": [
+        { "id": "p-g2-15-a", "phrase": "I am wearing...", "meaningVi": "Mình đang mặc...", "ipa": "", "usage": "Miêu tả đồ đang mặc." }
+      ],
+      "dialogues": [], "practice": [
+        { "id": "q-g2-15-1", "type": "multiple-choice", "question": "'Dress' nghĩa là gì?", "questionVi": "'Dress' nghĩa là gì?", "options": ["Quần dài", "Váy", "Áo phông"], "correctAnswer": 1, "explanation": "'Dress' là váy." }
+      ]
+    },
+    {
+      "id": "grade2-16", "slug": "at-the-campsite", "topicSlug": "grade-2", "title": "At the campsite", "titleVi": "Ở khu cắm trại", "order": 16,
+      "vocabulary": [
+        { "id": "v-g2-16-tent", "word": "tent", "meaningVi": "Lều", "ipa": "/tent/", "partOfSpeech": "noun", "image": "", "exampleSentence": "We sleep in a tent.", "exampleSentenceVi": "Chúng mình ngủ trong lều." },
+        { "id": "v-g2-16-fire", "word": "fire", "meaningVi": "Lửa (trại)", "ipa": "/faɪər/", "partOfSpeech": "noun", "image": "", "exampleSentence": "We sit by the fire.", "exampleSentenceVi": "Ngồi bên lửa trại." },
+        { "id": "v-g2-16-star", "word": "star", "meaningVi": "Ngôi sao", "ipa": "/stɑːr/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I see many stars.", "exampleSentenceVi": "Mình thấy nhiều sao." }
+      ],
+      "phrases": [
+        { "id": "p-g2-16-a", "phrase": "Look at the stars!", "meaningVi": "Nhìn những ngôi sao kìa!", "ipa": "", "usage": "Chỉ cho ai đó nhìn." },
+        { "id": "p-g2-16-b", "phrase": "It is night time.", "meaningVi": "Trời tối rồi.", "ipa": "", "usage": "Nói về thời gian." }
+      ],
+      "dialogues": [{ "id": "d-g2-16", "title": "Camping", "titleVi": "Cắm trại", "situation": "Gia đình đi cắm trại.", "lines": [
+        { "speaker": "Child", "text": "Look at the stars, Dad!", "textVi": "Nhìn sao kìa bố!", "ipa": "" },
+        { "speaker": "Dad", "text": "Beautiful! Let's sit by the fire.", "textVi": "Đẹp quá! Ngồi bên lửa trại đi.", "ipa": "" }
+      ]}],
+      "practice": [
+        { "id": "q-g2-16-1", "type": "multiple-choice", "question": "'Tent' nghĩa là gì?", "questionVi": "'Tent' nghĩa là gì?", "options": ["Lều", "Ngôi sao", "Lửa"], "correctAnswer": 0, "explanation": "'Tent' là lều." },
+        { "id": "q-g2-16-2", "type": "multiple-choice", "question": "We sleep in a ___ when camping.", "questionVi": "Cắm trại chúng ta ngủ trong ___.", "options": ["bed", "tent", "house"], "correctAnswer": 1, "explanation": "Cắm trại ngủ trong lều (tent)." }
       ]
     }
   ]

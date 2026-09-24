@@ -248,4 +248,22 @@
 .completionMessage {
   color: var(--text-secondary);
   line-height: 1.5;
+  margin-bottom: var(--space-xl);
+}
+
+.retryBtn {
+  background: var(--gradient-primary);
+  border: none;
+  padding: var(--space-md) var(--space-xl);
+  border-radius: var(--radius-full);
+  color: white;
+  font-weight: 600;
+  font-size: 1.125rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 15px rgba(108, 92, 231, 0.4);
+}
+
+.retryBtn:active {
+  transform: scale(0.95);
 }

@@ -1,0 +1,1845 @@
+{
+  "topicSlug": "shopping",
+  "lessons": [
+    {
+      "id": "shopping-1",
+      "slug": "lesson-1",
+      "topicSlug": "shopping",
+      "title": "At the Clothes Shop",
+      "titleVi": "Cửa hàng quần áo",
+      "order": 1,
+      "vocabulary": [
+        {
+          "id": "v-shopping-1-1",
+          "word": "Shop",
+          "meaningVi": "Cửa hàng",
+          "ipa": "/ʃɑːp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A clothes shop.",
+          "exampleSentenceVi": "Cửa hàng quần áo."
+        },
+        {
+          "id": "v-shopping-1-2",
+          "word": "Shirt",
+          "meaningVi": "Áo sơ mi",
+          "ipa": "/ʃɜːrt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A white shirt.",
+          "exampleSentenceVi": "Chiếc áo sơ mi trắng."
+        },
+        {
+          "id": "v-shopping-1-3",
+          "word": "Pants",
+          "meaningVi": "Quần dài",
+          "ipa": "/pænts/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Long pants.",
+          "exampleSentenceVi": "Quần dài."
+        },
+        {
+          "id": "v-shopping-1-4",
+          "word": "Dress",
+          "meaningVi": "Váy",
+          "ipa": "/drɛs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A beautiful dress.",
+          "exampleSentenceVi": "Một chiếc váy đẹp."
+        },
+        {
+          "id": "v-shopping-1-5",
+          "word": "Size",
+          "meaningVi": "Kích cỡ",
+          "ipa": "/saɪz/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "What size?",
+          "exampleSentenceVi": "Cỡ mấy?"
+        },
+        {
+          "id": "v-shopping-1-6",
+          "word": "Try",
+          "meaningVi": "Thử",
+          "ipa": "/traɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Try it on.",
+          "exampleSentenceVi": "Thử nó đi."
+        },
+        {
+          "id": "v-shopping-1-7",
+          "word": "Fit",
+          "meaningVi": "Vừa vặn",
+          "ipa": "/fɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "It fits perfectly.",
+          "exampleSentenceVi": "Nó vừa in."
+        },
+        {
+          "id": "v-shopping-1-8",
+          "word": "Buy",
+          "meaningVi": "Mua",
+          "ipa": "/baɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I will buy it.",
+          "exampleSentenceVi": "Tôi sẽ mua nó."
+        },
+        {
+          "id": "v-shopping-1-9",
+          "word": "Price",
+          "meaningVi": "Giá tiền",
+          "ipa": "/praɪs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A good price.",
+          "exampleSentenceVi": "Một mức giá tốt."
+        },
+        {
+          "id": "v-shopping-1-10",
+          "word": "Pay",
+          "meaningVi": "Trả tiền",
+          "ipa": "/peɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Pay the bill.",
+          "exampleSentenceVi": "Thanh toán."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-shopping-1-1",
+          "phrase": "Can I help you find something?",
+          "meaningVi": "Tôi có thể giúp bạn tìm gì không?",
+          "ipa": "/kæn aɪ hɛlp juː faɪnd ˈsʌmθɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-1-2",
+          "phrase": "I am just looking, thanks.",
+          "meaningVi": "Tôi chỉ xem qua thôi, cảm ơn.",
+          "ipa": "/aɪ æm dʒʌst ˈlʊkɪŋ θæŋks/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-1-3",
+          "phrase": "I am looking for a white shirt.",
+          "meaningVi": "Tôi đang tìm một chiếc áo sơ mi trắng.",
+          "ipa": "/aɪ æm ˈlʊkɪŋ fɔːr ə waɪt ʃɜːrt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-1-4",
+          "phrase": "What size do you wear?",
+          "meaningVi": "Bạn mặc size nào?",
+          "ipa": "/wʌt saɪz duː juː wɛr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-1-5",
+          "phrase": "I wear size medium.",
+          "meaningVi": "Tôi mặc cỡ M.",
+          "ipa": "/aɪ wɛr saɪz ˈmiːdiəm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-1-6",
+          "phrase": "Where is the fitting room?",
+          "meaningVi": "Phòng thử đồ ở đâu vậy?",
+          "ipa": "/wɛr ɪz ðə ˈfɪtɪŋ ruːm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-1-7",
+          "phrase": "Can I try this on?",
+          "meaningVi": "Tôi có thể thử cái này không?",
+          "ipa": "/kæn aɪ traɪ ðɪs ɑːn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-1-8",
+          "phrase": "It fits perfectly.",
+          "meaningVi": "Nó vừa in luôn.",
+          "ipa": "/ɪt fɪts /ˈpɜːrfɪktli/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-1-9",
+          "phrase": "It is too tight for me.",
+          "meaningVi": "Cái này chật quá đối với tôi.",
+          "ipa": "/ɪt ɪz tuː taɪt fɔːr miː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-1-10",
+          "phrase": "I will take this one.",
+          "meaningVi": "Tôi sẽ lấy cái này.",
+          "ipa": "/aɪ wɪl teɪk ðɪs wʌn/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "shopping-2",
+      "slug": "lesson-2",
+      "topicSlug": "shopping",
+      "title": "Grocery Shopping",
+      "titleVi": "Mua thực phẩm",
+      "order": 2,
+      "vocabulary": [
+        {
+          "id": "v-shopping-2-1",
+          "word": "Grocery",
+          "meaningVi": "Thực phẩm",
+          "ipa": "/ˈɡroʊsəri/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Grocery store.",
+          "exampleSentenceVi": "Cửa hàng bách hóa."
+        },
+        {
+          "id": "v-shopping-2-2",
+          "word": "Cart",
+          "meaningVi": "Xe đẩy",
+          "ipa": "/kɑːrt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A shopping cart.",
+          "exampleSentenceVi": "Xe đẩy siêu thị."
+        },
+        {
+          "id": "v-shopping-2-3",
+          "word": "Bag",
+          "meaningVi": "Túi",
+          "ipa": "/bæɡ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A plastic bag.",
+          "exampleSentenceVi": "Một chiếc túi ni lông."
+        },
+        {
+          "id": "v-shopping-2-4",
+          "word": "Milk",
+          "meaningVi": "Sữa",
+          "ipa": "/mɪlk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Buy some milk.",
+          "exampleSentenceVi": "Mua chút sữa."
+        },
+        {
+          "id": "v-shopping-2-5",
+          "word": "Bread",
+          "meaningVi": "Bánh mì",
+          "ipa": "/brɛd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Fresh bread.",
+          "exampleSentenceVi": "Bánh mì tươi."
+        },
+        {
+          "id": "v-shopping-2-6",
+          "word": "Egg",
+          "meaningVi": "Trứng",
+          "ipa": "/ɛɡ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A dozen eggs.",
+          "exampleSentenceVi": "Một tá trứng."
+        },
+        {
+          "id": "v-shopping-2-7",
+          "word": "Fresh",
+          "meaningVi": "Tươi",
+          "ipa": "/frɛʃ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Fresh fruit.",
+          "exampleSentenceVi": "Trái cây tươi."
+        },
+        {
+          "id": "v-shopping-2-8",
+          "word": "Aisle",
+          "meaningVi": "Lối đi",
+          "ipa": "/aɪl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Aisle number five.",
+          "exampleSentenceVi": "Lối đi số 5."
+        },
+        {
+          "id": "v-shopping-2-9",
+          "word": "Cashier",
+          "meaningVi": "Thu ngân",
+          "ipa": "/kæˈʃɪr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Pay the cashier.",
+          "exampleSentenceVi": "Trả tiền cho thu ngân."
+        },
+        {
+          "id": "v-shopping-2-10",
+          "word": "Receipt",
+          "meaningVi": "Biên lai",
+          "ipa": "/rɪˈsiːt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Keep the receipt.",
+          "exampleSentenceVi": "Giữ biên lai lại."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-shopping-2-1",
+          "phrase": "We need to buy some groceries.",
+          "meaningVi": "Chúng ta cần mua ít thực phẩm.",
+          "ipa": "/wiː niːd tuː baɪ sʌm /ˈɡroʊsəriz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-2-2",
+          "phrase": "Grab a shopping cart, please.",
+          "meaningVi": "Lấy giúp một chiếc xe đẩy nhé.",
+          "ipa": "/ɡræb ə /ˈʃɑːpɪŋ kɑːrt pliːz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-2-3",
+          "phrase": "We are out of milk and eggs.",
+          "meaningVi": "Chúng ta hết sữa và trứng rồi.",
+          "ipa": "/wiː ɑːr aʊt ʌv mɪlk ænd ɛɡz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-2-4",
+          "phrase": "Where can I find the fresh bread?",
+          "meaningVi": "Tôi có thể tìm bánh mì tươi ở đâu?",
+          "ipa": "/wɛr kæn aɪ faɪnd ðə frɛʃ brɛd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-2-5",
+          "phrase": "The dairy products are in aisle five.",
+          "meaningVi": "Sản phẩm bơ sữa ở lối đi số 5.",
+          "ipa": "/ðə ˈdɛri ˈprɑːdʌkts ɑːr ɪn aɪl faɪv/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-2-6",
+          "phrase": "Are these apples fresh?",
+          "meaningVi": "Chỗ táo này có tươi không?",
+          "ipa": "/ɑːr ðiːz /ˈæplz frɛʃ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-2-7",
+          "phrase": "Do you need a plastic bag?",
+          "meaningVi": "Bạn có cần túi nilon không?",
+          "ipa": "/duː juː niːd ə ˈplæstɪk bæɡ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-2-8",
+          "phrase": "No thanks, I brought my own bag.",
+          "meaningVi": "Không cảm ơn, tôi có mang túi theo rồi.",
+          "ipa": "/noʊ θæŋks aɪ brɔːt maɪ oʊn bæɡ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-2-9",
+          "phrase": "That will be twenty dollars in total.",
+          "meaningVi": "Tổng cộng là 20 đô la.",
+          "ipa": "/ðæt wɪl biː ˈtwɛnti ˈdɑːlərz ɪn ˈtoʊtl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-2-10",
+          "phrase": "Here is your receipt.",
+          "meaningVi": "Biên lai của bạn đây.",
+          "ipa": "/hɪr ɪz jʊr rɪˈsiːt/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "shopping-3",
+      "slug": "lesson-3",
+      "topicSlug": "shopping",
+      "title": "Asking about Prices",
+      "titleVi": "Hỏi giá",
+      "order": 3,
+      "vocabulary": [
+        {
+          "id": "v-shopping-3-1",
+          "word": "Price",
+          "meaningVi": "Giá tiền",
+          "ipa": "/praɪs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A high price.",
+          "exampleSentenceVi": "Một mức giá cao."
+        },
+        {
+          "id": "v-shopping-3-2",
+          "word": "Cost",
+          "meaningVi": "Giá trị",
+          "ipa": "/kɔːst/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "It costs a lot.",
+          "exampleSentenceVi": "Nó tốn rất nhiều tiền."
+        },
+        {
+          "id": "v-shopping-3-3",
+          "word": "Expensive",
+          "meaningVi": "Mắc, đắt",
+          "ipa": "/ɪkˈspɛnsɪv/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Too expensive.",
+          "exampleSentenceVi": "Quá đắt."
+        },
+        {
+          "id": "v-shopping-3-4",
+          "word": "Cheap",
+          "meaningVi": "Rẻ",
+          "ipa": "/tʃiːp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Very cheap.",
+          "exampleSentenceVi": "Rất rẻ."
+        },
+        {
+          "id": "v-shopping-3-5",
+          "word": "Discount",
+          "meaningVi": "Giảm giá",
+          "ipa": "/ˈdɪskaʊnt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A big discount.",
+          "exampleSentenceVi": "Một đợt giảm giá lớn."
+        },
+        {
+          "id": "v-shopping-3-6",
+          "word": "Sale",
+          "meaningVi": "Bán hạ giá",
+          "ipa": "/seɪl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "On sale today.",
+          "exampleSentenceVi": "Hôm nay bán hạ giá."
+        },
+        {
+          "id": "v-shopping-3-7",
+          "word": "Dollar",
+          "meaningVi": "Đô la",
+          "ipa": "/ˈdɑːlər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Ten dollars.",
+          "exampleSentenceVi": "10 đô la."
+        },
+        {
+          "id": "v-shopping-3-8",
+          "word": "Cent",
+          "meaningVi": "Xu",
+          "ipa": "/sɛnt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Fifty cents.",
+          "exampleSentenceVi": "50 xu."
+        },
+        {
+          "id": "v-shopping-3-9",
+          "word": "Total",
+          "meaningVi": "Tổng cộng",
+          "ipa": "/ˈtoʊtl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The total is ten.",
+          "exampleSentenceVi": "Tổng cộng là mười."
+        },
+        {
+          "id": "v-shopping-3-10",
+          "word": "Pay",
+          "meaningVi": "Trả tiền",
+          "ipa": "/peɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Pay by cash.",
+          "exampleSentenceVi": "Trả bằng tiền mặt."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-shopping-3-1",
+          "phrase": "How much is this?",
+          "meaningVi": "Cái này giá bao nhiêu?",
+          "ipa": "/haʊ mʌtʃ ɪz ðɪs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-3-2",
+          "phrase": "How much does it cost?",
+          "meaningVi": "Nó tốn bao nhiêu tiền?",
+          "ipa": "/haʊ mʌtʃ dʌz ɪt kɔːst/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-3-3",
+          "phrase": "That is too expensive for me.",
+          "meaningVi": "Mức giá đó quá đắt đối với tôi.",
+          "ipa": "/ðæt ɪz tuː ɪkˈspɛnsɪv fɔːr miː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-3-4",
+          "phrase": "Do you have anything cheaper?",
+          "meaningVi": "Bạn có cái nào rẻ hơn không?",
+          "ipa": "/duː juː hæv ˈɛniθɪŋ ˈtʃiːpər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-3-5",
+          "phrase": "Is this on sale?",
+          "meaningVi": "Món này có đang giảm giá không?",
+          "ipa": "/ɪz ðɪs ɑːn seɪl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-3-6",
+          "phrase": "Can you give me a discount?",
+          "meaningVi": "Bạn có thể bớt giá cho tôi không?",
+          "ipa": "/kæn juː ɡɪv miː ə /ˈdɪskaʊnt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-3-7",
+          "phrase": "I can give you a ten percent discount.",
+          "meaningVi": "Tôi có thể giảm 10 phần trăm cho bạn.",
+          "ipa": "/aɪ kæn ɡɪv juː ə tɛn pərˈsɛnt /ˈdɪskaʊnt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-3-8",
+          "phrase": "What is the total price?",
+          "meaningVi": "Tổng giá là bao nhiêu?",
+          "ipa": "/wʌt ɪz ðə /ˈtoʊtl praɪs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-3-9",
+          "phrase": "It is fifty dollars and twenty cents.",
+          "meaningVi": "Nó có giá 50 đô la và 20 xu.",
+          "ipa": "/ɪt ɪz ˈfɪfti ˈdɑːlərz ænd ˈtwɛnti sɛnts/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-3-10",
+          "phrase": "I will pay in cash.",
+          "meaningVi": "Tôi sẽ thanh toán bằng tiền mặt.",
+          "ipa": "/aɪ wɪl peɪ ɪn kæʃ/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "shopping-4",
+      "slug": "lesson-4",
+      "topicSlug": "shopping",
+      "title": "Returning Items",
+      "titleVi": "Trả lại hàng",
+      "order": 4,
+      "vocabulary": [
+        {
+          "id": "v-shopping-4-1",
+          "word": "Return",
+          "meaningVi": "Trả lại",
+          "ipa": "/rɪˈtɜːrn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Return a shirt.",
+          "exampleSentenceVi": "Trả lại áo sơ mi."
+        },
+        {
+          "id": "v-shopping-4-2",
+          "word": "Exchange",
+          "meaningVi": "Đổi hàng",
+          "ipa": "/ɪksˈtʃeɪndʒ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Exchange an item.",
+          "exampleSentenceVi": "Đổi một món hàng."
+        },
+        {
+          "id": "v-shopping-4-3",
+          "word": "Refund",
+          "meaningVi": "Hoàn tiền",
+          "ipa": "/ˈriːfʌnd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Get a refund.",
+          "exampleSentenceVi": "Nhận lại tiền."
+        },
+        {
+          "id": "v-shopping-4-4",
+          "word": "Broken",
+          "meaningVi": "Hỏng",
+          "ipa": "/ˈbroʊkən/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "It is broken.",
+          "exampleSentenceVi": "Nó bị hỏng."
+        },
+        {
+          "id": "v-shopping-4-5",
+          "word": "Wrong",
+          "meaningVi": "Sai",
+          "ipa": "/rɔːŋ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Wrong size.",
+          "exampleSentenceVi": "Sai kích cỡ."
+        },
+        {
+          "id": "v-shopping-4-6",
+          "word": "Receipt",
+          "meaningVi": "Biên lai",
+          "ipa": "/rɪˈsiːt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Show the receipt.",
+          "exampleSentenceVi": "Đưa biên lai ra."
+        },
+        {
+          "id": "v-shopping-4-7",
+          "word": "Tag",
+          "meaningVi": "Mác",
+          "ipa": "/tæɡ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Price tag.",
+          "exampleSentenceVi": "Mác giá."
+        },
+        {
+          "id": "v-shopping-4-8",
+          "word": "Policy",
+          "meaningVi": "Chính sách",
+          "ipa": "/ˈpɑːləsi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Return policy.",
+          "exampleSentenceVi": "Chính sách trả hàng."
+        },
+        {
+          "id": "v-shopping-4-9",
+          "word": "Manager",
+          "meaningVi": "Quản lý",
+          "ipa": "/ˈmænɪdʒər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Call the manager.",
+          "exampleSentenceVi": "Hãy gọi quản lý."
+        },
+        {
+          "id": "v-shopping-4-10",
+          "word": "Apologize",
+          "meaningVi": "Xin lỗi",
+          "ipa": "/əˈpɑːlədʒaɪz/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "We apologize.",
+          "exampleSentenceVi": "Chúng tôi xin lỗi."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-shopping-4-1",
+          "phrase": "I would like to return this shirt.",
+          "meaningVi": "Tôi muốn trả lại chiếc áo này.",
+          "ipa": "/aɪ wʊd laɪk tuː rɪˈtɜːrn ðɪs ʃɜːrt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-4-2",
+          "phrase": "Can I exchange this for a different size?",
+          "meaningVi": "Tôi có thể đổi cái này sang size khác không?",
+          "ipa": "/kæn aɪ ɪksˈtʃeɪndʒ ðɪs fɔːr ə ˈdɪfrənt saɪz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-4-3",
+          "phrase": "What is the problem with it?",
+          "meaningVi": "Nó có vấn đề gì vậy?",
+          "ipa": "/wʌt ɪz ðə /ˈprɑːbləm wɪð ɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-4-4",
+          "phrase": "It is broken.",
+          "meaningVi": "Nó bị hỏng rồi.",
+          "ipa": "/ɪt ɪz /ˈbroʊkən/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-4-5",
+          "phrase": "It is the wrong color.",
+          "meaningVi": "Nó bị sai màu.",
+          "ipa": "/ɪt ɪz ðə rɔːŋ /ˈkʌlər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-4-6",
+          "phrase": "Do you have the receipt?",
+          "meaningVi": "Bạn có đem theo hóa đơn không?",
+          "ipa": "/duː juː hæv ðə rɪˈsiːt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-4-7",
+          "phrase": "The price tag is still on it.",
+          "meaningVi": "Mác giá vẫn còn trên đó.",
+          "ipa": "/ðə praɪs tæɡ ɪz stɪl ɑːn ɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-4-8",
+          "phrase": "I would like a full refund.",
+          "meaningVi": "Tôi muốn được hoàn tiền toàn bộ.",
+          "ipa": "/aɪ wʊd laɪk ə fʊl /ˈriːfʌnd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-4-9",
+          "phrase": "This is our return policy.",
+          "meaningVi": "Đây là chính sách trả hàng của chúng tôi.",
+          "ipa": "/ðɪs ɪz aʊər rɪˈtɜːrn /ˈpɑːləsi/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-4-10",
+          "phrase": "We apologize for the inconvenience.",
+          "meaningVi": "Chúng tôi xin lỗi vì sự bất tiện này.",
+          "ipa": "/wiː əˈpɑːlədʒaɪz fɔːr ðə ˌɪnkənˈviːniəns/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "shopping-5",
+      "slug": "lesson-5",
+      "topicSlug": "shopping",
+      "title": "Electronics Store",
+      "titleVi": "Cửa hàng điện máy",
+      "order": 5,
+      "vocabulary": [
+        {
+          "id": "v-shopping-5-1",
+          "word": "Phone",
+          "meaningVi": "Điện thoại",
+          "ipa": "/foʊn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A new phone.",
+          "exampleSentenceVi": "Một chiếc điện thoại mới."
+        },
+        {
+          "id": "v-shopping-5-2",
+          "word": "Laptop",
+          "meaningVi": "Máy tính xách tay",
+          "ipa": "/ˈlæptɑːp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A fast laptop.",
+          "exampleSentenceVi": "Một chiếc laptop nhanh."
+        },
+        {
+          "id": "v-shopping-5-3",
+          "word": "Screen",
+          "meaningVi": "Màn hình",
+          "ipa": "/skriːn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A big screen.",
+          "exampleSentenceVi": "Màn hình lớn."
+        },
+        {
+          "id": "v-shopping-5-4",
+          "word": "Battery",
+          "meaningVi": "Pin",
+          "ipa": "/ˈbætəri/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Long battery.",
+          "exampleSentenceVi": "Pin dùng lâu."
+        },
+        {
+          "id": "v-shopping-5-5",
+          "word": "Charge",
+          "meaningVi": "Sạc",
+          "ipa": "/tʃɑːrdʒ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Charge the phone.",
+          "exampleSentenceVi": "Sạc điện thoại."
+        },
+        {
+          "id": "v-shopping-5-6",
+          "word": "Camera",
+          "meaningVi": "Máy ảnh",
+          "ipa": "/ˈkæmərə/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Good camera.",
+          "exampleSentenceVi": "Máy ảnh tốt."
+        },
+        {
+          "id": "v-shopping-5-7",
+          "word": "Warranty",
+          "meaningVi": "Bảo hành",
+          "ipa": "/ˈwɔːrənti/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A year warranty.",
+          "exampleSentenceVi": "Bảo hành 1 năm."
+        },
+        {
+          "id": "v-shopping-5-8",
+          "word": "Brand",
+          "meaningVi": "Thương hiệu",
+          "ipa": "/brænd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Famous brand.",
+          "exampleSentenceVi": "Thương hiệu nổi tiếng."
+        },
+        {
+          "id": "v-shopping-5-9",
+          "word": "Model",
+          "meaningVi": "Kiểu máy",
+          "ipa": "/ˈmɑːdl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Latest model.",
+          "exampleSentenceVi": "Đời mới nhất."
+        },
+        {
+          "id": "v-shopping-5-10",
+          "word": "Cable",
+          "meaningVi": "Dây cáp",
+          "ipa": "/ˈkeɪbl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "USB cable.",
+          "exampleSentenceVi": "Cáp USB."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-shopping-5-1",
+          "phrase": "I am looking for a new smartphone.",
+          "meaningVi": "Tôi đang tìm mua một chiếc điện thoại thông minh mới.",
+          "ipa": "/aɪ æm ˈlʊkɪŋ fɔːr ə nuː ˈsmɑːrtˌfoʊn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-5-2",
+          "phrase": "Which brand do you prefer?",
+          "meaningVi": "Bạn thích thương hiệu nào hơn?",
+          "ipa": "/wɪtʃ brænd duː juː prɪˈfɜːr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-5-3",
+          "phrase": "I want a laptop with a big screen.",
+          "meaningVi": "Tôi muốn một chiếc laptop có màn hình lớn.",
+          "ipa": "/aɪ wɑːnt ə /ˈlæptɑːp wɪð ə bɪɡ skriːn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-5-4",
+          "phrase": "How long does the battery last?",
+          "meaningVi": "Pin dùng được bao lâu?",
+          "ipa": "/haʊ lɔːŋ dʌz ðə /ˈbætəri læst/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-5-5",
+          "phrase": "Does it have a good camera?",
+          "meaningVi": "Máy ảnh của nó có tốt không?",
+          "ipa": "/dʌz ɪt hæv ə ɡʊd /ˈkæmərə/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-5-6",
+          "phrase": "This is the latest model.",
+          "meaningVi": "Đây là đời máy mới nhất.",
+          "ipa": "/ðɪs ɪz ðə ˈleɪtɪst /ˈmɑːdl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-5-7",
+          "phrase": "Does it come with a warranty?",
+          "meaningVi": "Máy này có kèm bảo hành không?",
+          "ipa": "/dʌz ɪt kʌm wɪð ə /ˈwɔːrənti/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-5-8",
+          "phrase": "It has a one-year warranty.",
+          "meaningVi": "Nó được bảo hành 1 năm.",
+          "ipa": "/ɪt hæz ə wʌn-jɪr /ˈwɔːrənti/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-5-9",
+          "phrase": "Do you have a charging cable for this?",
+          "meaningVi": "Bạn có dây sạc cho cái này không?",
+          "ipa": "/duː juː hæv ə ˈtʃɑːrdʒɪŋ /ˈkeɪbl fɔːr ðɪs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-5-10",
+          "phrase": "I will take this one.",
+          "meaningVi": "Tôi sẽ lấy cái máy này.",
+          "ipa": "/aɪ wɪl teɪk ðɪs wʌn/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "shopping-6",
+      "slug": "lesson-6",
+      "topicSlug": "shopping",
+      "title": "Shoe Shop",
+      "titleVi": "Cửa hàng giày",
+      "order": 6,
+      "vocabulary": [
+        {
+          "id": "v-shopping-6-1",
+          "word": "Shoe",
+          "meaningVi": "Giày",
+          "ipa": "/ʃuː/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Pair of shoes.",
+          "exampleSentenceVi": "Đôi giày."
+        },
+        {
+          "id": "v-shopping-6-2",
+          "word": "Sneaker",
+          "meaningVi": "Giày thể thao",
+          "ipa": "/ˈsniːkər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Running sneakers.",
+          "exampleSentenceVi": "Giày chạy bộ."
+        },
+        {
+          "id": "v-shopping-6-3",
+          "word": "Boot",
+          "meaningVi": "Ủng, bốt",
+          "ipa": "/buːt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Winter boots.",
+          "exampleSentenceVi": "Bốt mùa đông."
+        },
+        {
+          "id": "v-shopping-6-4",
+          "word": "Heel",
+          "meaningVi": "Gót, giày cao gót",
+          "ipa": "/hiːl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "High heels.",
+          "exampleSentenceVi": "Giày cao gót."
+        },
+        {
+          "id": "v-shopping-6-5",
+          "word": "Size",
+          "meaningVi": "Cỡ",
+          "ipa": "/saɪz/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Shoe size.",
+          "exampleSentenceVi": "Cỡ giày."
+        },
+        {
+          "id": "v-shopping-6-6",
+          "word": "Tight",
+          "meaningVi": "Chật",
+          "ipa": "/taɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Too tight.",
+          "exampleSentenceVi": "Quá chật."
+        },
+        {
+          "id": "v-shopping-6-7",
+          "word": "Loose",
+          "meaningVi": "Rộng",
+          "ipa": "/luːs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A bit loose.",
+          "exampleSentenceVi": "Hơi rộng."
+        },
+        {
+          "id": "v-shopping-6-8",
+          "word": "Leather",
+          "meaningVi": "Da",
+          "ipa": "/ˈlɛðər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Leather shoes.",
+          "exampleSentenceVi": "Giày da."
+        },
+        {
+          "id": "v-shopping-6-9",
+          "word": "Try",
+          "meaningVi": "Thử",
+          "ipa": "/traɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Try them on.",
+          "exampleSentenceVi": "Thử giày."
+        },
+        {
+          "id": "v-shopping-6-10",
+          "word": "Pair",
+          "meaningVi": "Đôi",
+          "ipa": "/pɛr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A new pair.",
+          "exampleSentenceVi": "Một đôi mới."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-shopping-6-1",
+          "phrase": "I need a new pair of running shoes.",
+          "meaningVi": "Tôi cần một đôi giày chạy mới.",
+          "ipa": "/aɪ niːd ə nuː pɛr ʌv ˈrʌnɪŋ ʃuːz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-6-2",
+          "phrase": "What is your shoe size?",
+          "meaningVi": "Cỡ giày của bạn là bao nhiêu?",
+          "ipa": "/wʌt ɪz jʊr ʃuː saɪz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-6-3",
+          "phrase": "Do you have these in size eight?",
+          "meaningVi": "Bạn có mẫu này ở size 8 không?",
+          "ipa": "/duː juː hæv ðiːz ɪn saɪz eɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-6-4",
+          "phrase": "Can I try them on?",
+          "meaningVi": "Tôi thử chúng được không?",
+          "ipa": "/kæn aɪ traɪ ðɛm ɑːn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-6-5",
+          "phrase": "These are a bit too tight.",
+          "meaningVi": "Đôi này hơi chật một chút.",
+          "ipa": "/ðiːz ɑːr ə bɪt tuː taɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-6-6",
+          "phrase": "Do you have a larger size?",
+          "meaningVi": "Bạn có size to hơn không?",
+          "ipa": "/duː juː hæv ə ˈlɑːrdʒər saɪz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-6-7",
+          "phrase": "These feel a bit loose.",
+          "meaningVi": "Đôi này có vẻ hơi lỏng/rộng.",
+          "ipa": "/ðiːz fiːl ə bɪt luːs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-6-8",
+          "phrase": "I am looking for leather boots.",
+          "meaningVi": "Tôi đang tìm bốt da.",
+          "ipa": "/aɪ æm ˈlʊkɪŋ fɔːr /ˈlɛðər buːts/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-6-9",
+          "phrase": "Are these high heels comfortable?",
+          "meaningVi": "Đôi giày cao gót này đi có thoải mái không?",
+          "ipa": "/ɑːr ðiːz haɪ hiːlz ˈkʌmftəbl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-6-10",
+          "phrase": "They fit perfectly, I will buy them.",
+          "meaningVi": "Chúng vừa in, tôi sẽ mua.",
+          "ipa": "/ðeɪ fɪt /ˈpɜːrfɪktli aɪ wɪl baɪ ðɛm/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "shopping-7",
+      "slug": "lesson-7",
+      "topicSlug": "shopping",
+      "title": "Jewelry & Accessories",
+      "titleVi": "Trang sức & Phụ kiện",
+      "order": 7,
+      "vocabulary": [
+        {
+          "id": "v-shopping-7-1",
+          "word": "Ring",
+          "meaningVi": "Nhẫn",
+          "ipa": "/rɪŋ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A diamond ring.",
+          "exampleSentenceVi": "Một chiếc nhẫn kim cương."
+        },
+        {
+          "id": "v-shopping-7-2",
+          "word": "Necklace",
+          "meaningVi": "Dây chuyền",
+          "ipa": "/ˈnɛkləs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A gold necklace.",
+          "exampleSentenceVi": "Dây chuyền vàng."
+        },
+        {
+          "id": "v-shopping-7-3",
+          "word": "Bracelet",
+          "meaningVi": "Vòng tay",
+          "ipa": "/ˈbreɪslət/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A silver bracelet.",
+          "exampleSentenceVi": "Vòng tay bạc."
+        },
+        {
+          "id": "v-shopping-7-4",
+          "word": "Earring",
+          "meaningVi": "Bông tai",
+          "ipa": "/ˈɪrɪŋ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Pair of earrings.",
+          "exampleSentenceVi": "Một đôi khuyên tai."
+        },
+        {
+          "id": "v-shopping-7-5",
+          "word": "Watch",
+          "meaningVi": "Đồng hồ",
+          "ipa": "/wɑːtʃ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A new watch.",
+          "exampleSentenceVi": "Đồng hồ mới."
+        },
+        {
+          "id": "v-shopping-7-6",
+          "word": "Gold",
+          "meaningVi": "Vàng",
+          "ipa": "/ɡoʊld/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Pure gold.",
+          "exampleSentenceVi": "Vàng nguyên chất."
+        },
+        {
+          "id": "v-shopping-7-7",
+          "word": "Silver",
+          "meaningVi": "Bạc",
+          "ipa": "/ˈsɪlvər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Silver ring.",
+          "exampleSentenceVi": "Nhẫn bạc."
+        },
+        {
+          "id": "v-shopping-7-8",
+          "word": "Diamond",
+          "meaningVi": "Kim cương",
+          "ipa": "/ˈdaɪəmənd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A shiny diamond.",
+          "exampleSentenceVi": "Viên kim cương sáng bóng."
+        },
+        {
+          "id": "v-shopping-7-9",
+          "word": "Try",
+          "meaningVi": "Thử",
+          "ipa": "/traɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Try it on.",
+          "exampleSentenceVi": "Đeo thử."
+        },
+        {
+          "id": "v-shopping-7-10",
+          "word": "Gift",
+          "meaningVi": "Quà tặng",
+          "ipa": "/ɡɪft/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A perfect gift.",
+          "exampleSentenceVi": "Một món quà hoàn hảo."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-shopping-7-1",
+          "phrase": "I am looking for a necklace for my wife.",
+          "meaningVi": "Tôi đang tìm một sợi dây chuyền cho vợ tôi.",
+          "ipa": "/aɪ æm ˈlʊkɪŋ fɔːr ə /ˈnɛkləs fɔːr maɪ waɪf/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-7-2",
+          "phrase": "Do you want gold or silver?",
+          "meaningVi": "Bạn muốn loại bằng vàng hay bạc?",
+          "ipa": "/duː juː wɑːnt ɡoʊld ɔːr /ˈsɪlvər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-7-3",
+          "phrase": "I would like to see that diamond ring.",
+          "meaningVi": "Tôi muốn xem chiếc nhẫn kim cương đó.",
+          "ipa": "/aɪ wʊd laɪk tuː siː ðæt /ˈdaɪəmənd rɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-7-4",
+          "phrase": "Can I try this bracelet on?",
+          "meaningVi": "Tôi có thể đeo thử chiếc vòng này không?",
+          "ipa": "/kæn aɪ traɪ ðɪs /ˈbreɪslət ɑːn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-7-5",
+          "phrase": "How much are these earrings?",
+          "meaningVi": "Đôi khuyên tai này giá bao nhiêu?",
+          "ipa": "/haʊ mʌtʃ ɑːr ðiːz /ˈɪrɪŋz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-7-6",
+          "phrase": "I need to buy a watch.",
+          "meaningVi": "Tôi cần mua một chiếc đồng hồ.",
+          "ipa": "/aɪ niːd tuː baɪ ə wɑːtʃ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-7-7",
+          "phrase": "This is 24-karat gold.",
+          "meaningVi": "Đây là vàng 24 karat.",
+          "ipa": "/ðɪs ɪz ˈtwɛnti-fɔːr-ˈkærət ɡoʊld/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-7-8",
+          "phrase": "It looks beautiful on you.",
+          "meaningVi": "Bạn đeo nó trông rất đẹp.",
+          "ipa": "/ɪt lʊks ˈbjuːtɪfl ɑːn juː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-7-9",
+          "phrase": "Is this a gift for someone?",
+          "meaningVi": "Đây có phải quà cho ai đó không?",
+          "ipa": "/ɪz ðɪs ə ɡɪft fɔːr /ˈsʌmwʌn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-7-10",
+          "phrase": "Yes, could you wrap it for me?",
+          "meaningVi": "Vâng, bạn có thể gói quà giúp tôi không?",
+          "ipa": "/jɛs kʊd juː ræp ɪt fɔːr miː/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "shopping-8",
+      "slug": "lesson-8",
+      "topicSlug": "shopping",
+      "title": "Supermarket Sections",
+      "titleVi": "Các khu vực siêu thị",
+      "order": 8,
+      "vocabulary": [
+        {
+          "id": "v-shopping-8-1",
+          "word": "Meat",
+          "meaningVi": "Thịt",
+          "ipa": "/miːt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The meat section.",
+          "exampleSentenceVi": "Khu bán thịt."
+        },
+        {
+          "id": "v-shopping-8-2",
+          "word": "Dairy",
+          "meaningVi": "Bơ sữa",
+          "ipa": "/ˈdɛri/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Dairy products.",
+          "exampleSentenceVi": "Sản phẩm từ sữa."
+        },
+        {
+          "id": "v-shopping-8-3",
+          "word": "Bakery",
+          "meaningVi": "Tiệm bánh",
+          "ipa": "/ˈbeɪkəri/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Fresh bakery.",
+          "exampleSentenceVi": "Đồ nướng tươi."
+        },
+        {
+          "id": "v-shopping-8-4",
+          "word": "Produce",
+          "meaningVi": "Nông sản",
+          "ipa": "/ˈproʊduːs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Fresh produce.",
+          "exampleSentenceVi": "Nông sản tươi sống."
+        },
+        {
+          "id": "v-shopping-8-5",
+          "word": "Frozen",
+          "meaningVi": "Đông lạnh",
+          "ipa": "/ˈfroʊzn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Frozen food.",
+          "exampleSentenceVi": "Thực phẩm đông lạnh."
+        },
+        {
+          "id": "v-shopping-8-6",
+          "word": "Seafood",
+          "meaningVi": "Hải sản",
+          "ipa": "/ˈsiːfuːd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Fresh seafood.",
+          "exampleSentenceVi": "Hải sản tươi."
+        },
+        {
+          "id": "v-shopping-8-7",
+          "word": "Beverage",
+          "meaningVi": "Đồ uống",
+          "ipa": "/ˈbɛvərɪdʒ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Cold beverages.",
+          "exampleSentenceVi": "Đồ uống lạnh."
+        },
+        {
+          "id": "v-shopping-8-8",
+          "word": "Snack",
+          "meaningVi": "Đồ ăn vặt",
+          "ipa": "/snæk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A bag of snacks.",
+          "exampleSentenceVi": "Một túi đồ ăn vặt."
+        },
+        {
+          "id": "v-shopping-8-9",
+          "word": "Aisle",
+          "meaningVi": "Lối đi",
+          "ipa": "/aɪl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Down the aisle.",
+          "exampleSentenceVi": "Đi dọc lối đi."
+        },
+        {
+          "id": "v-shopping-8-10",
+          "word": "Cashier",
+          "meaningVi": "Thu ngân",
+          "ipa": "/kæˈʃɪr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Pay the cashier.",
+          "exampleSentenceVi": "Trả tiền cho thu ngân."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-shopping-8-1",
+          "phrase": "Where is the meat section?",
+          "meaningVi": "Khu vực bán thịt ở đâu?",
+          "ipa": "/wɛr ɪz ðə miːt ˈsɛkʃn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-8-2",
+          "phrase": "You can find milk in the dairy aisle.",
+          "meaningVi": "Bạn có thể tìm thấy sữa ở quầy bơ sữa.",
+          "ipa": "/juː kæn faɪnd mɪlk ɪn ðə /ˈdɛri aɪl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-8-3",
+          "phrase": "The bakery smells so good.",
+          "meaningVi": "Khu bánh nướng mùi rất thơm.",
+          "ipa": "/ðə /ˈbeɪkəri smɛlz soʊ ɡʊd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-8-4",
+          "phrase": "Let's go to the fresh produce section.",
+          "meaningVi": "Cùng đến khu nông sản tươi sống nhé.",
+          "ipa": "/lɛts ɡoʊ tuː ðə frɛʃ /ˈproʊduːs ˈsɛkʃn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-8-5",
+          "phrase": "I need to buy some frozen pizza.",
+          "meaningVi": "Tôi cần mua vài cái pizza đông lạnh.",
+          "ipa": "/aɪ niːd tuː baɪ sʌm /ˈfroʊzn /ˈpiːtsə/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-8-6",
+          "phrase": "Is there any fresh seafood today?",
+          "meaningVi": "Hôm nay có hải sản tươi không?",
+          "ipa": "/ɪz ðɛr ˈɛni frɛʃ /ˈsiːfuːd təˈdeɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-8-7",
+          "phrase": "Where are the cold beverages?",
+          "meaningVi": "Đồ uống lạnh để ở đâu?",
+          "ipa": "/wɛr ɑːr ðə koʊld /ˈbɛvərɪdʒɪz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-8-8",
+          "phrase": "I am looking for some snacks for the party.",
+          "meaningVi": "Tôi đang tìm chút đồ ăn vặt cho bữa tiệc.",
+          "ipa": "/aɪ æm ˈlʊkɪŋ fɔːr sʌm snæks fɔːr ðə ˈpɑːrti/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-8-9",
+          "phrase": "It's in aisle number three.",
+          "meaningVi": "Nó ở dãy số 3.",
+          "ipa": "/ɪts ɪn aɪl ˈnʌmbər θriː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-8-10",
+          "phrase": "Let's go pay at the cashier.",
+          "meaningVi": "Cùng đi thanh toán ở quầy thu ngân nào.",
+          "ipa": "/lɛts ɡoʊ peɪ æt ðə kæˈʃɪr/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "shopping-9",
+      "slug": "lesson-9",
+      "topicSlug": "shopping",
+      "title": "Clothes Colors & Patterns",
+      "titleVi": "Màu sắc & Họa tiết",
+      "order": 9,
+      "vocabulary": [
+        {
+          "id": "v-shopping-9-1",
+          "word": "Color",
+          "meaningVi": "Màu sắc",
+          "ipa": "/ˈkʌlər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Bright colors.",
+          "exampleSentenceVi": "Màu sắc tươi sáng."
+        },
+        {
+          "id": "v-shopping-9-2",
+          "word": "Black",
+          "meaningVi": "Đen",
+          "ipa": "/blæk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A black shirt.",
+          "exampleSentenceVi": "Chiếc áo đen."
+        },
+        {
+          "id": "v-shopping-9-3",
+          "word": "White",
+          "meaningVi": "Trắng",
+          "ipa": "/waɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Pure white.",
+          "exampleSentenceVi": "Trắng tinh."
+        },
+        {
+          "id": "v-shopping-9-4",
+          "word": "Red",
+          "meaningVi": "Đỏ",
+          "ipa": "/rɛd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Red dress.",
+          "exampleSentenceVi": "Chiếc váy đỏ."
+        },
+        {
+          "id": "v-shopping-9-5",
+          "word": "Blue",
+          "meaningVi": "Xanh dương",
+          "ipa": "/bluː/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Blue sky.",
+          "exampleSentenceVi": "Bầu trời xanh."
+        },
+        {
+          "id": "v-shopping-9-6",
+          "word": "Striped",
+          "meaningVi": "Kẻ sọc",
+          "ipa": "/straɪpt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Striped shirt.",
+          "exampleSentenceVi": "Áo kẻ sọc."
+        },
+        {
+          "id": "v-shopping-9-7",
+          "word": "Checked",
+          "meaningVi": "Kẻ ca-rô",
+          "ipa": "/tʃɛkt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Checked pattern.",
+          "exampleSentenceVi": "Họa tiết ca rô."
+        },
+        {
+          "id": "v-shopping-9-8",
+          "word": "Plain",
+          "meaningVi": "Trơn",
+          "ipa": "/pleɪn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A plain t-shirt.",
+          "exampleSentenceVi": "Áo phông trơn."
+        },
+        {
+          "id": "v-shopping-9-9",
+          "word": "Dark",
+          "meaningVi": "Tối màu",
+          "ipa": "/dɑːrk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Dark blue.",
+          "exampleSentenceVi": "Xanh đậm."
+        },
+        {
+          "id": "v-shopping-9-10",
+          "word": "Light",
+          "meaningVi": "Sáng màu",
+          "ipa": "/laɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Light green.",
+          "exampleSentenceVi": "Xanh nhạt."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-shopping-9-1",
+          "phrase": "Do you have this in a different color?",
+          "meaningVi": "Bạn có mẫu này nhưng màu khác không?",
+          "ipa": "/duː juː hæv ðɪs ɪn ə ˈdɪfrənt /ˈkʌlər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-9-2",
+          "phrase": "I am looking for a black dress.",
+          "meaningVi": "Tôi đang tìm một chiếc váy màu đen.",
+          "ipa": "/aɪ æm ˈlʊkɪŋ fɔːr ə blæk drɛs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-9-3",
+          "phrase": "White gets dirty very easily.",
+          "meaningVi": "Màu trắng rất dễ bị bẩn.",
+          "ipa": "/waɪt ɡɛts ˈdɜːrti ˈvɛri ˈiːzɪli/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-9-4",
+          "phrase": "I love this bright red coat.",
+          "meaningVi": "Tôi thích chiếc áo khoác màu đỏ tươi này.",
+          "ipa": "/aɪ lʌv ðɪs braɪt rɛd koʊt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-9-5",
+          "phrase": "Do you have a blue one?",
+          "meaningVi": "Bạn có chiếc nào màu xanh không?",
+          "ipa": "/duː juː hæv ə bluː wʌn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-9-6",
+          "phrase": "I want a striped shirt, not a plain one.",
+          "meaningVi": "Tôi muốn một chiếc áo sơ mi kẻ sọc, không phải áo trơn.",
+          "ipa": "/aɪ wɑːnt ə straɪpt ʃɜːrt nɑːt ə pleɪn wʌn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-9-7",
+          "phrase": "The checked pattern is very popular right now.",
+          "meaningVi": "Họa tiết kẻ ca-rô đang rất thịnh hành hiện nay.",
+          "ipa": "/ðə tʃɛkt ˈpætərn ɪz ˈvɛri ˈpɑːpjələr raɪt naʊ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-9-8",
+          "phrase": "I prefer dark colors.",
+          "meaningVi": "Tôi thích các màu tối hơn.",
+          "ipa": "/aɪ prɪˈfɜːr dɑːrk /ˈkʌlərz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-9-9",
+          "phrase": "Light colors are great for summer.",
+          "meaningVi": "Màu sáng rất tuyệt cho mùa hè.",
+          "ipa": "/laɪt /ˈkʌlərz ɑːr ɡreɪt fɔːr ˈsʌmər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-9-10",
+          "phrase": "Which color looks better on me?",
+          "meaningVi": "Tôi mặc màu nào thì đẹp hơn?",
+          "ipa": "/wɪtʃ /ˈkʌlər lʊks ˈbɛtər ɑːn miː/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "shopping-10",
+      "slug": "lesson-10",
+      "topicSlug": "shopping",
+      "title": "Online Shopping",
+      "titleVi": "Mua sắm trực tuyến",
+      "order": 10,
+      "vocabulary": [
+        {
+          "id": "v-shopping-10-1",
+          "word": "Online",
+          "meaningVi": "Trực tuyến",
+          "ipa": "/ˌɑːnˈlaɪn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Shop online.",
+          "exampleSentenceVi": "Mua sắm trực tuyến."
+        },
+        {
+          "id": "v-shopping-10-2",
+          "word": "Cart",
+          "meaningVi": "Giỏ hàng",
+          "ipa": "/kɑːrt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Add to cart.",
+          "exampleSentenceVi": "Thêm vào giỏ hàng."
+        },
+        {
+          "id": "v-shopping-10-3",
+          "word": "Order",
+          "meaningVi": "Đặt hàng",
+          "ipa": "/ˈɔːrdər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Place an order.",
+          "exampleSentenceVi": "Đặt hàng."
+        },
+        {
+          "id": "v-shopping-10-4",
+          "word": "Ship",
+          "meaningVi": "Giao hàng",
+          "ipa": "/ʃɪp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Free shipping.",
+          "exampleSentenceVi": "Giao hàng miễn phí."
+        },
+        {
+          "id": "v-shopping-10-5",
+          "word": "Delivery",
+          "meaningVi": "Giao nhận",
+          "ipa": "/dɪˈlɪvəri/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Fast delivery.",
+          "exampleSentenceVi": "Giao hàng nhanh."
+        },
+        {
+          "id": "v-shopping-10-6",
+          "word": "Review",
+          "meaningVi": "Đánh giá",
+          "ipa": "/rɪˈvjuː/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Read reviews.",
+          "exampleSentenceVi": "Đọc đánh giá."
+        },
+        {
+          "id": "v-shopping-10-7",
+          "word": "Card",
+          "meaningVi": "Thẻ",
+          "ipa": "/kɑːrd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Credit card.",
+          "exampleSentenceVi": "Thẻ tín dụng."
+        },
+        {
+          "id": "v-shopping-10-8",
+          "word": "Account",
+          "meaningVi": "Tài khoản",
+          "ipa": "/əˈkaʊnt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Create an account.",
+          "exampleSentenceVi": "Tạo tài khoản."
+        },
+        {
+          "id": "v-shopping-10-9",
+          "word": "Password",
+          "meaningVi": "Mật khẩu",
+          "ipa": "/ˈpæswɜːrd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Enter password.",
+          "exampleSentenceVi": "Nhập mật khẩu."
+        },
+        {
+          "id": "v-shopping-10-10",
+          "word": "Track",
+          "meaningVi": "Theo dõi",
+          "ipa": "/træk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Track your package.",
+          "exampleSentenceVi": "Theo dõi gói hàng."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-shopping-10-1",
+          "phrase": "I buy most of my clothes online.",
+          "meaningVi": "Tôi mua hầu hết quần áo của mình trên mạng.",
+          "ipa": "/aɪ baɪ moʊst ʌv maɪ kloʊðz /ˌɑːnˈlaɪn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-10-2",
+          "phrase": "Just add the items to your cart.",
+          "meaningVi": "Chỉ cần thêm các món hàng vào giỏ hàng của bạn.",
+          "ipa": "/dʒʌst æd ðə ˈaɪtəmz tuː jʊr kɑːrt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-10-3",
+          "phrase": "I am ready to place my order.",
+          "meaningVi": "Tôi đã sẵn sàng đặt hàng.",
+          "ipa": "/aɪ æm ˈrɛdi tuː pleɪs maɪ /ˈɔːrdər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-10-4",
+          "phrase": "Do they offer free shipping?",
+          "meaningVi": "Họ có giao hàng miễn phí không?",
+          "ipa": "/duː ðeɪ /ˈɔːfər friː ˈʃɪpɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-10-5",
+          "phrase": "Delivery usually takes three days.",
+          "meaningVi": "Thời gian giao hàng thường mất 3 ngày.",
+          "ipa": "/dɪˈlɪvəri ˈjuːʒuəli teɪks θriː deɪz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-10-6",
+          "phrase": "You should read the reviews before buying.",
+          "meaningVi": "Bạn nên đọc các đánh giá trước khi mua.",
+          "ipa": "/juː ʃʊd riːd ðə rɪˈvjuːz bɪˈfɔːr ˈbaɪɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-10-7",
+          "phrase": "I will pay with my credit card.",
+          "meaningVi": "Tôi sẽ thanh toán bằng thẻ tín dụng.",
+          "ipa": "/aɪ wɪl peɪ wɪð maɪ ˈkrɛdɪt kɑːrd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-10-8",
+          "phrase": "You need to create an account first.",
+          "meaningVi": "Bạn cần tạo một tài khoản trước.",
+          "ipa": "/juː niːd tuː kriˈeɪt ən əˈkaʊnt fɜːrst/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-10-9",
+          "phrase": "Don't forget your password.",
+          "meaningVi": "Đừng quên mật khẩu của bạn nhé.",
+          "ipa": "/doʊnt fərˈɡɛt jʊr /ˈpæswɜːrd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-shopping-10-10",
+          "phrase": "You can track your package online.",
+          "meaningVi": "Bạn có thể theo dõi gói hàng của mình trực tuyến.",
+          "ipa": "/juː kæn træk jʊr /ˈpækɪdʒ /ˌɑːnˈlaɪn/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    }
+  ]
+}

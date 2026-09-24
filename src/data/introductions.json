@@ -2,155 +2,1844 @@
   "topicSlug": "introductions",
   "lessons": [
     {
-      "id": "intro-01",
-      "slug": "my-name-is",
+      "id": "introductions-1",
+      "slug": "lesson-1",
       "topicSlug": "introductions",
-      "title": "My name is...",
-      "titleVi": "Tên tôi là...",
+      "title": "Basic Intro",
+      "titleVi": "Giới thiệu cơ bản",
       "order": 1,
       "vocabulary": [
-        { "id": "v-name", "word": "Name", "meaningVi": "Tên", "ipa": "/neɪm/", "partOfSpeech": "noun", "image": "/images/lessons/introductions/name.webp", "exampleSentence": "My name is Anna.", "exampleSentenceVi": "Tên tôi là Anna." },
-        { "id": "v-i", "word": "I", "meaningVi": "Tôi", "ipa": "/aɪ/", "partOfSpeech": "pronoun", "image": "/images/lessons/introductions/i.webp", "exampleSentence": "I am a student.", "exampleSentenceVi": "Tôi là sinh viên." },
-        { "id": "v-am", "word": "Am", "meaningVi": "Là (dùng với I)", "ipa": "/æm/", "partOfSpeech": "verb", "image": "/images/lessons/introductions/am.webp", "exampleSentence": "I am from Vietnam.", "exampleSentenceVi": "Tôi đến từ Việt Nam." },
-        { "id": "v-you", "word": "You", "meaningVi": "Bạn", "ipa": "/juː/", "partOfSpeech": "pronoun", "image": "/images/lessons/introductions/you.webp", "exampleSentence": "What is your name?", "exampleSentenceVi": "Tên bạn là gì?" },
-        { "id": "v-what", "word": "What", "meaningVi": "Cái gì, gì", "ipa": "/wɑːt/", "partOfSpeech": "pronoun", "image": "/images/lessons/introductions/what.webp", "exampleSentence": "What is this?", "exampleSentenceVi": "Đây là cái gì?" }
-      ],
-      "phrases": [
-        { "id": "p-my-name-is", "phrase": "My name is...", "meaningVi": "Tên tôi là...", "ipa": "/maɪ neɪm ɪz/", "usage": "Cách giới thiệu tên phổ biến nhất" },
-        { "id": "p-im", "phrase": "I'm...", "meaningVi": "Tôi là...", "ipa": "/aɪm/", "usage": "Cách nói tắt thân mật hơn 'My name is'" },
-        { "id": "p-whats-your-name", "phrase": "What's your name?", "meaningVi": "Tên bạn là gì?", "ipa": "/wɑːts jʊr neɪm/", "usage": "Cách hỏi tên người khác" },
-        { "id": "p-call-me", "phrase": "You can call me...", "meaningVi": "Bạn có thể gọi tôi là...", "ipa": "/juː kæn kɔːl miː/", "usage": "Dùng khi muốn người khác gọi tên thân mật" }
-      ],
-      "dialogues": [
         {
-          "id": "d-intro-01-01", "title": "Introducing yourself", "titleVi": "Giới thiệu bản thân",
-          "situation": "Hai bạn mới gặp nhau ở lớp học.",
-          "lines": [
-            { "speaker": "Minh", "text": "Hello! My name is Minh.", "textVi": "Xin chào! Tên tôi là Minh.", "ipa": "/həˈloʊ maɪ neɪm ɪz mɪn/" },
-            { "speaker": "Emma", "text": "Hi Minh! I'm Emma. Nice to meet you!", "textVi": "Chào Minh! Tôi là Emma. Rất vui được gặp bạn!", "ipa": "/haɪ mɪn aɪm ˈɛmə naɪs tuː miːt juː/" },
-            { "speaker": "Minh", "text": "Nice to meet you too, Emma!", "textVi": "Mình cũng rất vui được gặp bạn, Emma!", "ipa": "/naɪs tuː miːt juː tuː ˈɛmə/" }
-          ]
+          "id": "v-introductions-1-1",
+          "word": "Name",
+          "meaningVi": "Tên",
+          "ipa": "/neɪm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "My name is Tom.",
+          "exampleSentenceVi": "Tên tôi là Tom."
+        },
+        {
+          "id": "v-introductions-1-2",
+          "word": "Age",
+          "meaningVi": "Tuổi",
+          "ipa": "/eɪdʒ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "What is your age?",
+          "exampleSentenceVi": "Tuổi của bạn là bao nhiêu?"
+        },
+        {
+          "id": "v-introductions-1-3",
+          "word": "Old",
+          "meaningVi": "Già, tuổi",
+          "ipa": "/oʊld/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I am 20 years old.",
+          "exampleSentenceVi": "Tôi 20 tuổi."
+        },
+        {
+          "id": "v-introductions-1-4",
+          "word": "Year",
+          "meaningVi": "Năm",
+          "ipa": "/jɪr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Happy new year.",
+          "exampleSentenceVi": "Chúc mừng năm mới."
+        },
+        {
+          "id": "v-introductions-1-5",
+          "word": "Live",
+          "meaningVi": "Sống",
+          "ipa": "/lɪv/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I live in a city.",
+          "exampleSentenceVi": "Tôi sống ở thành phố."
+        },
+        {
+          "id": "v-introductions-1-6",
+          "word": "From",
+          "meaningVi": "Từ",
+          "ipa": "/frʌm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Where are you from?",
+          "exampleSentenceVi": "Bạn đến từ đâu?"
+        },
+        {
+          "id": "v-introductions-1-7",
+          "word": "Country",
+          "meaningVi": "Quốc gia",
+          "ipa": "/ˈkʌntri/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Vietnam is my country.",
+          "exampleSentenceVi": "Việt Nam là quốc gia của tôi."
+        },
+        {
+          "id": "v-introductions-1-8",
+          "word": "Call",
+          "meaningVi": "Gọi",
+          "ipa": "/kɔːl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Please call me Tom.",
+          "exampleSentenceVi": "Xin hãy gọi tôi là Tom."
+        },
+        {
+          "id": "v-introductions-1-9",
+          "word": "First",
+          "meaningVi": "Đầu tiên",
+          "ipa": "/fɜːrst/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "My first name is John.",
+          "exampleSentenceVi": "Tên chính của tôi là John."
+        },
+        {
+          "id": "v-introductions-1-10",
+          "word": "Last",
+          "meaningVi": "Cuối cùng",
+          "ipa": "/læst/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "My last name is Smith.",
+          "exampleSentenceVi": "Họ của tôi là Smith."
         }
       ],
-      "practice": [
-        { "id": "q-intro-01-01", "type": "multiple-choice", "question": "How do you say your name in English?", "questionVi": "Bạn nói tên mình bằng tiếng Anh như thế nào?", "options": ["You name is...", "My name is...", "His name is...", "Her name is..."], "correctAnswer": 1, "explanation": "'My name is...' = Tên tôi là... 'My' = của tôi." },
-        { "id": "q-intro-01-02", "type": "fill-blank", "question": "_____ is your name?", "questionVi": "Điền từ để hỏi tên", "options": ["Where", "How", "What", "When"], "correctAnswer": 2, "explanation": "'What is your name?' = Tên bạn là gì? 'What' = cái gì." },
-        { "id": "q-intro-01-03", "type": "match-meaning", "question": "Match: 'I'm Anna'", "questionVi": "Nối nghĩa: 'I'm Anna'", "options": ["Bạn là Anna", "Tôi là Anna", "Cô ấy là Anna", "Anh ấy là Anna"], "correctAnswer": 1, "explanation": "'I'm Anna' = Tôi là Anna. 'I'm' = I am = Tôi là." },
-        { "id": "q-intro-01-04", "type": "multiple-choice", "question": "'I'm' is the short form of _____.", "questionVi": "'I'm' là viết tắt của _____.", "options": ["I was", "I am", "I have", "I will"], "correctAnswer": 1, "explanation": "'I'm' = 'I am'. Đây là dạng viết tắt (contraction) rất phổ biến." }
-      ]
+      "phrases": [
+        {
+          "id": "p-introductions-1-1",
+          "phrase": "What is your name?",
+          "meaningVi": "Tên bạn là gì?",
+          "ipa": "/wʌt ɪz jʊr neɪm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-1-2",
+          "phrase": "My name is...",
+          "meaningVi": "Tên tôi là...",
+          "ipa": "/maɪ neɪm ɪz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-1-3",
+          "phrase": "You can call me...",
+          "meaningVi": "Bạn có thể gọi tôi là...",
+          "ipa": "/juː kæn kɔːl miː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-1-4",
+          "phrase": "How old are you?",
+          "meaningVi": "Bạn bao nhiêu tuổi?",
+          "ipa": "/haʊ oʊld ɑːr juː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-1-5",
+          "phrase": "I am twenty years old.",
+          "meaningVi": "Tôi 20 tuổi.",
+          "ipa": "/aɪ æm ˈtwɛnti jɪrz oʊld/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-1-6",
+          "phrase": "Where are you from?",
+          "meaningVi": "Bạn đến từ đâu?",
+          "ipa": "/wɛr ɑːr juː frʌm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-1-7",
+          "phrase": "I am from Vietnam.",
+          "meaningVi": "Tôi đến từ Việt Nam.",
+          "ipa": "/aɪ æm frʌm ˌviːɛtˈnɑːm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-1-8",
+          "phrase": "Where do you live?",
+          "meaningVi": "Bạn sống ở đâu?",
+          "ipa": "/wɛr duː juː lɪv/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-1-9",
+          "phrase": "I live in Hanoi.",
+          "meaningVi": "Tôi sống ở Hà Nội.",
+          "ipa": "/aɪ lɪv ɪn hɑːˈnɔɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-1-10",
+          "phrase": "Let me introduce myself.",
+          "meaningVi": "Hãy để tôi tự giới thiệu.",
+          "ipa": "/lɛt miː ˌɪntrəˈduːs maɪˈsɛlf/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
     },
     {
-      "id": "intro-02",
-      "slug": "where-are-you-from",
+      "id": "introductions-2",
+      "slug": "lesson-2",
       "topicSlug": "introductions",
-      "title": "Where are you from?",
-      "titleVi": "Bạn đến từ đâu?",
+      "title": "Talking about Jobs",
+      "titleVi": "Kể về công việc",
       "order": 2,
       "vocabulary": [
-        { "id": "v-where", "word": "Where", "meaningVi": "Ở đâu", "ipa": "/wɛr/", "partOfSpeech": "adverb", "image": "/images/lessons/introductions/where.webp", "exampleSentence": "Where are you from?", "exampleSentenceVi": "Bạn đến từ đâu?" },
-        { "id": "v-from", "word": "From", "meaningVi": "Từ, đến từ", "ipa": "/frɑːm/", "partOfSpeech": "preposition", "image": "/images/lessons/introductions/from.webp", "exampleSentence": "I'm from Vietnam.", "exampleSentenceVi": "Tôi đến từ Việt Nam." },
-        { "id": "v-country", "word": "Country", "meaningVi": "Quốc gia, đất nước", "ipa": "/ˈkʌntri/", "partOfSpeech": "noun", "image": "/images/lessons/introductions/country.webp", "exampleSentence": "Vietnam is a beautiful country.", "exampleSentenceVi": "Việt Nam là một đất nước xinh đẹp." },
-        { "id": "v-city", "word": "City", "meaningVi": "Thành phố", "ipa": "/ˈsɪti/", "partOfSpeech": "noun", "image": "/images/lessons/introductions/city.webp", "exampleSentence": "I live in Ho Chi Minh City.", "exampleSentenceVi": "Tôi sống ở Thành phố Hồ Chí Minh." },
-        { "id": "v-live", "word": "Live", "meaningVi": "Sống, ở", "ipa": "/lɪv/", "partOfSpeech": "verb", "image": "/images/lessons/introductions/live.webp", "exampleSentence": "I live in Hanoi.", "exampleSentenceVi": "Tôi sống ở Hà Nội." }
-      ],
-      "phrases": [
-        { "id": "p-where-are-you-from", "phrase": "Where are you from?", "meaningVi": "Bạn đến từ đâu?", "ipa": "/wɛr ɑːr juː frɑːm/", "usage": "Hỏi quốc gia hoặc thành phố của người khác" },
-        { "id": "p-im-from", "phrase": "I'm from Vietnam.", "meaningVi": "Tôi đến từ Việt Nam.", "ipa": "/aɪm frɑːm ˌviːɛtˈnɑːm/", "usage": "Trả lời về quê hương" },
-        { "id": "p-i-live-in", "phrase": "I live in Ho Chi Minh City.", "meaningVi": "Tôi sống ở TP. Hồ Chí Minh.", "ipa": "/aɪ lɪv ɪn hoʊ tʃiː mɪn ˈsɪti/", "usage": "Nói nơi bạn đang sống" }
-      ],
-      "dialogues": [
         {
-          "id": "d-intro-02-01", "title": "Where are you from?", "titleVi": "Bạn đến từ đâu?",
-          "situation": "Lan nói chuyện với bạn mới tên Jack ở quán café.",
-          "lines": [
-            { "speaker": "Lan", "text": "Hi Jack! Where are you from?", "textVi": "Chào Jack! Bạn đến từ đâu?", "ipa": "/haɪ dʒæk wɛr ɑːr juː frɑːm/" },
-            { "speaker": "Jack", "text": "I'm from the United States. And you?", "textVi": "Mình đến từ Mỹ. Còn bạn?", "ipa": "/aɪm frɑːm ðə juːˈnaɪtɪd steɪts ænd juː/" },
-            { "speaker": "Lan", "text": "I'm from Vietnam. I live in Hanoi.", "textVi": "Mình đến từ Việt Nam. Mình sống ở Hà Nội.", "ipa": "/aɪm frɑːm ˌviːɛtˈnɑːm aɪ lɪv ɪn hæˈnɔɪ/" },
-            { "speaker": "Jack", "text": "That's great! Hanoi is a beautiful city.", "textVi": "Tuyệt vời! Hà Nội là thành phố xinh đẹp.", "ipa": "/ðæts ɡreɪt hæˈnɔɪ ɪz ə ˈbjuːtɪfəl ˈsɪti/" }
-          ]
+          "id": "v-introductions-2-1",
+          "word": "Job",
+          "meaningVi": "Công việc",
+          "ipa": "/dʒɑːb/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I have a good job.",
+          "exampleSentenceVi": "Tôi có một công việc tốt."
+        },
+        {
+          "id": "v-introductions-2-2",
+          "word": "Work",
+          "meaningVi": "Làm việc",
+          "ipa": "/wɜːrk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I work every day.",
+          "exampleSentenceVi": "Tôi làm việc mỗi ngày."
+        },
+        {
+          "id": "v-introductions-2-3",
+          "word": "Student",
+          "meaningVi": "Học sinh",
+          "ipa": "/ˈstuːdnt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "She is a student.",
+          "exampleSentenceVi": "Cô ấy là một học sinh."
+        },
+        {
+          "id": "v-introductions-2-4",
+          "word": "Teacher",
+          "meaningVi": "Giáo viên",
+          "ipa": "/ˈtiːtʃər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "My teacher is nice.",
+          "exampleSentenceVi": "Giáo viên của tôi rất tốt."
+        },
+        {
+          "id": "v-introductions-2-5",
+          "word": "Doctor",
+          "meaningVi": "Bác sĩ",
+          "ipa": "/ˈdɑːktər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "He is a doctor.",
+          "exampleSentenceVi": "Ông ấy là một bác sĩ."
+        },
+        {
+          "id": "v-introductions-2-6",
+          "word": "Engineer",
+          "meaningVi": "Kỹ sư",
+          "ipa": "/ˌɛndʒɪˈnɪr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "An engineer builds things.",
+          "exampleSentenceVi": "Một kỹ sư xây dựng các thứ."
+        },
+        {
+          "id": "v-introductions-2-7",
+          "word": "Office",
+          "meaningVi": "Văn phòng",
+          "ipa": "/ˈɔːfɪs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I work in an office.",
+          "exampleSentenceVi": "Tôi làm việc trong văn phòng."
+        },
+        {
+          "id": "v-introductions-2-8",
+          "word": "Company",
+          "meaningVi": "Công ty",
+          "ipa": "/ˈkʌmpəni/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "This is a big company.",
+          "exampleSentenceVi": "Đây là một công ty lớn."
+        },
+        {
+          "id": "v-introductions-2-9",
+          "word": "Boss",
+          "meaningVi": "Sếp",
+          "ipa": "/bɔːs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "My boss is strict.",
+          "exampleSentenceVi": "Sếp tôi rất nghiêm khắc."
+        },
+        {
+          "id": "v-introductions-2-10",
+          "word": "Manager",
+          "meaningVi": "Quản lý",
+          "ipa": "/ˈmænɪdʒər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "He is the manager.",
+          "exampleSentenceVi": "Anh ấy là người quản lý."
         }
       ],
-      "practice": [
-        { "id": "q-intro-02-01", "type": "fill-blank", "question": "_____ are you from?", "questionVi": "Điền từ để hỏi quê quán", "options": ["What", "How", "Where", "When"], "correctAnswer": 2, "explanation": "'Where are you from?' = Bạn đến từ đâu? 'Where' = ở đâu." },
-        { "id": "q-intro-02-02", "type": "multiple-choice", "question": "I'm _____ Vietnam.", "questionVi": "Chọn giới từ đúng", "options": ["in", "at", "from", "to"], "correctAnswer": 2, "explanation": "'I'm from Vietnam' = Tôi đến từ Việt Nam. 'From' = từ, đến từ." },
-        { "id": "q-intro-02-03", "type": "match-meaning", "question": "Match: 'Country'", "questionVi": "Nối nghĩa: 'Country'", "options": ["Thành phố", "Quốc gia", "Đường phố", "Trường học"], "correctAnswer": 1, "explanation": "'Country' = Quốc gia, đất nước." },
-        { "id": "q-intro-02-04", "type": "multiple-choice", "question": "I _____ in Ho Chi Minh City.", "questionVi": "Điền động từ đúng", "options": ["am", "is", "live", "from"], "correctAnswer": 2, "explanation": "'I live in...' = Tôi sống ở... 'Live' = sống." }
-      ]
+      "phrases": [
+        {
+          "id": "p-introductions-2-1",
+          "phrase": "What do you do?",
+          "meaningVi": "Bạn làm nghề gì?",
+          "ipa": "/wʌt duː juː duː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-2-2",
+          "phrase": "I am a student.",
+          "meaningVi": "Tôi là một học sinh/sinh viên.",
+          "ipa": "/aɪ æm ə ˈstuːdnt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-2-3",
+          "phrase": "I work as a teacher.",
+          "meaningVi": "Tôi làm nghề giáo viên.",
+          "ipa": "/aɪ wɜːrk æz ə ˈtiːtʃər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-2-4",
+          "phrase": "Where do you work?",
+          "meaningVi": "Bạn làm việc ở đâu?",
+          "ipa": "/wɛr duː juː wɜːrk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-2-5",
+          "phrase": "I work for a tech company.",
+          "meaningVi": "Tôi làm cho một công ty công nghệ.",
+          "ipa": "/aɪ wɜːrk fɔːr ə tɛk ˈkʌmpəni/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-2-6",
+          "phrase": "I work in an office.",
+          "meaningVi": "Tôi làm việc trong văn phòng.",
+          "ipa": "/aɪ wɜːrk ɪn ən ˈɔːfɪs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-2-7",
+          "phrase": "Do you like your job?",
+          "meaningVi": "Bạn có thích công việc của mình không?",
+          "ipa": "/duː juː laɪk jʊr dʒɑːb/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-2-8",
+          "phrase": "I love my work.",
+          "meaningVi": "Tôi yêu công việc của mình.",
+          "ipa": "/aɪ lʌv maɪ wɜːrk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-2-9",
+          "phrase": "I am looking for a job.",
+          "meaningVi": "Tôi đang tìm việc.",
+          "ipa": "/aɪ æm ˈlʊkɪŋ fɔːr ə dʒɑːb/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-2-10",
+          "phrase": "I am unemployed right now.",
+          "meaningVi": "Hiện tại tôi đang thất nghiệp.",
+          "ipa": "/aɪ æm ˌʌnɪmˈplɔɪd raɪt naʊ/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
     },
     {
-      "id": "intro-03",
-      "slug": "i-am-a",
+      "id": "introductions-3",
+      "slug": "lesson-3",
       "topicSlug": "introductions",
-      "title": "I am a...",
-      "titleVi": "Tôi là một...",
+      "title": "Family & Relatives",
+      "titleVi": "Giới thiệu gia đình",
       "order": 3,
       "vocabulary": [
-        { "id": "v-student", "word": "Student", "meaningVi": "Sinh viên, học sinh", "ipa": "/ˈstuːdənt/", "partOfSpeech": "noun", "image": "/images/lessons/introductions/student.webp", "exampleSentence": "I am a student.", "exampleSentenceVi": "Tôi là sinh viên." },
-        { "id": "v-teacher", "word": "Teacher", "meaningVi": "Giáo viên", "ipa": "/ˈtiːtʃər/", "partOfSpeech": "noun", "image": "/images/lessons/introductions/teacher.webp", "exampleSentence": "She is a teacher.", "exampleSentenceVi": "Cô ấy là giáo viên." },
-        { "id": "v-doctor", "word": "Doctor", "meaningVi": "Bác sĩ", "ipa": "/ˈdɑːktər/", "partOfSpeech": "noun", "image": "/images/lessons/introductions/doctor.webp", "exampleSentence": "He is a doctor.", "exampleSentenceVi": "Anh ấy là bác sĩ." },
-        { "id": "v-engineer", "word": "Engineer", "meaningVi": "Kỹ sư", "ipa": "/ˌɛndʒɪˈnɪr/", "partOfSpeech": "noun", "image": "/images/lessons/introductions/engineer.webp", "exampleSentence": "I am an engineer.", "exampleSentenceVi": "Tôi là kỹ sư." },
-        { "id": "v-worker", "word": "Worker", "meaningVi": "Công nhân", "ipa": "/ˈwɜːrkər/", "partOfSpeech": "noun", "image": "/images/lessons/introductions/worker.webp", "exampleSentence": "He is a worker.", "exampleSentenceVi": "Anh ấy là công nhân." }
-      ],
-      "phrases": [
-        { "id": "p-i-am-a", "phrase": "I am a student.", "meaningVi": "Tôi là sinh viên.", "ipa": "/aɪ æm ə ˈstuːdənt/", "usage": "Nói về nghề nghiệp của mình" },
-        { "id": "p-what-do-you-do", "phrase": "What do you do?", "meaningVi": "Bạn làm nghề gì?", "ipa": "/wɑːt duː juː duː/", "usage": "Hỏi nghề nghiệp ai đó" },
-        { "id": "p-i-work-as", "phrase": "I work as a teacher.", "meaningVi": "Tôi làm việc như một giáo viên.", "ipa": "/aɪ wɜːrk æz ə ˈtiːtʃər/", "usage": "Cách khác để nói về nghề nghiệp" }
-      ],
-      "dialogues": [
         {
-          "id": "d-intro-03-01", "title": "Talking about jobs", "titleVi": "Nói về nghề nghiệp",
-          "situation": "Hai người mới quen nói về công việc.",
-          "lines": [
-            { "speaker": "Trang", "text": "What do you do, Mark?", "textVi": "Bạn làm nghề gì, Mark?", "ipa": "/wɑːt duː juː duː mɑːrk/" },
-            { "speaker": "Mark", "text": "I'm a doctor. And you?", "textVi": "Mình là bác sĩ. Còn bạn?", "ipa": "/aɪm ə ˈdɑːktər ænd juː/" },
-            { "speaker": "Trang", "text": "I'm an engineer. I work in Ho Chi Minh City.", "textVi": "Mình là kỹ sư. Mình làm việc ở TP. HCM.", "ipa": "/aɪm ən ˌɛndʒɪˈnɪr aɪ wɜːrk ɪn hoʊ tʃiː mɪn ˈsɪti/" },
-            { "speaker": "Mark", "text": "That's cool!", "textVi": "Tuyệt vời!", "ipa": "/ðæts kuːl/" }
-          ]
+          "id": "v-introductions-3-1",
+          "word": "Family",
+          "meaningVi": "Gia đình",
+          "ipa": "/ˈfæməli/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "My family is small.",
+          "exampleSentenceVi": "Gia đình tôi nhỏ."
+        },
+        {
+          "id": "v-introductions-3-2",
+          "word": "Parent",
+          "meaningVi": "Phụ huynh",
+          "ipa": "/ˈpɛrənt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Listen to your parents.",
+          "exampleSentenceVi": "Hãy nghe lời bố mẹ."
+        },
+        {
+          "id": "v-introductions-3-3",
+          "word": "Father",
+          "meaningVi": "Bố",
+          "ipa": "/ˈfɑːðər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "My father is tall.",
+          "exampleSentenceVi": "Bố tôi cao."
+        },
+        {
+          "id": "v-introductions-3-4",
+          "word": "Mother",
+          "meaningVi": "Mẹ",
+          "ipa": "/ˈmʌðər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "My mother is kind.",
+          "exampleSentenceVi": "Mẹ tôi hiền lành."
+        },
+        {
+          "id": "v-introductions-3-5",
+          "word": "Sibling",
+          "meaningVi": "Anh chị em",
+          "ipa": "/ˈsɪblɪŋ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Do you have siblings?",
+          "exampleSentenceVi": "Bạn có anh chị em không?"
+        },
+        {
+          "id": "v-introductions-3-6",
+          "word": "Brother",
+          "meaningVi": "Anh/em trai",
+          "ipa": "/ˈbrʌðər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "My brother is young.",
+          "exampleSentenceVi": "Em trai tôi còn trẻ."
+        },
+        {
+          "id": "v-introductions-3-7",
+          "word": "Sister",
+          "meaningVi": "Chị/em gái",
+          "ipa": "/ˈsɪstər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I have one sister.",
+          "exampleSentenceVi": "Tôi có một người chị/em gái."
+        },
+        {
+          "id": "v-introductions-3-8",
+          "word": "Married",
+          "meaningVi": "Đã kết hôn",
+          "ipa": "/ˈmærid/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Are you married?",
+          "exampleSentenceVi": "Bạn đã kết hôn chưa?"
+        },
+        {
+          "id": "v-introductions-3-9",
+          "word": "Single",
+          "meaningVi": "Độc thân",
+          "ipa": "/ˈsɪŋɡl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I am single.",
+          "exampleSentenceVi": "Tôi đang độc thân."
+        },
+        {
+          "id": "v-introductions-3-10",
+          "word": "Child",
+          "meaningVi": "Trẻ con",
+          "ipa": "/tʃaɪld/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "They have one child.",
+          "exampleSentenceVi": "Họ có một đứa con."
         }
       ],
-      "practice": [
-        { "id": "q-intro-03-01", "type": "multiple-choice", "question": "How do you ask about someone's job?", "questionVi": "Bạn hỏi nghề nghiệp ai đó như thế nào?", "options": ["Where are you?", "What do you do?", "How are you?", "Who are you?"], "correctAnswer": 1, "explanation": "'What do you do?' = Bạn làm nghề gì?" },
-        { "id": "q-intro-03-02", "type": "fill-blank", "question": "I am _____ engineer.", "questionVi": "Điền mạo từ đúng", "options": ["a", "an", "the", "is"], "correctAnswer": 1, "explanation": "'An' dùng trước từ bắt đầu bằng nguyên âm (a, e, i, o, u). Engineer bắt đầu bằng 'e' → an engineer." },
-        { "id": "q-intro-03-03", "type": "match-meaning", "question": "Match: 'Doctor'", "questionVi": "Nối nghĩa: 'Doctor'", "options": ["Giáo viên", "Kỹ sư", "Bác sĩ", "Sinh viên"], "correctAnswer": 2, "explanation": "'Doctor' = Bác sĩ." },
-        { "id": "q-intro-03-04", "type": "multiple-choice", "question": "She _____ a teacher.", "questionVi": "Chọn 'to be' đúng", "options": ["am", "is", "are", "do"], "correctAnswer": 1, "explanation": "'She is a teacher.' I am / You are / He-She-It is." }
-      ]
+      "phrases": [
+        {
+          "id": "p-introductions-3-1",
+          "phrase": "Tell me about your family.",
+          "meaningVi": "Hãy kể cho tôi về gia đình bạn.",
+          "ipa": "/tɛl miː əˈbaʊt jʊr ˈfæməli/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-3-2",
+          "phrase": "I have a big family.",
+          "meaningVi": "Tôi có một gia đình lớn.",
+          "ipa": "/aɪ hæv ə bɪɡ ˈfæməli/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-3-3",
+          "phrase": "There are four people in my family.",
+          "meaningVi": "Có 4 người trong gia đình tôi.",
+          "ipa": "/ðɛr ɑːr fɔːr ˈpiːpl ɪn maɪ ˈfæməli/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-3-4",
+          "phrase": "Do you have any brothers or sisters?",
+          "meaningVi": "Bạn có anh chị em nào không?",
+          "ipa": "/duː juː hæv ˈɛni ˈbrʌðərz ɔːr ˈsɪstərz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-3-5",
+          "phrase": "I am an only child.",
+          "meaningVi": "Tôi là con một.",
+          "ipa": "/aɪ æm ən ˈoʊnli tʃaɪld/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-3-6",
+          "phrase": "I have an older brother.",
+          "meaningVi": "Tôi có một anh trai.",
+          "ipa": "/aɪ hæv ən ˈoʊldər ˈbrʌðər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-3-7",
+          "phrase": "I have a younger sister.",
+          "meaningVi": "Tôi có một em gái.",
+          "ipa": "/aɪ hæv ə ˈjʌŋər ˈsɪstər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-3-8",
+          "phrase": "Are you married or single?",
+          "meaningVi": "Bạn đã kết hôn hay còn độc thân?",
+          "ipa": "/ɑːr juː ˈmærid ɔːr ˈsɪŋɡl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-3-9",
+          "phrase": "I am married with two kids.",
+          "meaningVi": "Tôi đã kết hôn và có hai con.",
+          "ipa": "/aɪ æm ˈmærid wɪð tuː kɪdz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-3-10",
+          "phrase": "I live with my parents.",
+          "meaningVi": "Tôi sống cùng bố mẹ.",
+          "ipa": "/aɪ lɪv wɪð maɪ ˈpɛrənts/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
     },
     {
-      "id": "intro-04",
-      "slug": "numbers-and-age",
+      "id": "introductions-4",
+      "slug": "lesson-4",
       "topicSlug": "introductions",
-      "title": "Numbers & Age",
-      "titleVi": "Số đếm & Tuổi",
+      "title": "Hobbies",
+      "titleVi": "Sở thích cá nhân",
       "order": 4,
       "vocabulary": [
-        { "id": "v-one", "word": "One", "meaningVi": "Một (1)", "ipa": "/wʌn/", "partOfSpeech": "noun", "image": "/images/lessons/introductions/one.webp", "exampleSentence": "I have one brother.", "exampleSentenceVi": "Tôi có một anh trai." },
-        { "id": "v-two", "word": "Two", "meaningVi": "Hai (2)", "ipa": "/tuː/", "partOfSpeech": "noun", "image": "/images/lessons/introductions/two.webp", "exampleSentence": "I have two sisters.", "exampleSentenceVi": "Tôi có hai chị gái." },
-        { "id": "v-ten", "word": "Ten", "meaningVi": "Mười (10)", "ipa": "/tɛn/", "partOfSpeech": "noun", "image": "/images/lessons/introductions/ten.webp", "exampleSentence": "I have ten fingers.", "exampleSentenceVi": "Tôi có mười ngón tay." },
-        { "id": "v-old", "word": "Old", "meaningVi": "Già, tuổi", "ipa": "/oʊld/", "partOfSpeech": "adjective", "image": "/images/lessons/introductions/old.webp", "exampleSentence": "How old are you?", "exampleSentenceVi": "Bạn bao nhiêu tuổi?" },
-        { "id": "v-year", "word": "Year", "meaningVi": "Năm, tuổi", "ipa": "/jɪr/", "partOfSpeech": "noun", "image": "/images/lessons/introductions/year.webp", "exampleSentence": "I am 25 years old.", "exampleSentenceVi": "Tôi 25 tuổi." }
-      ],
-      "phrases": [
-        { "id": "p-how-old", "phrase": "How old are you?", "meaningVi": "Bạn bao nhiêu tuổi?", "ipa": "/haʊ oʊld ɑːr juː/", "usage": "Hỏi tuổi ai đó" },
-        { "id": "p-i-am-years-old", "phrase": "I am 25 years old.", "meaningVi": "Tôi 25 tuổi.", "ipa": "/aɪ æm ˈtwɛnti faɪv jɪrz oʊld/", "usage": "Nói tuổi của mình" },
-        { "id": "p-number-phone", "phrase": "What's your phone number?", "meaningVi": "Số điện thoại bạn là gì?", "ipa": "/wɑːts jʊr foʊn ˈnʌmbər/", "usage": "Hỏi số điện thoại" }
-      ],
-      "dialogues": [
         {
-          "id": "d-intro-04-01", "title": "Asking about age", "titleVi": "Hỏi về tuổi",
-          "situation": "Hai bạn mới quen trò chuyện.",
-          "lines": [
-            { "speaker": "Huy", "text": "How old are you, Lisa?", "textVi": "Bạn bao nhiêu tuổi, Lisa?", "ipa": "/haʊ oʊld ɑːr juː ˈliːsə/" },
-            { "speaker": "Lisa", "text": "I'm twenty-three years old. And you?", "textVi": "Mình 23 tuổi. Còn bạn?", "ipa": "/aɪm ˈtwɛnti θriː jɪrz oʊld ænd juː/" },
-            { "speaker": "Huy", "text": "I'm twenty-five.", "textVi": "Mình 25 tuổi.", "ipa": "/aɪm ˈtwɛnti faɪv/" }
-          ]
+          "id": "v-introductions-4-1",
+          "word": "Hobby",
+          "meaningVi": "Sở thích",
+          "ipa": "/ˈhɑːbi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "What is your hobby?",
+          "exampleSentenceVi": "Sở thích của bạn là gì?"
+        },
+        {
+          "id": "v-introductions-4-2",
+          "word": "Free",
+          "meaningVi": "Tự do, rảnh",
+          "ipa": "/friː/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "In my free time.",
+          "exampleSentenceVi": "Trong thời gian rảnh của tôi."
+        },
+        {
+          "id": "v-introductions-4-3",
+          "word": "Read",
+          "meaningVi": "Đọc",
+          "ipa": "/riːd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I read books.",
+          "exampleSentenceVi": "Tôi đọc sách."
+        },
+        {
+          "id": "v-introductions-4-4",
+          "word": "Book",
+          "meaningVi": "Sách",
+          "ipa": "/bʊk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "This is a good book.",
+          "exampleSentenceVi": "Đây là một quyển sách hay."
+        },
+        {
+          "id": "v-introductions-4-5",
+          "word": "Music",
+          "meaningVi": "Âm nhạc",
+          "ipa": "/ˈmjuːzɪk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I love music.",
+          "exampleSentenceVi": "Tôi yêu âm nhạc."
+        },
+        {
+          "id": "v-introductions-4-6",
+          "word": "Play",
+          "meaningVi": "Chơi",
+          "ipa": "/pleɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I play soccer.",
+          "exampleSentenceVi": "Tôi chơi bóng đá."
+        },
+        {
+          "id": "v-introductions-4-7",
+          "word": "Sport",
+          "meaningVi": "Thể thao",
+          "ipa": "/spɔːrt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Do you like sports?",
+          "exampleSentenceVi": "Bạn có thích thể thao không?"
+        },
+        {
+          "id": "v-introductions-4-8",
+          "word": "Watch",
+          "meaningVi": "Xem",
+          "ipa": "/wɑːtʃ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I watch movies.",
+          "exampleSentenceVi": "Tôi xem phim."
+        },
+        {
+          "id": "v-introductions-4-9",
+          "word": "Movie",
+          "meaningVi": "Phim ảnh",
+          "ipa": "/ˈmuːvi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "That movie is sad.",
+          "exampleSentenceVi": "Bộ phim đó rất buồn."
+        },
+        {
+          "id": "v-introductions-4-10",
+          "word": "Cook",
+          "meaningVi": "Nấu ăn",
+          "ipa": "/kʊk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I can cook well.",
+          "exampleSentenceVi": "Tôi nấu ăn ngon."
         }
       ],
-      "practice": [
-        { "id": "q-intro-04-01", "type": "multiple-choice", "question": "How do you ask someone's age?", "questionVi": "Hỏi tuổi ai đó như thế nào?", "options": ["What is your name?", "Where are you from?", "How old are you?", "What do you do?"], "correctAnswer": 2, "explanation": "'How old are you?' = Bạn bao nhiêu tuổi?" },
-        { "id": "q-intro-04-02", "type": "fill-blank", "question": "I am 30 _____ old.", "questionVi": "Điền từ thích hợp", "options": ["days", "months", "years", "times"], "correctAnswer": 2, "explanation": "'I am 30 years old.' = Tôi 30 tuổi. 'Years' = năm/tuổi." },
-        { "id": "q-intro-04-03", "type": "match-meaning", "question": "Match: 'Twenty'", "questionVi": "Nối nghĩa: 'Twenty'", "options": ["12", "20", "22", "2"], "correctAnswer": 1, "explanation": "'Twenty' = 20. 'Twelve' = 12, 'Twenty-two' = 22." },
-        { "id": "q-intro-04-04", "type": "multiple-choice", "question": "What number comes after 'nine'?", "questionVi": "Số nào đứng sau 'nine'?", "options": ["Eight", "Ten", "Seven", "Eleven"], "correctAnswer": 1, "explanation": "Nine (9) → Ten (10). 'Ten' đứng sau 'Nine'." }
-      ]
+      "phrases": [
+        {
+          "id": "p-introductions-4-1",
+          "phrase": "What do you do in your free time?",
+          "meaningVi": "Bạn làm gì vào thời gian rảnh?",
+          "ipa": "/wʌt duː juː duː ɪn jʊr friː taɪm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-4-2",
+          "phrase": "What are your hobbies?",
+          "meaningVi": "Sở thích của bạn là gì?",
+          "ipa": "/wʌt ɑːr jʊr ˈhɑːbiz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-4-3",
+          "phrase": "I like reading books.",
+          "meaningVi": "Tôi thích đọc sách.",
+          "ipa": "/aɪ laɪk ˈriːdɪŋ bʊks/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-4-4",
+          "phrase": "I enjoy listening to music.",
+          "meaningVi": "Tôi thích nghe nhạc.",
+          "ipa": "/aɪ ɪnˈdʒɔɪ ˈlɪsənɪŋ tuː ˈmjuːzɪk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-4-5",
+          "phrase": "I am interested in sports.",
+          "meaningVi": "Tôi quan tâm đến thể thao.",
+          "ipa": "/aɪ æm ˈɪntrəstɪd ɪn spɔːrts/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-4-6",
+          "phrase": "I play soccer on weekends.",
+          "meaningVi": "Tôi đá bóng vào cuối tuần.",
+          "ipa": "/aɪ pleɪ ˈsɑːkər ɑːn ˈwiːkɛndz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-4-7",
+          "phrase": "I love watching movies.",
+          "meaningVi": "Tôi yêu thích xem phim.",
+          "ipa": "/aɪ lʌv ˈwɑːtʃɪŋ ˈmuːviz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-4-8",
+          "phrase": "Cooking is my passion.",
+          "meaningVi": "Nấu ăn là đam mê của tôi.",
+          "ipa": "/ˈkʊkɪŋ ɪz maɪ ˈpæʃn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-4-9",
+          "phrase": "I don't have much free time.",
+          "meaningVi": "Tôi không có nhiều thời gian rảnh.",
+          "ipa": "/aɪ doʊnt hæv mʌtʃ friː taɪm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-4-10",
+          "phrase": "Let's play together sometime.",
+          "meaningVi": "Khi nào rảnh cùng chơi nhé.",
+          "ipa": "/lɛts pleɪ təˈɡɛðər ˈsʌmtaɪm/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "introductions-5",
+      "slug": "lesson-5",
+      "topicSlug": "introductions",
+      "title": "Hometown",
+      "titleVi": "Quê quán",
+      "order": 5,
+      "vocabulary": [
+        {
+          "id": "v-introductions-5-1",
+          "word": "Hometown",
+          "meaningVi": "Quê quán",
+          "ipa": "/ˈhoʊmtaʊn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "My hometown is beautiful.",
+          "exampleSentenceVi": "Quê tôi rất đẹp."
+        },
+        {
+          "id": "v-introductions-5-2",
+          "word": "City",
+          "meaningVi": "Thành phố",
+          "ipa": "/ˈsɪti/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I live in a big city.",
+          "exampleSentenceVi": "Tôi sống ở một thành phố lớn."
+        },
+        {
+          "id": "v-introductions-5-3",
+          "word": "Village",
+          "meaningVi": "Ngôi làng",
+          "ipa": "/ˈvɪlɪdʒ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "It is a quiet village.",
+          "exampleSentenceVi": "Đó là một ngôi làng yên tĩnh."
+        },
+        {
+          "id": "v-introductions-5-4",
+          "word": "Beautiful",
+          "meaningVi": "Xinh đẹp",
+          "ipa": "/ˈbjuːtɪfl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The view is beautiful.",
+          "exampleSentenceVi": "Cảnh vật thật xinh đẹp."
+        },
+        {
+          "id": "v-introductions-5-5",
+          "word": "Quiet",
+          "meaningVi": "Yên tĩnh",
+          "ipa": "/ˈkwaɪət/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "It is very quiet here.",
+          "exampleSentenceVi": "Nơi này rất yên tĩnh."
+        },
+        {
+          "id": "v-introductions-5-6",
+          "word": "Noisy",
+          "meaningVi": "Ồn ào",
+          "ipa": "/ˈnɔɪzi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The street is noisy.",
+          "exampleSentenceVi": "Con phố này rất ồn ào."
+        },
+        {
+          "id": "v-introductions-5-7",
+          "word": "Crowded",
+          "meaningVi": "Đông đúc",
+          "ipa": "/ˈkraʊdɪd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The market is crowded.",
+          "exampleSentenceVi": "Khu chợ rất đông đúc."
+        },
+        {
+          "id": "v-introductions-5-8",
+          "word": "Modern",
+          "meaningVi": "Hiện đại",
+          "ipa": "/ˈmɑːdərn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A modern building.",
+          "exampleSentenceVi": "Một tòa nhà hiện đại."
+        },
+        {
+          "id": "v-introductions-5-9",
+          "word": "Famous",
+          "meaningVi": "Nổi tiếng",
+          "ipa": "/ˈfeɪməs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "It is famous for food.",
+          "exampleSentenceVi": "Nó nổi tiếng vì thức ăn."
+        },
+        {
+          "id": "v-introductions-5-10",
+          "word": "Visit",
+          "meaningVi": "Thăm",
+          "ipa": "/ˈvɪzɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "You should visit it.",
+          "exampleSentenceVi": "Bạn nên đến thăm nó."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-introductions-5-1",
+          "phrase": "Tell me about your hometown.",
+          "meaningVi": "Kể cho tôi nghe về quê bạn đi.",
+          "ipa": "/tɛl miː əˈbaʊt jʊr ˈhoʊmtaʊn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-5-2",
+          "phrase": "It is a small village.",
+          "meaningVi": "Đó là một ngôi làng nhỏ.",
+          "ipa": "/ɪt ɪz ə smɔːl ˈvɪlɪdʒ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-5-3",
+          "phrase": "It is a big and busy city.",
+          "meaningVi": "Đó là một thành phố lớn và bận rộn.",
+          "ipa": "/ɪt ɪz ə bɪɡ ænd ˈbɪzi ˈsɪti/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-5-4",
+          "phrase": "My hometown is very beautiful.",
+          "meaningVi": "Quê tôi rất đẹp.",
+          "ipa": "/maɪ ˈhoʊmtaʊn ɪz ˈvɛri ˈbjuːtɪfl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-5-5",
+          "phrase": "What is it famous for?",
+          "meaningVi": "Nơi đó nổi tiếng về cái gì?",
+          "ipa": "/wʌt ɪz ɪt ˈfeɪməs fɔːr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-5-6",
+          "phrase": "It is famous for its beaches.",
+          "meaningVi": "Nơi đó nổi tiếng với những bãi biển.",
+          "ipa": "/ɪt ɪz ˈfeɪməs fɔːr ɪts ˈbiːtʃɪz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-5-7",
+          "phrase": "The weather there is nice.",
+          "meaningVi": "Thời tiết ở đó rất dễ chịu.",
+          "ipa": "/ðə ˈwɛðər ðɛr ɪz naɪs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-5-8",
+          "phrase": "The people are very friendly.",
+          "meaningVi": "Mọi người rất thân thiện.",
+          "ipa": "/ðə ˈpiːpl ɑːr ˈvɛri ˈfrɛndli/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-5-9",
+          "phrase": "I miss my hometown.",
+          "meaningVi": "Tôi nhớ quê nhà.",
+          "ipa": "/aɪ mɪs maɪ ˈhoʊmtaʊn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-5-10",
+          "phrase": "You should visit my hometown someday.",
+          "meaningVi": "Một ngày nào đó bạn nên đến thăm quê tôi.",
+          "ipa": "/juː ʃʊd ˈvɪzɪt maɪ ˈhoʊmtaʊn ˈsʌmdeɪ/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "introductions-6",
+      "slug": "lesson-6",
+      "topicSlug": "introductions",
+      "title": "Education",
+      "titleVi": "Học vấn",
+      "order": 6,
+      "vocabulary": [
+        {
+          "id": "v-introductions-6-1",
+          "word": "School",
+          "meaningVi": "Trường học",
+          "ipa": "/skuːl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I go to school.",
+          "exampleSentenceVi": "Tôi đi đến trường."
+        },
+        {
+          "id": "v-introductions-6-2",
+          "word": "University",
+          "meaningVi": "Đại học",
+          "ipa": "/ˌjuːnɪˈvɜːrsəti/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "She is at university.",
+          "exampleSentenceVi": "Cô ấy đang học đại học."
+        },
+        {
+          "id": "v-introductions-6-3",
+          "word": "Major",
+          "meaningVi": "Chuyên ngành",
+          "ipa": "/ˈmeɪdʒər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "What is your major?",
+          "exampleSentenceVi": "Chuyên ngành của bạn là gì?"
+        },
+        {
+          "id": "v-introductions-6-4",
+          "word": "Study",
+          "meaningVi": "Học tập",
+          "ipa": "/ˈstʌdi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I study English.",
+          "exampleSentenceVi": "Tôi học tiếng Anh."
+        },
+        {
+          "id": "v-introductions-6-5",
+          "word": "Graduate",
+          "meaningVi": "Tốt nghiệp",
+          "ipa": "/ˈɡrædʒueɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I will graduate soon.",
+          "exampleSentenceVi": "Tôi sẽ sớm tốt nghiệp."
+        },
+        {
+          "id": "v-introductions-6-6",
+          "word": "Degree",
+          "meaningVi": "Bằng cấp",
+          "ipa": "/dɪˈɡriː/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I have a master degree.",
+          "exampleSentenceVi": "Tôi có bằng thạc sĩ."
+        },
+        {
+          "id": "v-introductions-6-7",
+          "word": "Subject",
+          "meaningVi": "Môn học",
+          "ipa": "/ˈsʌbdʒɪkt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Math is a hard subject.",
+          "exampleSentenceVi": "Toán là môn khó."
+        },
+        {
+          "id": "v-introductions-6-8",
+          "word": "English",
+          "meaningVi": "Tiếng Anh",
+          "ipa": "/ˈɪŋɡlɪʃ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "English is useful.",
+          "exampleSentenceVi": "Tiếng Anh rất hữu ích."
+        },
+        {
+          "id": "v-introductions-6-9",
+          "word": "Learn",
+          "meaningVi": "Học",
+          "ipa": "/lɜːrn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I want to learn.",
+          "exampleSentenceVi": "Tôi muốn học hỏi."
+        },
+        {
+          "id": "v-introductions-6-10",
+          "word": "Exam",
+          "meaningVi": "Bài thi",
+          "ipa": "/ɪɡˈzæm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The exam is tomorrow.",
+          "exampleSentenceVi": "Bài kiểm tra diễn ra vào ngày mai."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-introductions-6-1",
+          "phrase": "Where did you study?",
+          "meaningVi": "Bạn đã học ở đâu?",
+          "ipa": "/wɛr dɪd juː ˈstʌdi/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-6-2",
+          "phrase": "I am studying at university.",
+          "meaningVi": "Tôi đang học đại học.",
+          "ipa": "/aɪ æm ˈstʌdiɪŋ æt ˌjuːnɪˈvɜːrsəti/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-6-3",
+          "phrase": "What is your major?",
+          "meaningVi": "Chuyên ngành của bạn là gì?",
+          "ipa": "/wʌt ɪz jʊr ˈmeɪdʒər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-6-4",
+          "phrase": "I major in Business.",
+          "meaningVi": "Tôi học chuyên ngành Kinh doanh.",
+          "ipa": "/aɪ ˈmeɪdʒər ɪn ˈbɪznəs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-6-5",
+          "phrase": "When did you graduate?",
+          "meaningVi": "Bạn tốt nghiệp khi nào?",
+          "ipa": "/wɛn dɪd juː ˈɡrædʒueɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-6-6",
+          "phrase": "I graduated last year.",
+          "meaningVi": "Tôi đã tốt nghiệp năm ngoái.",
+          "ipa": "/aɪ ˈɡrædʒueɪtɪd læst jɪr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-6-7",
+          "phrase": "What is your favorite subject?",
+          "meaningVi": "Môn học yêu thích của bạn là gì?",
+          "ipa": "/wʌt ɪz jʊr ˈfeɪvərɪt ˈsʌbdʒɪkt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-6-8",
+          "phrase": "I love learning English.",
+          "meaningVi": "Tôi thích học tiếng Anh.",
+          "ipa": "/aɪ lʌv ˈlɜːrnɪŋ ˈɪŋɡlɪʃ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-6-9",
+          "phrase": "I have a bachelor's degree.",
+          "meaningVi": "Tôi có bằng cử nhân.",
+          "ipa": "/aɪ hæv ə ˈbætʃəlqərz dɪˈɡriː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-6-10",
+          "phrase": "Good luck on your exam!",
+          "meaningVi": "Chúc bạn may mắn trong kỳ thi!",
+          "ipa": "/ɡʊd lʌk ɑːn jʊr ɪɡˈzæm/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "introductions-7",
+      "slug": "lesson-7",
+      "topicSlug": "introductions",
+      "title": "Personality",
+      "titleVi": "Tính cách",
+      "order": 7,
+      "vocabulary": [
+        {
+          "id": "v-introductions-7-1",
+          "word": "Friendly",
+          "meaningVi": "Thân thiện",
+          "ipa": "/ˈfrɛndli/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "He is very friendly.",
+          "exampleSentenceVi": "Cậu ấy rất thân thiện."
+        },
+        {
+          "id": "v-introductions-7-2",
+          "word": "Shy",
+          "meaningVi": "Nhút nhát",
+          "ipa": "/ʃaɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "She is a bit shy.",
+          "exampleSentenceVi": "Cô ấy hơi nhút nhát."
+        },
+        {
+          "id": "v-introductions-7-3",
+          "word": "Funny",
+          "meaningVi": "Hài hước",
+          "ipa": "/ˈfʌni/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "That joke is funny.",
+          "exampleSentenceVi": "Câu đùa đó thật buồn cười."
+        },
+        {
+          "id": "v-introductions-7-4",
+          "word": "Smart",
+          "meaningVi": "Thông minh",
+          "ipa": "/smɑːrt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A smart student.",
+          "exampleSentenceVi": "Một học sinh thông minh."
+        },
+        {
+          "id": "v-introductions-7-5",
+          "word": "Lazy",
+          "meaningVi": "Lười biếng",
+          "ipa": "/ˈleɪzi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Don't be lazy.",
+          "exampleSentenceVi": "Đừng lười biếng."
+        },
+        {
+          "id": "v-introductions-7-6",
+          "word": "Hardworking",
+          "meaningVi": "Chăm chỉ",
+          "ipa": "/ˌhɑːrdˈwɜːrkɪŋ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "He is hardworking.",
+          "exampleSentenceVi": "Anh ấy rất chăm chỉ."
+        },
+        {
+          "id": "v-introductions-7-7",
+          "word": "Kind",
+          "meaningVi": "Tốt bụng",
+          "ipa": "/kaɪnd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "You are so kind.",
+          "exampleSentenceVi": "Bạn thật tốt bụng."
+        },
+        {
+          "id": "v-introductions-7-8",
+          "word": "Serious",
+          "meaningVi": "Nghiêm túc",
+          "ipa": "/ˈsɪriəs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "She looks serious.",
+          "exampleSentenceVi": "Cô ấy trông nghiêm túc."
+        },
+        {
+          "id": "v-introductions-7-9",
+          "word": "Quiet",
+          "meaningVi": "Ít nói",
+          "ipa": "/ˈkwaɪət/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "He is a quiet person.",
+          "exampleSentenceVi": "Cậu ấy là người ít nói."
+        },
+        {
+          "id": "v-introductions-7-10",
+          "word": "Outgoing",
+          "meaningVi": "Cởi mở",
+          "ipa": "/ˈaʊtˌɡoʊɪŋ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "An outgoing girl.",
+          "exampleSentenceVi": "Một cô gái hướng ngoại."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-introductions-7-1",
+          "phrase": "How would you describe yourself?",
+          "meaningVi": "Bạn miêu tả bản thân thế nào?",
+          "ipa": "/haʊ wʊd juː dɪˈskraɪb jʊərˈsɛlf/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-7-2",
+          "phrase": "I am a friendly person.",
+          "meaningVi": "Tôi là người thân thiện.",
+          "ipa": "/aɪ æm ə ˈfrɛndli ˈpɜːrsn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-7-3",
+          "phrase": "Sometimes I am a bit shy.",
+          "meaningVi": "Đôi khi tôi hơi nhút nhát.",
+          "ipa": "/ˈsʌmtaɪmz aɪ æm ə bɪt ʃaɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-7-4",
+          "phrase": "My friends say I am funny.",
+          "meaningVi": "Bạn bè bảo tôi rất hài hước.",
+          "ipa": "/maɪ frɛndz seɪ aɪ æm /ˈfʌni/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-7-5",
+          "phrase": "He is very hardworking.",
+          "meaningVi": "Anh ấy rất chăm chỉ.",
+          "ipa": "/hiː ɪz ˈvɛri ˌhɑːrdˈwɜːrkɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-7-6",
+          "phrase": "She is really smart.",
+          "meaningVi": "Cô ấy thực sự thông minh.",
+          "ipa": "/ʃiː ɪz ˈrɪəli smɑːrt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-7-7",
+          "phrase": "I like outgoing people.",
+          "meaningVi": "Tôi thích những người cởi mở.",
+          "ipa": "/aɪ laɪk /ˈaʊtˌɡoʊɪŋ ˈpiːpl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-7-8",
+          "phrase": "Don't be so serious.",
+          "meaningVi": "Đừng quá nghiêm túc thế.",
+          "ipa": "/doʊnt biː soʊ /ˈsɪriəs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-7-9",
+          "phrase": "He is quite lazy today.",
+          "meaningVi": "Hôm nay cậu ấy khá lười.",
+          "ipa": "/hiː ɪz kwaɪt /ˈleɪzi təˈdeɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-7-10",
+          "phrase": "You are very kind to me.",
+          "meaningVi": "Bạn rất tốt với tôi.",
+          "ipa": "/juː ɑːr ˈvɛri kaɪnd tuː miː/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "introductions-8",
+      "slug": "lesson-8",
+      "topicSlug": "introductions",
+      "title": "Ambition",
+      "titleVi": "Mục tiêu tương lai",
+      "order": 8,
+      "vocabulary": [
+        {
+          "id": "v-introductions-8-1",
+          "word": "Dream",
+          "meaningVi": "Ước mơ",
+          "ipa": "/driːm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I have a big dream.",
+          "exampleSentenceVi": "Tôi có một ước mơ lớn."
+        },
+        {
+          "id": "v-introductions-8-2",
+          "word": "Goal",
+          "meaningVi": "Mục tiêu",
+          "ipa": "/ɡoʊl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Set your goals.",
+          "exampleSentenceVi": "Hãy đặt mục tiêu của bạn."
+        },
+        {
+          "id": "v-introductions-8-3",
+          "word": "Future",
+          "meaningVi": "Tương lai",
+          "ipa": "/ˈfjuːtʃər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "In the future.",
+          "exampleSentenceVi": "Trong tương lai."
+        },
+        {
+          "id": "v-introductions-8-4",
+          "word": "Plan",
+          "meaningVi": "Kế hoạch",
+          "ipa": "/plæn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Do you have a plan?",
+          "exampleSentenceVi": "Bạn có kế hoạch gì chưa?"
+        },
+        {
+          "id": "v-introductions-8-5",
+          "word": "Hope",
+          "meaningVi": "Hy vọng",
+          "ipa": "/hoʊp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I hope to win.",
+          "exampleSentenceVi": "Tôi hy vọng sẽ chiến thắng."
+        },
+        {
+          "id": "v-introductions-8-6",
+          "word": "Become",
+          "meaningVi": "Trở thành",
+          "ipa": "/bɪˈkʌm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I will become a doctor.",
+          "exampleSentenceVi": "Tôi sẽ trở thành bác sĩ."
+        },
+        {
+          "id": "v-introductions-8-7",
+          "word": "Travel",
+          "meaningVi": "Du lịch",
+          "ipa": "/ˈtrævl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I want to travel.",
+          "exampleSentenceVi": "Tôi muốn đi du lịch."
+        },
+        {
+          "id": "v-introductions-8-8",
+          "word": "Successful",
+          "meaningVi": "Thành công",
+          "ipa": "/səkˈsɛsfl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A successful man.",
+          "exampleSentenceVi": "Một người đàn ông thành công."
+        },
+        {
+          "id": "v-introductions-8-9",
+          "word": "Money",
+          "meaningVi": "Tiền bạc",
+          "ipa": "/ˈmʌni/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Save money for later.",
+          "exampleSentenceVi": "Tiết kiệm tiền cho sau này."
+        },
+        {
+          "id": "v-introductions-8-10",
+          "word": "Business",
+          "meaningVi": "Kinh doanh",
+          "ipa": "/ˈbɪznəs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Open a business.",
+          "exampleSentenceVi": "Mở một cơ sở kinh doanh."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-introductions-8-1",
+          "phrase": "What is your dream?",
+          "meaningVi": "Ước mơ của bạn là gì?",
+          "ipa": "/wʌt ɪz jʊr driːm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-8-2",
+          "phrase": "I want to become a teacher.",
+          "meaningVi": "Tôi muốn trở thành giáo viên.",
+          "ipa": "/aɪ wɑːnt tuː bɪˈkʌm ə ˈtiːtʃər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-8-3",
+          "phrase": "What are your plans for the future?",
+          "meaningVi": "Kế hoạch tương lai của bạn là gì?",
+          "ipa": "/wʌt ɑːr jʊr plænz fɔːr ðə ˈfjuːtʃər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-8-4",
+          "phrase": "I hope to travel the world.",
+          "meaningVi": "Tôi hy vọng sẽ du lịch vòng quanh thế giới.",
+          "ipa": "/aɪ hoʊp tuː ˈtrævl ðə wɜːrld/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-8-5",
+          "phrase": "My goal is to learn English.",
+          "meaningVi": "Mục tiêu của tôi là học tiếng Anh.",
+          "ipa": "/maɪ ɡoʊl ɪz tuː lɜːrn ˈɪŋɡlɪʃ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-8-6",
+          "phrase": "I want to start my own business.",
+          "meaningVi": "Tôi muốn tự mở doanh nghiệp.",
+          "ipa": "/aɪ wɑːnt tuː stɑːrt maɪ oʊn ˈbɪznəs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-8-7",
+          "phrase": "I want to be successful.",
+          "meaningVi": "Tôi muốn thành công.",
+          "ipa": "/aɪ wɑːnt tuː biː səkˈsɛsfl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-8-8",
+          "phrase": "Do you plan to go abroad?",
+          "meaningVi": "Bạn có định ra nước ngoài không?",
+          "ipa": "/duː juː plæn tuː ɡoʊ əˈbrɔːd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-8-9",
+          "phrase": "Never give up on your dreams.",
+          "meaningVi": "Đừng bao giờ từ bỏ ước mơ.",
+          "ipa": "/ˈnɛvər ɡɪv ʌp ɑːn jʊr driːmz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-8-10",
+          "phrase": "I will do my best.",
+          "meaningVi": "Tôi sẽ cố gắng hết sức.",
+          "ipa": "/aɪ wɪl duː maɪ bɛst/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "introductions-9",
+      "slug": "lesson-9",
+      "topicSlug": "introductions",
+      "title": "Appearance",
+      "titleVi": "Ngoại hình",
+      "order": 9,
+      "vocabulary": [
+        {
+          "id": "v-introductions-9-1",
+          "word": "Tall",
+          "meaningVi": "Cao",
+          "ipa": "/tɔːl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "He is very tall.",
+          "exampleSentenceVi": "Anh ấy rất cao."
+        },
+        {
+          "id": "v-introductions-9-2",
+          "word": "Short",
+          "meaningVi": "Thấp",
+          "ipa": "/ʃɔːrt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "She is short.",
+          "exampleSentenceVi": "Cô ấy thấp."
+        },
+        {
+          "id": "v-introductions-9-3",
+          "word": "Thin",
+          "meaningVi": "Gầy",
+          "ipa": "/θɪn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A thin boy.",
+          "exampleSentenceVi": "Một cậu bé gầy."
+        },
+        {
+          "id": "v-introductions-9-4",
+          "word": "Fat",
+          "meaningVi": "Mập",
+          "ipa": "/fæt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The cat is fat.",
+          "exampleSentenceVi": "Con mèo bị mập."
+        },
+        {
+          "id": "v-introductions-9-5",
+          "word": "Beautiful",
+          "meaningVi": "Xinh đẹp",
+          "ipa": "/ˈbjuːtɪfl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A beautiful flower.",
+          "exampleSentenceVi": "Một bông hoa đẹp."
+        },
+        {
+          "id": "v-introductions-9-6",
+          "word": "Handsome",
+          "meaningVi": "Đẹp trai",
+          "ipa": "/ˈhænsəm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A handsome man.",
+          "exampleSentenceVi": "Một người đàn ông đẹp trai."
+        },
+        {
+          "id": "v-introductions-9-7",
+          "word": "Cute",
+          "meaningVi": "Dễ thương",
+          "ipa": "/kjuːt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A cute baby.",
+          "exampleSentenceVi": "Một em bé dễ thương."
+        },
+        {
+          "id": "v-introductions-9-8",
+          "word": "Hair",
+          "meaningVi": "Tóc",
+          "ipa": "/hɛr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Long black hair.",
+          "exampleSentenceVi": "Tóc đen dài."
+        },
+        {
+          "id": "v-introductions-9-9",
+          "word": "Eye",
+          "meaningVi": "Mắt",
+          "ipa": "/aɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Blue eyes.",
+          "exampleSentenceVi": "Đôi mắt xanh."
+        },
+        {
+          "id": "v-introductions-9-10",
+          "word": "Wear",
+          "meaningVi": "Mặc, đội",
+          "ipa": "/wɛr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Wear a hat.",
+          "exampleSentenceVi": "Đội một chiếc mũ."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-introductions-9-1",
+          "phrase": "What does he look like?",
+          "meaningVi": "Anh ấy trông thế nào?",
+          "ipa": "/wʌt dʌz hiː lʊk laɪk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-9-2",
+          "phrase": "He is very tall.",
+          "meaningVi": "Anh ấy rất cao.",
+          "ipa": "/hiː ɪz ˈvɛri tɔːl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-9-3",
+          "phrase": "She has long black hair.",
+          "meaningVi": "Cô ấy có mái tóc đen dài.",
+          "ipa": "/ʃiː hæz lɔːŋ blæk hɛr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-9-4",
+          "phrase": "He is handsome.",
+          "meaningVi": "Cậu ấy đẹp trai.",
+          "ipa": "/hiː ɪz ˈhænsəm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-9-5",
+          "phrase": "She is wearing a red dress.",
+          "meaningVi": "Cô ấy đang mặc một chiếc váy đỏ.",
+          "ipa": "/ʃiː ɪz ˈwɛrɪŋ ə rɛd drɛs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-9-6",
+          "phrase": "The baby is so cute.",
+          "meaningVi": "Em bé thật dễ thương.",
+          "ipa": "/ðə ˈbeɪbi ɪz soʊ kjuːt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-9-7",
+          "phrase": "He has blue eyes.",
+          "meaningVi": "Anh ấy có đôi mắt màu xanh.",
+          "ipa": "/hiː hæz bluː aɪz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-9-8",
+          "phrase": "I am a bit overweight.",
+          "meaningVi": "Tôi hơi thừa cân một chút.",
+          "ipa": "/aɪ æm ə bɪt ˌoʊvərˈweɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-9-9",
+          "phrase": "You look great today.",
+          "meaningVi": "Hôm nay trông bạn thật tuyệt.",
+          "ipa": "/juː lʊk ɡreɪt təˈdeɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-9-10",
+          "phrase": "She looks like her mother.",
+          "meaningVi": "Cô ấy trông giống mẹ.",
+          "ipa": "/ʃiː lʊks laɪk hɜːr ˈmʌðər/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "introductions-10",
+      "slug": "lesson-10",
+      "topicSlug": "introductions",
+      "title": "Introduce a friend",
+      "titleVi": "Giới thiệu bạn bè",
+      "order": 10,
+      "vocabulary": [
+        {
+          "id": "v-introductions-10-1",
+          "word": "Friend",
+          "meaningVi": "Bạn",
+          "ipa": "/frɛnd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "My best friend.",
+          "exampleSentenceVi": "Người bạn thân nhất của tôi."
+        },
+        {
+          "id": "v-introductions-10-2",
+          "word": "Introduce",
+          "meaningVi": "Giới thiệu",
+          "ipa": "/ˌɪntrəˈduːs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Introduce him to you.",
+          "exampleSentenceVi": "Giới thiệu cậu ấy với bạn."
+        },
+        {
+          "id": "v-introductions-10-3",
+          "word": "Meet",
+          "meaningVi": "Gặp",
+          "ipa": "/miːt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Come meet my friend.",
+          "exampleSentenceVi": "Hãy đến gặp bạn tôi."
+        },
+        {
+          "id": "v-introductions-10-4",
+          "word": "Together",
+          "meaningVi": "Cùng nhau",
+          "ipa": "/təˈɡɛðər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "We play together.",
+          "exampleSentenceVi": "Chúng tôi chơi cùng nhau."
+        },
+        {
+          "id": "v-introductions-10-5",
+          "word": "Classmate",
+          "meaningVi": "Bạn cùng lớp",
+          "ipa": "/ˈklæsmeɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "He is my classmate.",
+          "exampleSentenceVi": "Cậu ấy là bạn cùng lớp tôi."
+        },
+        {
+          "id": "v-introductions-10-6",
+          "word": "Roommate",
+          "meaningVi": "Bạn cùng phòng",
+          "ipa": "/ˈruːmmeɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "My roommate is nice.",
+          "exampleSentenceVi": "Bạn cùng phòng của tôi rất tốt."
+        },
+        {
+          "id": "v-introductions-10-7",
+          "word": "Colleague",
+          "meaningVi": "Đồng nghiệp",
+          "ipa": "/ˈkɑːliːɡ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A friendly colleague.",
+          "exampleSentenceVi": "Một người đồng nghiệp thân thiện."
+        },
+        {
+          "id": "v-introductions-10-8",
+          "word": "Year",
+          "meaningVi": "Năm",
+          "ipa": "/jɪr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "For many years.",
+          "exampleSentenceVi": "Đã nhiều năm rồi."
+        },
+        {
+          "id": "v-introductions-10-9",
+          "word": "Since",
+          "meaningVi": "Từ khi",
+          "ipa": "/sɪns/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Since childhood.",
+          "exampleSentenceVi": "Từ lúc còn nhỏ."
+        },
+        {
+          "id": "v-introductions-10-10",
+          "word": "Fun",
+          "meaningVi": "Vui vẻ",
+          "ipa": "/fʌn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "It is fun.",
+          "exampleSentenceVi": "Thật là vui."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-introductions-10-1",
+          "phrase": "I would like to introduce my friend.",
+          "meaningVi": "Tôi muốn giới thiệu bạn của tôi.",
+          "ipa": "/aɪ wʊd laɪk tuː ˌɪntrəˈduːs maɪ frɛnd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-10-2",
+          "phrase": "This is my friend, John.",
+          "meaningVi": "Đây là John, bạn tôi.",
+          "ipa": "/ðɪs ɪz maɪ frɛnd dʒɑːn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-10-3",
+          "phrase": "We are classmates.",
+          "meaningVi": "Chúng tôi là bạn cùng lớp.",
+          "ipa": "/wiː ɑːr ˈklæsmeɪts/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-10-4",
+          "phrase": "We have known each other for years.",
+          "meaningVi": "Chúng tôi đã biết nhau nhiều năm.",
+          "ipa": "/wiː hæv noʊn iːtʃ ˈʌðər fɔːr jɪrz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-10-5",
+          "phrase": "John, meet Mary.",
+          "meaningVi": "John, đây là Mary.",
+          "ipa": "/dʒɑːn miːt ˈmɛri/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-10-6",
+          "phrase": "Mary, meet John.",
+          "meaningVi": "Mary, đây là John.",
+          "ipa": "/ˈmɛri miːt dʒɑːn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-10-7",
+          "phrase": "He is a very fun person.",
+          "meaningVi": "Cậu ấy là người rất vui tính.",
+          "ipa": "/hiː ɪz ə ˈvɛri fʌn ˈpɜːrsn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-10-8",
+          "phrase": "We do everything together.",
+          "meaningVi": "Chúng tôi làm mọi thứ cùng nhau.",
+          "ipa": "/wiː duː ˈɛvriθɪŋ təˈɡɛðər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-10-9",
+          "phrase": "She is my roommate.",
+          "meaningVi": "Cô ấy là bạn cùng phòng của tôi.",
+          "ipa": "/ʃiː ɪz maɪ ˈruːmmeɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-introductions-10-10",
+          "phrase": "I hope you two will be friends.",
+          "meaningVi": "Mong hai bạn sẽ thành bạn bè.",
+          "ipa": "/aɪ hoʊp juː tuː wɪl biː frɛndz/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
     }
   ]
 }

@@ -1,0 +1,1845 @@
+{
+  "topicSlug": "health",
+  "lessons": [
+    {
+      "id": "health-1",
+      "slug": "lesson-1",
+      "topicSlug": "health",
+      "title": "Body Parts",
+      "titleVi": "Các bộ phận cơ thể",
+      "order": 1,
+      "vocabulary": [
+        {
+          "id": "v-health-1-1",
+          "word": "Head",
+          "meaningVi": "Đầu",
+          "ipa": "/hɛd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "My head hurts.",
+          "exampleSentenceVi": "Đầu tôi bị đau."
+        },
+        {
+          "id": "v-health-1-2",
+          "word": "Hair",
+          "meaningVi": "Tóc",
+          "ipa": "/hɛr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Long hair.",
+          "exampleSentenceVi": "Tóc dài."
+        },
+        {
+          "id": "v-health-1-3",
+          "word": "Face",
+          "meaningVi": "Khuôn mặt",
+          "ipa": "/feɪs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Wash your face.",
+          "exampleSentenceVi": "Rửa mặt."
+        },
+        {
+          "id": "v-health-1-4",
+          "word": "Eye",
+          "meaningVi": "Mắt",
+          "ipa": "/aɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Open your eyes.",
+          "exampleSentenceVi": "Mở mắt ra."
+        },
+        {
+          "id": "v-health-1-5",
+          "word": "Ear",
+          "meaningVi": "Tai",
+          "ipa": "/ɪr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "My left ear.",
+          "exampleSentenceVi": "Tai trái của tôi."
+        },
+        {
+          "id": "v-health-1-6",
+          "word": "Nose",
+          "meaningVi": "Mũi",
+          "ipa": "/noʊz/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A red nose.",
+          "exampleSentenceVi": "Một cái mũi đỏ."
+        },
+        {
+          "id": "v-health-1-7",
+          "word": "Mouth",
+          "meaningVi": "Miệng",
+          "ipa": "/maʊθ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Open your mouth.",
+          "exampleSentenceVi": "Mở miệng ra."
+        },
+        {
+          "id": "v-health-1-8",
+          "word": "Arm",
+          "meaningVi": "Cánh tay",
+          "ipa": "/ɑːrm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Raise your arm.",
+          "exampleSentenceVi": "Giơ tay lên."
+        },
+        {
+          "id": "v-health-1-9",
+          "word": "Hand",
+          "meaningVi": "Bàn tay",
+          "ipa": "/hænd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Wash your hands.",
+          "exampleSentenceVi": "Rửa tay."
+        },
+        {
+          "id": "v-health-1-10",
+          "word": "Leg",
+          "meaningVi": "Chân",
+          "ipa": "/lɛɡ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "My legs are tired.",
+          "exampleSentenceVi": "Chân tôi bị mỏi."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-health-1-1",
+          "phrase": "My head hurts a lot.",
+          "meaningVi": "Đầu tôi đau quá.",
+          "ipa": "/maɪ hɛd hɜːrts ə lɑːt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-1-2",
+          "phrase": "You should wash your face.",
+          "meaningVi": "Bạn nên rửa mặt đi.",
+          "ipa": "/juː ʃʊd wɑːʃ jʊr feɪs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-1-3",
+          "phrase": "Open your eyes slowly.",
+          "meaningVi": "Mở mắt ra từ từ.",
+          "ipa": "/ˈoʊpən jʊr aɪz ˈsloʊli/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-1-4",
+          "phrase": "I can't hear with my left ear.",
+          "meaningVi": "Tôi không nghe được bằng tai trái.",
+          "ipa": "/aɪ kænt hɪr wɪð maɪ lɛft ɪr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-1-5",
+          "phrase": "Your nose is bleeding.",
+          "meaningVi": "Mũi bạn đang chảy máu kìa.",
+          "ipa": "/jʊr noʊz ɪz ˈbliːdɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-1-6",
+          "phrase": "Please open your mouth.",
+          "meaningVi": "Vui lòng mở miệng ra.",
+          "ipa": "/pliːz /ˈoʊpən jʊr maʊθ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-1-7",
+          "phrase": "Raise your right hand.",
+          "meaningVi": "Hãy giơ tay phải lên.",
+          "ipa": "/reɪz jʊr raɪt hænd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-1-8",
+          "phrase": "My legs are so tired.",
+          "meaningVi": "Chân tôi mỏi quá.",
+          "ipa": "/maɪ lɛɡz ɑːr soʊ /ˈtaɪərd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-1-9",
+          "phrase": "My arm is broken.",
+          "meaningVi": "Cánh tay tôi bị gãy rồi.",
+          "ipa": "/maɪ ɑːrm ɪz /ˈbroʊkən/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-1-10",
+          "phrase": "Wash your hands before meals.",
+          "meaningVi": "Hãy rửa tay trước bữa ăn.",
+          "ipa": "/wɑːʃ jʊr hændz bɪˈfɔːr miːlz/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "health-2",
+      "slug": "lesson-2",
+      "topicSlug": "health",
+      "title": "Feeling Sick",
+      "titleVi": "Cảm thấy ốm",
+      "order": 2,
+      "vocabulary": [
+        {
+          "id": "v-health-2-1",
+          "word": "Sick",
+          "meaningVi": "Ốm",
+          "ipa": "/sɪk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I feel sick.",
+          "exampleSentenceVi": "Tôi cảm thấy ốm."
+        },
+        {
+          "id": "v-health-2-2",
+          "word": "Cold",
+          "meaningVi": "Cảm lạnh",
+          "ipa": "/koʊld/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Catch a cold.",
+          "exampleSentenceVi": "Bị cảm lạnh."
+        },
+        {
+          "id": "v-health-2-3",
+          "word": "Cough",
+          "meaningVi": "Ho",
+          "ipa": "/kɔːf/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A bad cough.",
+          "exampleSentenceVi": "Một trận ho nặng."
+        },
+        {
+          "id": "v-health-2-4",
+          "word": "Fever",
+          "meaningVi": "Sốt",
+          "ipa": "/ˈfiːvər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "High fever.",
+          "exampleSentenceVi": "Sốt cao."
+        },
+        {
+          "id": "v-health-2-5",
+          "word": "Headache",
+          "meaningVi": "Đau đầu",
+          "ipa": "/ˈhɛdeɪk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I have a headache.",
+          "exampleSentenceVi": "Tôi bị đau đầu."
+        },
+        {
+          "id": "v-health-2-6",
+          "word": "Sore",
+          "meaningVi": "Đau rát",
+          "ipa": "/sɔːr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Sore throat.",
+          "exampleSentenceVi": "Đau rát họng."
+        },
+        {
+          "id": "v-health-2-7",
+          "word": "Pain",
+          "meaningVi": "Cơn đau",
+          "ipa": "/peɪn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Chest pain.",
+          "exampleSentenceVi": "Đau ngực."
+        },
+        {
+          "id": "v-health-2-8",
+          "word": "Dizzy",
+          "meaningVi": "Chóng mặt",
+          "ipa": "/ˈdɪzi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I feel dizzy.",
+          "exampleSentenceVi": "Tôi cảm thấy chóng mặt."
+        },
+        {
+          "id": "v-health-2-9",
+          "word": "Weak",
+          "meaningVi": "Yếu ớt",
+          "ipa": "/wiːk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I feel weak.",
+          "exampleSentenceVi": "Tôi cảm thấy yếu."
+        },
+        {
+          "id": "v-health-2-10",
+          "word": "Rest",
+          "meaningVi": "Nghỉ ngơi",
+          "ipa": "/rɛst/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "You need rest.",
+          "exampleSentenceVi": "Bạn cần nghỉ ngơi."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-health-2-1",
+          "phrase": "I am not feeling well today.",
+          "meaningVi": "Hôm nay tôi cảm thấy không khỏe.",
+          "ipa": "/aɪ æm nɑːt ˈfiːlɪŋ wɛl təˈdeɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-2-2",
+          "phrase": "I think I caught a cold.",
+          "meaningVi": "Tôi nghĩ là tôi bị cảm lạnh rồi.",
+          "ipa": "/aɪ θɪŋk aɪ kɔːt ə koʊld/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-2-3",
+          "phrase": "I have a terrible headache.",
+          "meaningVi": "Tôi bị đau đầu kinh khủng.",
+          "ipa": "/aɪ hæv ə ˈtɛrəbl /ˈhɛdeɪk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-2-4",
+          "phrase": "He has a high fever.",
+          "meaningVi": "Cậu ấy bị sốt cao.",
+          "ipa": "/hiː hæz ə haɪ /ˈfiːvər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-2-5",
+          "phrase": "My throat is very sore.",
+          "meaningVi": "Cổ họng tôi rất đau rát.",
+          "ipa": "/maɪ θroʊt ɪz ˈvɛri sɔːr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-2-6",
+          "phrase": "I have been coughing all night.",
+          "meaningVi": "Tôi đã ho cả đêm.",
+          "ipa": "/aɪ hæv biːn ˈkɔːfɪŋ ɔːl naɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-2-7",
+          "phrase": "I feel dizzy when I stand up.",
+          "meaningVi": "Tôi thấy chóng mặt khi đứng lên.",
+          "ipa": "/aɪ fiːl /ˈdɪzi wɛn aɪ stænd ʌp/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-2-8",
+          "phrase": "Where is the pain?",
+          "meaningVi": "Bạn đau ở đâu?",
+          "ipa": "/wɛr ɪz ðə peɪn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-2-9",
+          "phrase": "I feel very weak.",
+          "meaningVi": "Tôi cảm thấy rất yếu.",
+          "ipa": "/aɪ fiːl ˈvɛri wiːk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-2-10",
+          "phrase": "You should get some rest.",
+          "meaningVi": "Bạn nên nghỉ ngơi một chút đi.",
+          "ipa": "/juː ʃʊd ɡɛt sʌm rɛst/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "health-3",
+      "slug": "lesson-3",
+      "topicSlug": "health",
+      "title": "At the Doctor",
+      "titleVi": "Khám bác sĩ",
+      "order": 3,
+      "vocabulary": [
+        {
+          "id": "v-health-3-1",
+          "word": "Doctor",
+          "meaningVi": "Bác sĩ",
+          "ipa": "/ˈdɑːktər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "See a doctor.",
+          "exampleSentenceVi": "Đi khám bác sĩ."
+        },
+        {
+          "id": "v-health-3-2",
+          "word": "Nurse",
+          "meaningVi": "Y tá",
+          "ipa": "/nɜːrs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The nurse helps.",
+          "exampleSentenceVi": "Y tá giúp đỡ."
+        },
+        {
+          "id": "v-health-3-3",
+          "word": "Hospital",
+          "meaningVi": "Bệnh viện",
+          "ipa": "/ˈhɑːspɪtl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Go to the hospital.",
+          "exampleSentenceVi": "Đến bệnh viện."
+        },
+        {
+          "id": "v-health-3-4",
+          "word": "Clinic",
+          "meaningVi": "Phòng khám",
+          "ipa": "/ˈklɪnɪk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A local clinic.",
+          "exampleSentenceVi": "Phòng khám địa phương."
+        },
+        {
+          "id": "v-health-3-5",
+          "word": "Medicine",
+          "meaningVi": "Thuốc",
+          "ipa": "/ˈmɛdɪsn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Take medicine.",
+          "exampleSentenceVi": "Uống thuốc."
+        },
+        {
+          "id": "v-health-3-6",
+          "word": "Pill",
+          "meaningVi": "Viên thuốc",
+          "ipa": "/pɪl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Swallow a pill.",
+          "exampleSentenceVi": "Nuốt một viên thuốc."
+        },
+        {
+          "id": "v-health-3-7",
+          "word": "Checkup",
+          "meaningVi": "Khám tổng quát",
+          "ipa": "/ˈtʃɛkʌp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A health checkup.",
+          "exampleSentenceVi": "Khám sức khỏe tổng quát."
+        },
+        {
+          "id": "v-health-3-8",
+          "word": "Test",
+          "meaningVi": "Xét nghiệm",
+          "ipa": "/tɛst/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Blood test.",
+          "exampleSentenceVi": "Xét nghiệm máu."
+        },
+        {
+          "id": "v-health-3-9",
+          "word": "Result",
+          "meaningVi": "Kết quả",
+          "ipa": "/rɪˈzʌlt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Test results.",
+          "exampleSentenceVi": "Kết quả xét nghiệm."
+        },
+        {
+          "id": "v-health-3-10",
+          "word": "Recover",
+          "meaningVi": "Hồi phục",
+          "ipa": "/rɪˈkʌvər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Recover soon.",
+          "exampleSentenceVi": "Sớm hồi phục."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-health-3-1",
+          "phrase": "I need to see a doctor.",
+          "meaningVi": "Tôi cần đi khám bác sĩ.",
+          "ipa": "/aɪ niːd tuː siː ə /ˈdɑːktər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-3-2",
+          "phrase": "Where is the nearest hospital?",
+          "meaningVi": "Bệnh viện gần nhất ở đâu?",
+          "ipa": "/wɛr ɪz ðə ˈnɪrɪst /ˈhɑːspɪtl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-3-3",
+          "phrase": "What seems to be the problem?",
+          "meaningVi": "Bạn gặp vấn đề gì vậy?",
+          "ipa": "/wʌt siːmz tuː biː ðə /ˈprɑːbləm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-3-4",
+          "phrase": "How long have you felt like this?",
+          "meaningVi": "Bạn cảm thấy như vậy bao lâu rồi?",
+          "ipa": "/haʊ lɔːŋ hæv juː fɛlt laɪk ðɪs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-3-5",
+          "phrase": "I am here for a health checkup.",
+          "meaningVi": "Tôi đến đây để khám tổng quát.",
+          "ipa": "/aɪ æm hɪr fɔːr ə hɛlθ /ˈtʃɛkʌp/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-3-6",
+          "phrase": "We need to do a blood test.",
+          "meaningVi": "Chúng ta cần làm xét nghiệm máu.",
+          "ipa": "/wiː niːd tuː duː ə blʌd tɛst/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-3-7",
+          "phrase": "When will the results be ready?",
+          "meaningVi": "Khi nào sẽ có kết quả?",
+          "ipa": "/wɛn wɪl ðə rɪˈzʌlts biː ˈrɛdi/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-3-8",
+          "phrase": "Take this medicine three times a day.",
+          "meaningVi": "Uống thuốc này 3 lần 1 ngày.",
+          "ipa": "/teɪk ðɪs /ˈmɛdɪsn θriː taɪmz ə deɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-3-9",
+          "phrase": "Drink a lot of water.",
+          "meaningVi": "Uống nhiều nước nhé.",
+          "ipa": "/drɪŋk ə lɑːt ʌv /ˈwɔːtər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-3-10",
+          "phrase": "I hope you recover soon.",
+          "meaningVi": "Tôi mong bạn sẽ sớm bình phục.",
+          "ipa": "/aɪ hoʊp juː rɪˈkʌvər suːn/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "health-4",
+      "slug": "lesson-4",
+      "topicSlug": "health",
+      "title": "Healthy Lifestyle",
+      "titleVi": "Lối sống lành mạnh",
+      "order": 4,
+      "vocabulary": [
+        {
+          "id": "v-health-4-1",
+          "word": "Healthy",
+          "meaningVi": "Lành mạnh",
+          "ipa": "/ˈhɛlθi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A healthy diet.",
+          "exampleSentenceVi": "Chế độ ăn lành mạnh."
+        },
+        {
+          "id": "v-health-4-2",
+          "word": "Diet",
+          "meaningVi": "Chế độ ăn",
+          "ipa": "/ˈdaɪət/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A balanced diet.",
+          "exampleSentenceVi": "Chế độ ăn cân bằng."
+        },
+        {
+          "id": "v-health-4-3",
+          "word": "Exercise",
+          "meaningVi": "Thể dục",
+          "ipa": "/ˈɛksərsaɪz/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Do exercise.",
+          "exampleSentenceVi": "Tập thể dục."
+        },
+        {
+          "id": "v-health-4-4",
+          "word": "Gym",
+          "meaningVi": "Phòng tập",
+          "ipa": "/dʒɪm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Go to the gym.",
+          "exampleSentenceVi": "Đi tới phòng tập."
+        },
+        {
+          "id": "v-health-4-5",
+          "word": "Walk",
+          "meaningVi": "Đi bộ",
+          "ipa": "/wɔːk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Walk every day.",
+          "exampleSentenceVi": "Đi bộ mỗi ngày."
+        },
+        {
+          "id": "v-health-4-6",
+          "word": "Sleep",
+          "meaningVi": "Ngủ",
+          "ipa": "/sliːp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Get enough sleep.",
+          "exampleSentenceVi": "Ngủ đủ giấc."
+        },
+        {
+          "id": "v-health-4-7",
+          "word": "Water",
+          "meaningVi": "Nước",
+          "ipa": "/ˈwɔːtər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Drink water.",
+          "exampleSentenceVi": "Uống nước."
+        },
+        {
+          "id": "v-health-4-8",
+          "word": "Fruit",
+          "meaningVi": "Trái cây",
+          "ipa": "/fruːt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Eat fruit.",
+          "exampleSentenceVi": "Ăn trái cây."
+        },
+        {
+          "id": "v-health-4-9",
+          "word": "Stress",
+          "meaningVi": "Căng thẳng",
+          "ipa": "/strɛs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Reduce stress.",
+          "exampleSentenceVi": "Giảm căng thẳng."
+        },
+        {
+          "id": "v-health-4-10",
+          "word": "Mind",
+          "meaningVi": "Tâm trí",
+          "ipa": "/maɪnd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A healthy mind.",
+          "exampleSentenceVi": "Tâm trí khỏe mạnh."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-health-4-1",
+          "phrase": "It is important to stay healthy.",
+          "meaningVi": "Giữ gìn sức khỏe là rất quan trọng.",
+          "ipa": "/ɪt ɪz ɪmˈpɔːrtnt tuː steɪ /ˈhɛlθi/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-4-2",
+          "phrase": "I try to eat a balanced diet.",
+          "meaningVi": "Tôi cố gắng ăn uống cân bằng.",
+          "ipa": "/aɪ traɪ tuː iːt ə ˈbælənst /ˈdaɪət/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-4-3",
+          "phrase": "You should eat more fruits and vegetables.",
+          "meaningVi": "Bạn nên ăn nhiều rau củ quả hơn.",
+          "ipa": "/juː ʃʊd iːt mɔːr fruːts ænd /ˈvɛdʒtəblz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-4-4",
+          "phrase": "Do you go to the gym?",
+          "meaningVi": "Bạn có đến phòng tập không?",
+          "ipa": "/duː juː ɡoʊ tuː ðə dʒɪm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-4-5",
+          "phrase": "I walk for 30 minutes every day.",
+          "meaningVi": "Tôi đi bộ 30 phút mỗi ngày.",
+          "ipa": "/aɪ wɔːk fɔːr ˈθɜːrti ˈmɪnɪts /ˈɛvri deɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-4-6",
+          "phrase": "Make sure you get enough sleep.",
+          "meaningVi": "Đảm bảo bạn ngủ đủ giấc.",
+          "ipa": "/meɪk ʃʊr juː ɡɛt ɪˈnʌf sliːp/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-4-7",
+          "phrase": "Drink plenty of water.",
+          "meaningVi": "Hãy uống thật nhiều nước.",
+          "ipa": "/drɪŋk ˈplɛnti ʌv /ˈwɔːtər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-4-8",
+          "phrase": "Try to reduce your stress.",
+          "meaningVi": "Hãy cố gắng giảm bớt căng thẳng.",
+          "ipa": "/traɪ tuː rɪˈduːs jʊr strɛs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-4-9",
+          "phrase": "A healthy mind in a healthy body.",
+          "meaningVi": "Một tâm trí khỏe mạnh trong một cơ thể khỏe mạnh.",
+          "ipa": "/ə /ˈhɛlθi maɪnd ɪn ə /ˈhɛlθi ˈbɑːdi/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-4-10",
+          "phrase": "Health is more important than money.",
+          "meaningVi": "Sức khỏe quan trọng hơn tiền bạc.",
+          "ipa": "/hɛlθ ɪz mɔːr ɪmˈpɔːrtnt ðæn /ˈmʌni/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "health-5",
+      "slug": "lesson-5",
+      "topicSlug": "health",
+      "title": "First Aid & Injuries",
+      "titleVi": "Sơ cứu & Chấn thương",
+      "order": 5,
+      "vocabulary": [
+        {
+          "id": "v-health-5-1",
+          "word": "Injury",
+          "meaningVi": "Chấn thương",
+          "ipa": "/ˈɪndʒəri/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A leg injury.",
+          "exampleSentenceVi": "Chấn thương chân."
+        },
+        {
+          "id": "v-health-5-2",
+          "word": "Cut",
+          "meaningVi": "Vết cắt",
+          "ipa": "/kʌt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A deep cut.",
+          "exampleSentenceVi": "Một vết cắt sâu."
+        },
+        {
+          "id": "v-health-5-3",
+          "word": "Blood",
+          "meaningVi": "Máu",
+          "ipa": "/blʌd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Stop the blood.",
+          "exampleSentenceVi": "Cầm máu."
+        },
+        {
+          "id": "v-health-5-4",
+          "word": "Bandage",
+          "meaningVi": "Băng gạc",
+          "ipa": "/ˈbændɪdʒ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Apply a bandage.",
+          "exampleSentenceVi": "Băng bó lại."
+        },
+        {
+          "id": "v-health-5-5",
+          "word": "Burn",
+          "meaningVi": "Vết bỏng",
+          "ipa": "/bɜːrn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A bad burn.",
+          "exampleSentenceVi": "Một vết bỏng nặng."
+        },
+        {
+          "id": "v-health-5-6",
+          "word": "Fall",
+          "meaningVi": "Ngã",
+          "ipa": "/fɔːl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Watch your fall.",
+          "exampleSentenceVi": "Coi chừng ngã."
+        },
+        {
+          "id": "v-health-5-7",
+          "word": "Hurt",
+          "meaningVi": "Đau, bị thương",
+          "ipa": "/hɜːrt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "It hurts.",
+          "exampleSentenceVi": "Nó rất đau."
+        },
+        {
+          "id": "v-health-5-8",
+          "word": "Break",
+          "meaningVi": "Gãy",
+          "ipa": "/breɪk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Break an arm.",
+          "exampleSentenceVi": "Gãy một cánh tay."
+        },
+        {
+          "id": "v-health-5-9",
+          "word": "Help",
+          "meaningVi": "Cấp cứu",
+          "ipa": "/hɛlp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Call for help.",
+          "exampleSentenceVi": "Gọi cấp cứu."
+        },
+        {
+          "id": "v-health-5-10",
+          "word": "Safe",
+          "meaningVi": "An toàn",
+          "ipa": "/seɪf/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Stay safe.",
+          "exampleSentenceVi": "Hãy giữ an toàn."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-health-5-1",
+          "phrase": "I cut my finger.",
+          "meaningVi": "Tôi bị cắt vào ngón tay.",
+          "ipa": "/aɪ kʌt maɪ ˈfɪŋɡər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-5-2",
+          "phrase": "We need to stop the bleeding.",
+          "meaningVi": "Chúng ta cần cầm máu.",
+          "ipa": "/wiː niːd tuː stɑːp ðə ˈbliːdɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-5-3",
+          "phrase": "Do you have a bandage?",
+          "meaningVi": "Bạn có băng cá nhân không?",
+          "ipa": "/duː juː hæv ə /ˈbændɪdʒ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-5-4",
+          "phrase": "I burned my hand while cooking.",
+          "meaningVi": "Tôi bị bỏng tay khi đang nấu ăn.",
+          "ipa": "/aɪ bɜːrnd maɪ hænd waɪl /ˈkʊkɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-5-5",
+          "phrase": "Be careful not to fall.",
+          "meaningVi": "Cẩn thận kẻo ngã nhé.",
+          "ipa": "/biː ˈkɛrfl nɑːt tuː fɔːl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-5-6",
+          "phrase": "My ankle really hurts.",
+          "meaningVi": "Mắt cá chân của tôi rất đau.",
+          "ipa": "/maɪ ˈæŋkl ˈrɪəli hɜːrts/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-5-7",
+          "phrase": "I think my arm is broken.",
+          "meaningVi": "Tôi nghĩ tay tôi bị gãy rồi.",
+          "ipa": "/aɪ θɪŋk maɪ ɑːrm ɪz /ˈbroʊkən/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-5-8",
+          "phrase": "Please call an ambulance.",
+          "meaningVi": "Vui lòng gọi xe cấp cứu.",
+          "ipa": "/pliːz kɔːl ən ˈæmbjələns/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-5-9",
+          "phrase": "Someone help me!",
+          "meaningVi": "Ai đó giúp tôi với!",
+          "ipa": "/ˈsʌmwʌn hɛlp miː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-5-10",
+          "phrase": "Is everyone safe?",
+          "meaningVi": "Mọi người an toàn chứ?",
+          "ipa": "/ɪz /ˈɛvriwʌn seɪf/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "health-6",
+      "slug": "lesson-6",
+      "topicSlug": "health",
+      "title": "Pharmacy & Medicine",
+      "titleVi": "Hiệu thuốc",
+      "order": 6,
+      "vocabulary": [
+        {
+          "id": "v-health-6-1",
+          "word": "Pharmacy",
+          "meaningVi": "Hiệu thuốc",
+          "ipa": "/ˈfɑːrməsi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Go to the pharmacy.",
+          "exampleSentenceVi": "Đến hiệu thuốc."
+        },
+        {
+          "id": "v-health-6-2",
+          "word": "Medicine",
+          "meaningVi": "Thuốc",
+          "ipa": "/ˈmɛdɪsn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Need some medicine.",
+          "exampleSentenceVi": "Cần chút thuốc."
+        },
+        {
+          "id": "v-health-6-3",
+          "word": "Prescription",
+          "meaningVi": "Đơn thuốc",
+          "ipa": "/prɪˈskrɪpʃn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A doctor's prescription.",
+          "exampleSentenceVi": "Đơn của bác sĩ."
+        },
+        {
+          "id": "v-health-6-4",
+          "word": "Aspirin",
+          "meaningVi": "Thuốc giảm đau",
+          "ipa": "/ˈæspərɪn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Take an aspirin.",
+          "exampleSentenceVi": "Uống một viên aspirin."
+        },
+        {
+          "id": "v-health-6-5",
+          "word": "Syrup",
+          "meaningVi": "Si-rô",
+          "ipa": "/ˈsɪrəp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Cough syrup.",
+          "exampleSentenceVi": "Si-rô ho."
+        },
+        {
+          "id": "v-health-6-6",
+          "word": "Dose",
+          "meaningVi": "Liều lượng",
+          "ipa": "/doʊs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The right dose.",
+          "exampleSentenceVi": "Uống đúng liều."
+        },
+        {
+          "id": "v-health-6-7",
+          "word": "Symptom",
+          "meaningVi": "Triệu chứng",
+          "ipa": "/ˈsɪmptəm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "What are your symptoms?",
+          "exampleSentenceVi": "Triệu chứng của bạn là gì?"
+        },
+        {
+          "id": "v-health-6-8",
+          "word": "Allergy",
+          "meaningVi": "Dị ứng",
+          "ipa": "/ˈælərdʒi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I have an allergy.",
+          "exampleSentenceVi": "Tôi bị dị ứng."
+        },
+        {
+          "id": "v-health-6-9",
+          "word": "Cure",
+          "meaningVi": "Chữa khỏi",
+          "ipa": "/kjʊr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Is there a cure?",
+          "exampleSentenceVi": "Có cách chữa không?"
+        },
+        {
+          "id": "v-health-6-10",
+          "word": "Health",
+          "meaningVi": "Sức khỏe",
+          "ipa": "/hɛlθ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Good health.",
+          "exampleSentenceVi": "Sức khỏe tốt."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-health-6-1",
+          "phrase": "Where is the nearest pharmacy?",
+          "meaningVi": "Hiệu thuốc gần nhất ở đâu?",
+          "ipa": "/wɛr ɪz ðə ˈnɪrɪst /ˈfɑːrməsi/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-6-2",
+          "phrase": "I would like to buy some medicine for a cold.",
+          "meaningVi": "Tôi muốn mua thuốc cảm.",
+          "ipa": "/aɪ wʊd laɪk tuː baɪ sʌm /ˈmɛdɪsn fɔːr ə koʊld/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-6-3",
+          "phrase": "Do you have a prescription?",
+          "meaningVi": "Bạn có đơn thuốc không?",
+          "ipa": "/duː juː hæv ə prɪˈskrɪpʃn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-6-4",
+          "phrase": "I need something for a headache.",
+          "meaningVi": "Tôi cần thuốc trị đau đầu.",
+          "ipa": "/aɪ niːd ˈsʌmθɪŋ fɔːr ə /ˈhɛdeɪk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-6-5",
+          "phrase": "What are your symptoms?",
+          "meaningVi": "Triệu chứng của bạn là gì?",
+          "ipa": "/wʌt ɑːr jʊr /ˈsɪmptəmz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-6-6",
+          "phrase": "Take this cough syrup twice a day.",
+          "meaningVi": "Uống si-rô ho này 2 lần 1 ngày.",
+          "ipa": "/teɪk ðɪs kɔːf /ˈsɪrəp twaɪs ə deɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-6-7",
+          "phrase": "Make sure to take the correct dose.",
+          "meaningVi": "Đảm bảo uống đúng liều lượng.",
+          "ipa": "/meɪk ʃʊr tuː teɪk ðə kəˈrɛkt doʊs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-6-8",
+          "phrase": "Do you have any allergies?",
+          "meaningVi": "Bạn có bị dị ứng gì không?",
+          "ipa": "/duː juː hæv ˈɛni /ˈælərdʒiz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-6-9",
+          "phrase": "I am allergic to penicillin.",
+          "meaningVi": "Tôi bị dị ứng với penicillin.",
+          "ipa": "/aɪ æm əˈlɜːrdʒɪk tuː ˌpɛnɪˈsɪlɪn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-6-10",
+          "phrase": "This will help you feel better.",
+          "meaningVi": "Thuốc này sẽ giúp bạn thấy khỏe hơn.",
+          "ipa": "/ðɪs wɪl hɛlp juː fiːl ˈbɛtər/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "health-7",
+      "slug": "lesson-7",
+      "topicSlug": "health",
+      "title": "Dental Care",
+      "titleVi": "Chăm sóc răng miệng",
+      "order": 7,
+      "vocabulary": [
+        {
+          "id": "v-health-7-1",
+          "word": "Tooth",
+          "meaningVi": "Chiếc răng",
+          "ipa": "/tuːθ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A bad tooth.",
+          "exampleSentenceVi": "Một chiếc răng sâu."
+        },
+        {
+          "id": "v-health-7-2",
+          "word": "Teeth",
+          "meaningVi": "Hàm răng",
+          "ipa": "/tiːθ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Brush your teeth.",
+          "exampleSentenceVi": "Đánh răng đi."
+        },
+        {
+          "id": "v-health-7-3",
+          "word": "Dentist",
+          "meaningVi": "Nha sĩ",
+          "ipa": "/ˈdɛntɪst/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "See the dentist.",
+          "exampleSentenceVi": "Đi khám nha sĩ."
+        },
+        {
+          "id": "v-health-7-4",
+          "word": "Brush",
+          "meaningVi": "Chải",
+          "ipa": "/brʌʃ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Toothbrush.",
+          "exampleSentenceVi": "Bàn chải đánh răng."
+        },
+        {
+          "id": "v-health-7-5",
+          "word": "Paste",
+          "meaningVi": "Kem đánh răng",
+          "ipa": "/peɪst/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Toothpaste.",
+          "exampleSentenceVi": "Kem đánh răng."
+        },
+        {
+          "id": "v-health-7-6",
+          "word": "Pain",
+          "meaningVi": "Cơn đau",
+          "ipa": "/peɪn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Toothache.",
+          "exampleSentenceVi": "Đau răng."
+        },
+        {
+          "id": "v-health-7-7",
+          "word": "Cavity",
+          "meaningVi": "Lỗ sâu răng",
+          "ipa": "/ˈkævəti/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Fill a cavity.",
+          "exampleSentenceVi": "Trám răng sâu."
+        },
+        {
+          "id": "v-health-7-8",
+          "word": "Clean",
+          "meaningVi": "Làm sạch",
+          "ipa": "/kliːn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Clean your teeth.",
+          "exampleSentenceVi": "Làm sạch răng."
+        },
+        {
+          "id": "v-health-7-9",
+          "word": "Smile",
+          "meaningVi": "Nụ cười",
+          "ipa": "/smaɪl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A bright smile.",
+          "exampleSentenceVi": "Một nụ cười rạng rỡ."
+        },
+        {
+          "id": "v-health-7-10",
+          "word": "Floss",
+          "meaningVi": "Chỉ nha khoa",
+          "ipa": "/flɑːs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Use dental floss.",
+          "exampleSentenceVi": "Dùng chỉ nha khoa."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-health-7-1",
+          "phrase": "I have a terrible toothache.",
+          "meaningVi": "Tôi bị đau răng dữ dội.",
+          "ipa": "/aɪ hæv ə ˈtɛrəbl ˈtuːθˌeɪk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-7-2",
+          "phrase": "I need to make an appointment with the dentist.",
+          "meaningVi": "Tôi cần đặt lịch hẹn với nha sĩ.",
+          "ipa": "/aɪ niːd tuː meɪk ən əˈpɔɪntmənt wɪð ðə /ˈdɛntɪst/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-7-3",
+          "phrase": "Open your mouth wide, please.",
+          "meaningVi": "Vui lòng há miệng to ra.",
+          "ipa": "/ˈoʊpən jʊr maʊθ waɪd pliːz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-7-4",
+          "phrase": "You have a cavity in this tooth.",
+          "meaningVi": "Bạn có một lỗ sâu ở chiếc răng này.",
+          "ipa": "/juː hæv ə /ˈkævəti ɪn ðɪs tuːθ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-7-5",
+          "phrase": "We need to pull this tooth out.",
+          "meaningVi": "Chúng ta cần nhổ chiếc răng này.",
+          "ipa": "/wiː niːd tuː pʊl ðɪs tuːθ aʊt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-7-6",
+          "phrase": "You should brush your teeth twice a day.",
+          "meaningVi": "Bạn nên đánh răng 2 lần 1 ngày.",
+          "ipa": "/juː ʃʊd brʌʃ jʊr tiːθ twaɪs ə deɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-7-7",
+          "phrase": "Do you use dental floss?",
+          "meaningVi": "Bạn có dùng chỉ nha khoa không?",
+          "ipa": "/duː juː juːz ˈdɛntl flɑːs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-7-8",
+          "phrase": "I need a new toothbrush.",
+          "meaningVi": "Tôi cần một chiếc bàn chải mới.",
+          "ipa": "/aɪ niːd ə nuː ˈtuːθˌbrʌʃ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-7-9",
+          "phrase": "The toothpaste is running out.",
+          "meaningVi": "Kem đánh răng sắp hết rồi.",
+          "ipa": "/ðə ˈtuːθˌpeɪst ɪz ˈrʌnɪŋ aʊt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-7-10",
+          "phrase": "She has a beautiful smile.",
+          "meaningVi": "Cô ấy có một nụ cười tuyệt đẹp.",
+          "ipa": "/ʃiː hæz ə ˈbjuːtɪfl smaɪl/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "health-8",
+      "slug": "lesson-8",
+      "topicSlug": "health",
+      "title": "Eye Care",
+      "titleVi": "Chăm sóc mắt",
+      "order": 8,
+      "vocabulary": [
+        {
+          "id": "v-health-8-1",
+          "word": "Eye",
+          "meaningVi": "Mắt",
+          "ipa": "/aɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "My eyes are tired.",
+          "exampleSentenceVi": "Mắt tôi bị mỏi."
+        },
+        {
+          "id": "v-health-8-2",
+          "word": "Sight",
+          "meaningVi": "Tầm nhìn",
+          "ipa": "/saɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Poor eyesight.",
+          "exampleSentenceVi": "Thị lực kém."
+        },
+        {
+          "id": "v-health-8-3",
+          "word": "Glass",
+          "meaningVi": "Kính",
+          "ipa": "/ɡlæs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Reading glasses.",
+          "exampleSentenceVi": "Kính đọc sách."
+        },
+        {
+          "id": "v-health-8-4",
+          "word": "Lens",
+          "meaningVi": "Thấu kính",
+          "ipa": "/lɛnz/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Contact lenses.",
+          "exampleSentenceVi": "Kính áp tròng."
+        },
+        {
+          "id": "v-health-8-5",
+          "word": "Blind",
+          "meaningVi": "Mù",
+          "ipa": "/blaɪnd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A blind man.",
+          "exampleSentenceVi": "Người đàn ông mù."
+        },
+        {
+          "id": "v-health-8-6",
+          "word": "Red",
+          "meaningVi": "Đỏ",
+          "ipa": "/rɛd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Red eyes.",
+          "exampleSentenceVi": "Đôi mắt đỏ."
+        },
+        {
+          "id": "v-health-8-7",
+          "word": "Drop",
+          "meaningVi": "Thuốc nhỏ",
+          "ipa": "/drɑːp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Eye drops.",
+          "exampleSentenceVi": "Thuốc nhỏ mắt."
+        },
+        {
+          "id": "v-health-8-8",
+          "word": "Read",
+          "meaningVi": "Đọc",
+          "ipa": "/riːd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I can't read this.",
+          "exampleSentenceVi": "Tôi không đọc được cái này."
+        },
+        {
+          "id": "v-health-8-9",
+          "word": "Check",
+          "meaningVi": "Kiểm tra",
+          "ipa": "/tʃɛk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Check your eyes.",
+          "exampleSentenceVi": "Khám mắt."
+        },
+        {
+          "id": "v-health-8-10",
+          "word": "Blurry",
+          "meaningVi": "Mờ",
+          "ipa": "/ˈblɜːri/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "My vision is blurry.",
+          "exampleSentenceVi": "Tầm nhìn của tôi bị mờ."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-health-8-1",
+          "phrase": "My eyes are very red and itchy.",
+          "meaningVi": "Mắt tôi rất đỏ và ngứa.",
+          "ipa": "/maɪ aɪz ɑːr ˈvɛri rɛd ænd ˈɪtʃi/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-8-2",
+          "phrase": "My vision is a bit blurry lately.",
+          "meaningVi": "Gần đây tầm nhìn của tôi hơi mờ.",
+          "ipa": "/maɪ ˈvɪʒn ɪz ə bɪt /ˈblɜːri ˈleɪtli/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-8-3",
+          "phrase": "I need to get my eyes checked.",
+          "meaningVi": "Tôi cần đi khám mắt.",
+          "ipa": "/aɪ niːd tuː ɡɛt maɪ aɪz tʃɛkt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-8-4",
+          "phrase": "Can you read the letters on the board?",
+          "meaningVi": "Bạn có thể đọc các chữ cái trên bảng không?",
+          "ipa": "/kæn juː riːd ðə ˈlɛtərz ɑːn ðə bɔːrd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-8-5",
+          "phrase": "I am short-sighted.",
+          "meaningVi": "Tôi bị cận thị.",
+          "ipa": "/aɪ æm ʃɔːrt-ˈsaɪtɪd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-8-6",
+          "phrase": "I need a new pair of glasses.",
+          "meaningVi": "Tôi cần một cặp kính mới.",
+          "ipa": "/aɪ niːd ə nuː pɛr ʌv ˈɡlæsɪz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-8-7",
+          "phrase": "Do you wear contact lenses?",
+          "meaningVi": "Bạn có đeo kính áp tròng không?",
+          "ipa": "/duː juː wɛr ˈkɑːntækt ˈlɛnzɪz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-8-8",
+          "phrase": "Use these eye drops twice a day.",
+          "meaningVi": "Dùng thuốc nhỏ mắt này 2 lần mỗi ngày.",
+          "ipa": "/juːz ðiːz aɪ drɑːps twaɪs ə deɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-8-9",
+          "phrase": "Avoid looking at the screen for too long.",
+          "meaningVi": "Tránh nhìn màn hình quá lâu.",
+          "ipa": "/əˈvɔɪd ˈlʊkɪŋ æt ðə skriːn fɔːr tuː lɔːŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-8-10",
+          "phrase": "Don't read in the dark.",
+          "meaningVi": "Đừng đọc sách trong bóng tối.",
+          "ipa": "/doʊnt riːd ɪn ðə dɑːrk/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "health-9",
+      "slug": "lesson-9",
+      "topicSlug": "health",
+      "title": "Mental Health",
+      "titleVi": "Sức khỏe tinh thần",
+      "order": 9,
+      "vocabulary": [
+        {
+          "id": "v-health-9-1",
+          "word": "Mind",
+          "meaningVi": "Tâm trí",
+          "ipa": "/maɪnd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Keep an open mind.",
+          "exampleSentenceVi": "Hãy giữ tâm trí cởi mở."
+        },
+        {
+          "id": "v-health-9-2",
+          "word": "Stress",
+          "meaningVi": "Căng thẳng",
+          "ipa": "/strɛs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A lot of stress.",
+          "exampleSentenceVi": "Rất nhiều sự căng thẳng."
+        },
+        {
+          "id": "v-health-9-3",
+          "word": "Worry",
+          "meaningVi": "Lo lắng",
+          "ipa": "/ˈwɜːri/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Do not worry.",
+          "exampleSentenceVi": "Đừng lo lắng."
+        },
+        {
+          "id": "v-health-9-4",
+          "word": "Tired",
+          "meaningVi": "Mệt mỏi",
+          "ipa": "/ˈtaɪərd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Mentally tired.",
+          "exampleSentenceVi": "Mệt mỏi về tinh thần."
+        },
+        {
+          "id": "v-health-9-5",
+          "word": "Sad",
+          "meaningVi": "Buồn",
+          "ipa": "/sæd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I feel sad.",
+          "exampleSentenceVi": "Tôi cảm thấy buồn."
+        },
+        {
+          "id": "v-health-9-6",
+          "word": "Happy",
+          "meaningVi": "Hạnh phúc",
+          "ipa": "/ˈhæpi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I am happy.",
+          "exampleSentenceVi": "Tôi hạnh phúc."
+        },
+        {
+          "id": "v-health-9-7",
+          "word": "Relax",
+          "meaningVi": "Thư giãn",
+          "ipa": "/rɪˈlæks/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Relax your body.",
+          "exampleSentenceVi": "Thư giãn cơ thể bạn."
+        },
+        {
+          "id": "v-health-9-8",
+          "word": "Think",
+          "meaningVi": "Suy nghĩ",
+          "ipa": "/θɪŋk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Think positive.",
+          "exampleSentenceVi": "Hãy nghĩ tích cực."
+        },
+        {
+          "id": "v-health-9-9",
+          "word": "Talk",
+          "meaningVi": "Nói chuyện",
+          "ipa": "/tɔːk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Talk to a friend.",
+          "exampleSentenceVi": "Trò chuyện với bạn bè."
+        },
+        {
+          "id": "v-health-9-10",
+          "word": "Calm",
+          "meaningVi": "Bình tĩnh",
+          "ipa": "/kɑːm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Stay calm.",
+          "exampleSentenceVi": "Hãy bình tĩnh."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-health-9-1",
+          "phrase": "I am feeling very stressed lately.",
+          "meaningVi": "Gần đây tôi cảm thấy rất căng thẳng.",
+          "ipa": "/aɪ æm ˈfiːlɪŋ ˈvɛri strɛst ˈleɪtli/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-9-2",
+          "phrase": "You should try to relax more.",
+          "meaningVi": "Bạn nên cố gắng thư giãn nhiều hơn.",
+          "ipa": "/juː ʃʊd traɪ tuː rɪˈlæks mɔːr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-9-3",
+          "phrase": "Don't worry too much about it.",
+          "meaningVi": "Đừng lo lắng quá về chuyện đó.",
+          "ipa": "/doʊnt /ˈwɜːri tuː mʌtʃ əˈbaʊt ɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-9-4",
+          "phrase": "I feel mentally tired.",
+          "meaningVi": "Tôi cảm thấy mệt mỏi về mặt tinh thần.",
+          "ipa": "/aɪ fiːl ˈmɛntəli /ˈtaɪərd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-9-5",
+          "phrase": "It is okay to feel sad sometimes.",
+          "meaningVi": "Thỉnh thoảng cảm thấy buồn cũng không sao.",
+          "ipa": "/ɪt ɪz oʊˈkeɪ tuː fiːl sæd /ˈsʌmtaɪmz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-9-6",
+          "phrase": "Let's talk about your feelings.",
+          "meaningVi": "Hãy nói về cảm xúc của bạn đi.",
+          "ipa": "/lɛts tɔːk əˈbaʊt jʊr ˈfiːlɪŋz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-9-7",
+          "phrase": "Try to think positive thoughts.",
+          "meaningVi": "Hãy cố gắng nghĩ về những điều tích cực.",
+          "ipa": "/traɪ tuː θɪŋk ˈpɑːzətɪv θɔːts/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-9-8",
+          "phrase": "Take a deep breath and stay calm.",
+          "meaningVi": "Hít một hơi sâu và giữ bình tĩnh.",
+          "ipa": "/teɪk ə diːp brɛθ ænd steɪ kɑːm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-9-9",
+          "phrase": "Mental health is very important.",
+          "meaningVi": "Sức khỏe tinh thần là rất quan trọng.",
+          "ipa": "/ˈmɛntl hɛlθ ɪz ˈvɛri ɪmˈpɔːrtnt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-9-10",
+          "phrase": "You are not alone.",
+          "meaningVi": "Bạn không cô đơn đâu.",
+          "ipa": "/juː ɑːr nɑːt əˈloʊn/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "health-10",
+      "slug": "lesson-10",
+      "topicSlug": "health",
+      "title": "Hospital Visit",
+      "titleVi": "Đi thăm bệnh",
+      "order": 10,
+      "vocabulary": [
+        {
+          "id": "v-health-10-1",
+          "word": "Visit",
+          "meaningVi": "Thăm",
+          "ipa": "/ˈvɪzɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Visit a patient.",
+          "exampleSentenceVi": "Đi thăm bệnh nhân."
+        },
+        {
+          "id": "v-health-10-2",
+          "word": "Patient",
+          "meaningVi": "Bệnh nhân",
+          "ipa": "/ˈpeɪʃnt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A sick patient.",
+          "exampleSentenceVi": "Một bệnh nhân ốm."
+        },
+        {
+          "id": "v-health-10-3",
+          "word": "Ward",
+          "meaningVi": "Phòng bệnh",
+          "ipa": "/wɔːrd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Hospital ward.",
+          "exampleSentenceVi": "Khu phòng bệnh."
+        },
+        {
+          "id": "v-health-10-4",
+          "word": "Gift",
+          "meaningVi": "Quà",
+          "ipa": "/ɡɪft/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Bring a gift.",
+          "exampleSentenceVi": "Mang theo quà."
+        },
+        {
+          "id": "v-health-10-5",
+          "word": "Fruit",
+          "meaningVi": "Trái cây",
+          "ipa": "/fruːt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A basket of fruit.",
+          "exampleSentenceVi": "Một giỏ trái cây."
+        },
+        {
+          "id": "v-health-10-6",
+          "word": "Flower",
+          "meaningVi": "Hoa",
+          "ipa": "/ˈflaʊər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Buy some flowers.",
+          "exampleSentenceVi": "Mua vài bông hoa."
+        },
+        {
+          "id": "v-health-10-7",
+          "word": "Better",
+          "meaningVi": "Tốt hơn",
+          "ipa": "/ˈbɛtər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Feel better.",
+          "exampleSentenceVi": "Cảm thấy tốt hơn."
+        },
+        {
+          "id": "v-health-10-8",
+          "word": "Soon",
+          "meaningVi": "Sớm",
+          "ipa": "/suːn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Recover soon.",
+          "exampleSentenceVi": "Sớm bình phục."
+        },
+        {
+          "id": "v-health-10-9",
+          "word": "Talk",
+          "meaningVi": "Nói chuyện",
+          "ipa": "/tɔːk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Talk softly.",
+          "exampleSentenceVi": "Nói chuyện nhỏ nhẹ."
+        },
+        {
+          "id": "v-health-10-10",
+          "word": "Smile",
+          "meaningVi": "Mỉm cười",
+          "ipa": "/smaɪl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Give a smile.",
+          "exampleSentenceVi": "Tặng một nụ cười."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-health-10-1",
+          "phrase": "I am going to visit my friend in the hospital.",
+          "meaningVi": "Tôi định đi thăm bạn ở bệnh viện.",
+          "ipa": "/aɪ æm ˈɡoʊɪŋ tuː /ˈvɪzɪt maɪ frɛnd ɪn ðə /ˈhɑːspɪtl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-10-2",
+          "phrase": "Which ward is he in?",
+          "meaningVi": "Anh ấy ở phòng bệnh nào?",
+          "ipa": "/wɪtʃ wɔːrd ɪz hiː ɪn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-10-3",
+          "phrase": "I bought him some fruits.",
+          "meaningVi": "Tôi đã mua cho anh ấy ít trái cây.",
+          "ipa": "/aɪ bɔːt hɪm sʌm fruːts/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-10-4",
+          "phrase": "These flowers are for you.",
+          "meaningVi": "Những bông hoa này là dành cho bạn.",
+          "ipa": "/ðiːz /ˈflaʊərz ɑːr fɔːr juː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-10-5",
+          "phrase": "How are you feeling today?",
+          "meaningVi": "Hôm nay bạn cảm thấy thế nào?",
+          "ipa": "/haʊ ɑːr juː ˈfiːlɪŋ təˈdeɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-10-6",
+          "phrase": "You look much better today.",
+          "meaningVi": "Hôm nay trông bạn tốt hơn nhiều rồi.",
+          "ipa": "/juː lʊk mʌtʃ /ˈbɛtər təˈdeɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-10-7",
+          "phrase": "Don't talk too much, you need rest.",
+          "meaningVi": "Đừng nói nhiều quá, bạn cần nghỉ ngơi.",
+          "ipa": "/doʊnt tɔːk tuː mʌtʃ juː niːd rɛst/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-10-8",
+          "phrase": "I hope you get well soon.",
+          "meaningVi": "Mình mong bạn sớm khỏe lại.",
+          "ipa": "/aɪ hoʊp juː ɡɛt wɛl suːn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-10-9",
+          "phrase": "We are all praying for you.",
+          "meaningVi": "Mọi người đều đang cầu nguyện cho bạn.",
+          "ipa": "/wiː ɑːr ɔːl ˈpreɪɪŋ fɔːr juː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-health-10-10",
+          "phrase": "I will come visit you again tomorrow.",
+          "meaningVi": "Ngày mai tôi sẽ lại đến thăm bạn.",
+          "ipa": "/aɪ wɪl kʌm /ˈvɪzɪt juː əˈɡeɪn təˈmɑːroʊ/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+'use client';
+
+import { useState, useEffect } from 'react';
+import styles from './page.module.css';
+import { useGameEngine, GameMode, Player } from '../../../hooks/useGameEngine';
+import type { PracticeQuestion } from '../../../types/lesson';
+
+const AVATARS = ['🦁', '🦊', '🐰', '🐼', '🐸', '🦄', '🐯', '🐧'];
+
+export default function GameArena() {
+  const { gameState, availableTopics, startGame, nextTurn, resetGame } = useGameEngine();
+  
+  // Setup State
+  const [mode, setMode] = useState<GameMode>('single');
+  const [players, setPlayers] = useState<Omit<Player, 'score' | 'streak'>[]>([
+    { id: 'p1', name: '', avatar: '🦁' }
+  ]);
+  const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
+  const [questionCount, setQuestionCount] = useState<number>(10);
+  const [timeLimit, setTimeLimit] = useState<number>(0);
+
+  // Playing State
+  const [selectedOption, setSelectedOption] = useState<number | null>(null);
+  const [isAnswered, setIsAnswered] = useState(false);
+  const [timeLeft, setTimeLeft] = useState<number>(0);
+
+  // Handle TTS
+  const speakWord = (word: string) => {
+    if ('speechSynthesis' in window) {
+      const utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = 'en-US';
+      window.speechSynthesis.speak(utterance);
+    }
+  };
+
+  const handleStart = () => {
+    if (players.some(p => !p.name.trim())) {
+      alert("Vui lòng nhập tên cho tất cả người chơi!");
+      return;
+    }
+    const finalTopics = selectedTopics.length > 0 ? selectedTopics : availableTopics.map(t => t.slug);
+    
+    startGame({
+      mode,
+      players,
+      selectedTopicSlugs: finalTopics,
+      questionsPerPlayer: questionCount,
+      timeLimit
+    });
+    if (timeLimit > 0) setTimeLeft(timeLimit);
+  };
+
+  const handleOptionSelect = (index: number) => {
+    if (isAnswered || !gameState.currentQuestion) return;
+    
+    setSelectedOption(index);
+    setIsAnswered(true);
+    
+    const isCorrect = index === gameState.currentQuestion.correctAnswer;
+
+    if (isCorrect && (gameState.currentQuestion as PracticeQuestion & { wordToSpeak?: string }).wordToSpeak) {
+      speakWord((gameState.currentQuestion as PracticeQuestion & { wordToSpeak?: string }).wordToSpeak!);
+    }
+  };
+
+  const handleTimeOut = () => {
+    if (isAnswered) return;
+    setIsAnswered(true);
+    setSelectedOption(-1); // -1 signifies timeout
+  };
+
+  useEffect(() => {
+    if (gameState.status !== 'playing' || timeLimit === 0 || isAnswered || !gameState.currentQuestion) {
+      return;
+    }
+    
+    const timer = setInterval(() => {
+      setTimeLeft(prev => {
+        if (prev <= 1) {
+          clearInterval(timer);
+          handleTimeOut();
+          return 0;
+        }
+        return prev - 1;
+      });
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, [gameState.status, timeLimit, isAnswered, gameState.currentQuestion]);
+
+  const handleNextTurn = () => {
+    if (!gameState.currentQuestion) return;
+    const isCorrect = selectedOption === gameState.currentQuestion.correctAnswer;
+    
+    setSelectedOption(null);
+    setIsAnswered(false);
+    if (timeLimit > 0) setTimeLeft(timeLimit);
+    nextTurn(isCorrect);
+  };
+
+  const renderSetup = () => (
+    <div className={styles.setupCard}>
+      <div className={styles.formGroup}>
+        <label className={styles.label}>Chế độ chơi</label>
+        <div className={styles.modeToggle}>
+          <button 
+            className={mode === 'single' ? styles.modeBtnActive : styles.modeBtn}
+            onClick={() => {
+              setMode('single');
+              setPlayers([{ id: 'p1', name: '', avatar: '🦁' }]);
+            }}
+          >
+            👤 1 Người chơi
+          </button>
+          <button 
+            className={mode === 'multi' ? styles.modeBtnActive : styles.modeBtn}
+            onClick={() => {
+              setMode('multi');
+              setPlayers([
+                { id: 'p1', name: '', avatar: '🦁' },
+                { id: 'p2', name: '', avatar: '🦊' }
+              ]);
+            }}
+          >
+            👥 Nhiều người chơi
+          </button>
+        </div>
+      </div>
+
+      <div className={styles.formGroup}>
+        <label className={styles.label}>Người chơi</label>
+        {players.map((p, idx) => (
+          <div key={p.id} className={styles.playerInputGroup}>
+            <select 
+              className={styles.avatarSelect}
+              value={p.avatar}
+              onChange={(e) => {
+                const newP = [...players];
+                newP[idx].avatar = e.target.value;
+                setPlayers(newP);
+              }}
+            >
+              {AVATARS.map(a => <option key={a} value={a}>{a}</option>)}
+            </select>
+            <input 
+              className={styles.input}
+              placeholder={`Tên người chơi ${idx + 1}`}
+              value={p.name}
+              onChange={(e) => {
+                const newP = [...players];
+                newP[idx].name = e.target.value;
+                setPlayers(newP);
+              }}
+            />
+          </div>
+        ))}
+        {mode === 'multi' && (
+          <button 
+            className={styles.modeBtn} 
+            style={{marginTop: '10px'}}
+            onClick={() => setPlayers([...players, { id: `p${players.length + 1}`, name: '', avatar: AVATARS[players.length % AVATARS.length] }])}
+          >
+            + Thêm người chơi
+          </button>
+        )}
+      </div>
+
+      <div className={styles.formGroup}>
+        <label className={styles.label}>
+          Chủ đề <span style={{fontSize: '0.9rem', color: 'var(--text-secondary)', fontWeight: 'normal'}}>(Bỏ trống để tự động chọn tất cả chủ đề)</span>
+        </label>
+        <div className={styles.topicsGrid}>
+          {availableTopics.map(topic => {
+            const isChecked = selectedTopics.includes(topic.slug);
+            return (
+              <label key={topic.id} className={`${styles.topicCheckboxLabel} ${isChecked ? styles.topicCheckboxLabelActive : ''}`}>
+                <input 
+                  type="checkbox" 
+                  className={styles.hiddenCheckbox}
+                  checked={isChecked}
+                  onChange={(e) => {
+                    if (e.target.checked) {
+                      setSelectedTopics([...selectedTopics, topic.slug]);
+                    } else {
+                      setSelectedTopics(selectedTopics.filter(t => t !== topic.slug));
+                    }
+                  }}
+                />
+                <span className={styles.customCheckmark}></span>
+                {topic.title}
+              </label>
+            );
+          })}
+        </div>
+      </div>
+
+      <div className={styles.formGroup}>
+        <label className={styles.label}>Số câu hỏi mỗi người</label>
+        <select 
+          className={styles.inputSelect} 
+          value={questionCount}
+          onChange={(e) => setQuestionCount(Number(e.target.value))}
+        >
+          <option value={5}>5 câu</option>
+          <option value={10}>10 câu</option>
+          <option value={20}>20 câu</option>
+          <option value={50}>50 câu</option>
+        </select>
+      </div>
+
+      <div className={styles.formGroup}>
+        <label className={styles.label}>Thời gian trả lời (Time Attack)</label>
+        <select 
+          className={styles.inputSelect} 
+          value={timeLimit}
+          onChange={(e) => setTimeLimit(Number(e.target.value))}
+        >
+          <option value={0}>Không giới hạn</option>
+          <option value={10}>10 giây / câu</option>
+          <option value={15}>15 giây / câu</option>
+          <option value={20}>20 giây / câu</option>
+        </select>
+      </div>
+
+      <button className={styles.startBtn} onClick={handleStart}>
+        🚀 BẮT ĐẦU GAME
+      </button>
+    </div>
+  );
+
+  const renderPlaying = () => {
+    if (!gameState.currentQuestion) return null;
+    const q = gameState.currentQuestion;
+    const currentPlayer = gameState.players[gameState.currentPlayerIndex];
+
+    return (
+      <div className={styles.gameBoard}>
+        <button 
+          className={styles.quitBtn}
+          onClick={() => {
+            if (window.confirm("Bạn có chắc chắn muốn thoát game không? Điểm số sẽ bị hủy.")) {
+              resetGame();
+            }
+          }}
+        >
+          ✕ Thoát / Thiết lập lại
+        </button>
+
+        <div className={styles.scoreBoard}>
+          {gameState.players.map((p, i) => (
+            <div key={p.id} className={`${styles.scoreItem} ${i === gameState.currentPlayerIndex ? styles.scoreItemActive : ''}`}>
+              <span>{p.avatar}</span>
+              <span>{p.name}: {p.score}</span>
+              {p.streak >= 1 && <span className={styles.fire} title={`Chuỗi đúng: ${p.streak} câu`}>🔥</span>}
+            </div>
+          ))}
+        </div>
+
+        <div className={styles.turnIndicator}>
+          <div className={styles.currentPlayer}>
+            {currentPlayer.avatar} Lượt của {currentPlayer.name}
+          </div>
+          {timeLimit > 0 && (
+            <div style={{fontSize: '1.2rem', fontWeight: 'bold', color: timeLeft <= 5 ? '#ff7675' : 'var(--accent-primary)', marginTop: '8px'}}>
+              ⏱ {timeLeft}s
+            </div>
+          )}
+          <div className={styles.roundInfo}>
+            Vòng {gameState.currentRound} / {gameState.totalRounds}
+          </div>
+        </div>
+
+        <div className={styles.questionBox}>
+          <div className={styles.questionText}>{q.question}</div>
+          <div className={styles.optionsGrid}>
+            {q.options.map((opt, idx) => {
+              let btnClass = styles.optionBtn;
+              if (isAnswered) {
+                if (idx === q.correctAnswer) btnClass += ` ${styles.optionCorrect}`;
+                else if (idx === selectedOption) btnClass += ` ${styles.optionWrong}`;
+              }
+              return (
+                <button 
+                  key={idx} 
+                  className={btnClass}
+                  onClick={() => handleOptionSelect(idx)}
+                  disabled={isAnswered}
+                >
+                  {opt}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {isAnswered && (
+          <div className={styles.feedback}>
+            {selectedOption === q.correctAnswer ? (
+              <div className={styles.correctFeedback}>🎉 Chính xác! +10 điểm</div>
+            ) : selectedOption === -1 ? (
+              <div className={styles.wrongFeedback}>⏰ Hết giờ!</div>
+            ) : (
+              <div className={styles.wrongFeedback}>😢 Sai rồi!</div>
+            )}
+            <div className={styles.explanation}>{q.explanation}</div>
+            <button className={styles.nextBtn} onClick={handleNextTurn}>
+              Tiếp tục ➡️
+            </button>
+          </div>
+        )}
+      </div>
+    );
+  };
+
+  const renderResults = () => {
+    const sortedPlayers = [...gameState.players].sort((a, b) => b.score - a.score);
+    const winner = sortedPlayers[0];
+
+    return (
+      <div className={styles.resultsBoard}>
+        <div className={styles.trophy}>🏆</div>
+        <div className={styles.winnerText}>
+          {gameState.players.length > 1 
+            ? `Chúc mừng ${winner.name} đã chiến thắng!` 
+            : 'Hoàn thành chặng đường!'}
+        </div>
+        
+        <div className={styles.leaderboard}>
+          {sortedPlayers.map((p, idx) => (
+            <div key={p.id} className={`${styles.rankItem} ${idx === 0 ? styles.rank1 : ''}`}>
+              <div className={styles.rankPlayer}>
+                <span>#{idx + 1}</span>
+                <span>{p.avatar}</span>
+                <span>{p.name}</span>
+              </div>
+              <div className={styles.rankScore}>
+                {p.score} điểm
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <button className={styles.startBtn} onClick={resetGame}>
+          🎮 Chơi ván mới
+        </button>
+      </div>
+    );
+  };
+
+  return (
+    <main className={styles.container}>
+      <header className={styles.header}>
+        <h1 className={styles.title}>Đấu Trường Tiếng Anh</h1>
+        <p className={styles.subtitle}>Cùng nhau học từ vựng thật vui và hiệu quả!</p>
+      </header>
+      
+      {gameState.status === 'setup' && renderSetup()}
+      {gameState.status === 'playing' && renderPlaying()}
+      {gameState.status === 'results' && renderResults()}
+    </main>
+  );
+}

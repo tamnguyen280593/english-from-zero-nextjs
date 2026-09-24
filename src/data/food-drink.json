@@ -2,156 +2,1844 @@
   "topicSlug": "food-drink",
   "lessons": [
     {
-      "id": "food-01",
-      "slug": "common-foods",
+      "id": "food-drink-1",
+      "slug": "lesson-1",
       "topicSlug": "food-drink",
-      "title": "Common Foods",
-      "titleVi": "Đồ ăn thường gặp",
+      "title": "Basic Food",
+      "titleVi": "Đồ ăn cơ bản",
       "order": 1,
       "vocabulary": [
-        { "id": "v-rice", "word": "Rice", "meaningVi": "Cơm, gạo", "ipa": "/raɪs/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/rice.webp", "exampleSentence": "I eat rice every day.", "exampleSentenceVi": "Tôi ăn cơm mỗi ngày." },
-        { "id": "v-chicken", "word": "Chicken", "meaningVi": "Thịt gà", "ipa": "/ˈtʃɪkɪn/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/chicken.webp", "exampleSentence": "I like chicken.", "exampleSentenceVi": "Tôi thích thịt gà." },
-        { "id": "v-fish", "word": "Fish", "meaningVi": "Cá", "ipa": "/fɪʃ/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/fish.webp", "exampleSentence": "This fish is delicious.", "exampleSentenceVi": "Con cá này ngon." },
-        { "id": "v-bread", "word": "Bread", "meaningVi": "Bánh mì", "ipa": "/brɛd/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/bread.webp", "exampleSentence": "I eat bread for breakfast.", "exampleSentenceVi": "Tôi ăn bánh mì cho bữa sáng." },
-        { "id": "v-egg", "word": "Egg", "meaningVi": "Trứng", "ipa": "/ɛɡ/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/egg.webp", "exampleSentence": "I want two eggs.", "exampleSentenceVi": "Tôi muốn hai quả trứng." }
-      ],
-      "phrases": [
-        { "id": "p-i-want", "phrase": "I want some rice, please.", "meaningVi": "Tôi muốn một ít cơm, làm ơn.", "ipa": "/aɪ wɑːnt sʌm raɪs pliːz/", "usage": "Gọi món hoặc yêu cầu đồ ăn" },
-        { "id": "p-delicious", "phrase": "This is delicious!", "meaningVi": "Cái này ngon quá!", "ipa": "/ðɪs ɪz dɪˈlɪʃəs/", "usage": "Khen đồ ăn ngon" },
-        { "id": "p-im-hungry", "phrase": "I'm hungry.", "meaningVi": "Tôi đói.", "ipa": "/aɪm ˈhʌŋɡri/", "usage": "Nói khi bạn đói bụng" }
-      ],
-      "dialogues": [
         {
-          "id": "d-food-01-01", "title": "At the market", "titleVi": "Ở chợ",
-          "situation": "Hương đi chợ mua đồ ăn.",
-          "lines": [
-            { "speaker": "Hương", "text": "I want some chicken and rice, please.", "textVi": "Tôi muốn một ít gà và cơm, làm ơn.", "ipa": "/aɪ wɑːnt sʌm ˈtʃɪkɪn ænd raɪs pliːz/" },
-            { "speaker": "Seller", "text": "Sure! Anything else?", "textVi": "Được! Còn gì khác không?", "ipa": "/ʃʊr ˈɛnɪθɪŋ ɛls/" },
-            { "speaker": "Hương", "text": "Yes, two eggs and some bread.", "textVi": "Có, hai quả trứng và một ít bánh mì.", "ipa": "/jɛs tuː ɛɡz ænd sʌm brɛd/" },
-            { "speaker": "Seller", "text": "Here you go!", "textVi": "Đây ạ!", "ipa": "/hɪr juː ɡoʊ/" }
-          ]
+          "id": "v-food-drink-1-1",
+          "word": "Food",
+          "meaningVi": "Thức ăn",
+          "ipa": "/fuːd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I love good food.",
+          "exampleSentenceVi": "Tôi thích đồ ăn ngon."
+        },
+        {
+          "id": "v-food-drink-1-2",
+          "word": "Rice",
+          "meaningVi": "Cơm, gạo",
+          "ipa": "/raɪs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Vietnamese eat rice.",
+          "exampleSentenceVi": "Người Việt Nam ăn cơm."
+        },
+        {
+          "id": "v-food-drink-1-3",
+          "word": "Bread",
+          "meaningVi": "Bánh mì",
+          "ipa": "/brɛd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Buy some bread.",
+          "exampleSentenceVi": "Hãy mua chút bánh mì."
+        },
+        {
+          "id": "v-food-drink-1-4",
+          "word": "Noodle",
+          "meaningVi": "Mì",
+          "ipa": "/ˈnuːdl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A bowl of noodles.",
+          "exampleSentenceVi": "Một bát mì."
+        },
+        {
+          "id": "v-food-drink-1-5",
+          "word": "Meat",
+          "meaningVi": "Thịt",
+          "ipa": "/miːt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I do not eat meat.",
+          "exampleSentenceVi": "Tôi không ăn thịt."
+        },
+        {
+          "id": "v-food-drink-1-6",
+          "word": "Fish",
+          "meaningVi": "Cá",
+          "ipa": "/fɪʃ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Fried fish is tasty.",
+          "exampleSentenceVi": "Cá rán rất ngon."
+        },
+        {
+          "id": "v-food-drink-1-7",
+          "word": "Egg",
+          "meaningVi": "Trứng",
+          "ipa": "/ɛɡ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Boil an egg.",
+          "exampleSentenceVi": "Luộc một quả trứng."
+        },
+        {
+          "id": "v-food-drink-1-8",
+          "word": "Soup",
+          "meaningVi": "Súp, canh",
+          "ipa": "/suːp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Hot chicken soup.",
+          "exampleSentenceVi": "Canh gà nóng."
+        },
+        {
+          "id": "v-food-drink-1-9",
+          "word": "Salad",
+          "meaningVi": "Sa-lát",
+          "ipa": "/ˈsæləd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A fresh salad.",
+          "exampleSentenceVi": "Một đĩa sa-lát tươi."
+        },
+        {
+          "id": "v-food-drink-1-10",
+          "word": "Hungry",
+          "meaningVi": "Đói",
+          "ipa": "/ˈhʌŋɡri/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I am very hungry.",
+          "exampleSentenceVi": "Tôi đang rất đói."
         }
       ],
-      "practice": [
-        { "id": "q-food-01-01", "type": "multiple-choice", "question": "What does 'Rice' mean?", "questionVi": "'Rice' nghĩa là gì?", "options": ["Bánh mì", "Cơm/gạo", "Thịt gà", "Trứng"], "correctAnswer": 1, "explanation": "'Rice' = Cơm, gạo." },
-        { "id": "q-food-01-02", "type": "fill-blank", "question": "I _____ some chicken, please.", "questionVi": "Điền từ khi gọi món", "options": ["am", "is", "have", "want"], "correctAnswer": 3, "explanation": "'I want...' = Tôi muốn... Dùng khi gọi món." },
-        { "id": "q-food-01-03", "type": "match-meaning", "question": "Match: 'Bread'", "questionVi": "Nối nghĩa: 'Bread'", "options": ["Cá", "Trứng", "Bánh mì", "Gạo"], "correctAnswer": 2, "explanation": "'Bread' = Bánh mì." },
-        { "id": "q-food-01-04", "type": "multiple-choice", "question": "'I'm hungry' means _____.", "questionVi": "'I'm hungry' nghĩa là _____.", "options": ["Tôi no", "Tôi khát", "Tôi đói", "Tôi mệt"], "correctAnswer": 2, "explanation": "'I'm hungry' = Tôi đói. 'Hungry' = đói." }
-      ]
+      "phrases": [
+        {
+          "id": "p-food-drink-1-1",
+          "phrase": "I am hungry.",
+          "meaningVi": "Tôi đói bụng rồi.",
+          "ipa": "/aɪ æm /ˈhʌŋɡri/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-1-2",
+          "phrase": "What is there to eat?",
+          "meaningVi": "Có gì để ăn không?",
+          "ipa": "/wʌt ɪz ðɛr tuː iːt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-1-3",
+          "phrase": "Do you like rice or bread?",
+          "meaningVi": "Bạn thích ăn cơm hay bánh mì?",
+          "ipa": "/duː juː laɪk raɪs ɔːr brɛd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-1-4",
+          "phrase": "I want a bowl of noodles.",
+          "meaningVi": "Tôi muốn một tô mì.",
+          "ipa": "/aɪ wɑːnt ə boʊl ʌv /ˈnuːdlz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-1-5",
+          "phrase": "I don't eat meat.",
+          "meaningVi": "Tôi không ăn thịt.",
+          "ipa": "/aɪ doʊnt iːt miːt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-1-6",
+          "phrase": "The fish is very fresh.",
+          "meaningVi": "Con cá này rất tươi.",
+          "ipa": "/ðə fɪʃ ɪz ˈvɛri frɛʃ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-1-7",
+          "phrase": "Would you like an egg?",
+          "meaningVi": "Bạn có muốn ăn trứng không?",
+          "ipa": "/wʊd juː laɪk ən ɛɡ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-1-8",
+          "phrase": "This soup is delicious.",
+          "meaningVi": "Món súp này ngon quá.",
+          "ipa": "/ðɪs suːp ɪz dɪˈlɪʃəs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-1-9",
+          "phrase": "Let's have a salad.",
+          "meaningVi": "Cùng ăn sa-lát nhé.",
+          "ipa": "/lɛts hæv ə /ˈsæləd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-1-10",
+          "phrase": "Enjoy your meal!",
+          "meaningVi": "Chúc ngon miệng!",
+          "ipa": "/ɪnˈdʒɔɪ jʊr miːl/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
     },
     {
-      "id": "food-02",
-      "slug": "drinks",
+      "id": "food-drink-2",
+      "slug": "lesson-2",
       "topicSlug": "food-drink",
       "title": "Drinks",
       "titleVi": "Đồ uống",
       "order": 2,
       "vocabulary": [
-        { "id": "v-water", "word": "Water", "meaningVi": "Nước", "ipa": "/ˈwɔːtər/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/water.webp", "exampleSentence": "Can I have some water?", "exampleSentenceVi": "Cho tôi xin ít nước?" },
-        { "id": "v-coffee", "word": "Coffee", "meaningVi": "Cà phê", "ipa": "/ˈkɔːfi/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/coffee.webp", "exampleSentence": "I drink coffee every morning.", "exampleSentenceVi": "Tôi uống cà phê mỗi sáng." },
-        { "id": "v-tea", "word": "Tea", "meaningVi": "Trà", "ipa": "/tiː/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/tea.webp", "exampleSentence": "Would you like some tea?", "exampleSentenceVi": "Bạn muốn uống trà không?" },
-        { "id": "v-juice", "word": "Juice", "meaningVi": "Nước ép", "ipa": "/dʒuːs/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/juice.webp", "exampleSentence": "I like orange juice.", "exampleSentenceVi": "Tôi thích nước cam." },
-        { "id": "v-milk", "word": "Milk", "meaningVi": "Sữa", "ipa": "/mɪlk/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/milk.webp", "exampleSentence": "Children drink milk.", "exampleSentenceVi": "Trẻ em uống sữa." }
-      ],
-      "phrases": [
-        { "id": "p-can-i-have", "phrase": "Can I have a coffee, please?", "meaningVi": "Cho tôi xin một ly cà phê?", "ipa": "/kæn aɪ hæv ə ˈkɔːfi pliːz/", "usage": "Gọi đồ uống lịch sự" },
-        { "id": "p-would-you-like", "phrase": "Would you like some tea?", "meaningVi": "Bạn muốn uống trà không?", "ipa": "/wʊd juː laɪk sʌm tiː/", "usage": "Mời ai đó uống gì" },
-        { "id": "p-im-thirsty", "phrase": "I'm thirsty.", "meaningVi": "Tôi khát nước.", "ipa": "/aɪm ˈθɜːrsti/", "usage": "Nói khi bạn khát" }
-      ],
-      "dialogues": [
         {
-          "id": "d-food-02-01", "title": "At a café", "titleVi": "Ở quán café",
-          "situation": "Đức gọi đồ uống tại quán café.",
-          "lines": [
-            { "speaker": "Waiter", "text": "Hello! What would you like to drink?", "textVi": "Xin chào! Bạn muốn uống gì?", "ipa": "/həˈloʊ wɑːt wʊd juː laɪk tuː drɪŋk/" },
-            { "speaker": "Đức", "text": "Can I have a coffee, please?", "textVi": "Cho tôi xin một ly cà phê?", "ipa": "/kæn aɪ hæv ə ˈkɔːfi pliːz/" },
-            { "speaker": "Waiter", "text": "Of course! Anything else?", "textVi": "Tất nhiên! Còn gì khác không?", "ipa": "/ʌv kɔːrs ˈɛnɪθɪŋ ɛls/" },
-            { "speaker": "Đức", "text": "And a glass of water, please. Thank you!", "textVi": "Và một ly nước, làm ơn. Cảm ơn!", "ipa": "/ænd ə ɡlæs ʌv ˈwɔːtər pliːz θæŋk juː/" }
-          ]
+          "id": "v-food-drink-2-1",
+          "word": "Drink",
+          "meaningVi": "Đồ uống, uống",
+          "ipa": "/drɪŋk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Have a drink.",
+          "exampleSentenceVi": "Uống chút gì đi."
+        },
+        {
+          "id": "v-food-drink-2-2",
+          "word": "Water",
+          "meaningVi": "Nước",
+          "ipa": "/ˈwɔːtər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A glass of water.",
+          "exampleSentenceVi": "Một cốc nước."
+        },
+        {
+          "id": "v-food-drink-2-3",
+          "word": "Tea",
+          "meaningVi": "Trà",
+          "ipa": "/tiː/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I like green tea.",
+          "exampleSentenceVi": "Tôi thích trà xanh."
+        },
+        {
+          "id": "v-food-drink-2-4",
+          "word": "Coffee",
+          "meaningVi": "Cà phê",
+          "ipa": "/ˈkɔːfi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Black coffee, please.",
+          "exampleSentenceVi": "Cho tôi cà phê đen."
+        },
+        {
+          "id": "v-food-drink-2-5",
+          "word": "Milk",
+          "meaningVi": "Sữa",
+          "ipa": "/mɪlk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Add some milk.",
+          "exampleSentenceVi": "Thêm chút sữa vào nhé."
+        },
+        {
+          "id": "v-food-drink-2-6",
+          "word": "Juice",
+          "meaningVi": "Nước ép",
+          "ipa": "/dʒuːs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Orange juice is sweet.",
+          "exampleSentenceVi": "Nước cam thì ngọt."
+        },
+        {
+          "id": "v-food-drink-2-7",
+          "word": "Soda",
+          "meaningVi": "Nước ngọt có ga",
+          "ipa": "/ˈsoʊdə/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Too much soda is bad.",
+          "exampleSentenceVi": "Uống nhiều soda không tốt."
+        },
+        {
+          "id": "v-food-drink-2-8",
+          "word": "Beer",
+          "meaningVi": "Bia",
+          "ipa": "/bɪr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A cold beer.",
+          "exampleSentenceVi": "Một cốc bia lạnh."
+        },
+        {
+          "id": "v-food-drink-2-9",
+          "word": "Wine",
+          "meaningVi": "Rượu vang",
+          "ipa": "/waɪn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Red wine.",
+          "exampleSentenceVi": "Rượu vang đỏ."
+        },
+        {
+          "id": "v-food-drink-2-10",
+          "word": "Thirsty",
+          "meaningVi": "Khát nước",
+          "ipa": "/ˈθɜːrsti/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I am thirsty.",
+          "exampleSentenceVi": "Tôi khát nước quá."
         }
       ],
-      "practice": [
-        { "id": "q-food-02-01", "type": "multiple-choice", "question": "How do you politely order a drink?", "questionVi": "Gọi đồ uống lịch sự thế nào?", "options": ["Give me coffee!", "Can I have a coffee, please?", "I need coffee.", "Coffee now."], "correctAnswer": 1, "explanation": "'Can I have a coffee, please?' là cách gọi lịch sự nhất." },
-        { "id": "q-food-02-02", "type": "fill-blank", "question": "I'm _____ . Can I have some water?", "questionVi": "Điền từ khi khát nước", "options": ["hungry", "thirsty", "tired", "happy"], "correctAnswer": 1, "explanation": "'Thirsty' = khát. 'Hungry' = đói." },
-        { "id": "q-food-02-03", "type": "match-meaning", "question": "Match: 'Juice'", "questionVi": "Nối nghĩa: 'Juice'", "options": ["Sữa", "Trà", "Nước ép", "Cà phê"], "correctAnswer": 2, "explanation": "'Juice' = Nước ép (cam, táo, ...)." },
-        { "id": "q-food-02-04", "type": "multiple-choice", "question": "'Would you like some tea?' is used to _____.", "questionVi": "Câu này dùng để _____.", "options": ["gọi trà", "mời ai uống trà", "từ chối trà", "mua trà"], "correctAnswer": 1, "explanation": "'Would you like...?' = Bạn có muốn...? Dùng để mời." }
-      ]
+      "phrases": [
+        {
+          "id": "p-food-drink-2-1",
+          "phrase": "I am thirsty.",
+          "meaningVi": "Tôi khát nước rồi.",
+          "ipa": "/aɪ æm /ˈθɜːrsti/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-2-2",
+          "phrase": "What would you like to drink?",
+          "meaningVi": "Bạn muốn uống gì?",
+          "ipa": "/wʌt wʊd juː laɪk tuː drɪŋk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-2-3",
+          "phrase": "Can I have a glass of water?",
+          "meaningVi": "Cho tôi xin một cốc nước được không?",
+          "ipa": "/kæn aɪ hæv ə ɡlæs ʌv /ˈwɔːtər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-2-4",
+          "phrase": "Do you prefer tea or coffee?",
+          "meaningVi": "Bạn thích trà hay cà phê hơn?",
+          "ipa": "/duː juː prɪˈfɜːr tiː ɔːr /ˈkɔːfi/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-2-5",
+          "phrase": "I will have orange juice.",
+          "meaningVi": "Tôi sẽ uống nước cam ép.",
+          "ipa": "/aɪ wɪl hæv ˈɔːrɪndʒ dʒuːs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-2-6",
+          "phrase": "Please add some milk.",
+          "meaningVi": "Làm ơn thêm chút sữa.",
+          "ipa": "/pliːz æd sʌm mɪlk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-2-7",
+          "phrase": "No sugar, please.",
+          "meaningVi": "Đừng cho đường nhé.",
+          "ipa": "/noʊ /ˈʃʊɡər pliːz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-2-8",
+          "phrase": "A cold beer would be great.",
+          "meaningVi": "Một cốc bia lạnh thì tuyệt.",
+          "ipa": "/ə koʊld bɪr wʊd biː ɡreɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-2-9",
+          "phrase": "Let's toast!",
+          "meaningVi": "Cạn ly nào!",
+          "ipa": "/lɛts toʊst/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-2-10",
+          "phrase": "Cheers!",
+          "meaningVi": "Chúc mừng! (khi cạn ly)",
+          "ipa": "/tʃɪrz/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
     },
     {
-      "id": "food-03",
-      "slug": "at-a-restaurant",
+      "id": "food-drink-3",
+      "slug": "lesson-3",
       "topicSlug": "food-drink",
-      "title": "At a Restaurant",
-      "titleVi": "Ở nhà hàng",
+      "title": "Fruits & Vegetables",
+      "titleVi": "Trái cây & Rau củ",
       "order": 3,
       "vocabulary": [
-        { "id": "v-menu", "word": "Menu", "meaningVi": "Thực đơn", "ipa": "/ˈmɛnjuː/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/menu.webp", "exampleSentence": "Can I see the menu?", "exampleSentenceVi": "Cho tôi xem thực đơn?" },
-        { "id": "v-order", "word": "Order", "meaningVi": "Gọi món", "ipa": "/ˈɔːrdər/", "partOfSpeech": "verb", "image": "/images/lessons/food-drink/order.webp", "exampleSentence": "I'd like to order.", "exampleSentenceVi": "Tôi muốn gọi món." },
-        { "id": "v-bill", "word": "Bill", "meaningVi": "Hóa đơn", "ipa": "/bɪl/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/bill.webp", "exampleSentence": "Can I have the bill, please?", "exampleSentenceVi": "Cho tôi xin hóa đơn?" },
-        { "id": "v-waiter", "word": "Waiter", "meaningVi": "Phục vụ (nam)", "ipa": "/ˈweɪtər/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/waiter.webp", "exampleSentence": "The waiter is very friendly.", "exampleSentenceVi": "Người phục vụ rất thân thiện." },
-        { "id": "v-table", "word": "Table", "meaningVi": "Bàn", "ipa": "/ˈteɪbəl/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/table.webp", "exampleSentence": "A table for two, please.", "exampleSentenceVi": "Cho tôi một bàn cho hai người." }
-      ],
-      "phrases": [
-        { "id": "p-table-for", "phrase": "A table for two, please.", "meaningVi": "Cho tôi bàn cho hai người.", "ipa": "/ə ˈteɪbəl fɔːr tuː pliːz/", "usage": "Yêu cầu bàn khi vào nhà hàng" },
-        { "id": "p-id-like", "phrase": "I'd like to order, please.", "meaningVi": "Tôi muốn gọi món, làm ơn.", "ipa": "/aɪd laɪk tuː ˈɔːrdər pliːz/", "usage": "Khi bạn sẵn sàng gọi món" },
-        { "id": "p-how-much", "phrase": "How much is this?", "meaningVi": "Cái này bao nhiêu tiền?", "ipa": "/haʊ mʌtʃ ɪz ðɪs/", "usage": "Hỏi giá" }
-      ],
-      "dialogues": [
         {
-          "id": "d-food-03-01", "title": "Ordering food", "titleVi": "Gọi món ăn",
-          "situation": "Linh và bạn đi ăn nhà hàng.",
-          "lines": [
-            { "speaker": "Waiter", "text": "Good evening! A table for two?", "textVi": "Chào buổi tối! Bàn cho hai người ạ?", "ipa": "/ɡʊd ˈiːvnɪŋ ə ˈteɪbəl fɔːr tuː/" },
-            { "speaker": "Linh", "text": "Yes, please. Can I see the menu?", "textVi": "Vâng, làm ơn. Cho tôi xem thực đơn?", "ipa": "/jɛs pliːz kæn aɪ siː ðə ˈmɛnjuː/" },
-            { "speaker": "Waiter", "text": "Here you go. Are you ready to order?", "textVi": "Đây ạ. Quý khách đã sẵn sàng gọi món chưa?", "ipa": "/hɪr juː ɡoʊ ɑːr juː ˈrɛdi tuː ˈɔːrdər/" },
-            { "speaker": "Linh", "text": "I'd like chicken and rice, please.", "textVi": "Tôi muốn gà và cơm, làm ơn.", "ipa": "/aɪd laɪk ˈtʃɪkɪn ænd raɪs pliːz/" }
-          ]
+          "id": "v-food-drink-3-1",
+          "word": "Fruit",
+          "meaningVi": "Trái cây",
+          "ipa": "/fruːt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Fresh fruit.",
+          "exampleSentenceVi": "Trái cây tươi."
+        },
+        {
+          "id": "v-food-drink-3-2",
+          "word": "Apple",
+          "meaningVi": "Quả táo",
+          "ipa": "/ˈæpl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "An apple a day.",
+          "exampleSentenceVi": "Một quả táo mỗi ngày."
+        },
+        {
+          "id": "v-food-drink-3-3",
+          "word": "Banana",
+          "meaningVi": "Quả chuối",
+          "ipa": "/bəˈnænə/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Monkeys like bananas.",
+          "exampleSentenceVi": "Những chú khỉ thích chuối."
+        },
+        {
+          "id": "v-food-drink-3-4",
+          "word": "Orange",
+          "meaningVi": "Quả cam",
+          "ipa": "/ˈɔːrɪndʒ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A sweet orange.",
+          "exampleSentenceVi": "Một quả cam ngọt."
+        },
+        {
+          "id": "v-food-drink-3-5",
+          "word": "Veggie",
+          "meaningVi": "Rau củ",
+          "ipa": "/ˈvɛdʒi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Eat your veggies.",
+          "exampleSentenceVi": "Hãy ăn rau đi."
+        },
+        {
+          "id": "v-food-drink-3-6",
+          "word": "Tomato",
+          "meaningVi": "Cà chua",
+          "ipa": "/təˈmeɪtoʊ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Red tomatoes.",
+          "exampleSentenceVi": "Những quả cà chua đỏ."
+        },
+        {
+          "id": "v-food-drink-3-7",
+          "word": "Potato",
+          "meaningVi": "Khoai tây",
+          "ipa": "/təˈpeɪtoʊ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Fried potatoes.",
+          "exampleSentenceVi": "Khoai tây chiên."
+        },
+        {
+          "id": "v-food-drink-3-8",
+          "word": "Onion",
+          "meaningVi": "Hành tây",
+          "ipa": "/ˈʌnjən/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Chop the onion.",
+          "exampleSentenceVi": "Thái hành tây."
+        },
+        {
+          "id": "v-food-drink-3-9",
+          "word": "Carrot",
+          "meaningVi": "Cà rốt",
+          "ipa": "/ˈkærət/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Rabbits eat carrots.",
+          "exampleSentenceVi": "Thỏ ăn cà rốt."
+        },
+        {
+          "id": "v-food-drink-3-10",
+          "word": "Fresh",
+          "meaningVi": "Tươi",
+          "ipa": "/frɛʃ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The vegetables are fresh.",
+          "exampleSentenceVi": "Rau củ rất tươi."
         }
       ],
-      "practice": [
-        { "id": "q-food-03-01", "type": "multiple-choice", "question": "What does 'Menu' mean?", "questionVi": "'Menu' nghĩa là gì?", "options": ["Hóa đơn", "Bàn ăn", "Thực đơn", "Phục vụ"], "correctAnswer": 2, "explanation": "'Menu' = Thực đơn." },
-        { "id": "q-food-03-02", "type": "fill-blank", "question": "Can I have the _____ , please? (khi muốn thanh toán)", "questionVi": "Điền từ khi muốn thanh toán", "options": ["menu", "table", "order", "bill"], "correctAnswer": 3, "explanation": "'Bill' = Hóa đơn. 'Can I have the bill?' = Cho tôi hóa đơn." },
-        { "id": "q-food-03-03", "type": "match-meaning", "question": "Match: 'A table for two'", "questionVi": "Nối nghĩa", "options": ["Hai cái bàn", "Bàn cho hai người", "Hai phần ăn", "Hai người phục vụ"], "correctAnswer": 1, "explanation": "'A table for two' = Một bàn cho hai người." },
-        { "id": "q-food-03-04", "type": "multiple-choice", "question": "'How much is this?' is used to ask about _____.", "questionVi": "Câu này dùng để hỏi về _____.", "options": ["thời gian", "giá tiền", "số lượng", "địa chỉ"], "correctAnswer": 1, "explanation": "'How much is this?' = Cái này bao nhiêu tiền?" }
-      ]
+      "phrases": [
+        {
+          "id": "p-food-drink-3-1",
+          "phrase": "We should eat more fruit.",
+          "meaningVi": "Chúng ta nên ăn nhiều trái cây hơn.",
+          "ipa": "/wiː ʃʊd iːt mɔːr fruːt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-3-2",
+          "phrase": "I love apples and bananas.",
+          "meaningVi": "Tôi thích táo và chuối.",
+          "ipa": "/aɪ lʌv /ˈæplz ænd bəˈnænəz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-3-3",
+          "phrase": "Would you like an orange?",
+          "meaningVi": "Bạn có muốn ăn cam không?",
+          "ipa": "/wʊd juː laɪk ən /ˈɔːrɪndʒ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-3-4",
+          "phrase": "Vegetables are healthy.",
+          "meaningVi": "Rau củ rất tốt cho sức khỏe.",
+          "ipa": "/ˈvɛdʒtəblz ɑːr /ˈhɛlθi/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-3-5",
+          "phrase": "Please pass the tomatoes.",
+          "meaningVi": "Làm ơn đưa giúp tôi cà chua.",
+          "ipa": "/pliːz pæs ðə təˈmeɪtoʊz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-3-6",
+          "phrase": "I am making a potato soup.",
+          "meaningVi": "Tôi đang nấu súp khoai tây.",
+          "ipa": "/aɪ æm ˈmeɪkɪŋ ə təˈpeɪtoʊ suːp/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-3-7",
+          "phrase": "Don't put onions in my food.",
+          "meaningVi": "Đừng cho hành vào đồ ăn của tôi.",
+          "ipa": "/doʊnt pʊt /ˈʌnjənz ɪn maɪ fuːd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-3-8",
+          "phrase": "Are these vegetables fresh?",
+          "meaningVi": "Chỗ rau củ này có tươi không?",
+          "ipa": "/ɑːr ðiːz /ˈvɛdʒtəblz frɛʃ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-3-9",
+          "phrase": "The fruit is very sweet.",
+          "meaningVi": "Trái cây này rất ngọt.",
+          "ipa": "/ðə fruːt ɪz ˈvɛri swiːt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-3-10",
+          "phrase": "Wash the fruit before eating.",
+          "meaningVi": "Rửa trái cây trước khi ăn.",
+          "ipa": "/wɑːʃ ðə fruːt bɪˈfɔːr /ˈiːtɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
     },
     {
-      "id": "food-04",
-      "slug": "i-like-i-dont-like",
+      "id": "food-drink-4",
+      "slug": "lesson-4",
       "topicSlug": "food-drink",
-      "title": "I like / I don't like",
-      "titleVi": "Tôi thích / Tôi không thích",
+      "title": "At the Restaurant",
+      "titleVi": "Tại nhà hàng",
       "order": 4,
       "vocabulary": [
-        { "id": "v-like", "word": "Like", "meaningVi": "Thích", "ipa": "/laɪk/", "partOfSpeech": "verb", "image": "/images/lessons/food-drink/like.webp", "exampleSentence": "I like pizza.", "exampleSentenceVi": "Tôi thích pizza." },
-        { "id": "v-love", "word": "Love", "meaningVi": "Yêu, rất thích", "ipa": "/lʌv/", "partOfSpeech": "verb", "image": "/images/lessons/food-drink/love.webp", "exampleSentence": "I love Vietnamese food!", "exampleSentenceVi": "Tôi rất thích đồ ăn Việt Nam!" },
-        { "id": "v-hate", "word": "Hate", "meaningVi": "Ghét", "ipa": "/heɪt/", "partOfSpeech": "verb", "image": "/images/lessons/food-drink/hate.webp", "exampleSentence": "I hate bitter food.", "exampleSentenceVi": "Tôi ghét đồ ăn đắng." },
-        { "id": "v-favorite", "word": "Favorite", "meaningVi": "Yêu thích nhất", "ipa": "/ˈfeɪvərɪt/", "partOfSpeech": "adjective", "image": "/images/lessons/food-drink/favorite.webp", "exampleSentence": "My favorite food is pho.", "exampleSentenceVi": "Món ăn yêu thích nhất của tôi là phở." },
-        { "id": "v-fruit", "word": "Fruit", "meaningVi": "Trái cây", "ipa": "/fruːt/", "partOfSpeech": "noun", "image": "/images/lessons/food-drink/fruit.webp", "exampleSentence": "I like fruit.", "exampleSentenceVi": "Tôi thích trái cây." }
-      ],
-      "phrases": [
-        { "id": "p-i-like", "phrase": "I like chicken.", "meaningVi": "Tôi thích gà.", "ipa": "/aɪ laɪk ˈtʃɪkɪn/", "usage": "Nói thích gì" },
-        { "id": "p-i-dont-like", "phrase": "I don't like fish.", "meaningVi": "Tôi không thích cá.", "ipa": "/aɪ doʊnt laɪk fɪʃ/", "usage": "Nói không thích gì" },
-        { "id": "p-whats-your-fav", "phrase": "What's your favorite food?", "meaningVi": "Món ăn yêu thích của bạn là gì?", "ipa": "/wɑːts jʊr ˈfeɪvərɪt fuːd/", "usage": "Hỏi món ăn yêu thích" }
-      ],
-      "dialogues": [
         {
-          "id": "d-food-04-01", "title": "Food preferences", "titleVi": "Sở thích ăn uống",
-          "situation": "Hai bạn nói về sở thích ăn uống.",
-          "lines": [
-            { "speaker": "Kim", "text": "What's your favorite food?", "textVi": "Món ăn yêu thích của bạn là gì?", "ipa": "/wɑːts jʊr ˈfeɪvərɪt fuːd/" },
-            { "speaker": "Alex", "text": "I love pho! It's delicious. How about you?", "textVi": "Mình rất thích phở! Nó ngon lắm. Còn bạn?", "ipa": "/aɪ lʌv fʌ ɪts dɪˈlɪʃəs haʊ əˈbaʊt juː/" },
-            { "speaker": "Kim", "text": "I like chicken rice. I don't like fish.", "textVi": "Mình thích cơm gà. Mình không thích cá.", "ipa": "/aɪ laɪk ˈtʃɪkɪn raɪs aɪ doʊnt laɪk fɪʃ/" },
-            { "speaker": "Alex", "text": "Really? I love fish!", "textVi": "Thật á? Mình rất thích cá!", "ipa": "/ˈrɪəli aɪ lʌv fɪʃ/" }
-          ]
+          "id": "v-food-drink-4-1",
+          "word": "Menu",
+          "meaningVi": "Thực đơn",
+          "ipa": "/ˈmɛnjuː/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Look at the menu.",
+          "exampleSentenceVi": "Hãy xem thực đơn."
+        },
+        {
+          "id": "v-food-drink-4-2",
+          "word": "Order",
+          "meaningVi": "Gọi món",
+          "ipa": "/ˈɔːrdər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Are you ready to order?",
+          "exampleSentenceVi": "Bạn đã sẵn sàng gọi món chưa?"
+        },
+        {
+          "id": "v-food-drink-4-3",
+          "word": "Waiter",
+          "meaningVi": "Bồi bàn nam",
+          "ipa": "/ˈweɪtər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Call the waiter.",
+          "exampleSentenceVi": "Gọi bồi bàn đi."
+        },
+        {
+          "id": "v-food-drink-4-4",
+          "word": "Bill",
+          "meaningVi": "Hóa đơn",
+          "ipa": "/bɪl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The bill, please.",
+          "exampleSentenceVi": "Cho xin hóa đơn."
+        },
+        {
+          "id": "v-food-drink-4-5",
+          "word": "Tip",
+          "meaningVi": "Tiền boa",
+          "ipa": "/tɪp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Leave a tip.",
+          "exampleSentenceVi": "Để lại tiền boa."
+        },
+        {
+          "id": "v-food-drink-4-6",
+          "word": "Table",
+          "meaningVi": "Bàn",
+          "ipa": "/ˈteɪbl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A table for two.",
+          "exampleSentenceVi": "Một bàn cho hai người."
+        },
+        {
+          "id": "v-food-drink-4-7",
+          "word": "Dish",
+          "meaningVi": "Món ăn",
+          "ipa": "/dɪʃ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A spicy dish.",
+          "exampleSentenceVi": "Một món ăn cay."
+        },
+        {
+          "id": "v-food-drink-4-8",
+          "word": "Fork",
+          "meaningVi": "Nĩa",
+          "ipa": "/fɔːrk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I need a fork.",
+          "exampleSentenceVi": "Tôi cần một cái nĩa."
+        },
+        {
+          "id": "v-food-drink-4-9",
+          "word": "Spoon",
+          "meaningVi": "Thìa",
+          "ipa": "/spuːn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Soup spoon.",
+          "exampleSentenceVi": "Thìa ăn súp."
+        },
+        {
+          "id": "v-food-drink-4-10",
+          "word": "Knife",
+          "meaningVi": "Dao",
+          "ipa": "/naɪf/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A sharp knife.",
+          "exampleSentenceVi": "Một con dao sắc."
         }
       ],
-      "practice": [
-        { "id": "q-food-04-01", "type": "multiple-choice", "question": "How do you say you don't like something?", "questionVi": "Nói không thích cái gì đó thế nào?", "options": ["I like not...", "I don't like...", "I no like...", "I am not like..."], "correctAnswer": 1, "explanation": "'I don't like...' = Tôi không thích... 'Don't' = do not." },
-        { "id": "q-food-04-02", "type": "fill-blank", "question": "What's your _____ food?", "questionVi": "Điền từ hỏi về sở thích", "options": ["good", "nice", "best", "favorite"], "correctAnswer": 3, "explanation": "'Favorite' = yêu thích nhất. 'What's your favorite food?' = Món yêu thích nhất?" },
-        { "id": "q-food-04-03", "type": "match-meaning", "question": "Match: 'I love coffee'", "questionVi": "Nối nghĩa: 'I love coffee'", "options": ["Tôi ghét cà phê", "Tôi thích cà phê", "Tôi rất thích cà phê", "Tôi uống cà phê"], "correctAnswer": 2, "explanation": "'Love' = yêu, rất thích. Mạnh hơn 'like'." },
-        { "id": "q-food-04-04", "type": "multiple-choice", "question": "'Fruit' means _____.", "questionVi": "'Fruit' nghĩa là _____.", "options": ["Rau", "Thịt", "Trái cây", "Bánh"], "correctAnswer": 2, "explanation": "'Fruit' = Trái cây (apple, banana, orange, ...)." }
-      ]
+      "phrases": [
+        {
+          "id": "p-food-drink-4-1",
+          "phrase": "A table for two, please.",
+          "meaningVi": "Cho tôi một bàn 2 người.",
+          "ipa": "/ə /ˈteɪbl fɔːr tuː pliːz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-4-2",
+          "phrase": "Could we see the menu?",
+          "meaningVi": "Cho chúng tôi xem thực đơn được không?",
+          "ipa": "/kʊd wiː siː ðə /ˈmɛnjuː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-4-3",
+          "phrase": "Are you ready to order?",
+          "meaningVi": "Bạn đã sẵn sàng gọi món chưa?",
+          "ipa": "/ɑːr juː ˈrɛdi tuː /ˈɔːrdər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-4-4",
+          "phrase": "I will have the chicken.",
+          "meaningVi": "Tôi sẽ ăn món gà.",
+          "ipa": "/aɪ wɪl hæv ðə ˈtʃɪkɪn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-4-5",
+          "phrase": "What do you recommend?",
+          "meaningVi": "Bạn có gợi ý món nào không?",
+          "ipa": "/wʌt duː juː ˌrɛkəˈmɛnd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-4-6",
+          "phrase": "Excuse me, we need a fork.",
+          "meaningVi": "Xin lỗi, chúng tôi cần một cái nĩa.",
+          "ipa": "/ɪkˈskjuːz miː wiː niːd ə fɔːrk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-4-7",
+          "phrase": "The food is excellent.",
+          "meaningVi": "Thức ăn rất tuyệt.",
+          "ipa": "/ðə fuːd ɪz ˈɛksələnt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-4-8",
+          "phrase": "Could we have the bill, please?",
+          "meaningVi": "Cho chúng tôi xin hóa đơn nhé?",
+          "ipa": "/kʊd wiː hæv ðə bɪl pliːz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-4-9",
+          "phrase": "Let's leave a tip.",
+          "meaningVi": "Hãy để lại tiền boa nhé.",
+          "ipa": "/lɛts liːv ə tɪp/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-4-10",
+          "phrase": "Keep the change.",
+          "meaningVi": "Cứ giữ lại tiền thừa đi.",
+          "ipa": "/kiːp ðə tʃeɪndʒ/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "food-drink-5",
+      "slug": "lesson-5",
+      "topicSlug": "food-drink",
+      "title": "Tastes & Flavors",
+      "titleVi": "Hương vị",
+      "order": 5,
+      "vocabulary": [
+        {
+          "id": "v-food-drink-5-1",
+          "word": "Taste",
+          "meaningVi": "Nếm, vị",
+          "ipa": "/teɪst/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "It tastes good.",
+          "exampleSentenceVi": "Nó có vị rất ngon."
+        },
+        {
+          "id": "v-food-drink-5-2",
+          "word": "Sweet",
+          "meaningVi": "Ngọt",
+          "ipa": "/swiːt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Sweet candy.",
+          "exampleSentenceVi": "Kẹo ngọt."
+        },
+        {
+          "id": "v-food-drink-5-3",
+          "word": "Sour",
+          "meaningVi": "Chua",
+          "ipa": "/ˈsaʊər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Lemon is sour.",
+          "exampleSentenceVi": "Chanh thì chua."
+        },
+        {
+          "id": "v-food-drink-5-4",
+          "word": "Salty",
+          "meaningVi": "Mặn",
+          "ipa": "/ˈsɔːlti/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The soup is salty.",
+          "exampleSentenceVi": "Canh bị mặn."
+        },
+        {
+          "id": "v-food-drink-5-5",
+          "word": "Bitter",
+          "meaningVi": "Đắng",
+          "ipa": "/ˈbɪtər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Bitter coffee.",
+          "exampleSentenceVi": "Cà phê đắng."
+        },
+        {
+          "id": "v-food-drink-5-6",
+          "word": "Spicy",
+          "meaningVi": "Cay",
+          "ipa": "/ˈspaɪsi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I love spicy food.",
+          "exampleSentenceVi": "Tôi thích đồ ăn cay."
+        },
+        {
+          "id": "v-food-drink-5-7",
+          "word": "Hot",
+          "meaningVi": "Nóng",
+          "ipa": "/hɑːt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The soup is hot.",
+          "exampleSentenceVi": "Canh đang nóng."
+        },
+        {
+          "id": "v-food-drink-5-8",
+          "word": "Cold",
+          "meaningVi": "Lạnh",
+          "ipa": "/koʊld/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A cold drink.",
+          "exampleSentenceVi": "Đồ uống lạnh."
+        },
+        {
+          "id": "v-food-drink-5-9",
+          "word": "Delicious",
+          "meaningVi": "Ngon miệng",
+          "ipa": "/dɪˈlɪʃəs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A delicious meal.",
+          "exampleSentenceVi": "Một bữa ăn ngon."
+        },
+        {
+          "id": "v-food-drink-5-10",
+          "word": "Bad",
+          "meaningVi": "Tệ, dở",
+          "ipa": "/bæd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "It tastes bad.",
+          "exampleSentenceVi": "Nó có vị rất dở."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-food-drink-5-1",
+          "phrase": "How does it taste?",
+          "meaningVi": "Nó có vị như thế nào?",
+          "ipa": "/haʊ dʌz ɪt teɪst/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-5-2",
+          "phrase": "It is very delicious.",
+          "meaningVi": "Nó rất là ngon.",
+          "ipa": "/ɪt ɪz ˈvɛri dɪˈlɪʃəs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-5-3",
+          "phrase": "This cake is too sweet.",
+          "meaningVi": "Chiếc bánh này ngọt quá.",
+          "ipa": "/ðɪs keɪk ɪz tuː swiːt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-5-4",
+          "phrase": "The lemon is very sour.",
+          "meaningVi": "Quả chanh này rất chua.",
+          "ipa": "/ðə ˈlɛmən ɪz ˈvɛri /ˈsaʊər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-5-5",
+          "phrase": "Do you like spicy food?",
+          "meaningVi": "Bạn có thích đồ ăn cay không?",
+          "ipa": "/duː juː laɪk /ˈspaɪsi fuːd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-5-6",
+          "phrase": "Be careful, the soup is hot!",
+          "meaningVi": "Cẩn thận đấy, canh đang nóng!",
+          "ipa": "/biː ˈkɛrfl ðə suːp ɪz hɑːt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-5-7",
+          "phrase": "This dish is a bit salty.",
+          "meaningVi": "Món này hơi mặn một chút.",
+          "ipa": "/ðɪs dɪʃ ɪz ə bɪt /ˈsɔːlti/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-5-8",
+          "phrase": "Black coffee is bitter.",
+          "meaningVi": "Cà phê đen có vị đắng.",
+          "ipa": "/blæk /ˈkɔːfi ɪz /ˈbɪtər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-5-9",
+          "phrase": "It tastes terrible.",
+          "meaningVi": "Vị của nó kinh khủng quá.",
+          "ipa": "/ɪt teɪsts ˈtɛrəbl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-5-10",
+          "phrase": "I love the flavor.",
+          "meaningVi": "Tôi rất thích hương vị này.",
+          "ipa": "/aɪ lʌv ðə ˈfleɪvər/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "food-drink-6",
+      "slug": "lesson-6",
+      "topicSlug": "food-drink",
+      "title": "Cooking Methods",
+      "titleVi": "Cách chế biến",
+      "order": 6,
+      "vocabulary": [
+        {
+          "id": "v-food-drink-6-1",
+          "word": "Cook",
+          "meaningVi": "Nấu",
+          "ipa": "/kʊk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I cook every day.",
+          "exampleSentenceVi": "Tôi nấu ăn mỗi ngày."
+        },
+        {
+          "id": "v-food-drink-6-2",
+          "word": "Boil",
+          "meaningVi": "Luộc, sôi",
+          "ipa": "/bɔɪl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Boil the water.",
+          "exampleSentenceVi": "Đun sôi nước."
+        },
+        {
+          "id": "v-food-drink-6-3",
+          "word": "Fry",
+          "meaningVi": "Chiên, rán",
+          "ipa": "/fraɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Fry the fish.",
+          "exampleSentenceVi": "Chiên con cá lên."
+        },
+        {
+          "id": "v-food-drink-6-4",
+          "word": "Bake",
+          "meaningVi": "Nướng (bánh)",
+          "ipa": "/beɪk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Bake a cake.",
+          "exampleSentenceVi": "Nướng bánh."
+        },
+        {
+          "id": "v-food-drink-6-5",
+          "word": "Grill",
+          "meaningVi": "Nướng (vỉ)",
+          "ipa": "/ɡrɪl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Grill the meat.",
+          "exampleSentenceVi": "Nướng thịt."
+        },
+        {
+          "id": "v-food-drink-6-6",
+          "word": "Chop",
+          "meaningVi": "Thái, chặt",
+          "ipa": "/tʃɑːp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Chop the onion.",
+          "exampleSentenceVi": "Thái hành."
+        },
+        {
+          "id": "v-food-drink-6-7",
+          "word": "Stir",
+          "meaningVi": "Khuấy, xào",
+          "ipa": "/stɜːr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Stir the soup.",
+          "exampleSentenceVi": "Khuấy súp."
+        },
+        {
+          "id": "v-food-drink-6-8",
+          "word": "Mix",
+          "meaningVi": "Trộn",
+          "ipa": "/mɪks/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Mix the salad.",
+          "exampleSentenceVi": "Trộn sa-lát."
+        },
+        {
+          "id": "v-food-drink-6-9",
+          "word": "Add",
+          "meaningVi": "Thêm vào",
+          "ipa": "/æd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Add some salt.",
+          "exampleSentenceVi": "Thêm chút muối."
+        },
+        {
+          "id": "v-food-drink-6-10",
+          "word": "Recipe",
+          "meaningVi": "Công thức",
+          "ipa": "/ˈrɛsəpi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A secret recipe.",
+          "exampleSentenceVi": "Một công thức bí mật."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-food-drink-6-1",
+          "phrase": "Do you know how to cook?",
+          "meaningVi": "Bạn có biết nấu ăn không?",
+          "ipa": "/duː juː noʊ haʊ tuː kʊk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-6-2",
+          "phrase": "I am boiling some water.",
+          "meaningVi": "Tôi đang đun sôi một ít nước.",
+          "ipa": "/aɪ æm ˈbɔɪlɪŋ sʌm /ˈwɔːtər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-6-3",
+          "phrase": "Let's fry the chicken.",
+          "meaningVi": "Hãy chiên gà lên nào.",
+          "ipa": "/lɛts fraɪ ðə ˈtʃɪkɪn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-6-4",
+          "phrase": "I will bake a cake for your birthday.",
+          "meaningVi": "Tôi sẽ nướng bánh cho sinh nhật bạn.",
+          "ipa": "/aɪ wɪl beɪk ə keɪk fɔːr jʊr ˈbɜːrθdeɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-6-5",
+          "phrase": "We are grilling meat outside.",
+          "meaningVi": "Chúng tôi đang nướng thịt ngoài trời.",
+          "ipa": "/wiː ɑːr ˈɡrɪlɪŋ miːt ˈaʊtˈsaɪd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-6-6",
+          "phrase": "Chop the onions into small pieces.",
+          "meaningVi": "Hãy thái hành thành những miếng nhỏ.",
+          "ipa": "/tʃɑːp ðə /ˈʌnjənz ˈɪntuː smɔːl ˈpiːsɪz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-6-7",
+          "phrase": "Don't forget to stir the soup.",
+          "meaningVi": "Đừng quên khuấy súp nhé.",
+          "ipa": "/doʊnt fərˈɡɛt tuː stɜːr ðə suːp/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-6-8",
+          "phrase": "Mix everything together.",
+          "meaningVi": "Hãy trộn tất cả mọi thứ lại với nhau.",
+          "ipa": "/mɪks ˈɛvriθɪŋ təˈɡɛðər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-6-9",
+          "phrase": "Add a little bit of salt.",
+          "meaningVi": "Thêm vào một chút muối.",
+          "ipa": "/æd ə ˈlɪtl bɪt ʌv sɔːlt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-6-10",
+          "phrase": "This is my grandmother's recipe.",
+          "meaningVi": "Đây là công thức của bà tôi.",
+          "ipa": "/ðɪs ɪz maɪ ˈɡrændˌmʌðərz /ˈrɛsəpi/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "food-drink-7",
+      "slug": "lesson-7",
+      "topicSlug": "food-drink",
+      "title": "Fast Food",
+      "titleVi": "Đồ ăn nhanh",
+      "order": 7,
+      "vocabulary": [
+        {
+          "id": "v-food-drink-7-1",
+          "word": "Fast",
+          "meaningVi": "Nhanh",
+          "ipa": "/fæst/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Fast food.",
+          "exampleSentenceVi": "Đồ ăn nhanh."
+        },
+        {
+          "id": "v-food-drink-7-2",
+          "word": "Burger",
+          "meaningVi": "Hăm-bơ-gơ",
+          "ipa": "/ˈbɜːrɡər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A big burger.",
+          "exampleSentenceVi": "Một chiếc hăm-bơ-gơ lớn."
+        },
+        {
+          "id": "v-food-drink-7-3",
+          "word": "Pizza",
+          "meaningVi": "Bánh pizza",
+          "ipa": "/ˈpiːtsə/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Order a pizza.",
+          "exampleSentenceVi": "Đặt một chiếc bánh pizza."
+        },
+        {
+          "id": "v-food-drink-7-4",
+          "word": "Fries",
+          "meaningVi": "Khoai tây chiên",
+          "ipa": "/fraɪz/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "French fries.",
+          "exampleSentenceVi": "Khoai tây chiên kiểu Pháp."
+        },
+        {
+          "id": "v-food-drink-7-5",
+          "word": "Chicken",
+          "meaningVi": "Gà",
+          "ipa": "/ˈtʃɪkɪn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Fried chicken.",
+          "exampleSentenceVi": "Gà rán."
+        },
+        {
+          "id": "v-food-drink-7-6",
+          "word": "Cola",
+          "meaningVi": "Nước cô-la",
+          "ipa": "/ˈkoʊlə/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A can of cola.",
+          "exampleSentenceVi": "Một lon cô-la."
+        },
+        {
+          "id": "v-food-drink-7-7",
+          "word": "Junk",
+          "meaningVi": "Rác, đồ linh tinh",
+          "ipa": "/dʒʌŋk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Junk food is bad.",
+          "exampleSentenceVi": "Đồ ăn vặt không tốt."
+        },
+        {
+          "id": "v-food-drink-7-8",
+          "word": "Delivery",
+          "meaningVi": "Giao hàng",
+          "ipa": "/dɪˈlɪvəri/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Food delivery.",
+          "exampleSentenceVi": "Giao đồ ăn."
+        },
+        {
+          "id": "v-food-drink-7-9",
+          "word": "Order",
+          "meaningVi": "Đặt hàng",
+          "ipa": "/ˈɔːrdər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Order online.",
+          "exampleSentenceVi": "Đặt hàng trực tuyến."
+        },
+        {
+          "id": "v-food-drink-7-10",
+          "word": "Meal",
+          "meaningVi": "Bữa ăn",
+          "ipa": "/miːl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A happy meal.",
+          "exampleSentenceVi": "Một bữa ăn vui vẻ."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-food-drink-7-1",
+          "phrase": "Do you like fast food?",
+          "meaningVi": "Bạn có thích đồ ăn nhanh không?",
+          "ipa": "/duː juː laɪk fæst fuːd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-7-2",
+          "phrase": "Let's order a pizza tonight.",
+          "meaningVi": "Tối nay gọi pizza đi.",
+          "ipa": "/lɛts /ˈɔːrdər ə /ˈpiːtsə təˈnaɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-7-3",
+          "phrase": "I want a burger and fries.",
+          "meaningVi": "Tôi muốn một phần bơ-gơ và khoai tây chiên.",
+          "ipa": "/aɪ wɑːnt ə /ˈbɜːrɡər ænd fraɪz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-7-4",
+          "phrase": "Would you like some fried chicken?",
+          "meaningVi": "Bạn có muốn ăn gà rán không?",
+          "ipa": "/wʊd juː laɪk sʌm fraɪd ˈtʃɪkɪn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-7-5",
+          "phrase": "Can I have a cola with ice?",
+          "meaningVi": "Cho tôi một ly cô-la có đá được không?",
+          "ipa": "/kæn aɪ hæv ə /ˈkoʊlə wɪð aɪs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-7-6",
+          "phrase": "Try not to eat too much junk food.",
+          "meaningVi": "Cố gắng đừng ăn quá nhiều đồ ăn vặt.",
+          "ipa": "/traɪ nɑːt tuː iːt tuː mʌtʃ dʒʌŋk fuːd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-7-7",
+          "phrase": "Let's get food delivery.",
+          "meaningVi": "Cùng gọi giao đồ ăn đi.",
+          "ipa": "/lɛts ɡɛt fuːd dɪˈlɪvəri/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-7-8",
+          "phrase": "I will order it online.",
+          "meaningVi": "Tôi sẽ đặt món trên mạng.",
+          "ipa": "/aɪ wɪl /ˈɔːrdər ɪt /ˌɑːnˈlaɪn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-7-9",
+          "phrase": "It comes with a free drink.",
+          "meaningVi": "Phần này đi kèm với một đồ uống miễn phí.",
+          "ipa": "/ɪt kʌmz wɪð ə friː drɪŋk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-7-10",
+          "phrase": "That was a heavy meal.",
+          "meaningVi": "Đó là một bữa ăn quá no.",
+          "ipa": "/ðæt wʌz ə ˈhɛvi miːl/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "food-drink-8",
+      "slug": "lesson-8",
+      "topicSlug": "food-drink",
+      "title": "Diets & Allergies",
+      "titleVi": "Ăn kiêng & Dị ứng",
+      "order": 8,
+      "vocabulary": [
+        {
+          "id": "v-food-drink-8-1",
+          "word": "Diet",
+          "meaningVi": "Chế độ ăn",
+          "ipa": "/ˈdaɪət/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I am on a diet.",
+          "exampleSentenceVi": "Tôi đang ăn kiêng."
+        },
+        {
+          "id": "v-food-drink-8-2",
+          "word": "Vegan",
+          "meaningVi": "Thuần chay",
+          "ipa": "/ˈviːɡən/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "She is a vegan.",
+          "exampleSentenceVi": "Cô ấy là người thuần chay."
+        },
+        {
+          "id": "v-food-drink-8-3",
+          "word": "Meat",
+          "meaningVi": "Thịt",
+          "ipa": "/miːt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Avoid red meat.",
+          "exampleSentenceVi": "Tránh thịt đỏ."
+        },
+        {
+          "id": "v-food-drink-8-4",
+          "word": "Fat",
+          "meaningVi": "Chất béo, mập",
+          "ipa": "/fæt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Low fat milk.",
+          "exampleSentenceVi": "Sữa ít béo."
+        },
+        {
+          "id": "v-food-drink-8-5",
+          "word": "Sugar",
+          "meaningVi": "Đường",
+          "ipa": "/ˈʃʊɡər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "No sugar.",
+          "exampleSentenceVi": "Không đường."
+        },
+        {
+          "id": "v-food-drink-8-6",
+          "word": "Allergy",
+          "meaningVi": "Dị ứng",
+          "ipa": "/ˈælərdʒi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I have an allergy.",
+          "exampleSentenceVi": "Tôi bị dị ứng."
+        },
+        {
+          "id": "v-food-drink-8-7",
+          "word": "Nut",
+          "meaningVi": "Hạt",
+          "ipa": "/nʌt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Nut allergy.",
+          "exampleSentenceVi": "Dị ứng hạt."
+        },
+        {
+          "id": "v-food-drink-8-8",
+          "word": "Seafood",
+          "meaningVi": "Hải sản",
+          "ipa": "/ˈsiːfuːd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I can't eat seafood.",
+          "exampleSentenceVi": "Tôi không ăn được hải sản."
+        },
+        {
+          "id": "v-food-drink-8-9",
+          "word": "Healthy",
+          "meaningVi": "Khỏe mạnh",
+          "ipa": "/ˈhɛlθi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A healthy diet.",
+          "exampleSentenceVi": "Chế độ ăn lành mạnh."
+        },
+        {
+          "id": "v-food-drink-8-10",
+          "word": "Lose",
+          "meaningVi": "Mất, giảm",
+          "ipa": "/luːz/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Lose weight.",
+          "exampleSentenceVi": "Giảm cân."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-food-drink-8-1",
+          "phrase": "I am on a diet.",
+          "meaningVi": "Tôi đang ăn kiêng.",
+          "ipa": "/aɪ æm ɑːn ə /ˈdaɪət/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-8-2",
+          "phrase": "I am a vegetarian.",
+          "meaningVi": "Tôi là người ăn chay.",
+          "ipa": "/aɪ æm ə ˌvɛdʒəˈtɛriən/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-8-3",
+          "phrase": "Does this contain meat?",
+          "meaningVi": "Món này có thịt không?",
+          "ipa": "/dʌz ðɪs kənˈteɪn miːt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-8-4",
+          "phrase": "I am trying to lose weight.",
+          "meaningVi": "Tôi đang cố giảm cân.",
+          "ipa": "/aɪ æm ˈtraɪɪŋ tuː luːz weɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-8-5",
+          "phrase": "No sugar for me, please.",
+          "meaningVi": "Đừng cho đường vào phần của tôi.",
+          "ipa": "/noʊ /ˈʃʊɡər fɔːr miː pliːz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-8-6",
+          "phrase": "I have a nut allergy.",
+          "meaningVi": "Tôi bị dị ứng hạt.",
+          "ipa": "/aɪ hæv ə nʌt /ˈælərdʒi/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-8-7",
+          "phrase": "I am allergic to seafood.",
+          "meaningVi": "Tôi bị dị ứng với hải sản.",
+          "ipa": "/aɪ æm əˈlɜːrdʒɪk tuː /ˈsiːfuːd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-8-8",
+          "phrase": "Is this dish gluten-free?",
+          "meaningVi": "Món này có chứa gluten không?",
+          "ipa": "/ɪz ðɪs dɪʃ ˈɡluːtn-friː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-8-9",
+          "phrase": "It is important to eat healthy food.",
+          "meaningVi": "Việc ăn uống lành mạnh là rất quan trọng.",
+          "ipa": "/ɪt ɪz ɪmˈpɔːrtnt tuː iːt /ˈhɛlθi fuːd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-8-10",
+          "phrase": "Avoid eating too much fat.",
+          "meaningVi": "Tránh ăn quá nhiều chất béo.",
+          "ipa": "/əˈvɔɪd /ˈiːtɪŋ tuː mʌtʃ fæt/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "food-drink-9",
+      "slug": "lesson-9",
+      "topicSlug": "food-drink",
+      "title": "Kitchen Tools",
+      "titleVi": "Dụng cụ nhà bếp",
+      "order": 9,
+      "vocabulary": [
+        {
+          "id": "v-food-drink-9-1",
+          "word": "Kitchen",
+          "meaningVi": "Nhà bếp",
+          "ipa": "/ˈkɪtʃɪn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A clean kitchen.",
+          "exampleSentenceVi": "Một nhà bếp sạch sẽ."
+        },
+        {
+          "id": "v-food-drink-9-2",
+          "word": "Pot",
+          "meaningVi": "Cái nồi",
+          "ipa": "/pɑːt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A cooking pot.",
+          "exampleSentenceVi": "Nồi nấu ăn."
+        },
+        {
+          "id": "v-food-drink-9-3",
+          "word": "Pan",
+          "meaningVi": "Cái chảo",
+          "ipa": "/pæn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Frying pan.",
+          "exampleSentenceVi": "Chảo chiên."
+        },
+        {
+          "id": "v-food-drink-9-4",
+          "word": "Bowl",
+          "meaningVi": "Cái bát",
+          "ipa": "/boʊl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A bowl of soup.",
+          "exampleSentenceVi": "Một bát súp."
+        },
+        {
+          "id": "v-food-drink-9-5",
+          "word": "Plate",
+          "meaningVi": "Cái đĩa",
+          "ipa": "/pleɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Put it on a plate.",
+          "exampleSentenceVi": "Đặt nó lên một cái đĩa."
+        },
+        {
+          "id": "v-food-drink-9-6",
+          "word": "Knife",
+          "meaningVi": "Con dao",
+          "ipa": "/naɪf/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Be careful with the knife.",
+          "exampleSentenceVi": "Cẩn thận với con dao."
+        },
+        {
+          "id": "v-food-drink-9-7",
+          "word": "Oven",
+          "meaningVi": "Lò nướng",
+          "ipa": "/ˈʌvn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Bake it in the oven.",
+          "exampleSentenceVi": "Nướng nó trong lò nướng."
+        },
+        {
+          "id": "v-food-drink-9-8",
+          "word": "Fridge",
+          "meaningVi": "Tủ lạnh",
+          "ipa": "/frɪdʒ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Put it in the fridge.",
+          "exampleSentenceVi": "Bỏ nó vào tủ lạnh."
+        },
+        {
+          "id": "v-food-drink-9-9",
+          "word": "Sink",
+          "meaningVi": "Bồn rửa",
+          "ipa": "/sɪŋk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Wash it in the sink.",
+          "exampleSentenceVi": "Rửa nó trong bồn rửa."
+        },
+        {
+          "id": "v-food-drink-9-10",
+          "word": "Glass",
+          "meaningVi": "Cái ly",
+          "ipa": "/ɡlæs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A glass of wine.",
+          "exampleSentenceVi": "Một ly rượu vang."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-food-drink-9-1",
+          "phrase": "Where is the kitchen?",
+          "meaningVi": "Nhà bếp ở đâu?",
+          "ipa": "/wɛr ɪz ðə /ˈkɪtʃɪn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-9-2",
+          "phrase": "I need a big pot.",
+          "meaningVi": "Tôi cần một cái nồi lớn.",
+          "ipa": "/aɪ niːd ə bɪɡ pɑːt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-9-3",
+          "phrase": "Put the pan on the stove.",
+          "meaningVi": "Đặt chảo lên bếp.",
+          "ipa": "/pʊt ðə pæn ɑːn ðə stoʊv/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-9-4",
+          "phrase": "Can you pass me a bowl?",
+          "meaningVi": "Bạn có thể đưa tôi một cái bát không?",
+          "ipa": "/kæn juː pæs miː ə boʊl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-9-5",
+          "phrase": "Here is your plate.",
+          "meaningVi": "Đĩa của bạn đây.",
+          "ipa": "/hɪr ɪz jʊr pleɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-9-6",
+          "phrase": "Be careful, the knife is very sharp.",
+          "meaningVi": "Cẩn thận nhé, dao sắc lắm.",
+          "ipa": "/biː ˈkɛrfl ðə naɪf ɪz ˈvɛri ʃɑːrp/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-9-7",
+          "phrase": "Put the pizza in the oven.",
+          "meaningVi": "Hãy cho chiếc pizza vào lò nướng.",
+          "ipa": "/pʊt ðə /ˈpiːtsə ɪn ðə /ˈʌvn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-9-8",
+          "phrase": "The milk is in the fridge.",
+          "meaningVi": "Sữa nằm ở trong tủ lạnh.",
+          "ipa": "/ðə mɪlk ɪz ɪn ðə frɪdʒ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-9-9",
+          "phrase": "Put the dirty dishes in the sink.",
+          "meaningVi": "Hãy để bát đĩa bẩn vào bồn rửa.",
+          "ipa": "/pʊt ðə ˈdɜːrti ˈdɪʃɪz ɪn ðə sɪŋk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-9-10",
+          "phrase": "Can I have a glass of water?",
+          "meaningVi": "Cho tôi một ly nước được không?",
+          "ipa": "/kæn aɪ hæv ə ɡlæs ʌv /ˈwɔːtər/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "food-drink-10",
+      "slug": "lesson-10",
+      "topicSlug": "food-drink",
+      "title": "Complimenting Food",
+      "titleVi": "Khen ngợi món ăn",
+      "order": 10,
+      "vocabulary": [
+        {
+          "id": "v-food-drink-10-1",
+          "word": "Good",
+          "meaningVi": "Tốt, ngon",
+          "ipa": "/ɡʊd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Very good.",
+          "exampleSentenceVi": "Rất ngon."
+        },
+        {
+          "id": "v-food-drink-10-2",
+          "word": "Great",
+          "meaningVi": "Tuyệt vời",
+          "ipa": "/ɡreɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Tastes great.",
+          "exampleSentenceVi": "Vị thật tuyệt."
+        },
+        {
+          "id": "v-food-drink-10-3",
+          "word": "Delicious",
+          "meaningVi": "Ngon miệng",
+          "ipa": "/dɪˈlɪʃəs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A delicious cake.",
+          "exampleSentenceVi": "Một chiếc bánh ngon tuyệt."
+        },
+        {
+          "id": "v-food-drink-10-4",
+          "word": "Tasty",
+          "meaningVi": "Đậm đà, ngon",
+          "ipa": "/ˈteɪsti/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A tasty meal.",
+          "exampleSentenceVi": "Một bữa ăn đậm đà."
+        },
+        {
+          "id": "v-food-drink-10-5",
+          "word": "Amazing",
+          "meaningVi": "Đáng kinh ngạc",
+          "ipa": "/əˈmeɪzɪŋ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "This is amazing.",
+          "exampleSentenceVi": "Điều này thật tuyệt vời."
+        },
+        {
+          "id": "v-food-drink-10-6",
+          "word": "Perfect",
+          "meaningVi": "Hoàn hảo",
+          "ipa": "/ˈpɜːrfɪkt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Cooked perfectly.",
+          "exampleSentenceVi": "Nấu hoàn hảo."
+        },
+        {
+          "id": "v-food-drink-10-7",
+          "word": "Wonderful",
+          "meaningVi": "Tuyệt diệu",
+          "ipa": "/ˈwʌndərfl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A wonderful dinner.",
+          "exampleSentenceVi": "Một bữa tối tuyệt diệu."
+        },
+        {
+          "id": "v-food-drink-10-8",
+          "word": "Best",
+          "meaningVi": "Tốt nhất",
+          "ipa": "/bɛst/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The best pizza.",
+          "exampleSentenceVi": "Chiếc pizza ngon nhất."
+        },
+        {
+          "id": "v-food-drink-10-9",
+          "word": "Love",
+          "meaningVi": "Yêu thích",
+          "ipa": "/lʌv/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I love it.",
+          "exampleSentenceVi": "Tôi rất thích nó."
+        },
+        {
+          "id": "v-food-drink-10-10",
+          "word": "Enjoy",
+          "meaningVi": "Thưởng thức",
+          "ipa": "/ɪnˈdʒɔɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I enjoy the food.",
+          "exampleSentenceVi": "Tôi thưởng thức đồ ăn."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-food-drink-10-1",
+          "phrase": "The food is really good.",
+          "meaningVi": "Thức ăn thực sự rất ngon.",
+          "ipa": "/ðə fuːd ɪz ˈrɪəli ɡʊd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-10-2",
+          "phrase": "This tastes great!",
+          "meaningVi": "Vị của món này thật tuyệt!",
+          "ipa": "/ðɪs teɪsts ɡreɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-10-3",
+          "phrase": "It is absolutely delicious.",
+          "meaningVi": "Nó hoàn toàn vô cùng ngon miệng.",
+          "ipa": "/ɪt ɪz ˈæbsəluːtli dɪˈlɪʃəs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-10-4",
+          "phrase": "What a tasty meal.",
+          "meaningVi": "Thật là một bữa ăn đậm đà.",
+          "ipa": "/wʌt ə /ˈteɪsti miːl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-10-5",
+          "phrase": "You are an amazing cook.",
+          "meaningVi": "Bạn là một đầu bếp tuyệt vời.",
+          "ipa": "/juː ɑːr ən əˈmeɪzɪŋ kʊk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-10-6",
+          "phrase": "The steak is cooked perfectly.",
+          "meaningVi": "Món bít-tết được nấu hoàn hảo.",
+          "ipa": "/ðə steɪk ɪz kʊkt /ˈpɜːrfɪktli/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-10-7",
+          "phrase": "Thank you for a wonderful dinner.",
+          "meaningVi": "Cảm ơn vì một bữa tối tuyệt diệu.",
+          "ipa": "/θæŋk juː fɔːr ə /ˈwʌndərfl /ˈdɪnər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-10-8",
+          "phrase": "This is the best pizza I have ever had.",
+          "meaningVi": "Đây là chiếc pizza ngon nhất tôi từng ăn.",
+          "ipa": "/ðɪs ɪz ðə bɛst /ˈpiːtsə aɪ hæv ˈɛvər hæd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-10-9",
+          "phrase": "I love your cooking.",
+          "meaningVi": "Tôi yêu tài nấu ăn của bạn.",
+          "ipa": "/aɪ lʌv jʊr /ˈkʊkɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-food-drink-10-10",
+          "phrase": "Did you enjoy the meal?",
+          "meaningVi": "Bạn dùng bữa có ngon miệng không?",
+          "ipa": "/dɪd juː ɪnˈdʒɔɪ ðə miːl/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
     }
   ]
 }

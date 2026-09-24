@@ -1,1 +1,0 @@
-self.__SSG_MANIFEST=new Set(["\u002Ftopics\u002F[topicSlug]","\u002Ftopics\u002F[topicSlug]\u002Flessons\u002F[lessonSlug]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

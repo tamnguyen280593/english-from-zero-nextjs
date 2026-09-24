@@ -72,9 +72,10 @@ export function saveQuizScore(lessonId: string, score: number, currentProgress: 
 /**
  * Updates the last accessed location so user can resume later.
  */
-export function updateLastAccessed(topicSlug: string, lessonSlug: string, currentProgress: UserProgress): UserProgress {
+export function updateLastAccessed(categorySlug: string, topicSlug: string, lessonSlug: string, currentProgress: UserProgress): UserProgress {
   return {
     ...currentProgress,
+    lastAccessedCategory: categorySlug,
     lastAccessedTopic: topicSlug,
     lastAccessedLesson: lessonSlug,
   };

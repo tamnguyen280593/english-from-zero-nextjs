@@ -2,154 +2,1844 @@
   "topicSlug": "daily-life",
   "lessons": [
     {
-      "id": "daily-01",
-      "slug": "my-day",
+      "id": "daily-life-1",
+      "slug": "lesson-1",
       "topicSlug": "daily-life",
-      "title": "My Day",
-      "titleVi": "Một ngày của tôi",
+      "title": "Morning Routine",
+      "titleVi": "Buổi sáng",
       "order": 1,
       "vocabulary": [
-        { "id": "v-wake-up", "word": "Wake up", "meaningVi": "Thức dậy", "ipa": "/weɪk ʌp/", "partOfSpeech": "verb", "image": "/images/lessons/daily-life/wake-up.webp", "exampleSentence": "I wake up at 6 AM.", "exampleSentenceVi": "Tôi thức dậy lúc 6 giờ sáng." },
-        { "id": "v-eat", "word": "Eat", "meaningVi": "Ăn", "ipa": "/iːt/", "partOfSpeech": "verb", "image": "/images/lessons/daily-life/eat.webp", "exampleSentence": "I eat breakfast every morning.", "exampleSentenceVi": "Tôi ăn sáng mỗi buổi sáng." },
-        { "id": "v-go", "word": "Go", "meaningVi": "Đi", "ipa": "/ɡoʊ/", "partOfSpeech": "verb", "image": "/images/lessons/daily-life/go.webp", "exampleSentence": "I go to work at 8 AM.", "exampleSentenceVi": "Tôi đi làm lúc 8 giờ sáng." },
-        { "id": "v-work", "word": "Work", "meaningVi": "Làm việc", "ipa": "/wɜːrk/", "partOfSpeech": "verb", "image": "/images/lessons/daily-life/work.webp", "exampleSentence": "I work from 8 to 5.", "exampleSentenceVi": "Tôi làm việc từ 8 đến 5 giờ." },
-        { "id": "v-sleep", "word": "Sleep", "meaningVi": "Ngủ", "ipa": "/sliːp/", "partOfSpeech": "verb", "image": "/images/lessons/daily-life/sleep.webp", "exampleSentence": "I sleep at 10 PM.", "exampleSentenceVi": "Tôi ngủ lúc 10 giờ tối." }
-      ],
-      "phrases": [
-        { "id": "p-wake-up-at", "phrase": "I wake up at 6 o'clock.", "meaningVi": "Tôi thức dậy lúc 6 giờ.", "ipa": "/aɪ weɪk ʌp æt sɪks əˈklɑːk/", "usage": "Nói về giờ thức dậy" },
-        { "id": "p-go-to-work", "phrase": "I go to work by bus.", "meaningVi": "Tôi đi làm bằng xe buýt.", "ipa": "/aɪ ɡoʊ tuː wɜːrk baɪ bʌs/", "usage": "Nói về phương tiện đi làm" },
-        { "id": "p-come-home", "phrase": "I come home at 6 PM.", "meaningVi": "Tôi về nhà lúc 6 giờ tối.", "ipa": "/aɪ kʌm hoʊm æt sɪks piː ɛm/", "usage": "Nói về giờ về nhà" }
-      ],
-      "dialogues": [
         {
-          "id": "d-daily-01-01", "title": "Daily routine", "titleVi": "Thói quen hàng ngày",
-          "situation": "Nam kể về một ngày bình thường của mình.",
-          "lines": [
-            { "speaker": "Lisa", "text": "What time do you wake up?", "textVi": "Bạn thức dậy lúc mấy giờ?", "ipa": "/wɑːt taɪm duː juː weɪk ʌp/" },
-            { "speaker": "Nam", "text": "I wake up at 6 AM. Then I eat breakfast.", "textVi": "Mình thức dậy lúc 6 giờ sáng. Sau đó mình ăn sáng.", "ipa": "/aɪ weɪk ʌp æt sɪks eɪ ɛm ðɛn aɪ iːt ˈbrɛkfəst/" },
-            { "speaker": "Lisa", "text": "What time do you go to work?", "textVi": "Bạn đi làm lúc mấy giờ?", "ipa": "/wɑːt taɪm duː juː ɡoʊ tuː wɜːrk/" },
-            { "speaker": "Nam", "text": "I go to work at 8. I come home at 6 PM.", "textVi": "Mình đi làm lúc 8 giờ. Mình về nhà lúc 6 giờ tối.", "ipa": "/aɪ ɡoʊ tuː wɜːrk æt eɪt aɪ kʌm hoʊm æt sɪks piː ɛm/" }
-          ]
+          "id": "v-daily-life-1-1",
+          "word": "Wake",
+          "meaningVi": "Thức dậy",
+          "ipa": "/weɪk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I wake up early.",
+          "exampleSentenceVi": "Tôi thức dậy sớm."
+        },
+        {
+          "id": "v-daily-life-1-2",
+          "word": "Bed",
+          "meaningVi": "Giường",
+          "ipa": "/bɛd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Make the bed.",
+          "exampleSentenceVi": "Dọn giường."
+        },
+        {
+          "id": "v-daily-life-1-3",
+          "word": "Brush",
+          "meaningVi": "Đánh, chải",
+          "ipa": "/brʌʃ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Brush your teeth.",
+          "exampleSentenceVi": "Đánh răng đi."
+        },
+        {
+          "id": "v-daily-life-1-4",
+          "word": "Wash",
+          "meaningVi": "Rửa",
+          "ipa": "/wɑːʃ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Wash your face.",
+          "exampleSentenceVi": "Rửa mặt."
+        },
+        {
+          "id": "v-daily-life-1-5",
+          "word": "Shower",
+          "meaningVi": "Tắm",
+          "ipa": "/ˈʃaʊər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Take a shower.",
+          "exampleSentenceVi": "Đi tắm."
+        },
+        {
+          "id": "v-daily-life-1-6",
+          "word": "Dress",
+          "meaningVi": "Quần áo, mặc",
+          "ipa": "/drɛs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Get dressed now.",
+          "exampleSentenceVi": "Thay quần áo đi."
+        },
+        {
+          "id": "v-daily-life-1-7",
+          "word": "Breakfast",
+          "meaningVi": "Bữa sáng",
+          "ipa": "/ˈbrɛkfəst/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Eat breakfast.",
+          "exampleSentenceVi": "Ăn sáng."
+        },
+        {
+          "id": "v-daily-life-1-8",
+          "word": "Coffee",
+          "meaningVi": "Cà phê",
+          "ipa": "/ˈkɔːfi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Drink coffee.",
+          "exampleSentenceVi": "Uống cà phê."
+        },
+        {
+          "id": "v-daily-life-1-9",
+          "word": "Work",
+          "meaningVi": "Đi làm",
+          "ipa": "/wɜːrk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Go to work.",
+          "exampleSentenceVi": "Đi làm."
+        },
+        {
+          "id": "v-daily-life-1-10",
+          "word": "School",
+          "meaningVi": "Trường học",
+          "ipa": "/skuːl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Go to school.",
+          "exampleSentenceVi": "Đi học."
         }
       ],
-      "practice": [
-        { "id": "q-daily-01-01", "type": "multiple-choice", "question": "What does 'wake up' mean?", "questionVi": "'Wake up' nghĩa là gì?", "options": ["Đi ngủ", "Ăn sáng", "Thức dậy", "Đi làm"], "correctAnswer": 2, "explanation": "'Wake up' = Thức dậy." },
-        { "id": "q-daily-01-02", "type": "fill-blank", "question": "I _____ to work at 8 AM.", "questionVi": "Điền động từ đúng", "options": ["eat", "go", "sleep", "wake"], "correctAnswer": 1, "explanation": "'I go to work' = Tôi đi làm. 'Go' = đi." },
-        { "id": "q-daily-01-03", "type": "match-meaning", "question": "Match: 'Sleep'", "questionVi": "Nối nghĩa: 'Sleep'", "options": ["Ăn", "Làm việc", "Ngủ", "Đi"], "correctAnswer": 2, "explanation": "'Sleep' = Ngủ." },
-        { "id": "q-daily-01-04", "type": "multiple-choice", "question": "I eat _____ every morning.", "questionVi": "Tôi ăn _____ mỗi sáng.", "options": ["dinner", "lunch", "breakfast", "snack"], "correctAnswer": 2, "explanation": "'Breakfast' = bữa sáng. 'Lunch' = bữa trưa. 'Dinner' = bữa tối." }
-      ]
+      "phrases": [
+        {
+          "id": "p-daily-life-1-1",
+          "phrase": "What time do you wake up?",
+          "meaningVi": "Bạn thức dậy lúc mấy giờ?",
+          "ipa": "/wʌt taɪm duː juː weɪk ʌp/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-1-2",
+          "phrase": "I wake up at 6 AM.",
+          "meaningVi": "Tôi thức dậy lúc 6 giờ sáng.",
+          "ipa": "/aɪ weɪk ʌp æt sɪks eɪ-ɛm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-1-3",
+          "phrase": "I make my bed every morning.",
+          "meaningVi": "Tôi dọn giường mỗi sáng.",
+          "ipa": "/aɪ meɪk maɪ bɛd /ˈɛvri ˈmɔːrnɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-1-4",
+          "phrase": "Do not forget to brush your teeth.",
+          "meaningVi": "Đừng quên đánh răng nhé.",
+          "ipa": "/duː nɑːt fərˈɡɛt tuː brʌʃ jʊr tiːθ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-1-5",
+          "phrase": "I take a shower before breakfast.",
+          "meaningVi": "Tôi đi tắm trước khi ăn sáng.",
+          "ipa": "/aɪ teɪk ə /ˈʃaʊər bɪˈfɔːr /ˈbrɛkfəst/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-1-6",
+          "phrase": "I am getting dressed.",
+          "meaningVi": "Tôi đang thay quần áo.",
+          "ipa": "/aɪ æm ˈɡɛtɪŋ drɛst/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-1-7",
+          "phrase": "What is for breakfast?",
+          "meaningVi": "Bữa sáng có món gì vậy?",
+          "ipa": "/wʌt ɪz fɔːr /ˈbrɛkfəst/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-1-8",
+          "phrase": "I need a cup of coffee.",
+          "meaningVi": "Tôi cần một tách cà phê.",
+          "ipa": "/aɪ niːd ə kʌp ʌv /ˈkɔːfi/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-1-9",
+          "phrase": "It is time to go to work.",
+          "meaningVi": "Đến giờ đi làm rồi.",
+          "ipa": "/ɪt ɪz taɪm tuː ɡoʊ tuː wɜːrk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-1-10",
+          "phrase": "Hurry up, you will be late.",
+          "meaningVi": "Nhanh lên, bạn sẽ bị trễ đấy.",
+          "ipa": "/ˈhɜːri ʌp juː wɪl biː leɪt/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
     },
     {
-      "id": "daily-02",
-      "slug": "days-and-time",
+      "id": "daily-life-2",
+      "slug": "lesson-2",
       "topicSlug": "daily-life",
-      "title": "Days & Time",
-      "titleVi": "Ngày & Thời gian",
+      "title": "At the Office",
+      "titleVi": "Tại văn phòng",
       "order": 2,
       "vocabulary": [
-        { "id": "v-monday", "word": "Monday", "meaningVi": "Thứ Hai", "ipa": "/ˈmʌndeɪ/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/monday.webp", "exampleSentence": "I start work on Monday.", "exampleSentenceVi": "Tôi bắt đầu làm việc vào thứ Hai." },
-        { "id": "v-today", "word": "Today", "meaningVi": "Hôm nay", "ipa": "/təˈdeɪ/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/today.webp", "exampleSentence": "What day is today?", "exampleSentenceVi": "Hôm nay là thứ mấy?" },
-        { "id": "v-tomorrow", "word": "Tomorrow", "meaningVi": "Ngày mai", "ipa": "/təˈmɑːroʊ/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/tomorrow.webp", "exampleSentence": "See you tomorrow!", "exampleSentenceVi": "Hẹn gặp lại ngày mai!" },
-        { "id": "v-yesterday", "word": "Yesterday", "meaningVi": "Hôm qua", "ipa": "/ˈjɛstərdeɪ/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/yesterday.webp", "exampleSentence": "Yesterday was Sunday.", "exampleSentenceVi": "Hôm qua là Chủ Nhật." },
-        { "id": "v-oclock", "word": "O'clock", "meaningVi": "Giờ (đúng)", "ipa": "/əˈklɑːk/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/oclock.webp", "exampleSentence": "It's 3 o'clock.", "exampleSentenceVi": "Bây giờ là 3 giờ đúng." }
-      ],
-      "phrases": [
-        { "id": "p-what-day", "phrase": "What day is today?", "meaningVi": "Hôm nay là thứ mấy?", "ipa": "/wɑːt deɪ ɪz təˈdeɪ/", "usage": "Hỏi thứ trong tuần" },
-        { "id": "p-what-time", "phrase": "What time is it?", "meaningVi": "Mấy giờ rồi?", "ipa": "/wɑːt taɪm ɪz ɪt/", "usage": "Hỏi giờ" },
-        { "id": "p-its-oclock", "phrase": "It's 3 o'clock.", "meaningVi": "3 giờ đúng.", "ipa": "/ɪts θriː əˈklɑːk/", "usage": "Trả lời giờ đúng" }
-      ],
-      "dialogues": [
         {
-          "id": "d-daily-02-01", "title": "Asking about time", "titleVi": "Hỏi giờ",
-          "situation": "Phương hỏi giờ ở trạm xe buýt.",
-          "lines": [
-            { "speaker": "Phương", "text": "Excuse me, what time is it?", "textVi": "Xin lỗi, mấy giờ rồi ạ?", "ipa": "/ɪkˈskjuːz miː wɑːt taɪm ɪz ɪt/" },
-            { "speaker": "Mike", "text": "It's 3 o'clock.", "textVi": "3 giờ đúng.", "ipa": "/ɪts θriː əˈklɑːk/" },
-            { "speaker": "Phương", "text": "Thank you! What day is today?", "textVi": "Cảm ơn! Hôm nay thứ mấy nhỉ?", "ipa": "/θæŋk juː wɑːt deɪ ɪz təˈdeɪ/" },
-            { "speaker": "Mike", "text": "Today is Monday.", "textVi": "Hôm nay là thứ Hai.", "ipa": "/təˈdeɪ ɪz ˈmʌndeɪ/" }
-          ]
+          "id": "v-daily-life-2-1",
+          "word": "Desk",
+          "meaningVi": "Bàn làm việc",
+          "ipa": "/dɛsk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "My desk is clean.",
+          "exampleSentenceVi": "Bàn làm việc của tôi rất sạch sẽ."
+        },
+        {
+          "id": "v-daily-life-2-2",
+          "word": "Computer",
+          "meaningVi": "Máy tính",
+          "ipa": "/kəmˈpjuːtər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Turn on the computer.",
+          "exampleSentenceVi": "Bật máy tính lên."
+        },
+        {
+          "id": "v-daily-life-2-3",
+          "word": "Email",
+          "meaningVi": "Thư điện tử",
+          "ipa": "/ˈiːmeɪl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Check your email.",
+          "exampleSentenceVi": "Kiểm tra email của bạn."
+        },
+        {
+          "id": "v-daily-life-2-4",
+          "word": "Meeting",
+          "meaningVi": "Cuộc họp",
+          "ipa": "/ˈmiːtɪŋ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Attend a meeting.",
+          "exampleSentenceVi": "Tham gia một cuộc họp."
+        },
+        {
+          "id": "v-daily-life-2-5",
+          "word": "Colleague",
+          "meaningVi": "Đồng nghiệp",
+          "ipa": "/ˈkɑːliːɡ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Talk to a colleague.",
+          "exampleSentenceVi": "Nói chuyện với đồng nghiệp."
+        },
+        {
+          "id": "v-daily-life-2-6",
+          "word": "Boss",
+          "meaningVi": "Sếp",
+          "ipa": "/bɔːs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Ask the boss.",
+          "exampleSentenceVi": "Hỏi sếp."
+        },
+        {
+          "id": "v-daily-life-2-7",
+          "word": "Lunch",
+          "meaningVi": "Bữa trưa",
+          "ipa": "/lʌntʃ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Have lunch.",
+          "exampleSentenceVi": "Ăn trưa."
+        },
+        {
+          "id": "v-daily-life-2-8",
+          "word": "Break",
+          "meaningVi": "Giờ nghỉ",
+          "ipa": "/breɪk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Take a short break.",
+          "exampleSentenceVi": "Nghỉ giải lao một chút."
+        },
+        {
+          "id": "v-daily-life-2-9",
+          "word": "Busy",
+          "meaningVi": "Bận rộn",
+          "ipa": "/ˈbɪzi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I am very busy.",
+          "exampleSentenceVi": "Tôi rất bận."
+        },
+        {
+          "id": "v-daily-life-2-10",
+          "word": "Finish",
+          "meaningVi": "Kết thúc",
+          "ipa": "/ˈfɪnɪʃ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Finish your work.",
+          "exampleSentenceVi": "Hoàn thành công việc của bạn."
         }
       ],
-      "practice": [
-        { "id": "q-daily-02-01", "type": "multiple-choice", "question": "How do you ask the time?", "questionVi": "Bạn hỏi giờ như thế nào?", "options": ["What day is it?", "What time is it?", "How are you?", "Where is it?"], "correctAnswer": 1, "explanation": "'What time is it?' = Mấy giờ rồi?" },
-        { "id": "q-daily-02-02", "type": "fill-blank", "question": "Today is _____ . (ngày đầu tuần)", "questionVi": "Điền ngày đầu tuần", "options": ["Sunday", "Saturday", "Monday", "Friday"], "correctAnswer": 2, "explanation": "'Monday' = Thứ Hai, ngày đầu tuần làm việc." },
-        { "id": "q-daily-02-03", "type": "match-meaning", "question": "Match: 'Tomorrow'", "questionVi": "Nối nghĩa: 'Tomorrow'", "options": ["Hôm qua", "Hôm nay", "Ngày mai", "Tuần sau"], "correctAnswer": 2, "explanation": "'Tomorrow' = Ngày mai." },
-        { "id": "q-daily-02-04", "type": "multiple-choice", "question": "Which day comes after Friday?", "questionVi": "Ngày nào sau Friday?", "options": ["Thursday", "Saturday", "Sunday", "Monday"], "correctAnswer": 1, "explanation": "Friday (Thứ 6) → Saturday (Thứ 7)." }
-      ]
+      "phrases": [
+        {
+          "id": "p-daily-life-2-1",
+          "phrase": "When does work start?",
+          "meaningVi": "Công việc bắt đầu lúc mấy giờ?",
+          "ipa": "/wɛn dʌz wɜːrk stɑːrt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-2-2",
+          "phrase": "Let's check the emails first.",
+          "meaningVi": "Hãy kiểm tra email trước tiên.",
+          "ipa": "/lɛts tʃɛk ðə ˈiːmeɪlz fɜːrst/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-2-3",
+          "phrase": "We have a meeting at 10.",
+          "meaningVi": "Chúng ta có một cuộc họp lúc 10 giờ.",
+          "ipa": "/wiː hæv ə /ˈmiːtɪŋ æt tɛn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-2-4",
+          "phrase": "Can you help me with this?",
+          "meaningVi": "Bạn có thể giúp tôi việc này không?",
+          "ipa": "/kæn juː hɛlp miː wɪð ðɪs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-2-5",
+          "phrase": "I will ask the boss.",
+          "meaningVi": "Tôi sẽ hỏi sếp.",
+          "ipa": "/aɪ wɪl æsk ðə bɔːs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-2-6",
+          "phrase": "What time is lunch break?",
+          "meaningVi": "Giờ nghỉ trưa lúc mấy giờ?",
+          "ipa": "/wʌt taɪm ɪz lʌntʃ breɪk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-2-7",
+          "phrase": "Let's grab some lunch.",
+          "meaningVi": "Đi ăn trưa thôi.",
+          "ipa": "/lɛts ɡræb sʌm lʌntʃ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-2-8",
+          "phrase": "I have a lot of work to do.",
+          "meaningVi": "Tôi có nhiều việc phải làm.",
+          "ipa": "/aɪ hæv ə lɑːt ʌv wɜːrk tuː duː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-2-9",
+          "phrase": "Please finish this today.",
+          "meaningVi": "Vui lòng hoàn thành việc này hôm nay.",
+          "ipa": "/pliːz /ˈfɪnɪʃ ðɪs təˈdeɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-2-10",
+          "phrase": "It's time to go home.",
+          "meaningVi": "Đến giờ về nhà rồi.",
+          "ipa": "/ɪts taɪm tuː ɡoʊ hoʊm/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
     },
     {
-      "id": "daily-03",
-      "slug": "my-family",
+      "id": "daily-life-3",
+      "slug": "lesson-3",
       "topicSlug": "daily-life",
-      "title": "My Family",
-      "titleVi": "Gia đình tôi",
+      "title": "Housework",
+      "titleVi": "Việc nhà",
       "order": 3,
       "vocabulary": [
-        { "id": "v-family", "word": "Family", "meaningVi": "Gia đình", "ipa": "/ˈfæməli/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/family.webp", "exampleSentence": "I love my family.", "exampleSentenceVi": "Tôi yêu gia đình tôi." },
-        { "id": "v-mother", "word": "Mother", "meaningVi": "Mẹ", "ipa": "/ˈmʌðər/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/mother.webp", "exampleSentence": "My mother is kind.", "exampleSentenceVi": "Mẹ tôi rất tốt bụng." },
-        { "id": "v-father", "word": "Father", "meaningVi": "Bố", "ipa": "/ˈfɑːðər/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/father.webp", "exampleSentence": "My father is a teacher.", "exampleSentenceVi": "Bố tôi là giáo viên." },
-        { "id": "v-brother", "word": "Brother", "meaningVi": "Anh/em trai", "ipa": "/ˈbrʌðər/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/brother.webp", "exampleSentence": "I have one brother.", "exampleSentenceVi": "Tôi có một anh trai." },
-        { "id": "v-sister", "word": "Sister", "meaningVi": "Chị/em gái", "ipa": "/ˈsɪstər/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/sister.webp", "exampleSentence": "My sister is a student.", "exampleSentenceVi": "Chị gái tôi là sinh viên." }
-      ],
-      "phrases": [
-        { "id": "p-i-have", "phrase": "I have two brothers.", "meaningVi": "Tôi có hai anh trai.", "ipa": "/aɪ hæv tuː ˈbrʌðərz/", "usage": "Nói về thành viên gia đình" },
-        { "id": "p-how-many", "phrase": "How many brothers do you have?", "meaningVi": "Bạn có bao nhiêu anh em trai?", "ipa": "/haʊ ˈmɛni ˈbrʌðərz duː juː hæv/", "usage": "Hỏi số lượng thành viên gia đình" },
-        { "id": "p-this-is-my", "phrase": "This is my mother.", "meaningVi": "Đây là mẹ tôi.", "ipa": "/ðɪs ɪz maɪ ˈmʌðər/", "usage": "Giới thiệu thành viên gia đình" }
-      ],
-      "dialogues": [
         {
-          "id": "d-daily-03-01", "title": "Talking about family", "titleVi": "Nói về gia đình",
-          "situation": "Hai bạn chia sẻ về gia đình.",
-          "lines": [
-            { "speaker": "Amy", "text": "Do you have brothers or sisters?", "textVi": "Bạn có anh chị em không?", "ipa": "/duː juː hæv ˈbrʌðərz ɔːr ˈsɪstərz/" },
-            { "speaker": "Tuấn", "text": "Yes, I have one sister. How about you?", "textVi": "Có, mình có một chị gái. Còn bạn?", "ipa": "/jɛs aɪ hæv wʌn ˈsɪstər haʊ əˈbaʊt juː/" },
-            { "speaker": "Amy", "text": "I have two brothers. My family is big!", "textVi": "Mình có hai anh trai. Gia đình mình đông lắm!", "ipa": "/aɪ hæv tuː ˈbrʌðərz maɪ ˈfæməli ɪz bɪɡ/" }
-          ]
+          "id": "v-daily-life-3-1",
+          "word": "Clean",
+          "meaningVi": "Dọn dẹp",
+          "ipa": "/kliːn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Clean the room.",
+          "exampleSentenceVi": "Dọn dẹp phòng."
+        },
+        {
+          "id": "v-daily-life-3-2",
+          "word": "Sweep",
+          "meaningVi": "Quét",
+          "ipa": "/swiːp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Sweep the floor.",
+          "exampleSentenceVi": "Quét sàn nhà."
+        },
+        {
+          "id": "v-daily-life-3-3",
+          "word": "Wash",
+          "meaningVi": "Rửa, giặt",
+          "ipa": "/wɑːʃ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Wash the dishes.",
+          "exampleSentenceVi": "Rửa bát."
+        },
+        {
+          "id": "v-daily-life-3-4",
+          "word": "Laundry",
+          "meaningVi": "Giặt giũ",
+          "ipa": "/ˈlɔːndri/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Do the laundry.",
+          "exampleSentenceVi": "Làm việc giặt giũ."
+        },
+        {
+          "id": "v-daily-life-3-5",
+          "word": "Iron",
+          "meaningVi": "Ủi đồ",
+          "ipa": "/ˈaɪərn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Iron the shirt.",
+          "exampleSentenceVi": "Ủi chiếc áo."
+        },
+        {
+          "id": "v-daily-life-3-6",
+          "word": "Cook",
+          "meaningVi": "Nấu ăn",
+          "ipa": "/kʊk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Cook dinner.",
+          "exampleSentenceVi": "Nấu bữa tối."
+        },
+        {
+          "id": "v-daily-life-3-7",
+          "word": "Trash",
+          "meaningVi": "Rác",
+          "ipa": "/træʃ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Take out the trash.",
+          "exampleSentenceVi": "Đổ rác."
+        },
+        {
+          "id": "v-daily-life-3-8",
+          "word": "Tidy",
+          "meaningVi": "Dọn gọn",
+          "ipa": "/ˈtaɪdi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Tidy up the desk.",
+          "exampleSentenceVi": "Dọn dẹp gọn gàng bàn làm việc."
+        },
+        {
+          "id": "v-daily-life-3-9",
+          "word": "Dust",
+          "meaningVi": "Bụi",
+          "ipa": "/dʌst/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Wipe the dust.",
+          "exampleSentenceVi": "Lau bụi."
+        },
+        {
+          "id": "v-daily-life-3-10",
+          "word": "Help",
+          "meaningVi": "Giúp đỡ",
+          "ipa": "/hɛlp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Help with housework.",
+          "exampleSentenceVi": "Giúp làm việc nhà."
         }
       ],
-      "practice": [
-        { "id": "q-daily-03-01", "type": "multiple-choice", "question": "What does 'Mother' mean?", "questionVi": "'Mother' nghĩa là gì?", "options": ["Bố", "Mẹ", "Anh trai", "Chị gái"], "correctAnswer": 1, "explanation": "'Mother' = Mẹ. 'Father' = Bố." },
-        { "id": "q-daily-03-02", "type": "fill-blank", "question": "I _____ two sisters.", "questionVi": "Điền động từ đúng", "options": ["am", "is", "have", "do"], "correctAnswer": 2, "explanation": "'I have...' = Tôi có... 'Have' dùng để nói về sở hữu." },
-        { "id": "q-daily-03-03", "type": "match-meaning", "question": "Match: 'Family'", "questionVi": "Nối nghĩa: 'Family'", "options": ["Bạn bè", "Gia đình", "Trường học", "Công ty"], "correctAnswer": 1, "explanation": "'Family' = Gia đình." },
-        { "id": "q-daily-03-04", "type": "multiple-choice", "question": "'Brother' means _____.", "questionVi": "'Brother' nghĩa là _____.", "options": ["Chị gái", "Em gái", "Anh/em trai", "Bố"], "correctAnswer": 2, "explanation": "'Brother' = Anh trai hoặc em trai." }
-      ]
+      "phrases": [
+        {
+          "id": "p-daily-life-3-1",
+          "phrase": "It is time to clean the house.",
+          "meaningVi": "Đã đến lúc dọn dẹp nhà cửa.",
+          "ipa": "/ɪt ɪz taɪm tuː kliːn ðə haʊs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-3-2",
+          "phrase": "Can you sweep the floor?",
+          "meaningVi": "Bạn có thể quét nhà không?",
+          "ipa": "/kæn juː swiːp ðə flɔːr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-3-3",
+          "phrase": "I will wash the dishes.",
+          "meaningVi": "Tôi sẽ rửa bát.",
+          "ipa": "/aɪ wɪl wɑːʃ ðə ˈdɪʃɪz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-3-4",
+          "phrase": "The laundry needs to be done.",
+          "meaningVi": "Quần áo cần được giặt.",
+          "ipa": "/ðə /ˈlɔːndri niːdz tuː biː dʌn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-3-5",
+          "phrase": "Do not forget to take out the trash.",
+          "meaningVi": "Đừng quên đi đổ rác nhé.",
+          "ipa": "/duː nɑːt fərˈɡɛt tuː teɪk aʊt ðə træʃ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-3-6",
+          "phrase": "Let's tidy up the living room.",
+          "meaningVi": "Cùng dọn gọn phòng khách nào.",
+          "ipa": "/lɛts /ˈtaɪdi ʌp ðə ˈlɪvɪŋ ruːm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-3-7",
+          "phrase": "There is a lot of dust here.",
+          "meaningVi": "Chỗ này có nhiều bụi quá.",
+          "ipa": "/ðɛr ɪz ə lɑːt ʌv dʌst hɪr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-3-8",
+          "phrase": "What are you cooking for dinner?",
+          "meaningVi": "Bạn đang nấu gì cho bữa tối vậy?",
+          "ipa": "/wʌt ɑːr juː ˈkʊkɪŋ fɔːr ˈdɪnər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-3-9",
+          "phrase": "Dinner is ready!",
+          "meaningVi": "Bữa tối đã sẵn sàng!",
+          "ipa": "/ˈdɪnər ɪz ˈrɛdi/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-3-10",
+          "phrase": "Thanks for helping me.",
+          "meaningVi": "Cảm ơn vì đã giúp tôi.",
+          "ipa": "/θæŋks fɔːr ˈhɛlpɪŋ miː/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
     },
     {
-      "id": "daily-04",
-      "slug": "my-home",
+      "id": "daily-life-4",
+      "slug": "lesson-4",
       "topicSlug": "daily-life",
-      "title": "My Home",
-      "titleVi": "Nhà của tôi",
+      "title": "Evening Routine",
+      "titleVi": "Buổi tối",
       "order": 4,
       "vocabulary": [
-        { "id": "v-house", "word": "House", "meaningVi": "Nhà, ngôi nhà", "ipa": "/haʊs/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/house.webp", "exampleSentence": "I live in a small house.", "exampleSentenceVi": "Tôi sống trong một ngôi nhà nhỏ." },
-        { "id": "v-room", "word": "Room", "meaningVi": "Phòng", "ipa": "/ruːm/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/room.webp", "exampleSentence": "My room is clean.", "exampleSentenceVi": "Phòng tôi sạch sẽ." },
-        { "id": "v-kitchen", "word": "Kitchen", "meaningVi": "Nhà bếp", "ipa": "/ˈkɪtʃɪn/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/kitchen.webp", "exampleSentence": "My mother is in the kitchen.", "exampleSentenceVi": "Mẹ tôi đang ở trong bếp." },
-        { "id": "v-bathroom", "word": "Bathroom", "meaningVi": "Phòng tắm", "ipa": "/ˈbæθruːm/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/bathroom.webp", "exampleSentence": "The bathroom is clean.", "exampleSentenceVi": "Phòng tắm sạch sẽ." },
-        { "id": "v-bedroom", "word": "Bedroom", "meaningVi": "Phòng ngủ", "ipa": "/ˈbɛdruːm/", "partOfSpeech": "noun", "image": "/images/lessons/daily-life/bedroom.webp", "exampleSentence": "I study in my bedroom.", "exampleSentenceVi": "Tôi học trong phòng ngủ." }
-      ],
-      "phrases": [
-        { "id": "p-there-is", "phrase": "There is a table in the kitchen.", "meaningVi": "Có một cái bàn trong bếp.", "ipa": "/ðɛr ɪz ə ˈteɪbəl ɪn ðə ˈkɪtʃɪn/", "usage": "Mô tả có gì trong phòng (số ít)" },
-        { "id": "p-there-are", "phrase": "There are two bedrooms.", "meaningVi": "Có hai phòng ngủ.", "ipa": "/ðɛr ɑːr tuː ˈbɛdruːmz/", "usage": "Mô tả có gì trong nhà (số nhiều)" },
-        { "id": "p-where-is", "phrase": "Where is the bathroom?", "meaningVi": "Phòng tắm ở đâu?", "ipa": "/wɛr ɪz ðə ˈbæθruːm/", "usage": "Hỏi vị trí phòng" }
-      ],
-      "dialogues": [
         {
-          "id": "d-daily-04-01", "title": "Showing the house", "titleVi": "Giới thiệu nhà",
-          "situation": "Hà giới thiệu nhà cho bạn nước ngoài.",
-          "lines": [
-            { "speaker": "Hà", "text": "Welcome to my house! This is the living room.", "textVi": "Chào mừng đến nhà mình! Đây là phòng khách.", "ipa": "/ˈwɛlkəm tuː maɪ haʊs ðɪs ɪz ðə ˈlɪvɪŋ ruːm/" },
-            { "speaker": "Ben", "text": "It's very nice! Where is the kitchen?", "textVi": "Đẹp quá! Nhà bếp ở đâu?", "ipa": "/ɪts ˈvɛri naɪs wɛr ɪz ðə ˈkɪtʃɪn/" },
-            { "speaker": "Hà", "text": "The kitchen is over there. And there are two bedrooms.", "textVi": "Nhà bếp ở đằng kia. Và có hai phòng ngủ.", "ipa": "/ðə ˈkɪtʃɪn ɪz ˈoʊvər ðɛr ænd ðɛr ɑːr tuː ˈbɛdruːmz/" }
-          ]
+          "id": "v-daily-life-4-1",
+          "word": "Dinner",
+          "meaningVi": "Bữa tối",
+          "ipa": "/ˈdɪnər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Eat dinner together.",
+          "exampleSentenceVi": "Cùng nhau ăn tối."
+        },
+        {
+          "id": "v-daily-life-4-2",
+          "word": "Family",
+          "meaningVi": "Gia đình",
+          "ipa": "/ˈfæməli/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Talk with family.",
+          "exampleSentenceVi": "Nói chuyện với gia đình."
+        },
+        {
+          "id": "v-daily-life-4-3",
+          "word": "TV",
+          "meaningVi": "Tivi",
+          "ipa": "/ˌtiːˈviː/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Watch TV.",
+          "exampleSentenceVi": "Xem tivi."
+        },
+        {
+          "id": "v-daily-life-4-4",
+          "word": "Read",
+          "meaningVi": "Đọc",
+          "ipa": "/riːd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Read a book.",
+          "exampleSentenceVi": "Đọc sách."
+        },
+        {
+          "id": "v-daily-life-4-5",
+          "word": "Relax",
+          "meaningVi": "Thư giãn",
+          "ipa": "/rɪˈlæks/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Relax on the sofa.",
+          "exampleSentenceVi": "Thư giãn trên ghế sofa."
+        },
+        {
+          "id": "v-daily-life-4-6",
+          "word": "Music",
+          "meaningVi": "Âm nhạc",
+          "ipa": "/ˈmjuːzɪk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Listen to music.",
+          "exampleSentenceVi": "Nghe nhạc."
+        },
+        {
+          "id": "v-daily-life-4-7",
+          "word": "Bath",
+          "meaningVi": "Tắm bồn",
+          "ipa": "/bæθ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Take a warm bath.",
+          "exampleSentenceVi": "Tắm nước ấm."
+        },
+        {
+          "id": "v-daily-life-4-8",
+          "word": "Phone",
+          "meaningVi": "Điện thoại",
+          "ipa": "/foʊn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Check your phone.",
+          "exampleSentenceVi": "Kiểm tra điện thoại."
+        },
+        {
+          "id": "v-daily-life-4-9",
+          "word": "Sleep",
+          "meaningVi": "Ngủ",
+          "ipa": "/sliːp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Time to sleep.",
+          "exampleSentenceVi": "Đến giờ đi ngủ."
+        },
+        {
+          "id": "v-daily-life-4-10",
+          "word": "Bed",
+          "meaningVi": "Giường",
+          "ipa": "/bɛd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Go to bed.",
+          "exampleSentenceVi": "Đi ngủ."
         }
       ],
-      "practice": [
-        { "id": "q-daily-04-01", "type": "multiple-choice", "question": "What is a 'Kitchen'?", "questionVi": "'Kitchen' là gì?", "options": ["Phòng ngủ", "Phòng tắm", "Nhà bếp", "Phòng khách"], "correctAnswer": 2, "explanation": "'Kitchen' = Nhà bếp." },
-        { "id": "q-daily-04-02", "type": "fill-blank", "question": "There _____ a table in the room.", "questionVi": "Điền 'is' hoặc 'are'", "options": ["am", "is", "are", "have"], "correctAnswer": 1, "explanation": "'There is' dùng cho số ít (a table = 1 cái bàn)." },
-        { "id": "q-daily-04-03", "type": "match-meaning", "question": "Match: 'Bedroom'", "questionVi": "Nối nghĩa: 'Bedroom'", "options": ["Nhà bếp", "Phòng tắm", "Phòng ngủ", "Phòng khách"], "correctAnswer": 2, "explanation": "'Bedroom' = Phòng ngủ. 'Bed' = giường." },
-        { "id": "q-daily-04-04", "type": "multiple-choice", "question": "There _____ three rooms in my house.", "questionVi": "Điền 'is' hoặc 'are'", "options": ["is", "are", "am", "has"], "correctAnswer": 1, "explanation": "'There are' dùng cho số nhiều (three rooms)." }
-      ]
+      "phrases": [
+        {
+          "id": "p-daily-life-4-1",
+          "phrase": "What is on TV tonight?",
+          "meaningVi": "Tối nay trên tivi có gì?",
+          "ipa": "/wʌt ɪz ɑːn ˌtiːˈviː təˈnaɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-4-2",
+          "phrase": "Let's watch a movie.",
+          "meaningVi": "Cùng xem một bộ phim đi.",
+          "ipa": "/lɛts wɑːtʃ ə /ˈmuːvi/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-4-3",
+          "phrase": "I usually read before bed.",
+          "meaningVi": "Tôi thường đọc sách trước khi ngủ.",
+          "ipa": "/aɪ ˈjuːʒuəli riːd bɪˈfɔːr bɛd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-4-4",
+          "phrase": "It's time to relax.",
+          "meaningVi": "Đến lúc thư giãn rồi.",
+          "ipa": "/ɪts taɪm tuː rɪˈlæks/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-4-5",
+          "phrase": "Turn off the TV, please.",
+          "meaningVi": "Làm ơn tắt tivi đi.",
+          "ipa": "/tɜːrn ɔːf ðə ˌtiːˈviː pliːz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-4-6",
+          "phrase": "I need to take a bath.",
+          "meaningVi": "Tôi cần đi tắm.",
+          "ipa": "/aɪ niːd tuː teɪk ə bæθ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-4-7",
+          "phrase": "Put your phone away.",
+          "meaningVi": "Cất điện thoại đi.",
+          "ipa": "/pʊt jʊr foʊn əˈweɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-4-8",
+          "phrase": "I am feeling sleepy.",
+          "meaningVi": "Tôi cảm thấy buồn ngủ rồi.",
+          "ipa": "/aɪ æm ˈfiːlɪŋ ˈsliːpi/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-4-9",
+          "phrase": "Time to go to bed.",
+          "meaningVi": "Đến giờ đi ngủ rồi.",
+          "ipa": "/taɪm tuː ɡoʊ tuː bɛd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-4-10",
+          "phrase": "Good night, sleep tight!",
+          "meaningVi": "Chúc ngủ ngon, ngủ say nhé!",
+          "ipa": "/ɡʊd naɪt sliːp taɪt/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "daily-life-5",
+      "slug": "lesson-5",
+      "topicSlug": "daily-life",
+      "title": "Weekend Activities",
+      "titleVi": "Hoạt động cuối tuần",
+      "order": 5,
+      "vocabulary": [
+        {
+          "id": "v-daily-life-5-1",
+          "word": "Weekend",
+          "meaningVi": "Cuối tuần",
+          "ipa": "/ˈwiːkɛnd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Happy weekend!",
+          "exampleSentenceVi": "Chúc cuối tuần vui vẻ!"
+        },
+        {
+          "id": "v-daily-life-5-2",
+          "word": "Sleep",
+          "meaningVi": "Ngủ",
+          "ipa": "/sliːp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Sleep late.",
+          "exampleSentenceVi": "Ngủ nướng."
+        },
+        {
+          "id": "v-daily-life-5-3",
+          "word": "Shopping",
+          "meaningVi": "Mua sắm",
+          "ipa": "/ˈʃɑːpɪŋ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Go shopping.",
+          "exampleSentenceVi": "Đi mua sắm."
+        },
+        {
+          "id": "v-daily-life-5-4",
+          "word": "Park",
+          "meaningVi": "Công viên",
+          "ipa": "/pɑːrk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Walk in the park.",
+          "exampleSentenceVi": "Đi dạo trong công viên."
+        },
+        {
+          "id": "v-daily-life-5-5",
+          "word": "Friend",
+          "meaningVi": "Bạn bè",
+          "ipa": "/frɛnd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Meet some friends.",
+          "exampleSentenceVi": "Gặp gỡ vài người bạn."
+        },
+        {
+          "id": "v-daily-life-5-6",
+          "word": "Movie",
+          "meaningVi": "Phim",
+          "ipa": "/ˈmuːvi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "See a movie.",
+          "exampleSentenceVi": "Xem một bộ phim."
+        },
+        {
+          "id": "v-daily-life-5-7",
+          "word": "Clean",
+          "meaningVi": "Dọn dẹp",
+          "ipa": "/kliːn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Clean the house.",
+          "exampleSentenceVi": "Dọn dẹp nhà cửa."
+        },
+        {
+          "id": "v-daily-life-5-8",
+          "word": "Cook",
+          "meaningVi": "Nấu ăn",
+          "ipa": "/kʊk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Cook a big meal.",
+          "exampleSentenceVi": "Nấu một bữa ăn lớn."
+        },
+        {
+          "id": "v-daily-life-5-9",
+          "word": "Relax",
+          "meaningVi": "Thư giãn",
+          "ipa": "/rɪˈlæks/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Just relax.",
+          "exampleSentenceVi": "Chỉ thư giãn thôi."
+        },
+        {
+          "id": "v-daily-life-5-10",
+          "word": "Play",
+          "meaningVi": "Chơi",
+          "ipa": "/pleɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Play games.",
+          "exampleSentenceVi": "Chơi trò chơi."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-daily-life-5-1",
+          "phrase": "What are your plans for the weekend?",
+          "meaningVi": "Kế hoạch cuối tuần của bạn là gì?",
+          "ipa": "/wʌt ɑːr jʊr plænz fɔːr ðə /ˈwiːkɛnd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-5-2",
+          "phrase": "I plan to sleep in.",
+          "meaningVi": "Tôi định sẽ ngủ nướng.",
+          "ipa": "/aɪ plæn tuː sliːp ɪn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-5-3",
+          "phrase": "Let's go shopping.",
+          "meaningVi": "Cùng đi mua sắm nhé.",
+          "ipa": "/lɛts ɡoʊ /ˈʃɑːpɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-5-4",
+          "phrase": "Do you want to see a movie?",
+          "meaningVi": "Bạn có muốn đi xem phim không?",
+          "ipa": "/duː juː wɑːnt tuː siː ə /ˈmuːvi/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-5-5",
+          "phrase": "I am meeting some friends.",
+          "meaningVi": "Tôi sẽ đi gặp vài người bạn.",
+          "ipa": "/aɪ æm ˈmiːtɪŋ sʌm frɛndz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-5-6",
+          "phrase": "Let's take a walk in the park.",
+          "meaningVi": "Cùng đi dạo trong công viên nào.",
+          "ipa": "/lɛts teɪk ə wɔːk ɪn ðə pɑːrk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-5-7",
+          "phrase": "I have to clean the house.",
+          "meaningVi": "Tôi phải dọn dẹp nhà cửa.",
+          "ipa": "/aɪ hæv tuː kliːn ðə haʊs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-5-8",
+          "phrase": "Let's cook something special.",
+          "meaningVi": "Cùng nấu món gì đó đặc biệt nhé.",
+          "ipa": "/lɛts kʊk ˈsʌmθɪŋ ˈspɛʃl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-5-9",
+          "phrase": "I just want to relax at home.",
+          "meaningVi": "Tôi chỉ muốn thư giãn ở nhà.",
+          "ipa": "/aɪ dʒʌst wɑːnt tuː rɪˈlæks æt hoʊm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-5-10",
+          "phrase": "Have a great weekend!",
+          "meaningVi": "Chúc một ngày cuối tuần tuyệt vời!",
+          "ipa": "/hæv ə ɡreɪt /ˈwiːkɛnd/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "daily-life-6",
+      "slug": "lesson-6",
+      "topicSlug": "daily-life",
+      "title": "Using the Internet",
+      "titleVi": "Sử dụng Internet",
+      "order": 6,
+      "vocabulary": [
+        {
+          "id": "v-daily-life-6-1",
+          "word": "Internet",
+          "meaningVi": "Mạng Internet",
+          "ipa": "/ˈɪntərnɛt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Use the internet.",
+          "exampleSentenceVi": "Sử dụng internet."
+        },
+        {
+          "id": "v-daily-life-6-2",
+          "word": "Online",
+          "meaningVi": "Trực tuyến",
+          "ipa": "/ˌɑːnˈlaɪn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I am online.",
+          "exampleSentenceVi": "Tôi đang trực tuyến."
+        },
+        {
+          "id": "v-daily-life-6-3",
+          "word": "Search",
+          "meaningVi": "Tìm kiếm",
+          "ipa": "/sɜːrtʃ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Search for news.",
+          "exampleSentenceVi": "Tìm kiếm tin tức."
+        },
+        {
+          "id": "v-daily-life-6-4",
+          "word": "Web",
+          "meaningVi": "Trang web",
+          "ipa": "/wɛb/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Browse the web.",
+          "exampleSentenceVi": "Lướt web."
+        },
+        {
+          "id": "v-daily-life-6-5",
+          "word": "Message",
+          "meaningVi": "Tin nhắn",
+          "ipa": "/ˈmɛsɪdʒ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Send a message.",
+          "exampleSentenceVi": "Gửi một tin nhắn."
+        },
+        {
+          "id": "v-daily-life-6-6",
+          "word": "Chat",
+          "meaningVi": "Trò chuyện",
+          "ipa": "/tʃæt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Chat with friends.",
+          "exampleSentenceVi": "Trò chuyện với bạn bè."
+        },
+        {
+          "id": "v-daily-life-6-7",
+          "word": "Video",
+          "meaningVi": "Video",
+          "ipa": "/ˈvɪdioʊ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Watch a video.",
+          "exampleSentenceVi": "Xem một đoạn video."
+        },
+        {
+          "id": "v-daily-life-6-8",
+          "word": "Post",
+          "meaningVi": "Bài đăng",
+          "ipa": "/poʊst/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Read a post.",
+          "exampleSentenceVi": "Đọc một bài đăng."
+        },
+        {
+          "id": "v-daily-life-6-9",
+          "word": "Share",
+          "meaningVi": "Chia sẻ",
+          "ipa": "/ʃɛr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Share a picture.",
+          "exampleSentenceVi": "Chia sẻ một bức ảnh."
+        },
+        {
+          "id": "v-daily-life-6-10",
+          "word": "Download",
+          "meaningVi": "Tải xuống",
+          "ipa": "/ˈdaʊnloʊd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Download an app.",
+          "exampleSentenceVi": "Tải xuống một ứng dụng."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-daily-life-6-1",
+          "phrase": "Do you have internet access?",
+          "meaningVi": "Bạn có kết nối internet không?",
+          "ipa": "/duː juː hæv /ˈɪntərnɛt ˈæksɛs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-6-2",
+          "phrase": "I am browsing the web.",
+          "meaningVi": "Tôi đang lướt web.",
+          "ipa": "/aɪ æm ˈbraʊzɪŋ ðə wɛb/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-6-3",
+          "phrase": "Can you search for this?",
+          "meaningVi": "Bạn có thể tìm kiếm cái này không?",
+          "ipa": "/kæn juː sɜːrtʃ fɔːr ðɪs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-6-4",
+          "phrase": "I will send you a message.",
+          "meaningVi": "Tôi sẽ gửi cho bạn một tin nhắn.",
+          "ipa": "/aɪ wɪl sɛnd juː ə /ˈmɛsɪdʒ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-6-5",
+          "phrase": "Let's chat online.",
+          "meaningVi": "Cùng trò chuyện trực tuyến nhé.",
+          "ipa": "/lɛts tʃæt /ˌɑːnˈlaɪn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-6-6",
+          "phrase": "Did you watch that video?",
+          "meaningVi": "Bạn đã xem đoạn video đó chưa?",
+          "ipa": "/dɪd juː wɑːtʃ ðæt /ˈvɪdioʊ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-6-7",
+          "phrase": "Please share the link.",
+          "meaningVi": "Vui lòng chia sẻ đường dẫn.",
+          "ipa": "/pliːz ʃɛr ðə lɪŋk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-6-8",
+          "phrase": "I saw your post today.",
+          "meaningVi": "Hôm nay tôi đã thấy bài đăng của bạn.",
+          "ipa": "/aɪ sɔː jʊr poʊst təˈdeɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-6-9",
+          "phrase": "How do I download this?",
+          "meaningVi": "Làm sao để tôi tải cái này xuống?",
+          "ipa": "/haʊ duː aɪ /ˈdaʊnloʊd ðɪs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-6-10",
+          "phrase": "The internet is very slow.",
+          "meaningVi": "Mạng internet rất chậm.",
+          "ipa": "/ðə /ˈɪntərnɛt ɪz ˈvɛri sloʊ/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "daily-life-7",
+      "slug": "lesson-7",
+      "topicSlug": "daily-life",
+      "title": "Pets & Animals",
+      "titleVi": "Thú cưng",
+      "order": 7,
+      "vocabulary": [
+        {
+          "id": "v-daily-life-7-1",
+          "word": "Pet",
+          "meaningVi": "Thú cưng",
+          "ipa": "/pɛt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A cute pet.",
+          "exampleSentenceVi": "Một con thú cưng dễ thương."
+        },
+        {
+          "id": "v-daily-life-7-2",
+          "word": "Dog",
+          "meaningVi": "Chó",
+          "ipa": "/dɔːɡ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "My dog is barking.",
+          "exampleSentenceVi": "Con chó của tôi đang sủa."
+        },
+        {
+          "id": "v-daily-life-7-3",
+          "word": "Cat",
+          "meaningVi": "Mèo",
+          "ipa": "/kæt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The cat is sleeping.",
+          "exampleSentenceVi": "Con mèo đang ngủ."
+        },
+        {
+          "id": "v-daily-life-7-4",
+          "word": "Fish",
+          "meaningVi": "Cá",
+          "ipa": "/fɪʃ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Feed the fish.",
+          "exampleSentenceVi": "Cho cá ăn."
+        },
+        {
+          "id": "v-daily-life-7-5",
+          "word": "Bird",
+          "meaningVi": "Chim",
+          "ipa": "/bɜːrd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The bird is singing.",
+          "exampleSentenceVi": "Con chim đang hót."
+        },
+        {
+          "id": "v-daily-life-7-6",
+          "word": "Feed",
+          "meaningVi": "Cho ăn",
+          "ipa": "/fiːd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Feed the dog.",
+          "exampleSentenceVi": "Cho chó ăn."
+        },
+        {
+          "id": "v-daily-life-7-7",
+          "word": "Walk",
+          "meaningVi": "Đi dạo",
+          "ipa": "/wɔːk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Walk the dog.",
+          "exampleSentenceVi": "Dắt chó đi dạo."
+        },
+        {
+          "id": "v-daily-life-7-8",
+          "word": "Play",
+          "meaningVi": "Chơi",
+          "ipa": "/pleɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Play with the cat.",
+          "exampleSentenceVi": "Chơi với con mèo."
+        },
+        {
+          "id": "v-daily-life-7-9",
+          "word": "Cute",
+          "meaningVi": "Dễ thương",
+          "ipa": "/kjuːt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "It is very cute.",
+          "exampleSentenceVi": "Nó rất dễ thương."
+        },
+        {
+          "id": "v-daily-life-7-10",
+          "word": "Animal",
+          "meaningVi": "Động vật",
+          "ipa": "/ˈænɪml/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I love animals.",
+          "exampleSentenceVi": "Tôi yêu động vật."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-daily-life-7-1",
+          "phrase": "Do you have any pets?",
+          "meaningVi": "Bạn có nuôi thú cưng nào không?",
+          "ipa": "/duː juː hæv ˈɛni pɛts/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-7-2",
+          "phrase": "I have a dog and a cat.",
+          "meaningVi": "Tôi có một con chó và một con mèo.",
+          "ipa": "/aɪ hæv ə dɔːɡ ænd ə kæt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-7-3",
+          "phrase": "What is your dog's name?",
+          "meaningVi": "Tên con chó của bạn là gì?",
+          "ipa": "/wʌt ɪz jʊr dɔːɡz neɪm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-7-4",
+          "phrase": "My cat is very lazy.",
+          "meaningVi": "Con mèo của tôi rất lười biếng.",
+          "ipa": "/maɪ kæt ɪz ˈvɛri /ˈleɪzi/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-7-5",
+          "phrase": "It is time to feed the fish.",
+          "meaningVi": "Đến giờ cho cá ăn rồi.",
+          "ipa": "/ɪt ɪz taɪm tuː fiːd ðə fɪʃ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-7-6",
+          "phrase": "Can you walk the dog?",
+          "meaningVi": "Bạn có thể dắt chó đi dạo không?",
+          "ipa": "/kæn juː wɔːk ðə dɔːɡ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-7-7",
+          "phrase": "The bird is singing beautifully.",
+          "meaningVi": "Con chim đang hót rất hay.",
+          "ipa": "/ðə bɜːrd ɪz ˈsɪŋɪŋ ˈbjuːtɪfəli/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-7-8",
+          "phrase": "Your pet is so cute.",
+          "meaningVi": "Thú cưng của bạn thật dễ thương.",
+          "ipa": "/jʊr pɛt ɪz soʊ kjuːt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-7-9",
+          "phrase": "I love playing with my cat.",
+          "meaningVi": "Tôi thích chơi đùa với con mèo của tôi.",
+          "ipa": "/aɪ lʌv ˈpleɪɪŋ wɪð maɪ kæt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-7-10",
+          "phrase": "Animals are our friends.",
+          "meaningVi": "Động vật là những người bạn của chúng ta.",
+          "ipa": "/ˈænɪmlz ɑːr aʊər frɛndz/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "daily-life-8",
+      "slug": "lesson-8",
+      "topicSlug": "daily-life",
+      "title": "Health habits",
+      "titleVi": "Thói quen sức khỏe",
+      "order": 8,
+      "vocabulary": [
+        {
+          "id": "v-daily-life-8-1",
+          "word": "Water",
+          "meaningVi": "Nước",
+          "ipa": "/ˈwɔːtər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Drink enough water.",
+          "exampleSentenceVi": "Uống đủ nước."
+        },
+        {
+          "id": "v-daily-life-8-2",
+          "word": "Sleep",
+          "meaningVi": "Giấc ngủ",
+          "ipa": "/sliːp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Get enough sleep.",
+          "exampleSentenceVi": "Ngủ đủ giấc."
+        },
+        {
+          "id": "v-daily-life-8-3",
+          "word": "Exercise",
+          "meaningVi": "Tập thể dục",
+          "ipa": "/ˈɛksərsaɪz/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Daily exercise is good.",
+          "exampleSentenceVi": "Tập thể dục hàng ngày rất tốt."
+        },
+        {
+          "id": "v-daily-life-8-4",
+          "word": "Walk",
+          "meaningVi": "Đi bộ",
+          "ipa": "/wɔːk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Take a walk.",
+          "exampleSentenceVi": "Đi dạo bộ."
+        },
+        {
+          "id": "v-daily-life-8-5",
+          "word": "Fruit",
+          "meaningVi": "Trái cây",
+          "ipa": "/fruːt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Eat fresh fruit.",
+          "exampleSentenceVi": "Ăn trái cây tươi."
+        },
+        {
+          "id": "v-daily-life-8-6",
+          "word": "Veggie",
+          "meaningVi": "Rau củ",
+          "ipa": "/ˈvɛdʒi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Eat more veggies.",
+          "exampleSentenceVi": "Ăn thêm rau củ."
+        },
+        {
+          "id": "v-daily-life-8-7",
+          "word": "Healthy",
+          "meaningVi": "Khỏe mạnh",
+          "ipa": "/ˈhɛlθi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A healthy body.",
+          "exampleSentenceVi": "Một cơ thể khỏe mạnh."
+        },
+        {
+          "id": "v-daily-life-8-8",
+          "word": "Habit",
+          "meaningVi": "Thói quen",
+          "ipa": "/ˈhæbɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A good habit.",
+          "exampleSentenceVi": "Một thói quen tốt."
+        },
+        {
+          "id": "v-daily-life-8-9",
+          "word": "Clean",
+          "meaningVi": "Sạch sẽ",
+          "ipa": "/kliːn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Keep your hands clean.",
+          "exampleSentenceVi": "Giữ tay sạch sẽ."
+        },
+        {
+          "id": "v-daily-life-8-10",
+          "word": "Mind",
+          "meaningVi": "Tâm trí",
+          "ipa": "/maɪnd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Relax your mind.",
+          "exampleSentenceVi": "Thư giãn tâm trí của bạn."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-daily-life-8-1",
+          "phrase": "Do you exercise regularly?",
+          "meaningVi": "Bạn có tập thể dục thường xuyên không?",
+          "ipa": "/duː juː /ˈɛksərsaɪz ˈrɛɡjələrli/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-8-2",
+          "phrase": "I try to walk every day.",
+          "meaningVi": "Tôi cố gắng đi bộ mỗi ngày.",
+          "ipa": "/aɪ traɪ tuː wɔːk /ˈɛvri deɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-8-3",
+          "phrase": "You should drink more water.",
+          "meaningVi": "Bạn nên uống nhiều nước hơn.",
+          "ipa": "/juː ʃʊd drɪŋk mɔːr /ˈwɔːtər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-8-4",
+          "phrase": "Eating fruit is good for you.",
+          "meaningVi": "Ăn trái cây rất tốt cho bạn.",
+          "ipa": "/ˈiːtɪŋ fruːt ɪz ɡʊd fɔːr juː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-8-5",
+          "phrase": "Get at least eight hours of sleep.",
+          "meaningVi": "Hãy ngủ ít nhất 8 tiếng.",
+          "ipa": "/ɡɛt æt liːst eɪt ˈaʊərz ʌv sliːp/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-8-6",
+          "phrase": "Wash your hands before eating.",
+          "meaningVi": "Rửa tay trước khi ăn.",
+          "ipa": "/wɑːʃ jʊr hændz bɪˈfɔːr /ˈiːtɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-8-7",
+          "phrase": "That is a very healthy habit.",
+          "meaningVi": "Đó là một thói quen rất lành mạnh.",
+          "ipa": "/ðæt ɪz ə ˈvɛri /ˈhɛlθi /ˈhæbɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-8-8",
+          "phrase": "It is important to relax.",
+          "meaningVi": "Thư giãn là điều rất quan trọng.",
+          "ipa": "/ɪt ɪz ɪmˈpɔːrtnt tuː rɪˈlæks/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-8-9",
+          "phrase": "Take care of your body.",
+          "meaningVi": "Hãy chăm sóc cơ thể của bạn.",
+          "ipa": "/teɪk kɛr ʌv jʊr ˈbɑːdi/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-8-10",
+          "phrase": "Health is wealth.",
+          "meaningVi": "Sức khỏe là vàng.",
+          "ipa": "/hɛlθ ɪz wɛlθ/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "daily-life-9",
+      "slug": "lesson-9",
+      "topicSlug": "daily-life",
+      "title": "Managing Money",
+      "titleVi": "Quản lý tiền bạc",
+      "order": 9,
+      "vocabulary": [
+        {
+          "id": "v-daily-life-9-1",
+          "word": "Money",
+          "meaningVi": "Tiền",
+          "ipa": "/ˈmʌni/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Save your money.",
+          "exampleSentenceVi": "Tiết kiệm tiền của bạn."
+        },
+        {
+          "id": "v-daily-life-9-2",
+          "word": "Spend",
+          "meaningVi": "Tiêu",
+          "ipa": "/spɛnd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Do not spend too much.",
+          "exampleSentenceVi": "Đừng tiêu xài quá nhiều."
+        },
+        {
+          "id": "v-daily-life-9-3",
+          "word": "Save",
+          "meaningVi": "Tiết kiệm",
+          "ipa": "/seɪv/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Save for the future.",
+          "exampleSentenceVi": "Tiết kiệm cho tương lai."
+        },
+        {
+          "id": "v-daily-life-9-4",
+          "word": "Buy",
+          "meaningVi": "Mua",
+          "ipa": "/baɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Buy what you need.",
+          "exampleSentenceVi": "Hãy mua thứ bạn cần."
+        },
+        {
+          "id": "v-daily-life-9-5",
+          "word": "Pay",
+          "meaningVi": "Trả tiền",
+          "ipa": "/peɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I will pay for this.",
+          "exampleSentenceVi": "Tôi sẽ trả tiền cho cái này."
+        },
+        {
+          "id": "v-daily-life-9-6",
+          "word": "Cost",
+          "meaningVi": "Giá",
+          "ipa": "/kɔːst/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "How much does it cost?",
+          "exampleSentenceVi": "Nó giá bao nhiêu?"
+        },
+        {
+          "id": "v-daily-life-9-7",
+          "word": "Bank",
+          "meaningVi": "Ngân hàng",
+          "ipa": "/bæŋk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Put it in the bank.",
+          "exampleSentenceVi": "Gửi nó vào ngân hàng."
+        },
+        {
+          "id": "v-daily-life-9-8",
+          "word": "Cash",
+          "meaningVi": "Tiền mặt",
+          "ipa": "/kæʃ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Pay in cash.",
+          "exampleSentenceVi": "Trả bằng tiền mặt."
+        },
+        {
+          "id": "v-daily-life-9-9",
+          "word": "Card",
+          "meaningVi": "Thẻ",
+          "ipa": "/kɑːrd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Use a credit card.",
+          "exampleSentenceVi": "Sử dụng thẻ tín dụng."
+        },
+        {
+          "id": "v-daily-life-9-10",
+          "word": "Budget",
+          "meaningVi": "Ngân sách",
+          "ipa": "/ˈbʌdʒɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Keep a tight budget.",
+          "exampleSentenceVi": "Giữ ngân sách eo hẹp."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-daily-life-9-1",
+          "phrase": "I need to save money.",
+          "meaningVi": "Tôi cần tiết kiệm tiền.",
+          "ipa": "/aɪ niːd tuː seɪv /ˈmʌni/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-9-2",
+          "phrase": "How much do you spend a day?",
+          "meaningVi": "Bạn tiêu bao nhiêu một ngày?",
+          "ipa": "/haʊ mʌtʃ duː juː spɛnd ə deɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-9-3",
+          "phrase": "Do not waste your money.",
+          "meaningVi": "Đừng lãng phí tiền bạc của bạn.",
+          "ipa": "/duː nɑːt weɪst jʊr /ˈmʌni/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-9-4",
+          "phrase": "I want to buy a new phone.",
+          "meaningVi": "Tôi muốn mua một chiếc điện thoại mới.",
+          "ipa": "/aɪ wɑːnt tuː baɪ ə nuː foʊn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-9-5",
+          "phrase": "How much does it cost?",
+          "meaningVi": "Cái này giá bao nhiêu?",
+          "ipa": "/haʊ mʌtʃ dʌz ɪt kɔːst/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-9-6",
+          "phrase": "Can I pay by card?",
+          "meaningVi": "Tôi có thể trả bằng thẻ không?",
+          "ipa": "/kæn aɪ peɪ baɪ kɑːrd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-9-7",
+          "phrase": "I only have cash.",
+          "meaningVi": "Tôi chỉ có tiền mặt.",
+          "ipa": "/aɪ ˈoʊnli hæv kæʃ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-9-8",
+          "phrase": "I am going to the bank.",
+          "meaningVi": "Tôi đang đi tới ngân hàng.",
+          "ipa": "/aɪ æm ˈɡoʊɪŋ tuː ðə bæŋk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-9-9",
+          "phrase": "That is over my budget.",
+          "meaningVi": "Cái đó vượt quá ngân sách của tôi rồi.",
+          "ipa": "/ðæt ɪz ˈoʊvər maɪ /ˈbʌdʒɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-9-10",
+          "phrase": "Money does not grow on trees.",
+          "meaningVi": "Tiền không mọc trên cây đâu.",
+          "ipa": "/ˈmʌni dʌz nɑːt ɡroʊ ɑːn triːz/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "daily-life-10",
+      "slug": "lesson-10",
+      "topicSlug": "daily-life",
+      "title": "Hobbies and Habits",
+      "titleVi": "Thói quen và Sở thích",
+      "order": 10,
+      "vocabulary": [
+        {
+          "id": "v-daily-life-10-1",
+          "word": "Habit",
+          "meaningVi": "Thói quen",
+          "ipa": "/ˈhæbɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A good habit.",
+          "exampleSentenceVi": "Một thói quen tốt."
+        },
+        {
+          "id": "v-daily-life-10-2",
+          "word": "Hobby",
+          "meaningVi": "Sở thích",
+          "ipa": "/ˈhɑːbi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A fun hobby.",
+          "exampleSentenceVi": "Một sở thích thú vị."
+        },
+        {
+          "id": "v-daily-life-10-3",
+          "word": "Always",
+          "meaningVi": "Luôn luôn",
+          "ipa": "/ˈɔːlweɪz/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I always wake up early.",
+          "exampleSentenceVi": "Tôi luôn thức dậy sớm."
+        },
+        {
+          "id": "v-daily-life-10-4",
+          "word": "Usually",
+          "meaningVi": "Thường xuyên",
+          "ipa": "/ˈjuːʒuəli/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I usually read books.",
+          "exampleSentenceVi": "Tôi thường hay đọc sách."
+        },
+        {
+          "id": "v-daily-life-10-5",
+          "word": "Often",
+          "meaningVi": "Thường",
+          "ipa": "/ˈɔːfən/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "How often do you play?",
+          "exampleSentenceVi": "Bạn có thường chơi không?"
+        },
+        {
+          "id": "v-daily-life-10-6",
+          "word": "Sometimes",
+          "meaningVi": "Thỉnh thoảng",
+          "ipa": "/ˈsʌmtaɪmz/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Sometimes I feel sad.",
+          "exampleSentenceVi": "Đôi khi tôi cảm thấy buồn."
+        },
+        {
+          "id": "v-daily-life-10-7",
+          "word": "Never",
+          "meaningVi": "Không bao giờ",
+          "ipa": "/ˈnɛvər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I never eat late.",
+          "exampleSentenceVi": "Tôi không bao giờ ăn trễ."
+        },
+        {
+          "id": "v-daily-life-10-8",
+          "word": "Every",
+          "meaningVi": "Mỗi",
+          "ipa": "/ˈɛvri/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Every single day.",
+          "exampleSentenceVi": "Mỗi một ngày."
+        },
+        {
+          "id": "v-daily-life-10-9",
+          "word": "Practice",
+          "meaningVi": "Luyện tập",
+          "ipa": "/ˈpræktɪs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Practice makes perfect.",
+          "exampleSentenceVi": "Luyện tập tạo nên sự hoàn hảo."
+        },
+        {
+          "id": "v-daily-life-10-10",
+          "word": "Skill",
+          "meaningVi": "Kỹ năng",
+          "ipa": "/skɪl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Learn a new skill.",
+          "exampleSentenceVi": "Học một kỹ năng mới."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-daily-life-10-1",
+          "phrase": "What are your daily habits?",
+          "meaningVi": "Thói quen hàng ngày của bạn là gì?",
+          "ipa": "/wʌt ɑːr jʊr ˈdeɪli /ˈhæbɪts/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-10-2",
+          "phrase": "I always drink coffee in the morning.",
+          "meaningVi": "Tôi luôn uống cà phê vào buổi sáng.",
+          "ipa": "/aɪ /ˈɔːlweɪz drɪŋk /ˈkɔːfi ɪn ðə /ˈmɔːrnɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-10-3",
+          "phrase": "I usually go jogging after work.",
+          "meaningVi": "Tôi thường đi chạy bộ sau giờ làm.",
+          "ipa": "/aɪ /ˈjuːʒuəli ɡoʊ ˈdʒɑːɡɪŋ ˈæftər wɜːrk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-10-4",
+          "phrase": "How often do you exercise?",
+          "meaningVi": "Bạn có thường tập thể dục không?",
+          "ipa": "/haʊ /ˈɔːfən duː juː /ˈɛksərsaɪz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-10-5",
+          "phrase": "I sometimes play video games.",
+          "meaningVi": "Thỉnh thoảng tôi có chơi trò chơi điện tử.",
+          "ipa": "/aɪ /ˈsʌmtaɪmz pleɪ /ˈvɪdioʊ ɡeɪmz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-10-6",
+          "phrase": "I never skip breakfast.",
+          "meaningVi": "Tôi không bao giờ bỏ bữa sáng.",
+          "ipa": "/aɪ /ˈnɛvər skɪp /ˈbrɛkfəst/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-10-7",
+          "phrase": "I practice playing the guitar every day.",
+          "meaningVi": "Tôi luyện chơi ghi-ta mỗi ngày.",
+          "ipa": "/aɪ /ˈpræktɪs ˈpleɪɪŋ ðə ɡɪˈtɑːr /ˈɛvri deɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-10-8",
+          "phrase": "Learning a new skill is fun.",
+          "meaningVi": "Học một kỹ năng mới rất vui.",
+          "ipa": "/ˈlɜːrnɪŋ ə nuː skɪl ɪz fʌn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-10-9",
+          "phrase": "It takes time to build a habit.",
+          "meaningVi": "Cần có thời gian để tạo thói quen.",
+          "ipa": "/ɪt teɪks taɪm tuː bɪld ə /ˈhæbɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-daily-life-10-10",
+          "phrase": "Keep up the good work.",
+          "meaningVi": "Hãy cứ phát huy nhé.",
+          "ipa": "/kiːp ʌp ðə ɡʊd wɜːrk/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
     }
   ]
 }

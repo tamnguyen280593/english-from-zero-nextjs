@@ -4,13 +4,15 @@ import type { Lesson } from '../../types/lesson';
 
 interface LessonCardProps {
   lesson: Lesson;
+  categorySlug: string;
+  topicSlug: string;
   isCompleted: boolean;
   score?: number;
 }
 
-export default function LessonCard({ lesson, isCompleted, score }: LessonCardProps) {
+export default function LessonCard({ lesson, categorySlug, topicSlug, isCompleted, score }: LessonCardProps) {
   return (
-    <Link href={`/topics/${lesson.topicSlug}/lessons/${lesson.slug}`} className={styles.card}>
+    <Link href={`/categories/${categorySlug}/${topicSlug}/${lesson.slug}`} className={styles.card}>
       <div className={styles.numberBox}>
         <span className={styles.number}>{lesson.order}</span>
         {isCompleted && (

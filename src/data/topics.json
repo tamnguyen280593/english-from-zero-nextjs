@@ -2,6 +2,7 @@
   "topics": [
     {
       "id": "topic-greetings",
+      "categoryId": "cat-communication",
       "slug": "greetings",
       "title": "Greetings",
       "titleVi": "Chào hỏi",
@@ -11,11 +12,12 @@
       "image": "/images/topics/greetings.webp",
       "level": "starter",
       "order": 1,
-      "lessonCount": 4,
+      "lessonCount": 10,
       "color": "#6c5ce7"
     },
     {
       "id": "topic-introductions",
+      "categoryId": "cat-communication",
       "slug": "introductions",
       "title": "Introductions",
       "titleVi": "Giới thiệu bản thân",
@@ -25,11 +27,12 @@
       "image": "/images/topics/introductions.webp",
       "level": "starter",
       "order": 2,
-      "lessonCount": 4,
+      "lessonCount": 10,
       "color": "#00cec9"
     },
     {
       "id": "topic-daily-life",
+      "categoryId": "cat-communication",
       "slug": "daily-life",
       "title": "Daily Life",
       "titleVi": "Sinh hoạt hàng ngày",
@@ -39,11 +42,12 @@
       "image": "/images/topics/daily-life.webp",
       "level": "beginner",
       "order": 3,
-      "lessonCount": 4,
+      "lessonCount": 10,
       "color": "#fdcb6e"
     },
     {
       "id": "topic-food-drink",
+      "categoryId": "cat-communication",
       "slug": "food-drink",
       "title": "Food & Drink",
       "titleVi": "Ăn uống",
@@ -53,7 +57,7 @@
       "image": "/images/topics/food-drink.webp",
       "level": "beginner",
       "order": 4,
-      "lessonCount": 4,
+      "lessonCount": 10,
       "color": "#e17055"
     },
     {
@@ -67,11 +71,88 @@
       "image": "/images/topics/travel.webp",
       "level": "elementary",
       "order": 5,
-      "lessonCount": 4,
-      "color": "#00b894"
+      "lessonCount": 10,
+      "color": "#00b894",
+      "categoryId": "cat-communication"
+    },
+    {
+      "id": "topic-business",
+      "categoryId": "cat-communication",
+      "slug": "business",
+      "title": "Business & Work",
+      "titleVi": "Công sở & Việc làm",
+      "description": "Learn English for the workplace, meetings, and emails",
+      "descriptionVi": "Tiếng Anh chốn công sở, họp hành và thư tín",
+      "icon": "💼",
+      "image": "/images/topics/business.webp",
+      "level": "intermediate",
+      "order": 6,
+      "lessonCount": 10,
+      "color": "#e84393"
+    },
+    {
+      "id": "topic-health",
+      "categoryId": "cat-communication",
+      "slug": "health",
+      "title": "Health & Fitness",
+      "titleVi": "Sức khỏe & Y tế",
+      "description": "Talk about symptoms, doctor visits, and staying healthy",
+      "descriptionVi": "Nói về triệu chứng, đi khám bệnh và giữ sức khỏe",
+      "icon": "🏥",
+      "image": "/images/topics/health.webp",
+      "level": "intermediate",
+      "order": 7,
+      "lessonCount": 10,
+      "color": "#d63031"
+    },
+    {
+      "id": "topic-shopping",
+      "categoryId": "cat-communication",
+      "slug": "shopping",
+      "title": "Shopping & Fashion",
+      "titleVi": "Mua sắm & Thời trang",
+      "description": "Vocabulary for buying clothes, sizes, and prices",
+      "descriptionVi": "Từ vựng về mua quần áo, kích cỡ và giá cả",
+      "icon": "🛍️",
+      "image": "/images/topics/shopping.webp",
+      "level": "beginner",
+      "order": 8,
+      "lessonCount": 10,
+      "color": "#0984e3"
+    },
+    {
+      "id": "topic-hobbies",
+      "categoryId": "cat-communication",
+      "slug": "hobbies",
+      "title": "Hobbies & Leisure",
+      "titleVi": "Sở thích & Giải trí",
+      "description": "Discuss your free time activities and passions",
+      "descriptionVi": "Bàn về hoạt động giải trí và đam mê",
+      "icon": "🎨",
+      "image": "/images/topics/hobbies.webp",
+      "level": "beginner",
+      "order": 9,
+      "lessonCount": 10,
+      "color": "#6c5ce7"
+    },
+    {
+      "id": "topic-weather",
+      "categoryId": "cat-communication",
+      "slug": "weather",
+      "title": "Weather & Environment",
+      "titleVi": "Thời tiết & Môi trường",
+      "description": "Talk about seasons, weather conditions, and nature",
+      "descriptionVi": "Nói về các mùa, điều kiện thời tiết và thiên nhiên",
+      "icon": "⛅",
+      "image": "/images/topics/weather.webp",
+      "level": "beginner",
+      "order": 10,
+      "lessonCount": 10,
+      "color": "#00cec9"
     },
     {
       "id": "topic-grade-1",
+      "categoryId": "cat-textbook",
       "slug": "grade-1",
       "title": "Tiếng Anh Lớp 1",
       "titleVi": "Lớp 1",
@@ -81,11 +162,12 @@
       "image": "/images/topics/grade-1.webp",
       "level": "starter",
       "order": 6,
-      "lessonCount": 4,
+      "lessonCount": 16,
       "color": "#ff7675"
     },
     {
       "id": "topic-grade-2",
+      "categoryId": "cat-textbook",
       "slug": "grade-2",
       "title": "Tiếng Anh Lớp 2",
       "titleVi": "Lớp 2",
@@ -95,11 +177,12 @@
       "image": "/images/topics/grade-2.webp",
       "level": "starter",
       "order": 7,
-      "lessonCount": 4,
+      "lessonCount": 16,
       "color": "#74b9ff"
     },
     {
       "id": "topic-grade-3",
+      "categoryId": "cat-textbook",
       "slug": "grade-3",
       "title": "Tiếng Anh Lớp 3",
       "titleVi": "Lớp 3",
@@ -109,11 +192,12 @@
       "image": "/images/topics/grade-3.webp",
       "level": "beginner",
       "order": 8,
-      "lessonCount": 4,
+      "lessonCount": 20,
       "color": "#a29bfe"
     },
     {
       "id": "topic-grade-4",
+      "categoryId": "cat-textbook",
       "slug": "grade-4",
       "title": "Tiếng Anh Lớp 4",
       "titleVi": "Lớp 4",
@@ -123,11 +207,12 @@
       "image": "/images/topics/grade-4.webp",
       "level": "beginner",
       "order": 9,
-      "lessonCount": 4,
+      "lessonCount": 20,
       "color": "#55efc4"
     },
     {
       "id": "topic-grade-5",
+      "categoryId": "cat-textbook",
       "slug": "grade-5",
       "title": "Tiếng Anh Lớp 5",
       "titleVi": "Lớp 5",
@@ -137,7 +222,7 @@
       "image": "/images/topics/grade-5.webp",
       "level": "elementary",
       "order": 10,
-      "lessonCount": 4,
+      "lessonCount": 20,
       "color": "#fab1a0"
     }
   ]

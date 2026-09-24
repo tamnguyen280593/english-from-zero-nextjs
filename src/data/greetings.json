@@ -2,683 +2,1844 @@
   "topicSlug": "greetings",
   "lessons": [
     {
-      "id": "greetings-01",
-      "slug": "hello-and-goodbye",
+      "id": "greetings-1",
+      "slug": "lesson-1",
       "topicSlug": "greetings",
       "title": "Hello & Goodbye",
       "titleVi": "Xin chào & Tạm biệt",
       "order": 1,
       "vocabulary": [
         {
-          "id": "v-hello",
+          "id": "v-greetings-1-1",
           "word": "Hello",
           "meaningVi": "Xin chào",
           "ipa": "/həˈloʊ/",
-          "partOfSpeech": "interjection",
-          "image": "/images/lessons/greetings/hello.webp",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
           "exampleSentence": "Hello, how are you?",
           "exampleSentenceVi": "Xin chào, bạn khỏe không?"
         },
         {
-          "id": "v-hi",
+          "id": "v-greetings-1-2",
           "word": "Hi",
           "meaningVi": "Chào (thân mật)",
           "ipa": "/haɪ/",
-          "partOfSpeech": "interjection",
-          "image": "/images/lessons/greetings/hi.webp",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
           "exampleSentence": "Hi there!",
           "exampleSentenceVi": "Chào bạn!"
         },
         {
-          "id": "v-hey",
+          "id": "v-greetings-1-3",
           "word": "Hey",
-          "meaningVi": "Này, chào (rất thân mật)",
+          "meaningVi": "Này, chào",
           "ipa": "/heɪ/",
-          "partOfSpeech": "interjection",
-          "image": "/images/lessons/greetings/hey.webp",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
           "exampleSentence": "Hey, what's up?",
           "exampleSentenceVi": "Này, có gì mới không?"
         },
         {
-          "id": "v-goodbye",
+          "id": "v-greetings-1-4",
           "word": "Goodbye",
           "meaningVi": "Tạm biệt",
           "ipa": "/ɡʊdˈbaɪ/",
-          "partOfSpeech": "interjection",
-          "image": "/images/lessons/greetings/goodbye.webp",
-          "exampleSentence": "Goodbye, see you tomorrow!",
-          "exampleSentenceVi": "Tạm biệt, hẹn gặp lại ngày mai!"
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Goodbye, see you tomorrow.",
+          "exampleSentenceVi": "Tạm biệt, hẹn gặp ngày mai."
         },
         {
-          "id": "v-bye",
+          "id": "v-greetings-1-5",
           "word": "Bye",
           "meaningVi": "Tạm biệt (thân mật)",
           "ipa": "/baɪ/",
-          "partOfSpeech": "interjection",
-          "image": "/images/lessons/greetings/bye.webp",
-          "exampleSentence": "Bye! Have a nice day!",
-          "exampleSentenceVi": "Tạm biệt! Chúc một ngày tốt lành!"
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Bye! Have a nice day.",
+          "exampleSentenceVi": "Tạm biệt! Chúc ngày mới tốt lành."
         },
         {
-          "id": "v-see-you",
+          "id": "v-greetings-1-6",
           "word": "See you",
           "meaningVi": "Hẹn gặp lại",
           "ipa": "/siː juː/",
-          "partOfSpeech": "interjection",
-          "image": "/images/lessons/greetings/see-you.webp",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
           "exampleSentence": "See you later!",
-          "exampleSentenceVi": "Hẹn gặp lại sau!"
+          "exampleSentenceVi": "Hẹn gặp lại sau."
+        },
+        {
+          "id": "v-greetings-1-7",
+          "word": "Welcome",
+          "meaningVi": "Chào mừng",
+          "ipa": "/ˈwɛlkəm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Welcome to our home.",
+          "exampleSentenceVi": "Chào mừng đến nhà chúng tôi."
+        },
+        {
+          "id": "v-greetings-1-8",
+          "word": "Greetings",
+          "meaningVi": "Lời chào",
+          "ipa": "/ˈɡriːtɪŋz/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Warm greetings to everyone.",
+          "exampleSentenceVi": "Gửi lời chào ấm áp đến mọi người."
+        },
+        {
+          "id": "v-greetings-1-9",
+          "word": "Meet",
+          "meaningVi": "Gặp gỡ",
+          "ipa": "/miːt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Let's meet tomorrow.",
+          "exampleSentenceVi": "Hãy gặp nhau vào ngày mai."
+        },
+        {
+          "id": "v-greetings-1-10",
+          "word": "Friend",
+          "meaningVi": "Bạn bè",
+          "ipa": "/frɛnd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "She is my friend.",
+          "exampleSentenceVi": "Cô ấy là bạn tôi."
         }
       ],
       "phrases": [
         {
-          "id": "p-hello-there",
+          "id": "p-greetings-1-1",
           "phrase": "Hello there!",
           "meaningVi": "Chào bạn! (lịch sự)",
           "ipa": "/həˈloʊ ðɛr/",
-          "usage": "Dùng khi gặp ai đó, lịch sự hơn 'Hi'"
+          "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-see-you-later",
+          "id": "p-greetings-1-2",
           "phrase": "See you later!",
           "meaningVi": "Hẹn gặp lại sau!",
           "ipa": "/siː juː ˈleɪtər/",
-          "usage": "Dùng khi tạm biệt và biết sẽ gặp lại"
+          "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-see-you-tomorrow",
+          "id": "p-greetings-1-3",
           "phrase": "See you tomorrow!",
           "meaningVi": "Hẹn gặp lại ngày mai!",
           "ipa": "/siː juː təˈmɑːroʊ/",
-          "usage": "Dùng khi tạm biệt cuối ngày, biết ngày mai gặp lại"
+          "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-have-a-nice-day",
+          "id": "p-greetings-1-4",
           "phrase": "Have a nice day!",
           "meaningVi": "Chúc một ngày tốt lành!",
           "ipa": "/hæv ə naɪs deɪ/",
-          "usage": "Dùng khi tạm biệt, chúc tốt đẹp cho người khác"
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-1-5",
+          "phrase": "Welcome back!",
+          "meaningVi": "Chào mừng quay trở lại!",
+          "ipa": "/ˈwɛlkəm bæk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-1-6",
+          "phrase": "It is nice to see you.",
+          "meaningVi": "Rất vui được gặp bạn.",
+          "ipa": "/ɪt ɪz naɪs tuː siː juː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-1-7",
+          "phrase": "Long time no see.",
+          "meaningVi": "Lâu rồi không gặp.",
+          "ipa": "/lɔːŋ taɪm noʊ siː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-1-8",
+          "phrase": "Take care.",
+          "meaningVi": "Bảo trọng nhé.",
+          "ipa": "/teɪk kɛr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-1-9",
+          "phrase": "Catch you later.",
+          "meaningVi": "Gặp lại sau nhé.",
+          "ipa": "/kætʃ juː ˈleɪtər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-1-10",
+          "phrase": "Farewell my friend.",
+          "meaningVi": "Tạm biệt bạn tôi.",
+          "ipa": "/fɛrˈwɛl maɪ frɛnd/",
+          "usage": "Dùng trong giao tiếp"
         }
       ],
-      "dialogues": [
-        {
-          "id": "d-greetings-01-01",
-          "title": "Meeting a friend",
-          "titleVi": "Gặp bạn",
-          "situation": "Anna và Tom gặp nhau ở công viên.",
-          "lines": [
-            {
-              "speaker": "Anna",
-              "text": "Hello, Tom!",
-              "textVi": "Chào Tom!",
-              "ipa": "/həˈloʊ tɑːm/"
-            },
-            {
-              "speaker": "Tom",
-              "text": "Hi, Anna! How are you?",
-              "textVi": "Chào Anna! Bạn khỏe không?",
-              "ipa": "/haɪ ˈænə haʊ ɑːr juː/"
-            },
-            {
-              "speaker": "Anna",
-              "text": "I'm good, thanks! See you later!",
-              "textVi": "Mình khỏe, cảm ơn! Hẹn gặp lại sau!",
-              "ipa": "/aɪm ɡʊd θæŋks siː juː ˈleɪtər/"
-            },
-            {
-              "speaker": "Tom",
-              "text": "Bye! Have a nice day!",
-              "textVi": "Tạm biệt! Chúc một ngày tốt lành!",
-              "ipa": "/baɪ hæv ə naɪs deɪ/"
-            }
-          ]
-        }
-      ],
-      "practice": [
-        {
-          "id": "q-greetings-01-01",
-          "type": "multiple-choice",
-          "question": "What does 'Hello' mean?",
-          "questionVi": "'Hello' nghĩa là gì?",
-          "options": ["Tạm biệt", "Xin chào", "Cảm ơn", "Xin lỗi"],
-          "correctAnswer": 1,
-          "explanation": "'Hello' = Xin chào. Đây là cách chào phổ biến nhất trong tiếng Anh."
-        },
-        {
-          "id": "q-greetings-01-02",
-          "type": "multiple-choice",
-          "question": "Which word is used to say goodbye casually?",
-          "questionVi": "Từ nào dùng để nói tạm biệt thân mật?",
-          "options": ["Hello", "Hi", "Bye", "Hey"],
-          "correctAnswer": 2,
-          "explanation": "'Bye' là cách nói tạm biệt thân mật, ngắn gọn."
-        },
-        {
-          "id": "q-greetings-01-03",
-          "type": "fill-blank",
-          "question": "_____ , how are you?",
-          "questionVi": "Điền từ thích hợp vào chỗ trống",
-          "options": ["Goodbye", "Hello", "Bye", "See you"],
-          "correctAnswer": 1,
-          "explanation": "'Hello, how are you?' = Xin chào, bạn khỏe không? Đây là câu chào hỏi cơ bản."
-        },
-        {
-          "id": "q-greetings-01-04",
-          "type": "match-meaning",
-          "question": "Match: 'See you later'",
-          "questionVi": "Nối nghĩa: 'See you later' nghĩa là gì?",
-          "options": ["Xin chào", "Tạm biệt", "Hẹn gặp lại sau", "Chúc ngủ ngon"],
-          "correctAnswer": 2,
-          "explanation": "'See you later' = Hẹn gặp lại sau. Dùng khi tạm biệt."
-        },
-        {
-          "id": "q-greetings-01-05",
-          "type": "multiple-choice",
-          "question": "'Have a nice day!' is used when you _____.",
-          "questionVi": "'Have a nice day!' dùng khi bạn _____.",
-          "options": ["gặp ai lần đầu", "tạm biệt ai đó", "xin lỗi ai", "cảm ơn ai"],
-          "correctAnswer": 1,
-          "explanation": "'Have a nice day!' (Chúc một ngày tốt lành!) dùng khi tạm biệt."
-        }
-      ]
+      "dialogues": [],
+      "practice": []
     },
     {
-      "id": "greetings-02",
-      "slug": "good-morning-afternoon-evening",
+      "id": "greetings-2",
+      "slug": "lesson-2",
       "topicSlug": "greetings",
-      "title": "Good Morning / Afternoon / Evening",
-      "titleVi": "Chào theo thời gian trong ngày",
+      "title": "Morning to Night",
+      "titleVi": "Chào theo thời gian",
       "order": 2,
       "vocabulary": [
         {
-          "id": "v-good-morning",
-          "word": "Good morning",
-          "meaningVi": "Chào buổi sáng",
-          "ipa": "/ɡʊd ˈmɔːrnɪŋ/",
-          "partOfSpeech": "interjection",
-          "image": "/images/lessons/greetings/good-morning.webp",
-          "exampleSentence": "Good morning, everyone!",
-          "exampleSentenceVi": "Chào buổi sáng mọi người!"
+          "id": "v-greetings-2-1",
+          "word": "Morning",
+          "meaningVi": "Buổi sáng",
+          "ipa": "/ˈmɔːrnɪŋ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The morning is cool.",
+          "exampleSentenceVi": "Buổi sáng thật mát mẻ."
         },
         {
-          "id": "v-good-afternoon",
-          "word": "Good afternoon",
-          "meaningVi": "Chào buổi chiều",
-          "ipa": "/ɡʊd ˌæftərˈnuːn/",
-          "partOfSpeech": "interjection",
-          "image": "/images/lessons/greetings/good-afternoon.webp",
-          "exampleSentence": "Good afternoon, Mr. Smith.",
-          "exampleSentenceVi": "Chào buổi chiều, ông Smith."
+          "id": "v-greetings-2-2",
+          "word": "Afternoon",
+          "meaningVi": "Buổi chiều",
+          "ipa": "/ˌæftərˈnuːn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "We play in the afternoon.",
+          "exampleSentenceVi": "Chúng tôi chơi vào buổi chiều."
         },
         {
-          "id": "v-good-evening",
-          "word": "Good evening",
-          "meaningVi": "Chào buổi tối",
-          "ipa": "/ɡʊd ˈiːvnɪŋ/",
-          "partOfSpeech": "interjection",
-          "image": "/images/lessons/greetings/good-evening.webp",
-          "exampleSentence": "Good evening! Welcome to the restaurant.",
-          "exampleSentenceVi": "Chào buổi tối! Chào mừng đến nhà hàng."
+          "id": "v-greetings-2-3",
+          "word": "Evening",
+          "meaningVi": "Buổi tối",
+          "ipa": "/ˈiːvnɪŋ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Good evening to you.",
+          "exampleSentenceVi": "Chúc bạn buổi tối tốt lành."
         },
         {
-          "id": "v-good-night",
-          "word": "Good night",
-          "meaningVi": "Chúc ngủ ngon",
-          "ipa": "/ɡʊd naɪt/",
-          "partOfSpeech": "interjection",
-          "image": "/images/lessons/greetings/good-night.webp",
-          "exampleSentence": "Good night! Sleep well.",
-          "exampleSentenceVi": "Chúc ngủ ngon! Ngủ ngon nhé."
+          "id": "v-greetings-2-4",
+          "word": "Night",
+          "meaningVi": "Đêm",
+          "ipa": "/naɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The night is dark.",
+          "exampleSentenceVi": "Đêm rất tối."
+        },
+        {
+          "id": "v-greetings-2-5",
+          "word": "Today",
+          "meaningVi": "Hôm nay",
+          "ipa": "/təˈdeɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Today is Monday.",
+          "exampleSentenceVi": "Hôm nay là thứ Hai."
+        },
+        {
+          "id": "v-greetings-2-6",
+          "word": "Tomorrow",
+          "meaningVi": "Ngày mai",
+          "ipa": "/təˈmɑːroʊ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Tomorrow is a new day.",
+          "exampleSentenceVi": "Ngày mai là một ngày mới."
+        },
+        {
+          "id": "v-greetings-2-7",
+          "word": "Sleep",
+          "meaningVi": "Ngủ",
+          "ipa": "/sliːp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I need to sleep.",
+          "exampleSentenceVi": "Tôi cần đi ngủ."
+        },
+        {
+          "id": "v-greetings-2-8",
+          "word": "Wake",
+          "meaningVi": "Thức dậy",
+          "ipa": "/weɪk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Wake up early.",
+          "exampleSentenceVi": "Hãy thức dậy sớm."
+        },
+        {
+          "id": "v-greetings-2-9",
+          "word": "Dream",
+          "meaningVi": "Giấc mơ",
+          "ipa": "/driːm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I had a good dream.",
+          "exampleSentenceVi": "Tôi đã có một giấc mơ đẹp."
+        },
+        {
+          "id": "v-greetings-2-10",
+          "word": "Rest",
+          "meaningVi": "Nghỉ ngơi",
+          "ipa": "/rɛst/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Take some rest.",
+          "exampleSentenceVi": "Hãy nghỉ ngơi chút đi."
         }
       ],
       "phrases": [
         {
-          "id": "p-morning-greeting",
-          "phrase": "Good morning! How did you sleep?",
-          "meaningVi": "Chào buổi sáng! Bạn ngủ có ngon không?",
-          "ipa": "/ɡʊd ˈmɔːrnɪŋ haʊ dɪd juː sliːp/",
-          "usage": "Dùng vào buổi sáng khi hỏi thăm người thân, bạn bè"
+          "id": "p-greetings-2-1",
+          "phrase": "Good morning!",
+          "meaningVi": "Chào buổi sáng!",
+          "ipa": "/ɡʊd ˈmɔːrnɪŋ/",
+          "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-afternoon-greeting",
-          "phrase": "Good afternoon! Nice weather today.",
-          "meaningVi": "Chào buổi chiều! Hôm nay thời tiết đẹp.",
-          "ipa": "/ɡʊd ˌæftərˈnuːn naɪs ˈwɛðər təˈdeɪ/",
-          "usage": "Dùng vào buổi chiều, kết hợp nói chuyện nhỏ (small talk)"
+          "id": "p-greetings-2-2",
+          "phrase": "Good afternoon!",
+          "meaningVi": "Chào buổi chiều!",
+          "ipa": "/ɡʊd ˌæftərˈnuːn/",
+          "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-good-night-sweet",
-          "phrase": "Good night, sweet dreams!",
-          "meaningVi": "Chúc ngủ ngon, mơ đẹp nhé!",
-          "ipa": "/ɡʊd naɪt swiːt driːmz/",
-          "usage": "Dùng khi chúc ngủ ngon cho người thân, bạn bè"
+          "id": "p-greetings-2-3",
+          "phrase": "Good evening!",
+          "meaningVi": "Chào buổi tối!",
+          "ipa": "/ɡʊd ˈiːvnɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-2-4",
+          "phrase": "Good night!",
+          "meaningVi": "Chúc ngủ ngon!",
+          "ipa": "/ɡʊd naɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-2-5",
+          "phrase": "Sweet dreams!",
+          "meaningVi": "Chúc mơ đẹp!",
+          "ipa": "/swiːt driːmz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-2-6",
+          "phrase": "Sleep well.",
+          "meaningVi": "Ngủ ngon nhé.",
+          "ipa": "/sliːp wɛl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-2-7",
+          "phrase": "Did you sleep well?",
+          "meaningVi": "Bạn ngủ ngon không?",
+          "ipa": "/dɪd juː sliːp wɛl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-2-8",
+          "phrase": "Have a good afternoon.",
+          "meaningVi": "Buổi chiều vui vẻ.",
+          "ipa": "/hæv ə ɡʊd ˌæftərˈnuːn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-2-9",
+          "phrase": "See you in the morning.",
+          "meaningVi": "Sáng mai gặp nhé.",
+          "ipa": "/siː juː ɪn ðə ˈmɔːrnɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-2-10",
+          "phrase": "Time for bed.",
+          "meaningVi": "Đến giờ đi ngủ rồi.",
+          "ipa": "/taɪm fɔːr bɛd/",
+          "usage": "Dùng trong giao tiếp"
         }
       ],
-      "dialogues": [
-        {
-          "id": "d-greetings-02-01",
-          "title": "Morning at the office",
-          "titleVi": "Buổi sáng ở văn phòng",
-          "situation": "Linh gặp đồng nghiệp David vào buổi sáng ở văn phòng.",
-          "lines": [
-            {
-              "speaker": "Linh",
-              "text": "Good morning, David!",
-              "textVi": "Chào buổi sáng, David!",
-              "ipa": "/ɡʊd ˈmɔːrnɪŋ ˈdeɪvɪd/"
-            },
-            {
-              "speaker": "David",
-              "text": "Good morning, Linh! How are you today?",
-              "textVi": "Chào buổi sáng, Linh! Hôm nay bạn thế nào?",
-              "ipa": "/ɡʊd ˈmɔːrnɪŋ lɪn haʊ ɑːr juː təˈdeɪ/"
-            },
-            {
-              "speaker": "Linh",
-              "text": "I'm great, thanks! Nice weather today.",
-              "textVi": "Mình rất tốt, cảm ơn! Hôm nay thời tiết đẹp.",
-              "ipa": "/aɪm ɡreɪt θæŋks naɪs ˈwɛðər təˈdeɪ/"
-            },
-            {
-              "speaker": "David",
-              "text": "Yes, it is! Have a good day!",
-              "textVi": "Đúng vậy! Chúc bạn một ngày tốt lành!",
-              "ipa": "/jɛs ɪt ɪz hæv ə ɡʊd deɪ/"
-            }
-          ]
-        }
-      ],
-      "practice": [
-        {
-          "id": "q-greetings-02-01",
-          "type": "multiple-choice",
-          "question": "When do you say 'Good morning'?",
-          "questionVi": "Khi nào bạn nói 'Good morning'?",
-          "options": ["Buổi tối", "Buổi sáng", "Buổi chiều", "Khi đi ngủ"],
-          "correctAnswer": 1,
-          "explanation": "'Good morning' dùng vào buổi sáng (từ khi thức dậy đến trưa)."
-        },
-        {
-          "id": "q-greetings-02-02",
-          "type": "match-meaning",
-          "question": "Match: 'Good night'",
-          "questionVi": "Nối nghĩa: 'Good night' nghĩa là gì?",
-          "options": ["Chào buổi sáng", "Chào buổi chiều", "Chào buổi tối", "Chúc ngủ ngon"],
-          "correctAnswer": 3,
-          "explanation": "'Good night' = Chúc ngủ ngon. Dùng khi ai đó chuẩn bị đi ngủ."
-        },
-        {
-          "id": "q-greetings-02-03",
-          "type": "fill-blank",
-          "question": "Good _____ , everyone! (at 3 PM)",
-          "questionVi": "Điền từ thích hợp (lúc 3 giờ chiều)",
-          "options": ["morning", "afternoon", "night", "evening"],
-          "correctAnswer": 1,
-          "explanation": "Lúc 3 giờ chiều → 'Good afternoon'. Afternoon = từ 12h trưa đến khoảng 5-6h chiều."
-        },
-        {
-          "id": "q-greetings-02-04",
-          "type": "multiple-choice",
-          "question": "'Good evening' is used _____.",
-          "questionVi": "'Good evening' dùng khi nào?",
-          "options": ["buổi sáng sớm", "buổi chiều", "buổi tối khi gặp ai", "khi đi ngủ"],
-          "correctAnswer": 2,
-          "explanation": "'Good evening' dùng vào buổi tối khi gặp ai đó (không phải khi đi ngủ — đó là 'Good night')."
-        }
-      ]
+      "dialogues": [],
+      "practice": []
     },
     {
-      "id": "greetings-03",
-      "slug": "how-are-you",
+      "id": "greetings-3",
+      "slug": "lesson-3",
       "topicSlug": "greetings",
       "title": "How are you?",
       "titleVi": "Bạn khỏe không?",
       "order": 3,
       "vocabulary": [
         {
-          "id": "v-fine",
+          "id": "v-greetings-3-1",
           "word": "Fine",
           "meaningVi": "Khỏe, ổn",
           "ipa": "/faɪn/",
-          "partOfSpeech": "adjective",
-          "image": "/images/lessons/greetings/fine.webp",
-          "exampleSentence": "I'm fine, thank you.",
-          "exampleSentenceVi": "Tôi khỏe, cảm ơn bạn."
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I am fine.",
+          "exampleSentenceVi": "Tôi khỏe."
         },
         {
-          "id": "v-great",
+          "id": "v-greetings-3-2",
           "word": "Great",
           "meaningVi": "Tuyệt vời",
           "ipa": "/ɡreɪt/",
-          "partOfSpeech": "adjective",
-          "image": "/images/lessons/greetings/great.webp",
-          "exampleSentence": "I'm great! How about you?",
-          "exampleSentenceVi": "Tôi rất tốt! Còn bạn thì sao?"
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I feel great.",
+          "exampleSentenceVi": "Tôi cảm thấy tuyệt vời."
         },
         {
-          "id": "v-good",
+          "id": "v-greetings-3-3",
           "word": "Good",
           "meaningVi": "Tốt",
           "ipa": "/ɡʊd/",
-          "partOfSpeech": "adjective",
-          "image": "/images/lessons/greetings/good.webp",
-          "exampleSentence": "I'm good, thanks.",
-          "exampleSentenceVi": "Tôi tốt, cảm ơn."
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "He is a good boy.",
+          "exampleSentenceVi": "Cậu ấy là một cậu bé ngoan."
         },
         {
-          "id": "v-not-bad",
-          "word": "Not bad",
-          "meaningVi": "Không tệ",
-          "ipa": "/nɑːt bæd/",
-          "partOfSpeech": "adjective",
-          "image": "/images/lessons/greetings/not-bad.webp",
-          "exampleSentence": "Not bad, and you?",
-          "exampleSentenceVi": "Không tệ, còn bạn?"
+          "id": "v-greetings-3-4",
+          "word": "Bad",
+          "meaningVi": "Tệ",
+          "ipa": "/bæd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The weather is bad.",
+          "exampleSentenceVi": "Thời tiết rất tệ."
         },
         {
-          "id": "v-thank-you",
-          "word": "Thank you",
-          "meaningVi": "Cảm ơn bạn",
-          "ipa": "/θæŋk juː/",
-          "partOfSpeech": "interjection",
-          "image": "/images/lessons/greetings/thank-you.webp",
-          "exampleSentence": "Thank you very much!",
-          "exampleSentenceVi": "Cảm ơn bạn rất nhiều!"
+          "id": "v-greetings-3-5",
+          "word": "Sad",
+          "meaningVi": "Buồn",
+          "ipa": "/sæd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Why are you sad?",
+          "exampleSentenceVi": "Tại sao bạn buồn?"
         },
         {
-          "id": "v-thanks",
-          "word": "Thanks",
-          "meaningVi": "Cảm ơn (thân mật)",
-          "ipa": "/θæŋks/",
-          "partOfSpeech": "interjection",
-          "image": "/images/lessons/greetings/thanks.webp",
-          "exampleSentence": "Thanks a lot!",
-          "exampleSentenceVi": "Cảm ơn nhiều!"
+          "id": "v-greetings-3-6",
+          "word": "Happy",
+          "meaningVi": "Hạnh phúc",
+          "ipa": "/ˈhæpi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I am happy today.",
+          "exampleSentenceVi": "Hôm nay tôi rất vui."
+        },
+        {
+          "id": "v-greetings-3-7",
+          "word": "Tired",
+          "meaningVi": "Mệt mỏi",
+          "ipa": "/ˈtaɪərd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I am very tired.",
+          "exampleSentenceVi": "Tôi rất mệt."
+        },
+        {
+          "id": "v-greetings-3-8",
+          "word": "Busy",
+          "meaningVi": "Bận rộn",
+          "ipa": "/ˈbɪzi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "She is busy now.",
+          "exampleSentenceVi": "Cô ấy đang bận."
+        },
+        {
+          "id": "v-greetings-3-9",
+          "word": "Sick",
+          "meaningVi": "Ốm",
+          "ipa": "/sɪk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I feel sick.",
+          "exampleSentenceVi": "Tôi cảm thấy ốm."
+        },
+        {
+          "id": "v-greetings-3-10",
+          "word": "Okay",
+          "meaningVi": "Ổn",
+          "ipa": "/oʊˈkeɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Everything is okay.",
+          "exampleSentenceVi": "Mọi chuyện đều ổn."
         }
       ],
       "phrases": [
         {
-          "id": "p-how-are-you",
+          "id": "p-greetings-3-1",
           "phrase": "How are you?",
           "meaningVi": "Bạn khỏe không?",
           "ipa": "/haʊ ɑːr juː/",
-          "usage": "Câu hỏi thăm sức khỏe phổ biến nhất"
+          "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-how-are-you-doing",
+          "id": "p-greetings-3-2",
           "phrase": "How are you doing?",
           "meaningVi": "Bạn đang thế nào?",
           "ipa": "/haʊ ɑːr juː ˈduːɪŋ/",
-          "usage": "Tương tự 'How are you?' nhưng thân mật hơn"
+          "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-how-about-you",
+          "id": "p-greetings-3-3",
+          "phrase": "How have you been?",
+          "meaningVi": "Dạo này bạn thế nào?",
+          "ipa": "/haʊ hæv juː biːn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-3-4",
           "phrase": "How about you?",
           "meaningVi": "Còn bạn thì sao?",
           "ipa": "/haʊ əˈbaʊt juː/",
-          "usage": "Dùng sau khi trả lời, hỏi ngược lại người hỏi"
+          "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-im-fine-thanks",
-          "phrase": "I'm fine, thanks. And you?",
-          "meaningVi": "Tôi khỏe, cảm ơn. Còn bạn?",
-          "ipa": "/aɪm faɪn θæŋks ænd juː/",
-          "usage": "Cách trả lời phổ biến nhất khi được hỏi thăm"
+          "id": "p-greetings-3-5",
+          "phrase": "I'm fine, thanks.",
+          "meaningVi": "Tôi khỏe, cảm ơn.",
+          "ipa": "/aɪm faɪn θæŋks/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-3-6",
+          "phrase": "I'm doing great.",
+          "meaningVi": "Tôi đang rất tuyệt.",
+          "ipa": "/aɪm ˈduːɪŋ ɡreɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-3-7",
+          "phrase": "Not bad at all.",
+          "meaningVi": "Không tệ chút nào.",
+          "ipa": "/nɑːt bæd æt ɔːl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-3-8",
+          "phrase": "I feel a bit tired.",
+          "meaningVi": "Tôi cảm thấy hơi mệt.",
+          "ipa": "/aɪ fiːl ə bɪt ˈtaɪərd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-3-9",
+          "phrase": "I have been busy.",
+          "meaningVi": "Dạo này tôi rất bận.",
+          "ipa": "/aɪ hæv biːn ˈbɪzi/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-3-10",
+          "phrase": "Everything is fine.",
+          "meaningVi": "Mọi thứ đều ổn.",
+          "ipa": "/ˈɛvriθɪŋ ɪz faɪn/",
+          "usage": "Dùng trong giao tiếp"
         }
       ],
-      "dialogues": [
-        {
-          "id": "d-greetings-03-01",
-          "title": "Asking how someone is",
-          "titleVi": "Hỏi thăm sức khỏe",
-          "situation": "Mai gặp bạn nước ngoài John ở quán café.",
-          "lines": [
-            {
-              "speaker": "Mai",
-              "text": "Hi John! How are you?",
-              "textVi": "Chào John! Bạn khỏe không?",
-              "ipa": "/haɪ dʒɑːn haʊ ɑːr juː/"
-            },
-            {
-              "speaker": "John",
-              "text": "I'm great, thanks! How about you?",
-              "textVi": "Mình rất tốt, cảm ơn! Còn bạn?",
-              "ipa": "/aɪm ɡreɪt θæŋks haʊ əˈbaʊt juː/"
-            },
-            {
-              "speaker": "Mai",
-              "text": "I'm fine, thank you!",
-              "textVi": "Mình khỏe, cảm ơn bạn!",
-              "ipa": "/aɪm faɪn θæŋk juː/"
-            },
-            {
-              "speaker": "John",
-              "text": "That's good to hear!",
-              "textVi": "Vui khi nghe vậy!",
-              "ipa": "/ðæts ɡʊd tuː hɪr/"
-            }
-          ]
-        }
-      ],
-      "practice": [
-        {
-          "id": "q-greetings-03-01",
-          "type": "multiple-choice",
-          "question": "How do you answer 'How are you?'",
-          "questionVi": "Bạn trả lời 'How are you?' như thế nào?",
-          "options": ["Goodbye!", "I'm fine, thanks.", "Good night.", "See you later."],
-          "correctAnswer": 1,
-          "explanation": "Trả lời phổ biến nhất là 'I'm fine, thanks.' (Tôi khỏe, cảm ơn.)"
-        },
-        {
-          "id": "q-greetings-03-02",
-          "type": "fill-blank",
-          "question": "I'm fine, _____. And you?",
-          "questionVi": "Điền từ thích hợp vào chỗ trống",
-          "options": ["goodbye", "hello", "thanks", "sorry"],
-          "correctAnswer": 2,
-          "explanation": "'I'm fine, thanks. And you?' = Tôi khỏe, cảm ơn. Còn bạn?"
-        },
-        {
-          "id": "q-greetings-03-03",
-          "type": "match-meaning",
-          "question": "Match: 'Not bad'",
-          "questionVi": "Nối nghĩa: 'Not bad' nghĩa là gì?",
-          "options": ["Rất tệ", "Không tệ", "Tuyệt vời", "Xin chào"],
-          "correctAnswer": 1,
-          "explanation": "'Not bad' = Không tệ. Nghĩa là 'cũng ổn, bình thường'."
-        },
-        {
-          "id": "q-greetings-03-04",
-          "type": "multiple-choice",
-          "question": "What does 'How about you?' mean?",
-          "questionVi": "'How about you?' nghĩa là gì?",
-          "options": ["Bạn tên gì?", "Bạn ở đâu?", "Còn bạn thì sao?", "Bạn đi đâu?"],
-          "correctAnswer": 2,
-          "explanation": "'How about you?' = Còn bạn thì sao? Dùng để hỏi ngược lại người đã hỏi mình."
-        }
-      ]
+      "dialogues": [],
+      "practice": []
     },
     {
-      "id": "greetings-04",
-      "slug": "nice-to-meet-you",
+      "id": "greetings-4",
+      "slug": "lesson-4",
       "topicSlug": "greetings",
       "title": "Nice to meet you",
       "titleVi": "Rất vui được gặp bạn",
       "order": 4,
       "vocabulary": [
         {
-          "id": "v-nice",
+          "id": "v-greetings-4-1",
           "word": "Nice",
-          "meaningVi": "Dễ chịu, đẹp, tốt",
+          "meaningVi": "Đẹp, dễ chịu",
           "ipa": "/naɪs/",
-          "partOfSpeech": "adjective",
-          "image": "/images/lessons/greetings/nice.webp",
-          "exampleSentence": "Nice to meet you!",
-          "exampleSentenceVi": "Rất vui được gặp bạn!"
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "It is a nice day.",
+          "exampleSentenceVi": "Đó là một ngày đẹp."
         },
         {
-          "id": "v-meet",
+          "id": "v-greetings-4-2",
+          "word": "Glad",
+          "meaningVi": "Vui mừng",
+          "ipa": "/ɡlæd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I am glad to hear that.",
+          "exampleSentenceVi": "Tôi rất vui khi nghe điều đó."
+        },
+        {
+          "id": "v-greetings-4-3",
+          "word": "Happy",
+          "meaningVi": "Vui vẻ",
+          "ipa": "/ˈhæpi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "She is a happy child.",
+          "exampleSentenceVi": "Cô bé là một đứa trẻ vui vẻ."
+        },
+        {
+          "id": "v-greetings-4-4",
           "word": "Meet",
-          "meaningVi": "Gặp, gặp gỡ",
+          "meaningVi": "Gặp",
           "ipa": "/miːt/",
-          "partOfSpeech": "verb",
-          "image": "/images/lessons/greetings/meet.webp",
-          "exampleSentence": "Let's meet at the café.",
-          "exampleSentenceVi": "Hãy gặp nhau ở quán café."
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Let's meet at noon.",
+          "exampleSentenceVi": "Gặp nhau lúc trưa nhé."
         },
         {
-          "id": "v-please",
-          "word": "Please",
-          "meaningVi": "Làm ơn, xin vui lòng",
-          "ipa": "/pliːz/",
-          "partOfSpeech": "adverb",
-          "image": "/images/lessons/greetings/please.webp",
-          "exampleSentence": "Yes, please.",
-          "exampleSentenceVi": "Vâng, làm ơn."
+          "id": "v-greetings-4-5",
+          "word": "Know",
+          "meaningVi": "Biết",
+          "ipa": "/noʊ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I know him well.",
+          "exampleSentenceVi": "Tôi biết anh ấy rất rõ."
         },
         {
-          "id": "v-welcome",
-          "word": "Welcome",
-          "meaningVi": "Chào mừng, không có gì",
-          "ipa": "/ˈwɛlkəm/",
-          "partOfSpeech": "interjection",
-          "image": "/images/lessons/greetings/welcome.webp",
-          "exampleSentence": "Welcome to Vietnam!",
-          "exampleSentenceVi": "Chào mừng đến Việt Nam!"
+          "id": "v-greetings-4-6",
+          "word": "Introduce",
+          "meaningVi": "Giới thiệu",
+          "ipa": "/ˌɪntrəˈduːs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Let me introduce myself.",
+          "exampleSentenceVi": "Hãy để tôi tự giới thiệu."
         },
         {
-          "id": "v-sorry",
-          "word": "Sorry",
-          "meaningVi": "Xin lỗi",
-          "ipa": "/ˈsɑːri/",
-          "partOfSpeech": "adjective",
-          "image": "/images/lessons/greetings/sorry.webp",
-          "exampleSentence": "I'm sorry!",
-          "exampleSentenceVi": "Tôi xin lỗi!"
+          "id": "v-greetings-4-7",
+          "word": "New",
+          "meaningVi": "Mới",
+          "ipa": "/nuː/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I am new here.",
+          "exampleSentenceVi": "Tôi là người mới ở đây."
         },
         {
-          "id": "v-excuse-me",
-          "word": "Excuse me",
-          "meaningVi": "Xin phép, xin lỗi (nhẹ)",
-          "ipa": "/ɪkˈskjuːz miː/",
-          "partOfSpeech": "interjection",
-          "image": "/images/lessons/greetings/excuse-me.webp",
-          "exampleSentence": "Excuse me, where is the bathroom?",
-          "exampleSentenceVi": "Xin phép, nhà vệ sinh ở đâu?"
+          "id": "v-greetings-4-8",
+          "word": "Colleague",
+          "meaningVi": "Đồng nghiệp",
+          "ipa": "/ˈkɑːliːɡ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "He is my colleague.",
+          "exampleSentenceVi": "Anh ấy là đồng nghiệp của tôi."
+        },
+        {
+          "id": "v-greetings-4-9",
+          "word": "Boss",
+          "meaningVi": "Sếp",
+          "ipa": "/bɔːs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The boss is coming.",
+          "exampleSentenceVi": "Sếp đang tới."
+        },
+        {
+          "id": "v-greetings-4-10",
+          "word": "Team",
+          "meaningVi": "Đội, nhóm",
+          "ipa": "/tiːm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "We are a good team.",
+          "exampleSentenceVi": "Chúng tôi là một đội giỏi."
         }
       ],
       "phrases": [
         {
-          "id": "p-nice-to-meet-you",
-          "phrase": "Nice to meet you!",
-          "meaningVi": "Rất vui được gặp bạn!",
+          "id": "p-greetings-4-1",
+          "phrase": "Nice to meet you.",
+          "meaningVi": "Rất vui được gặp bạn.",
           "ipa": "/naɪs tuː miːt juː/",
-          "usage": "Dùng khi gặp ai đó lần đầu tiên"
+          "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-nice-to-meet-you-too",
-          "phrase": "Nice to meet you too!",
-          "meaningVi": "Mình cũng rất vui được gặp bạn!",
+          "id": "p-greetings-4-2",
+          "phrase": "Glad to meet you.",
+          "meaningVi": "Rất hân hạnh được gặp bạn.",
+          "ipa": "/ɡlæd tuː miːt juː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-4-3",
+          "phrase": "Happy to meet you.",
+          "meaningVi": "Vui được gặp bạn.",
+          "ipa": "/ˈhæpi tuː miːt juː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-4-4",
+          "phrase": "Nice to meet you too.",
+          "meaningVi": "Mình cũng rất vui được gặp bạn.",
           "ipa": "/naɪs tuː miːt juː tuː/",
-          "usage": "Dùng để đáp lại khi ai đó nói 'Nice to meet you'"
+          "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-youre-welcome",
-          "phrase": "You're welcome!",
-          "meaningVi": "Không có gì!",
-          "ipa": "/jʊr ˈwɛlkəm/",
-          "usage": "Dùng đáp lại khi ai nói 'Thank you'"
+          "id": "p-greetings-4-5",
+          "phrase": "I have heard a lot about you.",
+          "meaningVi": "Tôi đã nghe nhiều về bạn.",
+          "ipa": "/aɪ hæv hɜːrd ə lɑːt əˈbaʊt juː/",
+          "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-no-problem",
-          "phrase": "No problem!",
-          "meaningVi": "Không vấn đề gì!",
+          "id": "p-greetings-4-6",
+          "phrase": "It is a pleasure to meet you.",
+          "meaningVi": "Rất hân hạnh được gặp bạn.",
+          "ipa": "/ɪt ɪz ə ˈplɛʒər tuː miːt juː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-4-7",
+          "phrase": "Welcome to our team.",
+          "meaningVi": "Chào mừng đến với đội của chúng tôi.",
+          "ipa": "/ˈwɛlkəm tuː aʊər tiːm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-4-8",
+          "phrase": "Let me introduce you.",
+          "meaningVi": "Để tôi giới thiệu bạn.",
+          "ipa": "/lɛt miː ˌɪntrəˈduːs juː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-4-9",
+          "phrase": "Have we met before?",
+          "meaningVi": "Chúng ta từng gặp nhau chưa?",
+          "ipa": "/hæv wiː mɛt bɪˈfɔːr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-4-10",
+          "phrase": "Nice meeting you.",
+          "meaningVi": "Rất vui vì cuộc gặp gỡ này.",
+          "ipa": "/naɪs ˈmiːtɪŋ juː/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "greetings-5",
+      "slug": "lesson-5",
+      "topicSlug": "greetings",
+      "title": "Polite Expressions",
+      "titleVi": "Cách diễn đạt lịch sự",
+      "order": 5,
+      "vocabulary": [
+        {
+          "id": "v-greetings-5-1",
+          "word": "Please",
+          "meaningVi": "Làm ơn",
+          "ipa": "/pliːz/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Please sit down.",
+          "exampleSentenceVi": "Vui lòng ngồi xuống."
+        },
+        {
+          "id": "v-greetings-5-2",
+          "word": "Sorry",
+          "meaningVi": "Xin lỗi",
+          "ipa": "/ˈsɑːri/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I am sorry for that.",
+          "exampleSentenceVi": "Tôi xin lỗi vì điều đó."
+        },
+        {
+          "id": "v-greetings-5-3",
+          "word": "Excuse",
+          "meaningVi": "Xin phép",
+          "ipa": "/ɪkˈskjuːz/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Excuse me, sir.",
+          "exampleSentenceVi": "Xin lỗi, thưa ngài."
+        },
+        {
+          "id": "v-greetings-5-4",
+          "word": "Thanks",
+          "meaningVi": "Cảm ơn",
+          "ipa": "/θæŋks/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Thanks for your help.",
+          "exampleSentenceVi": "Cảm ơn vì đã giúp."
+        },
+        {
+          "id": "v-greetings-5-5",
+          "word": "Pardon",
+          "meaningVi": "Tha lỗi, nhắc lại",
+          "ipa": "/ˈpɑːrdn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Pardon me?",
+          "exampleSentenceVi": "Xin lỗi bạn nói gì cơ?"
+        },
+        {
+          "id": "v-greetings-5-6",
+          "word": "Welcome",
+          "meaningVi": "Không có gì",
+          "ipa": "/ˈwɛlkəm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "You are welcome.",
+          "exampleSentenceVi": "Không có gì đâu."
+        },
+        {
+          "id": "v-greetings-5-7",
+          "word": "Help",
+          "meaningVi": "Giúp đỡ",
+          "ipa": "/hɛlp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Can I help you?",
+          "exampleSentenceVi": "Tôi giúp bạn được không?"
+        },
+        {
+          "id": "v-greetings-5-8",
+          "word": "Sure",
+          "meaningVi": "Chắc chắn",
+          "ipa": "/ʃʊr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Sure, no problem.",
+          "exampleSentenceVi": "Chắc chắn rồi, không vấn đề."
+        },
+        {
+          "id": "v-greetings-5-9",
+          "word": "Problem",
+          "meaningVi": "Vấn đề",
+          "ipa": "/ˈprɑːbləm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "That is not a problem.",
+          "exampleSentenceVi": "Đó không phải là vấn đề."
+        },
+        {
+          "id": "v-greetings-5-10",
+          "word": "Kind",
+          "meaningVi": "Tốt bụng",
+          "ipa": "/kaɪnd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "You are very kind.",
+          "exampleSentenceVi": "Bạn rất tốt bụng."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-greetings-5-1",
+          "phrase": "Thank you very much.",
+          "meaningVi": "Cảm ơn bạn rất nhiều.",
+          "ipa": "/θæŋk juː ˈvɛri mʌtʃ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-5-2",
+          "phrase": "You are welcome.",
+          "meaningVi": "Không có chi.",
+          "ipa": "/juː ɑːr ˈwɛlkəm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-5-3",
+          "phrase": "Excuse me.",
+          "meaningVi": "Xin lỗi (để ngắt lời/hỏi).",
+          "ipa": "/ɪkˈskjuːz miː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-5-4",
+          "phrase": "I am so sorry.",
+          "meaningVi": "Tôi rất xin lỗi.",
+          "ipa": "/aɪ æm soʊ ˈsɑːri/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-5-5",
+          "phrase": "No problem.",
+          "meaningVi": "Không có gì.",
           "ipa": "/noʊ ˈprɑːbləm/",
-          "usage": "Dùng đáp lại 'Thank you' hoặc 'Sorry' (thân mật)"
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-5-6",
+          "phrase": "Don't worry about it.",
+          "meaningVi": "Đừng bận tâm về nó.",
+          "ipa": "/doʊnt ˈwɜːri əˈbaʊt ɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-5-7",
+          "phrase": "That is very kind of you.",
+          "meaningVi": "Bạn thật tốt bụng.",
+          "ipa": "/ðæt ɪz ˈvɛri kaɪnd ʌv juː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-5-8",
+          "phrase": "Could you help me please?",
+          "meaningVi": "Bạn có thể giúp tôi được không?",
+          "ipa": "/kʊd juː hɛlp miː pliːz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-5-9",
+          "phrase": "I beg your pardon?",
+          "meaningVi": "Xin lỗi, bạn vừa nói gì?",
+          "ipa": "/aɪ bɛɡ jʊr ˈpɑːrdn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-5-10",
+          "phrase": "It was my fault.",
+          "meaningVi": "Đó là lỗi của tôi.",
+          "ipa": "/ɪt wʌz maɪ fɔːlt/",
+          "usage": "Dùng trong giao tiếp"
         }
       ],
-      "dialogues": [
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "greetings-6",
+      "slug": "lesson-6",
+      "topicSlug": "greetings",
+      "title": "What's up?",
+      "titleVi": "Chào hỏi suồng sã",
+      "order": 6,
+      "vocabulary": [
         {
-          "id": "d-greetings-04-01",
-          "title": "Meeting someone new",
-          "titleVi": "Gặp người mới",
-          "situation": "Hoa được bạn giới thiệu với Sarah tại bữa tiệc.",
-          "lines": [
-            {
-              "speaker": "Hoa",
-              "text": "Hello! I'm Hoa. Nice to meet you!",
-              "textVi": "Xin chào! Tôi là Hoa. Rất vui được gặp bạn!",
-              "ipa": "/həˈloʊ aɪm hoʊə naɪs tuː miːt juː/"
-            },
-            {
-              "speaker": "Sarah",
-              "text": "Hi Hoa! I'm Sarah. Nice to meet you too!",
-              "textVi": "Chào Hoa! Tôi là Sarah. Mình cũng rất vui được gặp bạn!",
-              "ipa": "/haɪ hoʊə aɪm ˈsɛrə naɪs tuː miːt juː tuː/"
-            },
-            {
-              "speaker": "Hoa",
-              "text": "Welcome to Vietnam!",
-              "textVi": "Chào mừng đến Việt Nam!",
-              "ipa": "/ˈwɛlkəm tuː ˌviːɛtˈnɑːm/"
-            },
-            {
-              "speaker": "Sarah",
-              "text": "Thank you! You're very kind.",
-              "textVi": "Cảm ơn bạn! Bạn rất tốt bụng.",
-              "ipa": "/θæŋk juː jʊr ˈvɛri kaɪnd/"
-            }
-          ]
+          "id": "v-greetings-6-1",
+          "word": "Sup",
+          "meaningVi": "Chào (lóng)",
+          "ipa": "/sʌp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Sup, bro?",
+          "exampleSentenceVi": "Chào người anh em?"
+        },
+        {
+          "id": "v-greetings-6-2",
+          "word": "Bro",
+          "meaningVi": "Anh em (lóng)",
+          "ipa": "/broʊ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Hey bro!",
+          "exampleSentenceVi": "Này anh bạn!"
+        },
+        {
+          "id": "v-greetings-6-3",
+          "word": "Dude",
+          "meaningVi": "Anh bạn",
+          "ipa": "/duːd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "What's up, dude?",
+          "exampleSentenceVi": "Có gì không anh bạn?"
+        },
+        {
+          "id": "v-greetings-6-4",
+          "word": "Mate",
+          "meaningVi": "Bạn bè (Anh-Úc)",
+          "ipa": "/meɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Hello mate!",
+          "exampleSentenceVi": "Chào bạn hiền!"
+        },
+        {
+          "id": "v-greetings-6-5",
+          "word": "Crazy",
+          "meaningVi": "Điên rồ",
+          "ipa": "/ˈkreɪzi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "This is crazy.",
+          "exampleSentenceVi": "Điều này thật điên rồ."
+        },
+        {
+          "id": "v-greetings-6-6",
+          "word": "Chill",
+          "meaningVi": "Thư giãn",
+          "ipa": "/tʃɪl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Just chilling at home.",
+          "exampleSentenceVi": "Chỉ đang thư giãn ở nhà."
+        },
+        {
+          "id": "v-greetings-6-7",
+          "word": "Hang",
+          "meaningVi": "Đi chơi",
+          "ipa": "/hæŋ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Let's hang out.",
+          "exampleSentenceVi": "Cùng đi chơi nào."
+        },
+        {
+          "id": "v-greetings-6-8",
+          "word": "Cool",
+          "meaningVi": "Tuyệt, ngầu",
+          "ipa": "/kuːl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "That is a cool car.",
+          "exampleSentenceVi": "Chiếc xe đó thật ngầu."
+        },
+        {
+          "id": "v-greetings-6-9",
+          "word": "Man",
+          "meaningVi": "Bạn, ông (lóng)",
+          "ipa": "/mæn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Hey man, how are you?",
+          "exampleSentenceVi": "Này anh bạn, khỏe không?"
+        },
+        {
+          "id": "v-greetings-6-10",
+          "word": "Catch",
+          "meaningVi": "Bắt lấy, gặp",
+          "ipa": "/kætʃ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Catch you later.",
+          "exampleSentenceVi": "Gặp sau nhé."
         }
       ],
-      "practice": [
+      "phrases": [
         {
-          "id": "q-greetings-04-01",
-          "type": "multiple-choice",
-          "question": "When do you say 'Nice to meet you'?",
-          "questionVi": "Khi nào bạn nói 'Nice to meet you'?",
-          "options": ["Khi tạm biệt", "Khi gặp lần đầu", "Khi xin lỗi", "Khi cảm ơn"],
-          "correctAnswer": 1,
-          "explanation": "'Nice to meet you' = Rất vui được gặp bạn. Dùng khi gặp ai đó lần đầu tiên."
+          "id": "p-greetings-6-1",
+          "phrase": "What is up?",
+          "meaningVi": "Có chuyện gì không?",
+          "ipa": "/wʌt ɪz ʌp/",
+          "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "q-greetings-04-02",
-          "type": "fill-blank",
-          "question": "A: Thank you! — B: You're _____ !",
-          "questionVi": "Điền từ thích hợp để đáp lại 'Thank you'",
-          "options": ["sorry", "hello", "welcome", "goodbye"],
-          "correctAnswer": 2,
-          "explanation": "'You're welcome!' = Không có gì! Dùng để đáp lại 'Thank you'."
+          "id": "p-greetings-6-2",
+          "phrase": "Not much.",
+          "meaningVi": "Không có gì nhiều.",
+          "ipa": "/nɑːt mʌtʃ/",
+          "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "q-greetings-04-03",
-          "type": "match-meaning",
-          "question": "Match: 'Excuse me'",
-          "questionVi": "Nối nghĩa: 'Excuse me' nghĩa là gì?",
-          "options": ["Cảm ơn", "Tạm biệt", "Xin phép / Xin lỗi nhẹ", "Chào buổi sáng"],
-          "correctAnswer": 2,
-          "explanation": "'Excuse me' = Xin phép, xin lỗi nhẹ. Dùng khi muốn hỏi ai đó hoặc chen ngang lịch sự."
+          "id": "p-greetings-6-3",
+          "phrase": "What is going on?",
+          "meaningVi": "Chuyện gì đang xảy ra vậy?",
+          "ipa": "/wʌt ɪz ˈɡoʊɪŋ ɑːn/",
+          "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "q-greetings-04-04",
-          "type": "multiple-choice",
-          "question": "Someone says 'Nice to meet you!' What do you say back?",
-          "questionVi": "Ai đó nói 'Nice to meet you!' Bạn đáp lại thế nào?",
-          "options": ["Goodbye!", "Nice to meet you too!", "Good morning!", "I'm sorry."],
-          "correctAnswer": 1,
-          "explanation": "Đáp lại bằng 'Nice to meet you too!' = Mình cũng rất vui được gặp bạn!"
+          "id": "p-greetings-6-4",
+          "phrase": "Nothing special.",
+          "meaningVi": "Không có gì đặc biệt.",
+          "ipa": "/ˈnʌθɪŋ ˈspɛʃl/",
+          "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "q-greetings-04-05",
-          "type": "multiple-choice",
-          "question": "What does 'Sorry' mean?",
-          "questionVi": "'Sorry' nghĩa là gì?",
-          "options": ["Cảm ơn", "Xin chào", "Xin lỗi", "Tạm biệt"],
-          "correctAnswer": 2,
-          "explanation": "'Sorry' = Xin lỗi. Dùng khi làm sai hoặc muốn tỏ ý áy náy."
+          "id": "p-greetings-6-5",
+          "phrase": "Just chilling.",
+          "meaningVi": "Chỉ đang thư giãn thôi.",
+          "ipa": "/dʒʌst ˈtʃɪlɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-6-6",
+          "phrase": "How is it going?",
+          "meaningVi": "Mọi việc dạo này thế nào?",
+          "ipa": "/haʊ ɪz ɪt ˈɡoʊɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-6-7",
+          "phrase": "Same as usual.",
+          "meaningVi": "Vẫn như mọi khi.",
+          "ipa": "/seɪm æz ˈjuːʒuəl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-6-8",
+          "phrase": "Long time no talk.",
+          "meaningVi": "Lâu rồi không trò chuyện.",
+          "ipa": "/lɔːŋ taɪm noʊ tɔːk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-6-9",
+          "phrase": "What's new?",
+          "meaningVi": "Có gì mới không?",
+          "ipa": "/wʌts nuː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-6-10",
+          "phrase": "Keep in touch.",
+          "meaningVi": "Giữ liên lạc nhé.",
+          "ipa": "/kiːp ɪn tʌtʃ/",
+          "usage": "Dùng trong giao tiếp"
         }
-      ]
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "greetings-7",
+      "slug": "lesson-7",
+      "topicSlug": "greetings",
+      "title": "Say Hello to Family",
+      "titleVi": "Chào hỏi gia đình",
+      "order": 7,
+      "vocabulary": [
+        {
+          "id": "v-greetings-7-1",
+          "word": "Mom",
+          "meaningVi": "Mẹ",
+          "ipa": "/mɑːm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Hi Mom!",
+          "exampleSentenceVi": "Chào mẹ!"
+        },
+        {
+          "id": "v-greetings-7-2",
+          "word": "Dad",
+          "meaningVi": "Bố",
+          "ipa": "/dæd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Morning Dad.",
+          "exampleSentenceVi": "Chào buổi sáng bố."
+        },
+        {
+          "id": "v-greetings-7-3",
+          "word": "Son",
+          "meaningVi": "Con trai",
+          "ipa": "/sʌn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "My son is smart.",
+          "exampleSentenceVi": "Con trai tôi rất thông minh."
+        },
+        {
+          "id": "v-greetings-7-4",
+          "word": "Daughter",
+          "meaningVi": "Con gái",
+          "ipa": "/ˈdɔːtər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "She is my daughter.",
+          "exampleSentenceVi": "Cô ấy là con gái tôi."
+        },
+        {
+          "id": "v-greetings-7-5",
+          "word": "Brother",
+          "meaningVi": "Anh/em trai",
+          "ipa": "/ˈbrʌðər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "He is my brother.",
+          "exampleSentenceVi": "Cậu ấy là em trai tôi."
+        },
+        {
+          "id": "v-greetings-7-6",
+          "word": "Sister",
+          "meaningVi": "Chị/em gái",
+          "ipa": "/ˈsɪstər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "My sister is tall.",
+          "exampleSentenceVi": "Chị gái tôi rất cao."
+        },
+        {
+          "id": "v-greetings-7-7",
+          "word": "Grandpa",
+          "meaningVi": "Ông",
+          "ipa": "/ˈɡrænpɑː/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Hello Grandpa.",
+          "exampleSentenceVi": "Chào ông ạ."
+        },
+        {
+          "id": "v-greetings-7-8",
+          "word": "Grandma",
+          "meaningVi": "Bà",
+          "ipa": "/ˈɡrænmɑː/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I love my grandma.",
+          "exampleSentenceVi": "Tôi yêu bà của tôi."
+        },
+        {
+          "id": "v-greetings-7-9",
+          "word": "Uncle",
+          "meaningVi": "Chú, bác trai",
+          "ipa": "/ˈʌŋkl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Uncle Tom is here.",
+          "exampleSentenceVi": "Chú Tom đang ở đây."
+        },
+        {
+          "id": "v-greetings-7-10",
+          "word": "Aunt",
+          "meaningVi": "Cô, dì",
+          "ipa": "/ænt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Aunt Mary makes good cake.",
+          "exampleSentenceVi": "Dì Mary làm bánh rất ngon."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-greetings-7-1",
+          "phrase": "Good morning, Mom!",
+          "meaningVi": "Chào buổi sáng, mẹ!",
+          "ipa": "/ɡʊd ˈmɔːrnɪŋ mɑːm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-7-2",
+          "phrase": "How is everyone doing?",
+          "meaningVi": "Mọi người khỏe cả chứ?",
+          "ipa": "/haʊ ɪz ˈɛvriwʌn ˈduːɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-7-3",
+          "phrase": "I missed you so much.",
+          "meaningVi": "Con nhớ mọi người rất nhiều.",
+          "ipa": "/aɪ mɪst juː soʊ mʌtʃ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-7-4",
+          "phrase": "Welcome home.",
+          "meaningVi": "Chào mừng về nhà.",
+          "ipa": "/ˈwɛlkəm hoʊm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-7-5",
+          "phrase": "Did you have a good day?",
+          "meaningVi": "Ngày hôm nay của con tốt chứ?",
+          "ipa": "/dɪd juː hæv ə ɡʊd deɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-7-6",
+          "phrase": "Give grandma a hug.",
+          "meaningVi": "Ôm bà một cái nào.",
+          "ipa": "/ɡɪv ˈɡrænmɑː ə hʌɡ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-7-7",
+          "phrase": "I am glad you are here.",
+          "meaningVi": "Thật vui vì con ở đây.",
+          "ipa": "/aɪ æm ɡlæd juː ɑːr hɪr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-7-8",
+          "phrase": "How is school?",
+          "meaningVi": "Ở trường thế nào?",
+          "ipa": "/haʊ ɪz skuːl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-7-9",
+          "phrase": "Let's eat dinner.",
+          "meaningVi": "Cùng ăn tối nào.",
+          "ipa": "/lɛts iːt ˈdɪnər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-7-10",
+          "phrase": "Sleep well, dear.",
+          "meaningVi": "Ngủ ngon nhé, con yêu.",
+          "ipa": "/sliːp wɛl dɪr/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "greetings-8",
+      "slug": "lesson-8",
+      "topicSlug": "greetings",
+      "title": "Meeting a stranger",
+      "titleVi": "Gặp người lạ",
+      "order": 8,
+      "vocabulary": [
+        {
+          "id": "v-greetings-8-1",
+          "word": "Stranger",
+          "meaningVi": "Người lạ",
+          "ipa": "/ˈstreɪndʒər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Do not talk to strangers.",
+          "exampleSentenceVi": "Đừng nói chuyện với người lạ."
+        },
+        {
+          "id": "v-greetings-8-2",
+          "word": "Excuse",
+          "meaningVi": "Xin phép",
+          "ipa": "/ɪkˈskjuːz/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Excuse me, sir.",
+          "exampleSentenceVi": "Xin phép ngài."
+        },
+        {
+          "id": "v-greetings-8-3",
+          "word": "Ask",
+          "meaningVi": "Hỏi",
+          "ipa": "/æsk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Can I ask a question?",
+          "exampleSentenceVi": "Tôi có thể hỏi một câu không?"
+        },
+        {
+          "id": "v-greetings-8-4",
+          "word": "Know",
+          "meaningVi": "Biết",
+          "ipa": "/noʊ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I don't know you.",
+          "exampleSentenceVi": "Tôi không biết bạn."
+        },
+        {
+          "id": "v-greetings-8-5",
+          "word": "Name",
+          "meaningVi": "Tên",
+          "ipa": "/neɪm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "What is your name?",
+          "exampleSentenceVi": "Tên bạn là gì?"
+        },
+        {
+          "id": "v-greetings-8-6",
+          "word": "Help",
+          "meaningVi": "Giúp đỡ",
+          "ipa": "/hɛlp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I need help.",
+          "exampleSentenceVi": "Tôi cần giúp đỡ."
+        },
+        {
+          "id": "v-greetings-8-7",
+          "word": "Lost",
+          "meaningVi": "Lạc đường",
+          "ipa": "/lɔːst/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I am lost.",
+          "exampleSentenceVi": "Tôi bị lạc."
+        },
+        {
+          "id": "v-greetings-8-8",
+          "word": "Direction",
+          "meaningVi": "Phương hướng",
+          "ipa": "/dɪˈrɛkʃn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Ask for directions.",
+          "exampleSentenceVi": "Hỏi đường đi."
+        },
+        {
+          "id": "v-greetings-8-9",
+          "word": "Train",
+          "meaningVi": "Tàu hỏa",
+          "ipa": "/treɪn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Where is the train?",
+          "exampleSentenceVi": "Tàu hỏa ở đâu?"
+        },
+        {
+          "id": "v-greetings-8-10",
+          "word": "Station",
+          "meaningVi": "Nhà ga",
+          "ipa": "/ˈsteɪʃn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The station is near.",
+          "exampleSentenceVi": "Nhà ga ở gần đây."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-greetings-8-1",
+          "phrase": "Excuse me, can you help me?",
+          "meaningVi": "Xin lỗi, bạn có thể giúp tôi không?",
+          "ipa": "/ɪkˈskjuːz miː kæn juː hɛlp miː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-8-2",
+          "phrase": "I am lost.",
+          "meaningVi": "Tôi bị lạc đường rồi.",
+          "ipa": "/aɪ æm lɔːst/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-8-3",
+          "phrase": "Do you know where this is?",
+          "meaningVi": "Bạn có biết chỗ này ở đâu không?",
+          "ipa": "/duː juː noʊ wɛr ðɪs ɪz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-8-4",
+          "phrase": "I do not think we have met.",
+          "meaningVi": "Tôi không nghĩ là chúng ta đã gặp nhau.",
+          "ipa": "/aɪ duː nɑːt θɪŋk wiː hæv mɛt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-8-5",
+          "phrase": "May I know your name?",
+          "meaningVi": "Tôi có thể biết tên bạn không?",
+          "ipa": "/meɪ aɪ noʊ jʊr neɪm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-8-6",
+          "phrase": "Sorry to bother you.",
+          "meaningVi": "Xin lỗi vì đã làm phiền bạn.",
+          "ipa": "/ˈsɑːri tuː ˈbɑːðər juː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-8-7",
+          "phrase": "Do you speak English?",
+          "meaningVi": "Bạn có nói tiếng Anh không?",
+          "ipa": "/duː juː spiːk ˈɪŋɡlɪʃ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-8-8",
+          "phrase": "Thank you for your help.",
+          "meaningVi": "Cảm ơn sự giúp đỡ của bạn.",
+          "ipa": "/θæŋk juː fɔːr jʊr hɛlp/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-8-9",
+          "phrase": "Have a safe trip.",
+          "meaningVi": "Chúc chuyến đi an toàn.",
+          "ipa": "/hæv ə seɪf trɪp/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-8-10",
+          "phrase": "Nice talking to you.",
+          "meaningVi": "Rất vui được nói chuyện với bạn.",
+          "ipa": "/naɪs ˈtɔːkɪŋ tuː juː/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "greetings-9",
+      "slug": "lesson-9",
+      "topicSlug": "greetings",
+      "title": "At the workplace",
+      "titleVi": "Chào đồng nghiệp",
+      "order": 9,
+      "vocabulary": [
+        {
+          "id": "v-greetings-9-1",
+          "word": "Morning",
+          "meaningVi": "Buổi sáng",
+          "ipa": "/ˈmɔːrnɪŋ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Morning guys.",
+          "exampleSentenceVi": "Chào buổi sáng các bạn."
+        },
+        {
+          "id": "v-greetings-9-2",
+          "word": "Boss",
+          "meaningVi": "Sếp",
+          "ipa": "/bɔːs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Morning boss.",
+          "exampleSentenceVi": "Chào sếp."
+        },
+        {
+          "id": "v-greetings-9-3",
+          "word": "Late",
+          "meaningVi": "Trễ",
+          "ipa": "/leɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I am late today.",
+          "exampleSentenceVi": "Hôm nay tôi đến trễ."
+        },
+        {
+          "id": "v-greetings-9-4",
+          "word": "Early",
+          "meaningVi": "Sớm",
+          "ipa": "/ˈɜːrli/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "You are early today.",
+          "exampleSentenceVi": "Hôm nay bạn đến sớm thế."
+        },
+        {
+          "id": "v-greetings-9-5",
+          "word": "Coffee",
+          "meaningVi": "Cà phê",
+          "ipa": "/ˈkɔːfi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Need some coffee.",
+          "exampleSentenceVi": "Cần chút cà phê."
+        },
+        {
+          "id": "v-greetings-9-6",
+          "word": "Break",
+          "meaningVi": "Nghỉ ngơi",
+          "ipa": "/breɪk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Take a break.",
+          "exampleSentenceVi": "Hãy nghỉ ngơi đi."
+        },
+        {
+          "id": "v-greetings-9-7",
+          "word": "Busy",
+          "meaningVi": "Bận",
+          "ipa": "/ˈbɪzi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A busy day.",
+          "exampleSentenceVi": "Một ngày bận rộn."
+        },
+        {
+          "id": "v-greetings-9-8",
+          "word": "Work",
+          "meaningVi": "Công việc",
+          "ipa": "/wɜːrk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Time to work.",
+          "exampleSentenceVi": "Đến giờ làm việc rồi."
+        },
+        {
+          "id": "v-greetings-9-9",
+          "word": "Tired",
+          "meaningVi": "Mệt mỏi",
+          "ipa": "/ˈtaɪərd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I am so tired.",
+          "exampleSentenceVi": "Tôi mệt quá."
+        },
+        {
+          "id": "v-greetings-9-10",
+          "word": "Ready",
+          "meaningVi": "Sẵn sàng",
+          "ipa": "/ˈrɛdi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Are you ready?",
+          "exampleSentenceVi": "Bạn sẵn sàng chưa?"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-greetings-9-1",
+          "phrase": "Morning everyone!",
+          "meaningVi": "Chào buổi sáng mọi người!",
+          "ipa": "/ˈmɔːrnɪŋ ˈɛvriwʌn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-9-2",
+          "phrase": "Did you beat the traffic?",
+          "meaningVi": "Bạn có tránh được kẹt xe không?",
+          "ipa": "/dɪd juː biːt ðə ˈtræfɪk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-9-3",
+          "phrase": "Let's get to work.",
+          "meaningVi": "Bắt tay vào việc thôi.",
+          "ipa": "/lɛts ɡɛt tuː wɜːrk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-9-4",
+          "phrase": "I need a cup of coffee.",
+          "meaningVi": "Tôi cần một tách cà phê.",
+          "ipa": "/aɪ niːd ə kʌp ʌv ˈkɔːfi/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-9-5",
+          "phrase": "Are you busy right now?",
+          "meaningVi": "Bây giờ bạn có bận không?",
+          "ipa": "/ɑːr juː ˈbɪzi raɪt naʊ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-9-6",
+          "phrase": "Have a productive day.",
+          "meaningVi": "Chúc một ngày làm việc hiệu quả.",
+          "ipa": "/hæv ə prəˈdʌktɪv deɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-9-7",
+          "phrase": "See you at the meeting.",
+          "meaningVi": "Hẹn gặp ở cuộc họp.",
+          "ipa": "/siː juː æt ðə ˈmiːtɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-9-8",
+          "phrase": "Time for a lunch break.",
+          "meaningVi": "Đến giờ nghỉ trưa rồi.",
+          "ipa": "/taɪm fɔːr ə lʌntʃ breɪk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-9-9",
+          "phrase": "Good job today.",
+          "meaningVi": "Hôm nay làm tốt lắm.",
+          "ipa": "/ɡʊd dʒɑːb təˈdeɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-9-10",
+          "phrase": "See you tomorrow.",
+          "meaningVi": "Hẹn gặp lại vào ngày mai.",
+          "ipa": "/siː juː təˈmɑːroʊ/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "greetings-10",
+      "slug": "lesson-10",
+      "topicSlug": "greetings",
+      "title": "Email greetings",
+      "titleVi": "Chào trong Email",
+      "order": 10,
+      "vocabulary": [
+        {
+          "id": "v-greetings-10-1",
+          "word": "Dear",
+          "meaningVi": "Thân mến",
+          "ipa": "/dɪr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Dear Sir.",
+          "exampleSentenceVi": "Kính thưa ngài."
+        },
+        {
+          "id": "v-greetings-10-2",
+          "word": "Madam",
+          "meaningVi": "Bà",
+          "ipa": "/ˈmædəm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Dear Madam.",
+          "exampleSentenceVi": "Kính thưa bà."
+        },
+        {
+          "id": "v-greetings-10-3",
+          "word": "Sir",
+          "meaningVi": "Ngài",
+          "ipa": "/sɜːr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Dear Sir.",
+          "exampleSentenceVi": "Kính thưa ngài."
+        },
+        {
+          "id": "v-greetings-10-4",
+          "word": "Write",
+          "meaningVi": "Viết",
+          "ipa": "/raɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I write this email to you.",
+          "exampleSentenceVi": "Tôi viết email này cho bạn."
+        },
+        {
+          "id": "v-greetings-10-5",
+          "word": "Hope",
+          "meaningVi": "Hy vọng",
+          "ipa": "/hoʊp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Hope you are well.",
+          "exampleSentenceVi": "Hy vọng bạn vẫn khỏe."
+        },
+        {
+          "id": "v-greetings-10-6",
+          "word": "Regards",
+          "meaningVi": "Trân trọng",
+          "ipa": "/rɪˈɡɑːrdz/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Best regards.",
+          "exampleSentenceVi": "Trân trọng nhất."
+        },
+        {
+          "id": "v-greetings-10-7",
+          "word": "Sincerely",
+          "meaningVi": "Chân thành",
+          "ipa": "/sɪnˈsɪrli/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Yours sincerely.",
+          "exampleSentenceVi": "Trân trọng (cuối thư)."
+        },
+        {
+          "id": "v-greetings-10-8",
+          "word": "Reply",
+          "meaningVi": "Phản hồi",
+          "ipa": "/rɪˈplaɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Please reply soon.",
+          "exampleSentenceVi": "Vui lòng phản hồi sớm."
+        },
+        {
+          "id": "v-greetings-10-9",
+          "word": "Attach",
+          "meaningVi": "Đính kèm",
+          "ipa": "/əˈtætʃ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I attach the file.",
+          "exampleSentenceVi": "Tôi đính kèm tệp."
+        },
+        {
+          "id": "v-greetings-10-10",
+          "word": "Email",
+          "meaningVi": "Thư điện tử",
+          "ipa": "/ˈiːmeɪl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Send an email.",
+          "exampleSentenceVi": "Gửi một email."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-greetings-10-1",
+          "phrase": "Dear Mr. Smith,",
+          "meaningVi": "Kính gửi ông Smith,",
+          "ipa": "/dɪr ˈmɪstər smɪθ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-10-2",
+          "phrase": "To whom it may concern,",
+          "meaningVi": "Gửi những ai có liên quan,",
+          "ipa": "/tuː huːm ɪt meɪ kənˈsɜːrn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-10-3",
+          "phrase": "I hope this email finds you well.",
+          "meaningVi": "Tôi hy vọng bạn vẫn khỏe khi nhận email này.",
+          "ipa": "/aɪ hoʊp ðɪs ˈiːmeɪl faɪndz juː wɛl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-10-4",
+          "phrase": "Thank you for your email.",
+          "meaningVi": "Cảm ơn email của bạn.",
+          "ipa": "/θæŋk juː fɔːr jʊr ˈiːmeɪl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-10-5",
+          "phrase": "I am writing to inform you that...",
+          "meaningVi": "Tôi viết thư để thông báo rằng...",
+          "ipa": "/aɪ æm ˈraɪtɪŋ tuː ɪnˈfɔːrm juː ðæt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-10-6",
+          "phrase": "Please find the attached file.",
+          "meaningVi": "Vui lòng xem tệp đính kèm.",
+          "ipa": "/pliːz faɪnd ðə əˈtætʃt faɪl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-10-7",
+          "phrase": "I look forward to hearing from you.",
+          "meaningVi": "Tôi mong nhận được phản hồi từ bạn.",
+          "ipa": "/aɪ lʊk ˈfɔːrwərd tuː ˈhɪrɪŋ frʌm juː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-10-8",
+          "phrase": "If you have any questions, please let me know.",
+          "meaningVi": "Nếu có câu hỏi, hãy cho tôi biết.",
+          "ipa": "/ɪf juː hæv ˈɛni ˈkwɛstʃənz pliːz lɛt miː noʊ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-10-9",
+          "phrase": "Best regards,",
+          "meaningVi": "Trân trọng,",
+          "ipa": "/bɛst rɪˈɡɑːrdz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-greetings-10-10",
+          "phrase": "Yours sincerely,",
+          "meaningVi": "Trân trọng kính chào,",
+          "ipa": "/jʊrz sɪnˈsɪrli/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
     }
   ]
 }

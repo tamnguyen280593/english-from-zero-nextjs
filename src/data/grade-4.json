@@ -1,0 +1,183 @@
+{
+  "topicSlug": "grade-4",
+  "lessons": [
+    { "id": "grade4-01", "slug": "my-friends-g4", "topicSlug": "grade-4", "title": "My friends", "titleVi": "Bạn bè", "order": 1,
+      "vocabulary": [
+        { "id": "v-g4-01-kind", "word": "kind", "meaningVi": "Tốt bụng", "ipa": "/kaɪnd/", "partOfSpeech": "adjective", "image": "", "exampleSentence": "She is kind.", "exampleSentenceVi": "Bạn ấy tốt bụng." },
+        { "id": "v-g4-01-smart", "word": "smart", "meaningVi": "Thông minh", "ipa": "/smɑːrt/", "partOfSpeech": "adjective", "image": "", "exampleSentence": "He is smart.", "exampleSentenceVi": "Bạn ấy thông minh." },
+        { "id": "v-g4-01-funny", "word": "funny", "meaningVi": "Vui nhộn", "ipa": "/ˈfʌni/", "partOfSpeech": "adjective", "image": "", "exampleSentence": "Nam is funny.", "exampleSentenceVi": "Nam vui nhộn." }
+      ],
+      "phrases": [{ "id": "p-g4-01-a", "phrase": "What is he/she like?", "meaningVi": "Bạn ấy tính cách thế nào?", "ipa": "", "usage": "Hỏi tính cách." }],
+      "dialogues": [], "practice": [{ "id": "q-g4-01-1", "type": "multiple-choice", "question": "'Kind' nghĩa là gì?", "questionVi": "'Kind' nghĩa là gì?", "options": ["Thông minh", "Tốt bụng", "Vui nhộn"], "correctAnswer": 1, "explanation": "'Kind' là tốt bụng." }]
+    },
+    { "id": "grade4-02", "slug": "time-and-daily-routines", "topicSlug": "grade-4", "title": "Time and daily routines", "titleVi": "Thời gian và thói quen", "order": 2,
+      "vocabulary": [
+        { "id": "v-g4-02-getup", "word": "get up", "meaningVi": "Thức dậy", "ipa": "/ɡet ʌp/", "partOfSpeech": "verb", "image": "", "exampleSentence": "I get up at 6 o'clock.", "exampleSentenceVi": "Mình dậy lúc 6 giờ." },
+        { "id": "v-g4-02-goschool", "word": "go to school", "meaningVi": "Đi học", "ipa": "", "partOfSpeech": "verb", "image": "", "exampleSentence": "I go to school at 7.", "exampleSentenceVi": "Mình đi học lúc 7 giờ." },
+        { "id": "v-g4-02-gotobed", "word": "go to bed", "meaningVi": "Đi ngủ", "ipa": "", "partOfSpeech": "verb", "image": "", "exampleSentence": "I go to bed at 9 p.m.", "exampleSentenceVi": "Mình đi ngủ lúc 9 giờ tối." }
+      ],
+      "phrases": [{ "id": "p-g4-02-a", "phrase": "What time do you...?", "meaningVi": "Mấy giờ bạn...?", "ipa": "", "usage": "Hỏi giờ giấc." }],
+      "dialogues": [], "practice": [{ "id": "q-g4-02-1", "type": "multiple-choice", "question": "'Get up' nghĩa là gì?", "questionVi": "'Get up' nghĩa là gì?", "options": ["Đi ngủ", "Thức dậy", "Đi học"], "correctAnswer": 1, "explanation": "'Get up' là thức dậy." }]
+    },
+    { "id": "grade4-03", "slug": "my-week", "topicSlug": "grade-4", "title": "My week", "titleVi": "Tuần của tôi", "order": 3,
+      "vocabulary": [
+        { "id": "v-g4-03-monday", "word": "Monday", "meaningVi": "Thứ Hai", "ipa": "/ˈmʌndeɪ/", "partOfSpeech": "noun", "image": "", "exampleSentence": "Today is Monday.", "exampleSentenceVi": "Hôm nay Thứ Hai." },
+        { "id": "v-g4-03-tuesday", "word": "Tuesday", "meaningVi": "Thứ Ba", "ipa": "/ˈtuːzdeɪ/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I have English on Tuesday.", "exampleSentenceVi": "Thứ Ba mình có tiếng Anh." },
+        { "id": "v-g4-03-wednesday", "word": "Wednesday", "meaningVi": "Thứ Tư", "ipa": "/ˈwenzdeɪ/", "partOfSpeech": "noun", "image": "", "exampleSentence": "Wednesday is my favourite day.", "exampleSentenceVi": "Thứ Tư là ngày mình thích." },
+        { "id": "v-g4-03-saturday", "word": "Saturday", "meaningVi": "Thứ Bảy", "ipa": "/ˈsætərdeɪ/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I play football on Saturday.", "exampleSentenceVi": "Thứ Bảy mình đá bóng." }
+      ],
+      "phrases": [{ "id": "p-g4-03-a", "phrase": "What day is it today?", "meaningVi": "Hôm nay thứ mấy?", "ipa": "", "usage": "Hỏi thứ." }],
+      "dialogues": [], "practice": [{ "id": "q-g4-03-1", "type": "multiple-choice", "question": "Sau Friday là?", "questionVi": "Sau Friday là?", "options": ["Thursday", "Saturday", "Sunday"], "correctAnswer": 1, "explanation": "Sau Friday là Saturday." }]
+    },
+    { "id": "grade4-04", "slug": "my-birthday-party", "topicSlug": "grade-4", "title": "My birthday party", "titleVi": "Tiệc sinh nhật", "order": 4,
+      "vocabulary": [
+        { "id": "v-g4-04-january", "word": "January", "meaningVi": "Tháng Một", "ipa": "/ˈdʒænjueri/", "partOfSpeech": "noun", "image": "", "exampleSentence": "My birthday is in January.", "exampleSentenceVi": "Sinh nhật mình tháng Một." },
+        { "id": "v-g4-04-march", "word": "March", "meaningVi": "Tháng Ba", "ipa": "/mɑːrtʃ/", "partOfSpeech": "noun", "image": "", "exampleSentence": "It is March now.", "exampleSentenceVi": "Bây giờ là tháng Ba." },
+        { "id": "v-g4-04-december", "word": "December", "meaningVi": "Tháng Mười Hai", "ipa": "/dɪˈsembər/", "partOfSpeech": "noun", "image": "", "exampleSentence": "December is cold.", "exampleSentenceVi": "Tháng 12 lạnh." }
+      ],
+      "phrases": [{ "id": "p-g4-04-a", "phrase": "When is your birthday?", "meaningVi": "Sinh nhật bạn khi nào?", "ipa": "", "usage": "Hỏi sinh nhật." }],
+      "dialogues": [], "practice": [{ "id": "q-g4-04-1", "type": "multiple-choice", "question": "Tháng cuối năm là?", "questionVi": "Tháng 12 tiếng Anh là?", "options": ["November", "December", "January"], "correctAnswer": 1, "explanation": "Tháng 12 là December." }]
+    },
+    { "id": "grade4-05", "slug": "things-we-can-do", "topicSlug": "grade-4", "title": "Things we can do", "titleVi": "Việc chúng ta có thể làm", "order": 5,
+      "vocabulary": [
+        { "id": "v-g4-05-swim", "word": "swim", "meaningVi": "Bơi", "ipa": "/swɪm/", "partOfSpeech": "verb", "image": "", "exampleSentence": "I can swim.", "exampleSentenceVi": "Mình biết bơi." },
+        { "id": "v-g4-05-ride", "word": "ride a bike", "meaningVi": "Đạp xe", "ipa": "", "partOfSpeech": "verb", "image": "", "exampleSentence": "He can ride a bike.", "exampleSentenceVi": "Bạn ấy biết đi xe đạp." },
+        { "id": "v-g4-05-cook", "word": "cook", "meaningVi": "Nấu ăn", "ipa": "/kʊk/", "partOfSpeech": "verb", "image": "", "exampleSentence": "She can cook.", "exampleSentenceVi": "Bạn ấy biết nấu ăn." }
+      ],
+      "phrases": [{ "id": "p-g4-05-a", "phrase": "Can you...?", "meaningVi": "Bạn có biết ... không?", "ipa": "", "usage": "Hỏi khả năng." }],
+      "dialogues": [], "practice": [{ "id": "q-g4-05-1", "type": "multiple-choice", "question": "Can you swim? — Yes, I ___.", "questionVi": "Điền vào.", "options": ["do", "can", "am"], "correctAnswer": 1, "explanation": "Trả lời: Yes, I can." }]
+    },
+    { "id": "grade4-06", "slug": "our-school-facilities", "topicSlug": "grade-4", "title": "Our school facilities", "titleVi": "Cơ sở vật chất trường", "order": 6,
+      "vocabulary": [
+        { "id": "v-g4-06-library", "word": "library", "meaningVi": "Thư viện", "ipa": "/ˈlaɪbreri/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I read in the library.", "exampleSentenceVi": "Mình đọc sách ở thư viện." },
+        { "id": "v-g4-06-gym", "word": "gym", "meaningVi": "Phòng thể dục", "ipa": "/dʒɪm/", "partOfSpeech": "noun", "image": "", "exampleSentence": "We exercise in the gym.", "exampleSentenceVi": "Mình tập thể dục ở gym." },
+        { "id": "v-g4-06-computer", "word": "computer room", "meaningVi": "Phòng máy tính", "ipa": "", "partOfSpeech": "noun", "image": "", "exampleSentence": "We learn IT in the computer room.", "exampleSentenceVi": "Mình học Tin ở phòng máy." }
+      ],
+      "phrases": [{ "id": "p-g4-06-a", "phrase": "Where is the...?", "meaningVi": "...ở đâu?", "ipa": "", "usage": "Hỏi vị trí phòng." }],
+      "dialogues": [], "practice": [{ "id": "q-g4-06-1", "type": "multiple-choice", "question": "'Library' là gì?", "questionVi": "'Library' là gì?", "options": ["Phòng thể dục", "Thư viện", "Phòng máy"], "correctAnswer": 1, "explanation": "'Library' là thư viện." }]
+    },
+    { "id": "grade4-07", "slug": "our-timetable", "topicSlug": "grade-4", "title": "Our timetable", "titleVi": "Thời khóa biểu", "order": 7,
+      "vocabulary": [
+        { "id": "v-g4-07-maths", "word": "Maths", "meaningVi": "Toán", "ipa": "/mæθs/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I have Maths on Monday.", "exampleSentenceVi": "Thứ Hai mình có Toán." },
+        { "id": "v-g4-07-pe", "word": "PE", "meaningVi": "Thể dục", "ipa": "/piː iː/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I love PE.", "exampleSentenceVi": "Mình thích Thể dục." },
+        { "id": "v-g4-07-art", "word": "Art", "meaningVi": "Mỹ thuật", "ipa": "/ɑːrt/", "partOfSpeech": "noun", "image": "", "exampleSentence": "We draw in Art class.", "exampleSentenceVi": "Giờ Mỹ thuật mình vẽ." }
+      ],
+      "phrases": [{ "id": "p-g4-07-a", "phrase": "What do you have on Monday?", "meaningVi": "Thứ Hai bạn có môn gì?", "ipa": "", "usage": "Hỏi thời khóa biểu." }],
+      "dialogues": [], "practice": [{ "id": "q-g4-07-1", "type": "multiple-choice", "question": "'PE' là môn gì?", "questionVi": "'PE' là môn gì?", "options": ["Toán", "Thể dục", "Mỹ thuật"], "correctAnswer": 1, "explanation": "'PE' (Physical Education) là Thể dục." }]
+    },
+    { "id": "grade4-08", "slug": "my-favourite-subjects", "topicSlug": "grade-4", "title": "My favourite subjects", "titleVi": "Môn học yêu thích", "order": 8,
+      "vocabulary": [
+        { "id": "v-g4-08-science", "word": "Science", "meaningVi": "Khoa học", "ipa": "/ˈsaɪəns/", "partOfSpeech": "noun", "image": "", "exampleSentence": "Science is interesting.", "exampleSentenceVi": "Khoa học thú vị." },
+        { "id": "v-g4-08-music", "word": "Music", "meaningVi": "Âm nhạc", "ipa": "/ˈmjuːzɪk/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I like Music.", "exampleSentenceVi": "Mình thích Âm nhạc." },
+        { "id": "v-g4-08-english", "word": "English", "meaningVi": "Tiếng Anh", "ipa": "/ˈɪŋɡlɪʃ/", "partOfSpeech": "noun", "image": "", "exampleSentence": "English is fun!", "exampleSentenceVi": "Tiếng Anh vui!" }
+      ],
+      "phrases": [{ "id": "p-g4-08-a", "phrase": "What subject do you like?", "meaningVi": "Bạn thích môn gì?", "ipa": "", "usage": "Hỏi môn yêu thích." }],
+      "dialogues": [], "practice": [{ "id": "q-g4-08-1", "type": "multiple-choice", "question": "'Science' là gì?", "questionVi": "'Science' là gì?", "options": ["Âm nhạc", "Khoa học", "Tiếng Anh"], "correctAnswer": 1, "explanation": "'Science' là Khoa học." }]
+    },
+    { "id": "grade4-09", "slug": "our-sports-day", "topicSlug": "grade-4", "title": "Our sports day", "titleVi": "Ngày thể thao", "order": 9,
+      "vocabulary": [
+        { "id": "v-g4-09-football", "word": "football", "meaningVi": "Bóng đá", "ipa": "/ˈfʊtbɔːl/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I play football.", "exampleSentenceVi": "Mình chơi bóng đá." },
+        { "id": "v-g4-09-badminton", "word": "badminton", "meaningVi": "Cầu lông", "ipa": "/ˈbædmɪntən/", "partOfSpeech": "noun", "image": "", "exampleSentence": "She plays badminton.", "exampleSentenceVi": "Bạn ấy chơi cầu lông." },
+        { "id": "v-g4-09-run", "word": "running", "meaningVi": "Chạy bộ", "ipa": "/ˈrʌnɪŋ/", "partOfSpeech": "noun", "image": "", "exampleSentence": "Running is healthy.", "exampleSentenceVi": "Chạy bộ tốt cho sức khỏe." }
+      ],
+      "phrases": [{ "id": "p-g4-09-a", "phrase": "What sport do you play?", "meaningVi": "Bạn chơi môn gì?", "ipa": "", "usage": "Hỏi về thể thao." }],
+      "dialogues": [], "practice": [{ "id": "q-g4-09-1", "type": "multiple-choice", "question": "'Badminton' là gì?", "questionVi": "'Badminton' là gì?", "options": ["Bóng đá", "Cầu lông", "Chạy bộ"], "correctAnswer": 1, "explanation": "'Badminton' là cầu lông." }]
+    },
+    { "id": "grade4-10", "slug": "our-summer-holidays-g4", "topicSlug": "grade-4", "title": "Our summer holidays", "titleVi": "Kỳ nghỉ hè", "order": 10,
+      "vocabulary": [
+        { "id": "v-g4-10-beach", "word": "beach", "meaningVi": "Bãi biển", "ipa": "/biːtʃ/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I go to the beach.", "exampleSentenceVi": "Mình đi biển." },
+        { "id": "v-g4-10-countryside", "word": "countryside", "meaningVi": "Miền quê", "ipa": "/ˈkʌntrisaɪd/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I visit the countryside.", "exampleSentenceVi": "Mình về quê." }
+      ],
+      "phrases": [{ "id": "p-g4-10-a", "phrase": "Where will you go on holiday?", "meaningVi": "Bạn sẽ đi đâu nghỉ hè?", "ipa": "", "usage": "Hỏi kế hoạch nghỉ." }],
+      "dialogues": [], "practice": [{ "id": "q-g4-10-1", "type": "multiple-choice", "question": "'Countryside' là gì?", "questionVi": "'Countryside' là gì?", "options": ["Bãi biển", "Miền quê", "Thành phố"], "correctAnswer": 1, "explanation": "'Countryside' là miền quê." }]
+    },
+    { "id": "grade4-11", "slug": "my-home", "topicSlug": "grade-4", "title": "My home", "titleVi": "Nhà của tôi", "order": 11,
+      "vocabulary": [
+        { "id": "v-g4-11-sofa", "word": "sofa", "meaningVi": "Ghế sofa", "ipa": "/ˈsoʊfə/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I sit on the sofa.", "exampleSentenceVi": "Mình ngồi trên sofa." },
+        { "id": "v-g4-11-fridge", "word": "fridge", "meaningVi": "Tủ lạnh", "ipa": "/frɪdʒ/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The milk is in the fridge.", "exampleSentenceVi": "Sữa ở trong tủ lạnh." },
+        { "id": "v-g4-11-wardrobe", "word": "wardrobe", "meaningVi": "Tủ quần áo", "ipa": "/ˈwɔːrdroʊb/", "partOfSpeech": "noun", "image": "", "exampleSentence": "My clothes are in the wardrobe.", "exampleSentenceVi": "Quần áo mình ở trong tủ." }
+      ],
+      "phrases": [{ "id": "p-g4-11-a", "phrase": "There is a ... in the room.", "meaningVi": "Có một ... trong phòng.", "ipa": "", "usage": "Miêu tả đồ vật trong phòng." }],
+      "dialogues": [], "practice": [{ "id": "q-g4-11-1", "type": "multiple-choice", "question": "'Fridge' là gì?", "questionVi": "'Fridge' là gì?", "options": ["Ghế sofa", "Tủ lạnh", "Tủ quần áo"], "correctAnswer": 1, "explanation": "'Fridge' là tủ lạnh." }]
+    },
+    { "id": "grade4-12", "slug": "jobs-g4", "topicSlug": "grade-4", "title": "Jobs", "titleVi": "Nghề nghiệp", "order": 12,
+      "vocabulary": [
+        { "id": "v-g4-12-driver", "word": "driver", "meaningVi": "Tài xế", "ipa": "/ˈdraɪvər/", "partOfSpeech": "noun", "image": "", "exampleSentence": "My uncle is a driver.", "exampleSentenceVi": "Chú mình là tài xế." },
+        { "id": "v-g4-12-worker", "word": "worker", "meaningVi": "Công nhân", "ipa": "/ˈwɜːrkər/", "partOfSpeech": "noun", "image": "", "exampleSentence": "He is a factory worker.", "exampleSentenceVi": "Anh ấy là công nhân nhà máy." },
+        { "id": "v-g4-12-police", "word": "police officer", "meaningVi": "Cảnh sát", "ipa": "", "partOfSpeech": "noun", "image": "", "exampleSentence": "The police officer helps people.", "exampleSentenceVi": "Cảnh sát giúp đỡ mọi người." }
+      ],
+      "phrases": [{ "id": "p-g4-12-a", "phrase": "What does your ... do?", "meaningVi": "...bạn làm nghề gì?", "ipa": "", "usage": "Hỏi nghề nghiệp." }],
+      "dialogues": [], "practice": [{ "id": "q-g4-12-1", "type": "multiple-choice", "question": "'Driver' là gì?", "questionVi": "'Driver' là gì?", "options": ["Công nhân", "Tài xế", "Cảnh sát"], "correctAnswer": 1, "explanation": "'Driver' là tài xế." }]
+    },
+    { "id": "grade4-13", "slug": "appearance", "topicSlug": "grade-4", "title": "Appearance", "titleVi": "Ngoại hình", "order": 13,
+      "vocabulary": [
+        { "id": "v-g4-13-tall", "word": "tall", "meaningVi": "Cao", "ipa": "/tɔːl/", "partOfSpeech": "adjective", "image": "", "exampleSentence": "He is tall.", "exampleSentenceVi": "Anh ấy cao." },
+        { "id": "v-g4-13-short", "word": "short", "meaningVi": "Thấp", "ipa": "/ʃɔːrt/", "partOfSpeech": "adjective", "image": "", "exampleSentence": "She is short.", "exampleSentenceVi": "Bạn ấy thấp." },
+        { "id": "v-g4-13-slim", "word": "slim", "meaningVi": "Mảnh mai", "ipa": "/slɪm/", "partOfSpeech": "adjective", "image": "", "exampleSentence": "She is slim.", "exampleSentenceVi": "Bạn ấy mảnh mai." }
+      ],
+      "phrases": [{ "id": "p-g4-13-a", "phrase": "What does he/she look like?", "meaningVi": "Bạn ấy trông thế nào?", "ipa": "", "usage": "Hỏi ngoại hình." }],
+      "dialogues": [], "practice": [{ "id": "q-g4-13-1", "type": "multiple-choice", "question": "Trái nghĩa của 'tall'?", "questionVi": "Trái nghĩa của 'tall'?", "options": ["slim", "short", "big"], "correctAnswer": 1, "explanation": "'Short' là trái nghĩa của 'tall'." }]
+    },
+    { "id": "grade4-14", "slug": "daily-activities", "topicSlug": "grade-4", "title": "Daily activities", "titleVi": "Hoạt động hàng ngày", "order": 14,
+      "vocabulary": [
+        { "id": "v-g4-14-brush", "word": "brush teeth", "meaningVi": "Đánh răng", "ipa": "", "partOfSpeech": "verb", "image": "", "exampleSentence": "I brush my teeth.", "exampleSentenceVi": "Mình đánh răng." },
+        { "id": "v-g4-14-wash", "word": "wash face", "meaningVi": "Rửa mặt", "ipa": "", "partOfSpeech": "verb", "image": "", "exampleSentence": "I wash my face.", "exampleSentenceVi": "Mình rửa mặt." },
+        { "id": "v-g4-14-homework", "word": "do homework", "meaningVi": "Làm bài tập", "ipa": "", "partOfSpeech": "verb", "image": "", "exampleSentence": "I do homework after school.", "exampleSentenceVi": "Mình làm bài tập sau giờ học." }
+      ],
+      "phrases": [{ "id": "p-g4-14-a", "phrase": "What do you do every day?", "meaningVi": "Hàng ngày bạn làm gì?", "ipa": "", "usage": "Hỏi thói quen hàng ngày." }],
+      "dialogues": [], "practice": [{ "id": "q-g4-14-1", "type": "multiple-choice", "question": "'Do homework' nghĩa là gì?", "questionVi": "'Do homework' nghĩa là gì?", "options": ["Đánh răng", "Rửa mặt", "Làm bài tập"], "correctAnswer": 2, "explanation": "'Do homework' là làm bài tập." }]
+    },
+    { "id": "grade4-15", "slug": "my-familys-weekends", "topicSlug": "grade-4", "title": "My family's weekends", "titleVi": "Cuối tuần gia đình", "order": 15,
+      "vocabulary": [
+        { "id": "v-g4-15-picnic", "word": "picnic", "meaningVi": "Dã ngoại", "ipa": "/ˈpɪknɪk/", "partOfSpeech": "noun", "image": "", "exampleSentence": "We have a picnic.", "exampleSentenceVi": "Mình đi dã ngoại." },
+        { "id": "v-g4-15-shopping", "word": "go shopping", "meaningVi": "Đi mua sắm", "ipa": "", "partOfSpeech": "verb", "image": "", "exampleSentence": "Mom goes shopping.", "exampleSentenceVi": "Mẹ đi mua sắm." }
+      ],
+      "phrases": [{ "id": "p-g4-15-a", "phrase": "What do you do at weekends?", "meaningVi": "Cuối tuần bạn làm gì?", "ipa": "", "usage": "Hỏi hoạt động cuối tuần." }],
+      "dialogues": [], "practice": [{ "id": "q-g4-15-1", "type": "multiple-choice", "question": "'Picnic' là gì?", "questionVi": "'Picnic' là gì?", "options": ["Mua sắm", "Dã ngoại", "Đi bơi"], "correctAnswer": 1, "explanation": "'Picnic' là dã ngoại." }]
+    },
+    { "id": "grade4-16", "slug": "weather", "topicSlug": "grade-4", "title": "Weather", "titleVi": "Thời tiết", "order": 16,
+      "vocabulary": [
+        { "id": "v-g4-16-sunny", "word": "sunny", "meaningVi": "Nắng", "ipa": "/ˈsʌni/", "partOfSpeech": "adjective", "image": "", "exampleSentence": "It is sunny today.", "exampleSentenceVi": "Hôm nay trời nắng." },
+        { "id": "v-g4-16-rainy", "word": "rainy", "meaningVi": "Mưa", "ipa": "/ˈreɪni/", "partOfSpeech": "adjective", "image": "", "exampleSentence": "It is rainy.", "exampleSentenceVi": "Trời mưa." },
+        { "id": "v-g4-16-cloudy", "word": "cloudy", "meaningVi": "Nhiều mây", "ipa": "/ˈklaʊdi/", "partOfSpeech": "adjective", "image": "", "exampleSentence": "It is cloudy.", "exampleSentenceVi": "Trời nhiều mây." }
+      ],
+      "phrases": [{ "id": "p-g4-16-a", "phrase": "What's the weather like today?", "meaningVi": "Hôm nay thời tiết thế nào?", "ipa": "", "usage": "Hỏi thời tiết." }],
+      "dialogues": [], "practice": [{ "id": "q-g4-16-1", "type": "multiple-choice", "question": "'Rainy' nghĩa là gì?", "questionVi": "'Rainy' nghĩa là gì?", "options": ["Nắng", "Mưa", "Nhiều mây"], "correctAnswer": 1, "explanation": "'Rainy' là trời mưa." }]
+    },
+    { "id": "grade4-17", "slug": "in-the-city", "topicSlug": "grade-4", "title": "In the city", "titleVi": "Trong thành phố", "order": 17,
+      "vocabulary": [
+        { "id": "v-g4-17-hospital", "word": "hospital", "meaningVi": "Bệnh viện", "ipa": "/ˈhɑːspɪtəl/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The hospital is big.", "exampleSentenceVi": "Bệnh viện lớn." },
+        { "id": "v-g4-17-park", "word": "park", "meaningVi": "Công viên", "ipa": "/pɑːrk/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I play in the park.", "exampleSentenceVi": "Mình chơi ở công viên." },
+        { "id": "v-g4-17-supermarket", "word": "supermarket", "meaningVi": "Siêu thị", "ipa": "/ˈsuːpərmɑːrkɪt/", "partOfSpeech": "noun", "image": "", "exampleSentence": "We go to the supermarket.", "exampleSentenceVi": "Mình đi siêu thị." }
+      ],
+      "phrases": [{ "id": "p-g4-17-a", "phrase": "Is there a ... near here?", "meaningVi": "Gần đây có ... không?", "ipa": "", "usage": "Hỏi đường." }],
+      "dialogues": [], "practice": [{ "id": "q-g4-17-1", "type": "multiple-choice", "question": "'Hospital' là gì?", "questionVi": "'Hospital' là gì?", "options": ["Công viên", "Bệnh viện", "Siêu thị"], "correctAnswer": 1, "explanation": "'Hospital' là bệnh viện." }]
+    },
+    { "id": "grade4-18", "slug": "at-the-shopping-centre", "topicSlug": "grade-4", "title": "At the shopping centre", "titleVi": "Ở trung tâm mua sắm", "order": 18,
+      "vocabulary": [
+        { "id": "v-g4-18-cheap", "word": "cheap", "meaningVi": "Rẻ", "ipa": "/tʃiːp/", "partOfSpeech": "adjective", "image": "", "exampleSentence": "This is cheap.", "exampleSentenceVi": "Cái này rẻ." },
+        { "id": "v-g4-18-expensive", "word": "expensive", "meaningVi": "Đắt", "ipa": "/ɪkˈspensɪv/", "partOfSpeech": "adjective", "image": "", "exampleSentence": "That is expensive.", "exampleSentenceVi": "Cái đó đắt." }
+      ],
+      "phrases": [{ "id": "p-g4-18-a", "phrase": "How much is it?", "meaningVi": "Bao nhiêu tiền?", "ipa": "", "usage": "Hỏi giá." }],
+      "dialogues": [], "practice": [{ "id": "q-g4-18-1", "type": "multiple-choice", "question": "Trái nghĩa 'cheap'?", "questionVi": "Trái nghĩa 'cheap'?", "options": ["big", "expensive", "small"], "correctAnswer": 1, "explanation": "'Expensive' (đắt) ↔ 'Cheap' (rẻ)." }]
+    },
+    { "id": "grade4-19", "slug": "the-animal-world", "topicSlug": "grade-4", "title": "The animal world", "titleVi": "Thế giới động vật", "order": 19,
+      "vocabulary": [
+        { "id": "v-g4-19-dolphin", "word": "dolphin", "meaningVi": "Cá heo", "ipa": "/ˈdɑːlfɪn/", "partOfSpeech": "noun", "image": "", "exampleSentence": "Dolphins are smart.", "exampleSentenceVi": "Cá heo thông minh." },
+        { "id": "v-g4-19-penguin", "word": "penguin", "meaningVi": "Chim cánh cụt", "ipa": "/ˈpeŋɡwɪn/", "partOfSpeech": "noun", "image": "", "exampleSentence": "Penguins live in cold places.", "exampleSentenceVi": "Chim cánh cụt sống nơi lạnh." },
+        { "id": "v-g4-19-whale", "word": "whale", "meaningVi": "Cá voi", "ipa": "/weɪl/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The whale is huge.", "exampleSentenceVi": "Cá voi rất lớn." }
+      ],
+      "phrases": [{ "id": "p-g4-19-a", "phrase": "Where does a ... live?", "meaningVi": "...sống ở đâu?", "ipa": "", "usage": "Hỏi nơi sống của động vật." }],
+      "dialogues": [], "practice": [{ "id": "q-g4-19-1", "type": "multiple-choice", "question": "'Penguin' là gì?", "questionVi": "'Penguin' là gì?", "options": ["Cá heo", "Chim cánh cụt", "Cá voi"], "correctAnswer": 1, "explanation": "'Penguin' là chim cánh cụt." }]
+    },
+    { "id": "grade4-20", "slug": "at-summer-camp", "topicSlug": "grade-4", "title": "At summer camp", "titleVi": "Trại hè", "order": 20,
+      "vocabulary": [
+        { "id": "v-g4-20-campfire", "word": "campfire", "meaningVi": "Lửa trại", "ipa": "/ˈkæmpfaɪər/", "partOfSpeech": "noun", "image": "", "exampleSentence": "We sit around the campfire.", "exampleSentenceVi": "Chúng mình ngồi quanh lửa trại." },
+        { "id": "v-g4-20-hiking", "word": "hiking", "meaningVi": "Đi bộ đường dài", "ipa": "/ˈhaɪkɪŋ/", "partOfSpeech": "noun", "image": "", "exampleSentence": "We go hiking.", "exampleSentenceVi": "Mình đi bộ đường dài." },
+        { "id": "v-g4-20-marshmallow", "word": "marshmallow", "meaningVi": "Kẹo dẻo", "ipa": "/ˈmɑːrʃmeloʊ/", "partOfSpeech": "noun", "image": "", "exampleSentence": "We roast marshmallows.", "exampleSentenceVi": "Mình nướng kẹo dẻo." }
+      ],
+      "phrases": [{ "id": "p-g4-20-a", "phrase": "What did you do at camp?", "meaningVi": "Bạn đã làm gì ở trại hè?", "ipa": "", "usage": "Hỏi về trải nghiệm." }],
+      "dialogues": [], "practice": [{ "id": "q-g4-20-1", "type": "multiple-choice", "question": "'Campfire' là gì?", "questionVi": "'Campfire' là gì?", "options": ["Kẹo dẻo", "Lửa trại", "Đi bộ"], "correctAnswer": 1, "explanation": "'Campfire' là lửa trại." }]
+    }
+  ]
+}

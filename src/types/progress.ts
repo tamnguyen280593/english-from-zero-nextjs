@@ -6,6 +6,7 @@
 /** User's learning progress across all topics and lessons */
 export interface UserProgress {
   readonly completedLessons: ReadonlyArray<string>;
+  readonly lastAccessedCategory: string | null;
   readonly lastAccessedTopic: string | null;
   readonly lastAccessedLesson: string | null;
   readonly quizScores: Record<string, number>;
@@ -15,6 +16,7 @@ export interface UserProgress {
 /** Default empty progress for new users */
 export const DEFAULT_PROGRESS: UserProgress = {
   completedLessons: [],
+  lastAccessedCategory: null,
   lastAccessedTopic: null,
   lastAccessedLesson: null,
   quizScores: {},

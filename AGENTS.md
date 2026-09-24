@@ -7,3 +7,19 @@ This version has breaking changes — APIs, conventions, and file structure may 
 This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
 <!-- END:nextjs-agent-rules -->
+
+## Coding & Project Rules
+
+This project uses a sophisticated Agentic Workflow. **BEFORE generating or modifying any code, you MUST:**
+1. Read the strict coding standards in `.agents/rules/coding-standards.md` (e.g., No `any` types, Clean Code principles).
+2. Read the UI design rules in `.agents/rules/ui-design-rules.md`.
+3. Check the skills folder (`.agents/skills/`) to use predefined workflows (like `build-json-data`).
+
+Failure to run your generated code against these rules before committing is unacceptable.
+
+## Content Guidelines
+
+For all educational content in this repository, strictly adhere to the following rules:
+- **Topics**: Each topic (chủ đề) MUST have **at least 10 lessons** (bài học).
+- **Lessons**: Each lesson MUST have **at least 10 vocabulary words** and **at least 10 phrases**.
+- **Practice**: Each lesson's practice section (quiz) MUST generate **at least 15 questions**. (Currently enforced automatically via `quizGenerator`).

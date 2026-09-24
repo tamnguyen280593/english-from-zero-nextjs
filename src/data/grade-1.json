@@ -6,221 +6,396 @@
       "slug": "in-the-school-playground",
       "topicSlug": "grade-1",
       "title": "In the school playground",
-      "titleVi": "Trên sân trường (Quả bóng, Sách)",
+      "titleVi": "Trên sân trường",
       "order": 1,
       "vocabulary": [
-        {
-          "id": "v-g1-ball",
-          "word": "ball",
-          "meaningVi": "Quả bóng",
-          "ipa": "/bɔːl/",
-          "partOfSpeech": "noun",
-          "image": "/images/lessons/grade-1/ball.webp",
-          "exampleSentence": "I have a ball.",
-          "exampleSentenceVi": "Tôi có một quả bóng."
-        },
-        {
-          "id": "v-g1-book",
-          "word": "book",
-          "meaningVi": "Quyển sách",
-          "ipa": "/bʊk/",
-          "partOfSpeech": "noun",
-          "image": "/images/lessons/grade-1/book.webp",
-          "exampleSentence": "This is my book.",
-          "exampleSentenceVi": "Đây là quyển sách của tôi."
-        }
+        { "id": "v-g1-01-ball", "word": "ball", "meaningVi": "Quả bóng", "ipa": "/bɔːl/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I have a ball.", "exampleSentenceVi": "Tôi có một quả bóng." },
+        { "id": "v-g1-01-book", "word": "book", "meaningVi": "Quyển sách", "ipa": "/bʊk/", "partOfSpeech": "noun", "image": "", "exampleSentence": "This is my book.", "exampleSentenceVi": "Đây là quyển sách của tôi." },
+        { "id": "v-g1-01-bag", "word": "bag", "meaningVi": "Cái cặp", "ipa": "/bæɡ/", "partOfSpeech": "noun", "image": "", "exampleSentence": "My bag is blue.", "exampleSentenceVi": "Cặp của tôi màu xanh." }
       ],
       "phrases": [
-        {
-          "id": "p-g1-ihave",
-          "phrase": "I have a...",
-          "meaningVi": "Tôi có một...",
-          "ipa": "/aɪ hæv ə/",
-          "usage": "Dùng để nói bạn đang có một đồ vật gì đó."
-        }
+        { "id": "p-g1-01-a", "phrase": "I have a...", "meaningVi": "Tôi có một...", "ipa": "/aɪ hæv ə/", "usage": "Nói bạn có đồ vật gì." },
+        { "id": "p-g1-01-b", "phrase": "This is my...", "meaningVi": "Đây là ... của tôi.", "ipa": "/ðɪs ɪz maɪ/", "usage": "Giới thiệu đồ vật của mình." }
       ],
-      "dialogues": [],
+      "dialogues": [
+        { "id": "d-g1-01", "title": "On the playground", "titleVi": "Trên sân trường", "situation": "Hai bạn nói chuyện trên sân trường.", "lines": [
+          { "speaker": "Lan", "text": "I have a ball.", "textVi": "Mình có một quả bóng.", "ipa": "" },
+          { "speaker": "Nam", "text": "I have a book.", "textVi": "Mình có một quyển sách.", "ipa": "" }
+        ]}
+      ],
       "practice": [
-        {
-          "id": "q-g1-1-1",
-          "type": "multiple-choice",
-          "question": "What is the meaning of 'ball'?",
-          "questionVi": "Từ 'ball' có nghĩa là gì?",
-          "options": ["Quyển sách", "Quả bóng", "Bút chì"],
-          "correctAnswer": 1,
-          "explanation": "'Ball' là quả bóng. Quyển sách là 'book'."
-        }
+        { "id": "q-g1-01-1", "type": "multiple-choice", "question": "What is 'ball' in Vietnamese?", "questionVi": "'Ball' nghĩa là gì?", "options": ["Quyển sách", "Quả bóng", "Cái cặp"], "correctAnswer": 1, "explanation": "'Ball' là quả bóng." },
+        { "id": "q-g1-01-2", "type": "multiple-choice", "question": "'I have a ___.' (sách)", "questionVi": "Điền vào chỗ trống (sách).", "options": ["ball", "bag", "book"], "correctAnswer": 2, "explanation": "'Book' là quyển sách." }
       ]
     },
     {
       "id": "grade1-02",
-      "slug": "at-the-birthday-party",
+      "slug": "in-the-dining-room",
       "topicSlug": "grade-1",
-      "title": "At the birthday party",
-      "titleVi": "Bữa tiệc sinh nhật (Số đếm 1-10)",
+      "title": "In the dining room",
+      "titleVi": "Trong phòng ăn",
       "order": 2,
       "vocabulary": [
-        {
-          "id": "v-g1-one",
-          "word": "one",
-          "meaningVi": "Số 1",
-          "ipa": "/wʌn/",
-          "partOfSpeech": "noun",
-          "image": "/images/lessons/grade-1/one.webp",
-          "exampleSentence": "I have one balloon.",
-          "exampleSentenceVi": "Tôi có 1 quả bóng bay."
-        },
-        {
-          "id": "v-g1-two",
-          "word": "two",
-          "meaningVi": "Số 2",
-          "ipa": "/tuː/",
-          "partOfSpeech": "noun",
-          "image": "/images/lessons/grade-1/two.webp",
-          "exampleSentence": "She has two gifts.",
-          "exampleSentenceVi": "Cô ấy có 2 món quà."
-        }
+        { "id": "v-g1-02-rice", "word": "rice", "meaningVi": "Cơm", "ipa": "/raɪs/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I like rice.", "exampleSentenceVi": "Tôi thích ăn cơm." },
+        { "id": "v-g1-02-milk", "word": "milk", "meaningVi": "Sữa", "ipa": "/mɪlk/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I drink milk.", "exampleSentenceVi": "Tôi uống sữa." },
+        { "id": "v-g1-02-egg", "word": "egg", "meaningVi": "Quả trứng", "ipa": "/eɡ/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I eat an egg.", "exampleSentenceVi": "Tôi ăn trứng." }
       ],
       "phrases": [
-        {
-          "id": "p-g1-howold",
-          "phrase": "How old are you?",
-          "meaningVi": "Bạn mấy tuổi?",
-          "ipa": "/haʊ oʊld ɑːr juː/",
-          "usage": "Dùng để hỏi tuổi."
-        },
-        {
-          "id": "p-g1-iam",
-          "phrase": "I am ... years old.",
-          "meaningVi": "Mình ... tuổi.",
-          "ipa": "/aɪ æm ... jɪrz oʊld/",
-          "usage": "Dùng để trả lời tuổi."
-        }
+        { "id": "p-g1-02-a", "phrase": "I like...", "meaningVi": "Tôi thích...", "ipa": "/aɪ laɪk/", "usage": "Nói về thức ăn bạn thích." },
+        { "id": "p-g1-02-b", "phrase": "I eat/drink...", "meaningVi": "Tôi ăn/uống...", "ipa": "/aɪ iːt/ /aɪ drɪŋk/", "usage": "Nói về việc ăn uống." }
       ],
       "dialogues": [],
       "practice": [
-        {
-          "id": "q-g1-2-1",
-          "type": "multiple-choice",
-          "question": "How do you answer: 'How old are you?'",
-          "questionVi": "Bạn trả lời câu 'How old are you?' như thế nào?",
-          "options": ["I am fine.", "I am six years old.", "My name is Nam."],
-          "correctAnswer": 1,
-          "explanation": "'How old are you?' dùng để hỏi tuổi, nên đáp án là 'I am six years old.'"
-        }
+        { "id": "q-g1-02-1", "type": "multiple-choice", "question": "What do you drink?", "questionVi": "Bạn uống gì?", "options": ["rice", "egg", "milk"], "correctAnswer": 2, "explanation": "'Milk' (sữa) là thức uống." },
+        { "id": "q-g1-02-2", "type": "multiple-choice", "question": "'Egg' nghĩa là gì?", "questionVi": "'Egg' nghĩa là gì?", "options": ["Cơm", "Quả trứng", "Sữa"], "correctAnswer": 1, "explanation": "'Egg' là quả trứng." }
       ]
     },
     {
       "id": "grade1-03",
-      "slug": "at-home",
+      "slug": "at-the-street-market",
       "topicSlug": "grade-1",
-      "title": "At home",
-      "titleVi": "Ở nhà (Gia đình)",
+      "title": "At the street market",
+      "titleVi": "Ở chợ đường phố",
       "order": 3,
       "vocabulary": [
-        {
-          "id": "v-g1-mother",
-          "word": "mother",
-          "meaningVi": "Mẹ",
-          "ipa": "/ˈmʌðər/",
-          "partOfSpeech": "noun",
-          "image": "/images/lessons/grade-1/mother.webp",
-          "exampleSentence": "This is my mother.",
-          "exampleSentenceVi": "Đây là mẹ của mình."
-        },
-        {
-          "id": "v-g1-father",
-          "word": "father",
-          "meaningVi": "Bố",
-          "ipa": "/ˈfɑːðər/",
-          "partOfSpeech": "noun",
-          "image": "/images/lessons/grade-1/father.webp",
-          "exampleSentence": "This is my father.",
-          "exampleSentenceVi": "Đây là bố của mình."
-        }
+        { "id": "v-g1-03-apple", "word": "apple", "meaningVi": "Quả táo", "ipa": "/ˈæpəl/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I want an apple.", "exampleSentenceVi": "Tôi muốn một quả táo." },
+        { "id": "v-g1-03-banana", "word": "banana", "meaningVi": "Quả chuối", "ipa": "/bəˈnænə/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The banana is yellow.", "exampleSentenceVi": "Quả chuối màu vàng." },
+        { "id": "v-g1-03-orange", "word": "orange", "meaningVi": "Quả cam", "ipa": "/ˈɔːrɪndʒ/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I like oranges.", "exampleSentenceVi": "Tôi thích cam." }
       ],
       "phrases": [
-        {
-          "id": "p-g1-thisis",
-          "phrase": "This is my...",
-          "meaningVi": "Đây là ... của mình.",
-          "ipa": "/ðɪs ɪz maɪ/",
-          "usage": "Dùng để giới thiệu ai hoặc đồ vật gì."
-        }
+        { "id": "p-g1-03-a", "phrase": "I want a/an...", "meaningVi": "Tôi muốn một...", "ipa": "/aɪ wɑːnt/", "usage": "Nói bạn muốn mua gì." },
+        { "id": "p-g1-03-b", "phrase": "How many...?", "meaningVi": "Bao nhiêu...?", "ipa": "/haʊ ˈmeni/", "usage": "Hỏi số lượng." }
       ],
-      "dialogues": [],
+      "dialogues": [
+        { "id": "d-g1-03", "title": "At the market", "titleVi": "Ở chợ", "situation": "Mẹ con đi chợ mua trái cây.", "lines": [
+          { "speaker": "Mom", "text": "Do you want an apple?", "textVi": "Con muốn một quả táo không?", "ipa": "" },
+          { "speaker": "Child", "text": "Yes! I want an apple.", "textVi": "Có ạ! Con muốn một quả táo.", "ipa": "" }
+        ]}
+      ],
       "practice": [
-        {
-          "id": "q-g1-3-1",
-          "type": "multiple-choice",
-          "question": "Which word means 'Bố'?",
-          "questionVi": "Từ nào có nghĩa là 'Bố'?",
-          "options": ["brother", "mother", "father"],
-          "correctAnswer": 2,
-          "explanation": "'Father' nghĩa là Bố. 'Mother' là Mẹ."
-        }
+        { "id": "q-g1-03-1", "type": "multiple-choice", "question": "Which fruit is yellow?", "questionVi": "Trái cây nào màu vàng?", "options": ["apple", "banana", "orange"], "correctAnswer": 1, "explanation": "'Banana' (chuối) thường có màu vàng." },
+        { "id": "q-g1-03-2", "type": "multiple-choice", "question": "'I want ___ apple.' — Điền a hay an?", "questionVi": "Điền 'a' hay 'an'?", "options": ["a", "an", "the"], "correctAnswer": 1, "explanation": "'An' dùng trước nguyên âm (apple bắt đầu bằng 'a')." }
       ]
     },
     {
       "id": "grade1-04",
+      "slug": "in-the-bedroom",
+      "topicSlug": "grade-1",
+      "title": "In the bedroom",
+      "titleVi": "Trong phòng ngủ",
+      "order": 4,
+      "vocabulary": [
+        { "id": "v-g1-04-bed", "word": "bed", "meaningVi": "Cái giường", "ipa": "/bed/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I sleep on my bed.", "exampleSentenceVi": "Tôi ngủ trên giường." },
+        { "id": "v-g1-04-doll", "word": "doll", "meaningVi": "Búp bê", "ipa": "/dɑːl/", "partOfSpeech": "noun", "image": "", "exampleSentence": "This is my doll.", "exampleSentenceVi": "Đây là búp bê của tôi." },
+        { "id": "v-g1-04-teddy", "word": "teddy bear", "meaningVi": "Gấu bông", "ipa": "/ˈtedi ber/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I love my teddy bear.", "exampleSentenceVi": "Tôi yêu gấu bông." }
+      ],
+      "phrases": [
+        { "id": "p-g1-04-a", "phrase": "Where is my...?", "meaningVi": "...của tôi ở đâu?", "ipa": "/wer ɪz maɪ/", "usage": "Hỏi vị trí đồ vật." },
+        { "id": "p-g1-04-b", "phrase": "It is on/in/under the...", "meaningVi": "Nó ở trên/trong/dưới...", "ipa": "", "usage": "Chỉ vị trí đồ vật." }
+      ],
+      "dialogues": [],
+      "practice": [
+        { "id": "q-g1-04-1", "type": "multiple-choice", "question": "Where do you sleep?", "questionVi": "Bạn ngủ ở đâu?", "options": ["On a desk", "On a bed", "On a chair"], "correctAnswer": 1, "explanation": "Chúng ta ngủ trên giường (bed)." }
+      ]
+    },
+    {
+      "id": "grade1-05",
+      "slug": "at-the-fish-and-chip-shop",
+      "topicSlug": "grade-1",
+      "title": "At the fish and chip shop",
+      "titleVi": "Ở cửa hàng thức ăn",
+      "order": 5,
+      "vocabulary": [
+        { "id": "v-g1-05-fish", "word": "fish", "meaningVi": "Cá", "ipa": "/fɪʃ/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I like fish.", "exampleSentenceVi": "Tôi thích cá." },
+        { "id": "v-g1-05-chips", "word": "chips", "meaningVi": "Khoai tây chiên", "ipa": "/tʃɪps/", "partOfSpeech": "noun", "image": "", "exampleSentence": "Chips are yummy!", "exampleSentenceVi": "Khoai tây chiên ngon lắm!" },
+        { "id": "v-g1-05-juice", "word": "juice", "meaningVi": "Nước ép", "ipa": "/dʒuːs/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I drink orange juice.", "exampleSentenceVi": "Tôi uống nước cam." }
+      ],
+      "phrases": [
+        { "id": "p-g1-05-a", "phrase": "Can I have...?", "meaningVi": "Cho tôi xin...?", "ipa": "/kæn aɪ hæv/", "usage": "Gọi món lịch sự." },
+        { "id": "p-g1-05-b", "phrase": "Yes, please. / No, thank you.", "meaningVi": "Vâng, có ạ. / Không, cảm ơn.", "ipa": "", "usage": "Trả lời khi được mời." }
+      ],
+      "dialogues": [
+        { "id": "d-g1-05", "title": "Ordering food", "titleVi": "Gọi món", "situation": "Bạn nhỏ gọi món ở cửa hàng.", "lines": [
+          { "speaker": "Staff", "text": "What do you want?", "textVi": "Bạn muốn gì?", "ipa": "" },
+          { "speaker": "Child", "text": "Can I have fish and chips?", "textVi": "Cho tôi xin cá và khoai chiên?", "ipa": "" },
+          { "speaker": "Staff", "text": "Here you are.", "textVi": "Của bạn đây.", "ipa": "" }
+        ]}
+      ],
+      "practice": [
+        { "id": "q-g1-05-1", "type": "multiple-choice", "question": "'Chips' là gì?", "questionVi": "'Chips' nghĩa là gì?", "options": ["Cá", "Khoai tây chiên", "Nước ép"], "correctAnswer": 1, "explanation": "'Chips' là khoai tây chiên." },
+        { "id": "q-g1-05-2", "type": "multiple-choice", "question": "Cách gọi món lịch sự?", "questionVi": "Cách gọi món lịch sự là gì?", "options": ["Give me!", "Can I have...?", "I want!"], "correctAnswer": 1, "explanation": "'Can I have...?' là cách hỏi lịch sự." }
+      ]
+    },
+    {
+      "id": "grade1-06",
       "slug": "in-the-classroom",
       "topicSlug": "grade-1",
       "title": "In the classroom",
-      "titleVi": "Trong lớp học (Đồ dùng)",
-      "order": 4,
+      "titleVi": "Trong lớp học",
+      "order": 6,
       "vocabulary": [
-        {
-          "id": "v-g1-pen",
-          "word": "pen",
-          "meaningVi": "Cái bút mực",
-          "ipa": "/pen/",
-          "partOfSpeech": "noun",
-          "image": "/images/lessons/grade-1/pen.webp",
-          "exampleSentence": "I have a pen.",
-          "exampleSentenceVi": "Tôi có một cái bút mực."
-        },
-        {
-          "id": "v-g1-ruler",
-          "word": "ruler",
-          "meaningVi": "Cái thước kẻ",
-          "ipa": "/ˈruːlər/",
-          "partOfSpeech": "noun",
-          "image": "/images/lessons/grade-1/ruler.webp",
-          "exampleSentence": "I have a ruler.",
-          "exampleSentenceVi": "Tôi có một cái thước kẻ."
-        }
+        { "id": "v-g1-06-pen", "word": "pen", "meaningVi": "Bút mực", "ipa": "/pen/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I have a pen.", "exampleSentenceVi": "Tôi có một cây bút mực." },
+        { "id": "v-g1-06-pencil", "word": "pencil", "meaningVi": "Bút chì", "ipa": "/ˈpensəl/", "partOfSpeech": "noun", "image": "", "exampleSentence": "This is a pencil.", "exampleSentenceVi": "Đây là bút chì." },
+        { "id": "v-g1-06-ruler", "word": "ruler", "meaningVi": "Thước kẻ", "ipa": "/ˈruːlər/", "partOfSpeech": "noun", "image": "", "exampleSentence": "My ruler is long.", "exampleSentenceVi": "Thước kẻ của tôi dài." },
+        { "id": "v-g1-06-eraser", "word": "eraser", "meaningVi": "Cục tẩy", "ipa": "/ɪˈreɪsər/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I need an eraser.", "exampleSentenceVi": "Tôi cần cục tẩy." }
       ],
       "phrases": [
-        {
-          "id": "p-g1-whatisthis",
-          "phrase": "What is this?",
-          "meaningVi": "Đây là cái gì?",
-          "ipa": "/hwʌt ɪz ðɪs/",
-          "usage": "Hỏi về một vật ở gần."
-        }
+        { "id": "p-g1-06-a", "phrase": "What is this?", "meaningVi": "Đây là cái gì?", "ipa": "/wɒt ɪz ðɪs/", "usage": "Hỏi về đồ vật." },
+        { "id": "p-g1-06-b", "phrase": "It is a/an...", "meaningVi": "Đó là một...", "ipa": "/ɪt ɪz/", "usage": "Trả lời câu hỏi What is this?" }
       ],
       "dialogues": [
-        {
-          "id": "d-g1-class",
-          "title": "In the classroom",
-          "titleVi": "Trong lớp học",
-          "situation": "Hai bạn đang hỏi về đồ dùng học tập.",
-          "lines": [
-            { "speaker": "Lan", "text": "What is this?", "textVi": "Đây là cái gì?", "ipa": "" },
-            { "speaker": "Nam", "text": "It is a pen.", "textVi": "Đó là một cái bút mực.", "ipa": "" }
-          ]
-        }
+        { "id": "d-g1-06", "title": "In the classroom", "titleVi": "Trong lớp học", "situation": "Hai bạn hỏi về đồ dùng.", "lines": [
+          { "speaker": "Lan", "text": "What is this?", "textVi": "Đây là cái gì?", "ipa": "" },
+          { "speaker": "Nam", "text": "It is a pencil.", "textVi": "Đó là bút chì.", "ipa": "" }
+        ]}
       ],
       "practice": [
-        {
-          "id": "q-g1-4-1",
-          "type": "multiple-choice",
-          "question": "What is a 'ruler'?",
-          "questionVi": "Ruler là đồ vật gì?",
-          "options": ["Cái thước kẻ", "Cái bút chì", "Cục tẩy"],
-          "correctAnswer": 0,
-          "explanation": "'Ruler' nghĩa là cái thước kẻ."
-        }
+        { "id": "q-g1-06-1", "type": "multiple-choice", "question": "'Eraser' là gì?", "questionVi": "'Eraser' nghĩa là gì?", "options": ["Bút chì", "Cục tẩy", "Thước kẻ"], "correctAnswer": 1, "explanation": "'Eraser' là cục tẩy." },
+        { "id": "q-g1-06-2", "type": "multiple-choice", "question": "What is this? — It is ___ pencil.", "questionVi": "Điền a hay an?", "options": ["a", "an", "the"], "correctAnswer": 0, "explanation": "'a' dùng trước phụ âm (pencil bắt đầu bằng 'p')." }
+      ]
+    },
+    {
+      "id": "grade1-07",
+      "slug": "in-the-garden",
+      "topicSlug": "grade-1",
+      "title": "In the garden",
+      "titleVi": "Trong vườn",
+      "order": 7,
+      "vocabulary": [
+        { "id": "v-g1-07-flower", "word": "flower", "meaningVi": "Bông hoa", "ipa": "/ˈflaʊər/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The flower is red.", "exampleSentenceVi": "Bông hoa màu đỏ." },
+        { "id": "v-g1-07-tree", "word": "tree", "meaningVi": "Cây", "ipa": "/triː/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The tree is big.", "exampleSentenceVi": "Cái cây to." },
+        { "id": "v-g1-07-bird", "word": "bird", "meaningVi": "Con chim", "ipa": "/bɜːrd/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I see a bird.", "exampleSentenceVi": "Tôi thấy một con chim." }
+      ],
+      "phrases": [
+        { "id": "p-g1-07-a", "phrase": "I see a...", "meaningVi": "Tôi nhìn thấy một...", "ipa": "/aɪ siː ə/", "usage": "Nói bạn nhìn thấy gì." },
+        { "id": "p-g1-07-b", "phrase": "It is red/green/blue.", "meaningVi": "Nó màu đỏ/xanh lá/xanh dương.", "ipa": "", "usage": "Miêu tả màu sắc." }
+      ],
+      "dialogues": [],
+      "practice": [
+        { "id": "q-g1-07-1", "type": "multiple-choice", "question": "'Tree' nghĩa là gì?", "questionVi": "'Tree' nghĩa là gì?", "options": ["Bông hoa", "Con chim", "Cái cây"], "correctAnswer": 2, "explanation": "'Tree' là cái cây." },
+        { "id": "q-g1-07-2", "type": "multiple-choice", "question": "I ___ a bird in the garden.", "questionVi": "Điền vào: Tôi ___ con chim trong vườn.", "options": ["see", "eat", "drink"], "correctAnswer": 0, "explanation": "'See' nghĩa là nhìn thấy." }
+      ]
+    },
+    {
+      "id": "grade1-08",
+      "slug": "in-the-park",
+      "topicSlug": "grade-1",
+      "title": "In the park",
+      "titleVi": "Trong công viên",
+      "order": 8,
+      "vocabulary": [
+        { "id": "v-g1-08-run", "word": "run", "meaningVi": "Chạy", "ipa": "/rʌn/", "partOfSpeech": "verb", "image": "", "exampleSentence": "I can run.", "exampleSentenceVi": "Tôi có thể chạy." },
+        { "id": "v-g1-08-jump", "word": "jump", "meaningVi": "Nhảy", "ipa": "/dʒʌmp/", "partOfSpeech": "verb", "image": "", "exampleSentence": "I can jump.", "exampleSentenceVi": "Tôi có thể nhảy." },
+        { "id": "v-g1-08-walk", "word": "walk", "meaningVi": "Đi bộ", "ipa": "/wɔːk/", "partOfSpeech": "verb", "image": "", "exampleSentence": "Let's walk in the park.", "exampleSentenceVi": "Hãy đi bộ trong công viên." }
+      ],
+      "phrases": [
+        { "id": "p-g1-08-a", "phrase": "I can...", "meaningVi": "Tôi có thể...", "ipa": "/aɪ kæn/", "usage": "Nói về khả năng." },
+        { "id": "p-g1-08-b", "phrase": "Let's...", "meaningVi": "Hãy cùng...", "ipa": "/lets/", "usage": "Rủ ai làm gì đó." }
+      ],
+      "dialogues": [
+        { "id": "d-g1-08", "title": "In the park", "titleVi": "Trong công viên", "situation": "Hai bạn chơi trong công viên.", "lines": [
+          { "speaker": "Nam", "text": "Let's run!", "textVi": "Hãy chạy nào!", "ipa": "" },
+          { "speaker": "Lan", "text": "OK! I can run fast!", "textVi": "OK! Mình chạy nhanh lắm!", "ipa": "" }
+        ]}
+      ],
+      "practice": [
+        { "id": "q-g1-08-1", "type": "multiple-choice", "question": "'Jump' nghĩa là gì?", "questionVi": "'Jump' nghĩa là gì?", "options": ["Chạy", "Nhảy", "Đi bộ"], "correctAnswer": 1, "explanation": "'Jump' là nhảy." },
+        { "id": "q-g1-08-2", "type": "multiple-choice", "question": "___ go to the park!", "questionVi": "Điền: ___ đi công viên nào!", "options": ["Let's", "I'm", "It's"], "correctAnswer": 0, "explanation": "'Let's' dùng để rủ ai cùng làm gì." }
+      ]
+    },
+    {
+      "id": "grade1-09",
+      "slug": "in-the-shop",
+      "topicSlug": "grade-1",
+      "title": "In the shop",
+      "titleVi": "Trong cửa hàng",
+      "order": 9,
+      "vocabulary": [
+        { "id": "v-g1-09-hat", "word": "hat", "meaningVi": "Cái mũ", "ipa": "/hæt/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I like this hat.", "exampleSentenceVi": "Tôi thích cái mũ này." },
+        { "id": "v-g1-09-shirt", "word": "shirt", "meaningVi": "Áo sơ mi", "ipa": "/ʃɜːrt/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The shirt is white.", "exampleSentenceVi": "Áo sơ mi trắng." },
+        { "id": "v-g1-09-shoes", "word": "shoes", "meaningVi": "Đôi giày", "ipa": "/ʃuːz/", "partOfSpeech": "noun", "image": "", "exampleSentence": "My shoes are new.", "exampleSentenceVi": "Đôi giày tôi mới." }
+      ],
+      "phrases": [
+        { "id": "p-g1-09-a", "phrase": "I like this...", "meaningVi": "Tôi thích cái ... này.", "ipa": "/aɪ laɪk ðɪs/", "usage": "Nói bạn thích đồ vật nào." },
+        { "id": "p-g1-09-b", "phrase": "It is big/small.", "meaningVi": "Nó to/nhỏ.", "ipa": "", "usage": "Miêu tả kích thước." }
+      ],
+      "dialogues": [],
+      "practice": [
+        { "id": "q-g1-09-1", "type": "multiple-choice", "question": "'Shoes' nghĩa là gì?", "questionVi": "'Shoes' nghĩa là gì?", "options": ["Cái mũ", "Áo sơ mi", "Đôi giày"], "correctAnswer": 2, "explanation": "'Shoes' là đôi giày." }
+      ]
+    },
+    {
+      "id": "grade1-10",
+      "slug": "at-the-zoo",
+      "topicSlug": "grade-1",
+      "title": "At the zoo",
+      "titleVi": "Ở sở thú",
+      "order": 10,
+      "vocabulary": [
+        { "id": "v-g1-10-lion", "word": "lion", "meaningVi": "Sư tử", "ipa": "/ˈlaɪən/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The lion is big.", "exampleSentenceVi": "Con sư tử to." },
+        { "id": "v-g1-10-monkey", "word": "monkey", "meaningVi": "Con khỉ", "ipa": "/ˈmʌŋki/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The monkey can climb.", "exampleSentenceVi": "Con khỉ biết leo trèo." },
+        { "id": "v-g1-10-elephant", "word": "elephant", "meaningVi": "Con voi", "ipa": "/ˈelɪfənt/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I see an elephant!", "exampleSentenceVi": "Tôi nhìn thấy con voi!" }
+      ],
+      "phrases": [
+        { "id": "p-g1-10-a", "phrase": "Look! It is a/an...", "meaningVi": "Nhìn kìa! Đó là một...", "ipa": "/lʊk/", "usage": "Chỉ cho ai đó nhìn." },
+        { "id": "p-g1-10-b", "phrase": "It is big/small/tall.", "meaningVi": "Nó to/nhỏ/cao.", "ipa": "", "usage": "Miêu tả con vật." }
+      ],
+      "dialogues": [
+        { "id": "d-g1-10", "title": "At the zoo", "titleVi": "Ở sở thú", "situation": "Gia đình đi sở thú.", "lines": [
+          { "speaker": "Child", "text": "Look! It is an elephant!", "textVi": "Nhìn kìa! Đó là con voi!", "ipa": "" },
+          { "speaker": "Dad", "text": "Yes! The elephant is very big.", "textVi": "Đúng rồi! Con voi rất to.", "ipa": "" }
+        ]}
+      ],
+      "practice": [
+        { "id": "q-g1-10-1", "type": "multiple-choice", "question": "Which animal can climb trees?", "questionVi": "Con vật nào biết leo cây?", "options": ["lion", "elephant", "monkey"], "correctAnswer": 2, "explanation": "'Monkey' (khỉ) biết leo cây." },
+        { "id": "q-g1-10-2", "type": "multiple-choice", "question": "'Elephant' nghĩa là gì?", "questionVi": "'Elephant' nghĩa là gì?", "options": ["Sư tử", "Con voi", "Con khỉ"], "correctAnswer": 1, "explanation": "'Elephant' là con voi." }
+      ]
+    },
+    {
+      "id": "grade1-11",
+      "slug": "at-the-bus-stop",
+      "topicSlug": "grade-1",
+      "title": "At the bus stop",
+      "titleVi": "Ở trạm xe buýt",
+      "order": 11,
+      "vocabulary": [
+        { "id": "v-g1-11-bus", "word": "bus", "meaningVi": "Xe buýt", "ipa": "/bʌs/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I go by bus.", "exampleSentenceVi": "Tôi đi bằng xe buýt." },
+        { "id": "v-g1-11-car", "word": "car", "meaningVi": "Ô tô", "ipa": "/kɑːr/", "partOfSpeech": "noun", "image": "", "exampleSentence": "Dad has a car.", "exampleSentenceVi": "Bố có ô tô." },
+        { "id": "v-g1-11-bike", "word": "bike", "meaningVi": "Xe đạp", "ipa": "/baɪk/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I ride my bike.", "exampleSentenceVi": "Tôi đi xe đạp." }
+      ],
+      "phrases": [
+        { "id": "p-g1-11-a", "phrase": "I go by...", "meaningVi": "Tôi đi bằng...", "ipa": "/aɪ ɡoʊ baɪ/", "usage": "Nói về phương tiện di chuyển." },
+        { "id": "p-g1-11-b", "phrase": "I ride a...", "meaningVi": "Tôi cưỡi/đi...", "ipa": "/aɪ raɪd/", "usage": "Nói về việc đi xe." }
+      ],
+      "dialogues": [],
+      "practice": [
+        { "id": "q-g1-11-1", "type": "multiple-choice", "question": "'Bike' nghĩa là gì?", "questionVi": "'Bike' nghĩa là gì?", "options": ["Xe buýt", "Ô tô", "Xe đạp"], "correctAnswer": 2, "explanation": "'Bike' là xe đạp." },
+        { "id": "q-g1-11-2", "type": "multiple-choice", "question": "I go to school ___ bus.", "questionVi": "Tôi đi học ___ xe buýt.", "options": ["on", "by", "in"], "correctAnswer": 1, "explanation": "'by' dùng với phương tiện (by bus, by car)." }
+      ]
+    },
+    {
+      "id": "grade1-12",
+      "slug": "at-the-lake",
+      "topicSlug": "grade-1",
+      "title": "At the lake",
+      "titleVi": "Ở hồ nước",
+      "order": 12,
+      "vocabulary": [
+        { "id": "v-g1-12-duck", "word": "duck", "meaningVi": "Con vịt", "ipa": "/dʌk/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I see a duck.", "exampleSentenceVi": "Tôi thấy con vịt." },
+        { "id": "v-g1-12-frog", "word": "frog", "meaningVi": "Con ếch", "ipa": "/frɑːɡ/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The frog can jump.", "exampleSentenceVi": "Con ếch biết nhảy." },
+        { "id": "v-g1-12-water", "word": "water", "meaningVi": "Nước", "ipa": "/ˈwɔːtər/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The water is blue.", "exampleSentenceVi": "Nước màu xanh." }
+      ],
+      "phrases": [
+        { "id": "p-g1-12-a", "phrase": "It can swim/jump/fly.", "meaningVi": "Nó biết bơi/nhảy/bay.", "ipa": "", "usage": "Nói về khả năng của con vật." }
+      ],
+      "dialogues": [],
+      "practice": [
+        { "id": "q-g1-12-1", "type": "multiple-choice", "question": "Which animal can swim in the lake?", "questionVi": "Con vật nào bơi trong hồ?", "options": ["bird", "duck", "cat"], "correctAnswer": 1, "explanation": "'Duck' (vịt) bơi trong hồ." }
+      ]
+    },
+    {
+      "id": "grade1-13",
+      "slug": "in-the-school-canteen",
+      "topicSlug": "grade-1",
+      "title": "In the school canteen",
+      "titleVi": "Trong căn-tin trường",
+      "order": 13,
+      "vocabulary": [
+        { "id": "v-g1-13-bread", "word": "bread", "meaningVi": "Bánh mì", "ipa": "/bred/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I eat bread.", "exampleSentenceVi": "Tôi ăn bánh mì." },
+        { "id": "v-g1-13-cake", "word": "cake", "meaningVi": "Bánh ngọt", "ipa": "/keɪk/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The cake is yummy!", "exampleSentenceVi": "Bánh ngọt ngon lắm!" },
+        { "id": "v-g1-13-water", "word": "water", "meaningVi": "Nước lọc", "ipa": "/ˈwɔːtər/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I drink water.", "exampleSentenceVi": "Tôi uống nước." }
+      ],
+      "phrases": [
+        { "id": "p-g1-13-a", "phrase": "I am hungry/thirsty.", "meaningVi": "Tôi đói/khát.", "ipa": "/aɪ æm ˈhʌŋɡri/ /ˈθɜːrsti/", "usage": "Nói khi đói hoặc khát." },
+        { "id": "p-g1-13-b", "phrase": "Can I have some...?", "meaningVi": "Cho tôi xin ít...?", "ipa": "", "usage": "Xin thức ăn lịch sự." }
+      ],
+      "dialogues": [
+        { "id": "d-g1-13", "title": "At lunch", "titleVi": "Giờ ăn trưa", "situation": "Giờ ăn trưa ở căn-tin.", "lines": [
+          { "speaker": "Nam", "text": "I am hungry!", "textVi": "Mình đói quá!", "ipa": "" },
+          { "speaker": "Lan", "text": "Me too. Can I have some bread?", "textVi": "Mình cũng vậy. Cho mình xin ít bánh mì.", "ipa": "" }
+        ]}
+      ],
+      "practice": [
+        { "id": "q-g1-13-1", "type": "multiple-choice", "question": "You are thirsty. What do you drink?", "questionVi": "Bạn khát. Bạn uống gì?", "options": ["bread", "cake", "water"], "correctAnswer": 2, "explanation": "Khi khát nước, bạn uống 'water' (nước)." },
+        { "id": "q-g1-13-2", "type": "multiple-choice", "question": "'I am hungry' nghĩa là gì?", "questionVi": "'I am hungry' nghĩa là gì?", "options": ["Tôi khát", "Tôi đói", "Tôi mệt"], "correctAnswer": 1, "explanation": "'Hungry' là đói. 'Thirsty' là khát." }
+      ]
+    },
+    {
+      "id": "grade1-14",
+      "slug": "in-the-toy-shop",
+      "topicSlug": "grade-1",
+      "title": "In the toy shop",
+      "titleVi": "Trong cửa hàng đồ chơi",
+      "order": 14,
+      "vocabulary": [
+        { "id": "v-g1-14-robot", "word": "robot", "meaningVi": "Người máy", "ipa": "/ˈroʊbɑːt/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I want a robot.", "exampleSentenceVi": "Tôi muốn một người máy." },
+        { "id": "v-g1-14-kite", "word": "kite", "meaningVi": "Cái diều", "ipa": "/kaɪt/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The kite is high.", "exampleSentenceVi": "Cái diều bay cao." },
+        { "id": "v-g1-14-car", "word": "toy car", "meaningVi": "Ô tô đồ chơi", "ipa": "/tɔɪ kɑːr/", "partOfSpeech": "noun", "image": "", "exampleSentence": "This toy car is red.", "exampleSentenceVi": "Chiếc ô tô đồ chơi màu đỏ." }
+      ],
+      "phrases": [
+        { "id": "p-g1-14-a", "phrase": "I want a/an...", "meaningVi": "Tôi muốn một...", "ipa": "/aɪ wɒnt/", "usage": "Nói bạn muốn đồ chơi gì." },
+        { "id": "p-g1-14-b", "phrase": "How much is it?", "meaningVi": "Nó bao nhiêu tiền?", "ipa": "/haʊ mʌtʃ ɪz ɪt/", "usage": "Hỏi giá." }
+      ],
+      "dialogues": [],
+      "practice": [
+        { "id": "q-g1-14-1", "type": "multiple-choice", "question": "'Kite' nghĩa là gì?", "questionVi": "'Kite' nghĩa là gì?", "options": ["Người máy", "Cái diều", "Ô tô đồ chơi"], "correctAnswer": 1, "explanation": "'Kite' là cái diều." }
+      ]
+    },
+    {
+      "id": "grade1-15",
+      "slug": "at-the-football-match",
+      "topicSlug": "grade-1",
+      "title": "At the football match",
+      "titleVi": "Ở trận bóng đá",
+      "order": 15,
+      "vocabulary": [
+        { "id": "v-g1-15-kick", "word": "kick", "meaningVi": "Đá", "ipa": "/kɪk/", "partOfSpeech": "verb", "image": "", "exampleSentence": "Kick the ball!", "exampleSentenceVi": "Đá bóng đi!" },
+        { "id": "v-g1-15-throw", "word": "throw", "meaningVi": "Ném", "ipa": "/θroʊ/", "partOfSpeech": "verb", "image": "", "exampleSentence": "Throw the ball to me.", "exampleSentenceVi": "Ném bóng cho mình." },
+        { "id": "v-g1-15-catch", "word": "catch", "meaningVi": "Bắt", "ipa": "/kætʃ/", "partOfSpeech": "verb", "image": "", "exampleSentence": "Catch!", "exampleSentenceVi": "Bắt lấy!" }
+      ],
+      "phrases": [
+        { "id": "p-g1-15-a", "phrase": "Well done! / Good job!", "meaningVi": "Giỏi lắm! / Làm tốt lắm!", "ipa": "", "usage": "Khen ai đó." },
+        { "id": "p-g1-15-b", "phrase": "Come on!", "meaningVi": "Cố lên!", "ipa": "/kʌm ɑːn/", "usage": "Cổ vũ động viên." }
+      ],
+      "dialogues": [
+        { "id": "d-g1-15", "title": "Football match", "titleVi": "Trận bóng đá", "situation": "Các bạn chơi bóng.", "lines": [
+          { "speaker": "Nam", "text": "Kick the ball!", "textVi": "Đá bóng đi!", "ipa": "" },
+          { "speaker": "Minh", "text": "I got it! Catch!", "textVi": "Mình bắt được! Bắt lấy!", "ipa": "" },
+          { "speaker": "Lan", "text": "Well done, Minh!", "textVi": "Giỏi lắm, Minh!", "ipa": "" }
+        ]}
+      ],
+      "practice": [
+        { "id": "q-g1-15-1", "type": "multiple-choice", "question": "'Kick' nghĩa là gì?", "questionVi": "'Kick' nghĩa là gì?", "options": ["Ném", "Đá", "Bắt"], "correctAnswer": 1, "explanation": "'Kick' là đá. 'Throw' là ném." },
+        { "id": "q-g1-15-2", "type": "multiple-choice", "question": "Khi khen ai, bạn nói gì?", "questionVi": "Khi khen ai, bạn nói gì?", "options": ["Come on!", "Well done!", "Help me!"], "correctAnswer": 1, "explanation": "'Well done!' là cách khen ai đó." }
+      ]
+    },
+    {
+      "id": "grade1-16",
+      "slug": "at-home",
+      "topicSlug": "grade-1",
+      "title": "At home",
+      "titleVi": "Ở nhà (Gia đình)",
+      "order": 16,
+      "vocabulary": [
+        { "id": "v-g1-16-mother", "word": "mother", "meaningVi": "Mẹ", "ipa": "/ˈmʌðər/", "partOfSpeech": "noun", "image": "", "exampleSentence": "This is my mother.", "exampleSentenceVi": "Đây là mẹ." },
+        { "id": "v-g1-16-father", "word": "father", "meaningVi": "Bố", "ipa": "/ˈfɑːðər/", "partOfSpeech": "noun", "image": "", "exampleSentence": "My father is tall.", "exampleSentenceVi": "Bố tôi cao." },
+        { "id": "v-g1-16-sister", "word": "sister", "meaningVi": "Chị/em gái", "ipa": "/ˈsɪstər/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I have a sister.", "exampleSentenceVi": "Tôi có em gái." },
+        { "id": "v-g1-16-brother", "word": "brother", "meaningVi": "Anh/em trai", "ipa": "/ˈbrʌðər/", "partOfSpeech": "noun", "image": "", "exampleSentence": "My brother is funny.", "exampleSentenceVi": "Anh trai tôi vui tính." }
+      ],
+      "phrases": [
+        { "id": "p-g1-16-a", "phrase": "This is my mother/father.", "meaningVi": "Đây là mẹ/bố tôi.", "ipa": "", "usage": "Giới thiệu gia đình." },
+        { "id": "p-g1-16-b", "phrase": "I love my family.", "meaningVi": "Tôi yêu gia đình.", "ipa": "/aɪ lʌv maɪ ˈfæməli/", "usage": "Bày tỏ tình cảm gia đình." }
+      ],
+      "dialogues": [
+        { "id": "d-g1-16", "title": "My family", "titleVi": "Gia đình tôi", "situation": "Bạn nhỏ giới thiệu gia đình.", "lines": [
+          { "speaker": "Lan", "text": "This is my mother. Her name is Hoa.", "textVi": "Đây là mẹ mình. Mẹ tên Hoa.", "ipa": "" },
+          { "speaker": "Nam", "text": "Hello! Nice to meet you!", "textVi": "Xin chào! Rất vui được gặp cô!", "ipa": "" },
+          { "speaker": "Mom", "text": "Nice to meet you too, Nam!", "textVi": "Cô cũng rất vui, Nam!", "ipa": "" }
+        ]}
+      ],
+      "practice": [
+        { "id": "q-g1-16-1", "type": "multiple-choice", "question": "'Brother' nghĩa là gì?", "questionVi": "'Brother' nghĩa là gì?", "options": ["Chị gái", "Anh/em trai", "Bố"], "correctAnswer": 1, "explanation": "'Brother' là anh/em trai. 'Sister' là chị/em gái." },
+        { "id": "q-g1-16-2", "type": "multiple-choice", "question": "This is my ___. Her name is Mai.", "questionVi": "Đây là ___ tôi. Tên cô ấy là Mai.", "options": ["father", "brother", "mother"], "correctAnswer": 2, "explanation": "'Her' dùng cho nữ → 'mother' (mẹ)." }
       ]
     }
   ]

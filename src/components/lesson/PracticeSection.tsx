@@ -1,21 +1,49 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import confetti from 'canvas-confetti';
 import styles from './PracticeSection.module.css';
 import type { PracticeQuestion } from '../../types/lesson';
 
 interface PracticeSectionProps {
   questions: ReadonlyArray<PracticeQuestion>;
   onComplete: (score: number) => void;
+  onRetry?: () => void;
 }
 
-export default function PracticeSection({ questions, onComplete }: PracticeSectionProps) {
+export default function PracticeSection({ questions, onComplete, onRetry }: PracticeSectionProps) {
   const [currentQIndex, setCurrentQIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [score, setScore] = useState(0);
   const [isFinished, setIsFinished] = useState(false);
   const [shake, setShake] = useState(false);
+
+  useEffect(() => {
+    if (isFinished) {
+      const finalScorePercent = Math.round((score / questions.length) * 100);
+      if (finalScorePercent >= 70) {
+        // Fire confetti!
+        const duration = 3 * 1000;
+        const animationEnd = Date.now() + duration;
+        const defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
+
+        const randomInRange = (min: number, max: number) => Math.random() * (max - min) + min;
+
+        const interval = setInterval(function() {
+          const timeLeft = animationEnd - Date.now();
+
+          if (timeLeft <= 0) {
+            return clearInterval(interval);
+          }
+
+          const particleCount = 50 * (timeLeft / duration);
+          confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 } }));
+          confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 } }));
+        }, 250);
+      }
+    }
+  }, [isFinished, score, questions.length]);
 
   if (!questions || questions.length === 0) {
     return null;
@@ -68,10 +96,15 @@ export default function PracticeSection({ questions, onComplete }: PracticeSecti
             Đúng {score}/{questions.length} câu ({finalScorePercent}%)
           </p>
           <div className={styles.completionMessage}>
-            {finalScorePercent === 100 ? 'Tuyệt vời! Bạn đã nắm vững bài học này.' :
-             finalScorePercent >= 70 ? 'Khá lắm! Bạn đang làm rất tốt.' :
-             'Cố gắng lên! Hãy xem lại bài học và thử lại nhé.'}
+            {finalScorePercent === 100 ? '🎉 Tuyệt vời! Bạn đã nắm vững bài học này.' :
+             finalScorePercent >= 70 ? '👍 Khá lắm! Bạn đang làm rất tốt.' :
+             '💪 Cố gắng lên! Hãy xem lại bài học và thử lại nhé.'}
           </div>
+          {onRetry && (
+            <button className={styles.retryBtn} onClick={onRetry}>
+              🔄 Làm lại bộ đề mới
+            </button>
+          )}
         </div>
       </div>
     );

@@ -1,0 +1,1845 @@
+{
+  "topicSlug": "weather",
+  "lessons": [
+    {
+      "id": "weather-1",
+      "slug": "lesson-1",
+      "topicSlug": "weather",
+      "title": "Basic Weather",
+      "titleVi": "Thời tiết cơ bản",
+      "order": 1,
+      "vocabulary": [
+        {
+          "id": "v-weather-1-1",
+          "word": "Weather",
+          "meaningVi": "Thời tiết",
+          "ipa": "/ˈwɛðər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Good weather.",
+          "exampleSentenceVi": "Thời tiết tốt."
+        },
+        {
+          "id": "v-weather-1-2",
+          "word": "Sun",
+          "meaningVi": "Mặt trời",
+          "ipa": "/sʌn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The sun is hot.",
+          "exampleSentenceVi": "Mặt trời rất nóng."
+        },
+        {
+          "id": "v-weather-1-3",
+          "word": "Rain",
+          "meaningVi": "Mưa",
+          "ipa": "/reɪn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Heavy rain.",
+          "exampleSentenceVi": "Mưa to."
+        },
+        {
+          "id": "v-weather-1-4",
+          "word": "Cloud",
+          "meaningVi": "Đám mây",
+          "ipa": "/klaʊd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Dark clouds.",
+          "exampleSentenceVi": "Những đám mây đen."
+        },
+        {
+          "id": "v-weather-1-5",
+          "word": "Wind",
+          "meaningVi": "Gió",
+          "ipa": "/wɪnd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Strong wind.",
+          "exampleSentenceVi": "Gió mạnh."
+        },
+        {
+          "id": "v-weather-1-6",
+          "word": "Snow",
+          "meaningVi": "Tuyết",
+          "ipa": "/snoʊ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "White snow.",
+          "exampleSentenceVi": "Tuyết trắng."
+        },
+        {
+          "id": "v-weather-1-7",
+          "word": "Hot",
+          "meaningVi": "Nóng",
+          "ipa": "/hɑːt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "It is hot.",
+          "exampleSentenceVi": "Trời đang nóng."
+        },
+        {
+          "id": "v-weather-1-8",
+          "word": "Cold",
+          "meaningVi": "Lạnh",
+          "ipa": "/koʊld/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "It is cold.",
+          "exampleSentenceVi": "Trời đang lạnh."
+        },
+        {
+          "id": "v-weather-1-9",
+          "word": "Warm",
+          "meaningVi": "Ấm áp",
+          "ipa": "/wɔːrm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Warm weather.",
+          "exampleSentenceVi": "Thời tiết ấm áp."
+        },
+        {
+          "id": "v-weather-1-10",
+          "word": "Cool",
+          "meaningVi": "Mát mẻ",
+          "ipa": "/kuːl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Cool breeze.",
+          "exampleSentenceVi": "Cơn gió mát."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-weather-1-1",
+          "phrase": "What is the weather like today?",
+          "meaningVi": "Hôm nay thời tiết thế nào?",
+          "ipa": "/wʌt ɪz ðə /ˈwɛðər laɪk təˈdeɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-1-2",
+          "phrase": "The sun is shining brightly.",
+          "meaningVi": "Mặt trời đang chiếu sáng chói chang.",
+          "ipa": "/ðə sʌn ɪz ˈʃaɪnɪŋ ˈbraɪtli/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-1-3",
+          "phrase": "I think it is going to rain.",
+          "meaningVi": "Tôi nghĩ trời sắp mưa rồi.",
+          "ipa": "/aɪ θɪŋk ɪt ɪz ˈɡoʊɪŋ tuː reɪn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-1-4",
+          "phrase": "There are many dark clouds in the sky.",
+          "meaningVi": "Có rất nhiều mây đen trên bầu trời.",
+          "ipa": "/ðɛr ɑːr ˈmɛni dɑːrk klaʊdz ɪn ðə skaɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-1-5",
+          "phrase": "The wind is blowing very hard.",
+          "meaningVi": "Gió đang thổi rất mạnh.",
+          "ipa": "/ðə wɪnd ɪz ˈbloʊɪŋ ˈvɛri hɑːrd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-1-6",
+          "phrase": "It started to snow this morning.",
+          "meaningVi": "Trời đã bắt đầu đổ tuyết sáng nay.",
+          "ipa": "/ɪt ˈstɑːrtɪd tuː snoʊ ðɪs /ˈmɔːrnɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-1-7",
+          "phrase": "It is too hot to go outside.",
+          "meaningVi": "Trời quá nóng để đi ra ngoài.",
+          "ipa": "/ɪt ɪz tuː hɑːt tuː ɡoʊ ˈaʊtˈsaɪd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-1-8",
+          "phrase": "Make sure to wear a jacket, it's cold.",
+          "meaningVi": "Nhớ mặc áo khoác nhé, trời lạnh đấy.",
+          "ipa": "/meɪk ʃʊr tuː wɛr ə ˈdʒækɪt ɪts koʊld/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-1-9",
+          "phrase": "The weather is nice and warm today.",
+          "meaningVi": "Hôm nay thời tiết đẹp và ấm áp.",
+          "ipa": "/ðə /ˈwɛðər ɪz naɪs ænd wɔːrm təˈdeɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-1-10",
+          "phrase": "A cool breeze is coming from the sea.",
+          "meaningVi": "Một cơn gió mát rượi đang thổi từ biển vào.",
+          "ipa": "/ə kuːl briːz ɪz ˈkʌmɪŋ frʌm ðə siː/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "weather-2",
+      "slug": "lesson-2",
+      "topicSlug": "weather",
+      "title": "Four Seasons",
+      "titleVi": "Bốn mùa",
+      "order": 2,
+      "vocabulary": [
+        {
+          "id": "v-weather-2-1",
+          "word": "Season",
+          "meaningVi": "Mùa",
+          "ipa": "/ˈsiːzn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Four seasons.",
+          "exampleSentenceVi": "Bốn mùa."
+        },
+        {
+          "id": "v-weather-2-2",
+          "word": "Spring",
+          "meaningVi": "Mùa xuân",
+          "ipa": "/sprɪŋ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Spring is here.",
+          "exampleSentenceVi": "Mùa xuân đến rồi."
+        },
+        {
+          "id": "v-weather-2-3",
+          "word": "Summer",
+          "meaningVi": "Mùa hè",
+          "ipa": "/ˈsʌmər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Hot summer.",
+          "exampleSentenceVi": "Mùa hè nóng nực."
+        },
+        {
+          "id": "v-weather-2-4",
+          "word": "Autumn",
+          "meaningVi": "Mùa thu",
+          "ipa": "/ˈɔːtəm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Autumn leaves.",
+          "exampleSentenceVi": "Lá mùa thu."
+        },
+        {
+          "id": "v-weather-2-5",
+          "word": "Winter",
+          "meaningVi": "Mùa đông",
+          "ipa": "/ˈwɪntər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Cold winter.",
+          "exampleSentenceVi": "Mùa đông lạnh giá."
+        },
+        {
+          "id": "v-weather-2-6",
+          "word": "Bloom",
+          "meaningVi": "Nở hoa",
+          "ipa": "/bluːm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Flowers bloom.",
+          "exampleSentenceVi": "Hoa nở."
+        },
+        {
+          "id": "v-weather-2-7",
+          "word": "Leaf",
+          "meaningVi": "Chiếc lá",
+          "ipa": "/liːf/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A green leaf.",
+          "exampleSentenceVi": "Một chiếc lá xanh."
+        },
+        {
+          "id": "v-weather-2-8",
+          "word": "Fall",
+          "meaningVi": "Rơi",
+          "ipa": "/fɔːl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Leaves fall.",
+          "exampleSentenceVi": "Những chiếc lá rơi."
+        },
+        {
+          "id": "v-weather-2-9",
+          "word": "Ice",
+          "meaningVi": "Băng",
+          "ipa": "/aɪs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Thick ice.",
+          "exampleSentenceVi": "Lớp băng dày."
+        },
+        {
+          "id": "v-weather-2-10",
+          "word": "Melt",
+          "meaningVi": "Tan chảy",
+          "ipa": "/mɛlt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Snow melts.",
+          "exampleSentenceVi": "Tuyết tan."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-weather-2-1",
+          "phrase": "Which season is your favorite?",
+          "meaningVi": "Mùa nào là mùa yêu thích của bạn?",
+          "ipa": "/wɪtʃ /ˈsiːzn ɪz jʊr ˈfeɪvərɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-2-2",
+          "phrase": "Spring is a beautiful season.",
+          "meaningVi": "Mùa xuân là một mùa tuyệt đẹp.",
+          "ipa": "/sprɪŋ ɪz ə ˈbjuːtɪfl /ˈsiːzn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-2-3",
+          "phrase": "It gets very hot in the summer.",
+          "meaningVi": "Trời trở nên rất nóng vào mùa hè.",
+          "ipa": "/ɪt ɡɛts ˈvɛri hɑːt ɪn ðə /ˈsʌmər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-2-4",
+          "phrase": "I love the colors of autumn.",
+          "meaningVi": "Tôi thích những sắc màu của mùa thu.",
+          "ipa": "/aɪ lʌv ðə /ˈkʌlərz ʌv /ˈɔːtəm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-2-5",
+          "phrase": "Winter is the coldest time of the year.",
+          "meaningVi": "Mùa đông là khoảng thời gian lạnh nhất trong năm.",
+          "ipa": "/ˈwɪntər ɪz ðə ˈkoʊldɪst taɪm ʌv ðə jɪr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-2-6",
+          "phrase": "Flowers start to bloom in spring.",
+          "meaningVi": "Các loài hoa bắt đầu nở vào mùa xuân.",
+          "ipa": "/ˈflaʊərz stɑːrt tuː bluːm ɪn sprɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-2-7",
+          "phrase": "The leaves turn yellow and red.",
+          "meaningVi": "Những chiếc lá chuyển sang màu vàng và đỏ.",
+          "ipa": "/ðə liːvz tɜːrn ˈjɛloʊ ænd rɛd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-2-8",
+          "phrase": "Watch the leaves fall from the trees.",
+          "meaningVi": "Hãy ngắm nhìn những chiếc lá rụng từ trên cây.",
+          "ipa": "/wɑːtʃ ðə liːvz fɔːl frʌm ðə triːz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-2-9",
+          "phrase": "Be careful, there is ice on the road.",
+          "meaningVi": "Cẩn thận nhé, có băng trên đường đấy.",
+          "ipa": "/biː ˈkɛrfl ðɛr ɪz aɪs ɑːn ðə roʊd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-2-10",
+          "phrase": "The snow will melt when it gets warmer.",
+          "meaningVi": "Tuyết sẽ tan khi trời ấm lên.",
+          "ipa": "/ðə snoʊ wɪl mɛlt wɛn ɪt ɡɛts ˈwɔːrmər/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "weather-3",
+      "slug": "lesson-3",
+      "topicSlug": "weather",
+      "title": "Bad Weather",
+      "titleVi": "Thời tiết xấu",
+      "order": 3,
+      "vocabulary": [
+        {
+          "id": "v-weather-3-1",
+          "word": "Storm",
+          "meaningVi": "Bão",
+          "ipa": "/stɔːrm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A big storm.",
+          "exampleSentenceVi": "Một cơn bão lớn."
+        },
+        {
+          "id": "v-weather-3-2",
+          "word": "Thunder",
+          "meaningVi": "Sấm",
+          "ipa": "/ˈθʌndər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Loud thunder.",
+          "exampleSentenceVi": "Tiếng sấm lớn."
+        },
+        {
+          "id": "v-weather-3-3",
+          "word": "Lightning",
+          "meaningVi": "Chớp",
+          "ipa": "/ˈlaɪtnɪŋ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A flash of lightning.",
+          "exampleSentenceVi": "Một tia chớp."
+        },
+        {
+          "id": "v-weather-3-4",
+          "word": "Fog",
+          "meaningVi": "Sương mù",
+          "ipa": "/fɑːɡ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Thick fog.",
+          "exampleSentenceVi": "Sương mù dày đặc."
+        },
+        {
+          "id": "v-weather-3-5",
+          "word": "Flood",
+          "meaningVi": "Lũ lụt",
+          "ipa": "/flʌd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A terrible flood.",
+          "exampleSentenceVi": "Một trận lũ tồi tệ."
+        },
+        {
+          "id": "v-weather-3-6",
+          "word": "Wet",
+          "meaningVi": "Ướt",
+          "ipa": "/wɛt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Wet clothes.",
+          "exampleSentenceVi": "Quần áo ướt."
+        },
+        {
+          "id": "v-weather-3-7",
+          "word": "Dry",
+          "meaningVi": "Khô",
+          "ipa": "/draɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Dry land.",
+          "exampleSentenceVi": "Vùng đất khô cằn."
+        },
+        {
+          "id": "v-weather-3-8",
+          "word": "Umbrella",
+          "meaningVi": "Ô, dù",
+          "ipa": "/ʌmˈbrɛlə/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Bring an umbrella.",
+          "exampleSentenceVi": "Mang theo ô."
+        },
+        {
+          "id": "v-weather-3-9",
+          "word": "Coat",
+          "meaningVi": "Áo khoác",
+          "ipa": "/koʊt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Wear a coat.",
+          "exampleSentenceVi": "Mặc áo khoác."
+        },
+        {
+          "id": "v-weather-3-10",
+          "word": "Safe",
+          "meaningVi": "An toàn",
+          "ipa": "/seɪf/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Stay safe.",
+          "exampleSentenceVi": "Giữ an toàn nhé."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-weather-3-1",
+          "phrase": "There is a big storm coming tonight.",
+          "meaningVi": "Tối nay sẽ có một cơn bão lớn đổ bộ.",
+          "ipa": "/ðɛr ɪz ə bɪɡ stɔːrm ˈkʌmɪŋ təˈnaɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-3-2",
+          "phrase": "Did you hear that loud thunder?",
+          "meaningVi": "Bạn có nghe thấy tiếng sấm lớn đó không?",
+          "ipa": "/dɪd juː hɪr ðæt laɪd /ˈθʌndər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-3-3",
+          "phrase": "I just saw a flash of lightning.",
+          "meaningVi": "Tôi vừa thấy một tia chớp chớp qua.",
+          "ipa": "/aɪ dʒʌst sɔː ə flæʃ ʌv /ˈlaɪtnɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-3-4",
+          "phrase": "Drive carefully, the fog is very thick.",
+          "meaningVi": "Hãy lái xe cẩn thận, sương mù rất dày đặc.",
+          "ipa": "/draɪv ˈkɛrfəli ðə fɑːɡ ɪz ˈvɛri θɪk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-3-5",
+          "phrase": "The heavy rain caused a flood in the city.",
+          "meaningVi": "Cơn mưa lớn đã gây ra lũ lụt trong thành phố.",
+          "ipa": "/ðə ˈhɛvi reɪn kɔːzd ə flʌd ɪn ðə /ˈsɪti/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-3-6",
+          "phrase": "My shoes are completely wet.",
+          "meaningVi": "Giày của tôi ướt sũng hết rồi.",
+          "ipa": "/maɪ ʃuːz ɑːr kəmˈpliːtli wɛt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-3-7",
+          "phrase": "We haven't had rain for months, everything is dry.",
+          "meaningVi": "Hàng tháng trời không có mưa, mọi thứ đều khô hạn.",
+          "ipa": "/wiː hævnt hæd reɪn fɔːr mʌnθs ˈɛvriθɪŋ ɪz draɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-3-8",
+          "phrase": "Don't forget to take your umbrella.",
+          "meaningVi": "Đừng quên mang theo ô/dù nhé.",
+          "ipa": "/doʊnt fərˈɡɛt tuː teɪk jʊr ʌmˈbrɛlə/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-3-9",
+          "phrase": "You should wear a warm coat.",
+          "meaningVi": "Bạn nên mặc một chiếc áo khoác ấm.",
+          "ipa": "/juː ʃʊd wɛr ə wɔːrm koʊt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-3-10",
+          "phrase": "Stay inside and keep safe.",
+          "meaningVi": "Hãy ở trong nhà và giữ an toàn nhé.",
+          "ipa": "/steɪ ɪnˈsaɪd ænd kiːp seɪf/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "weather-4",
+      "slug": "lesson-4",
+      "topicSlug": "weather",
+      "title": "Temperature",
+      "titleVi": "Nhiệt độ",
+      "order": 4,
+      "vocabulary": [
+        {
+          "id": "v-weather-4-1",
+          "word": "Temperature",
+          "meaningVi": "Nhiệt độ",
+          "ipa": "/ˈtɛmprətʃər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "High temperature.",
+          "exampleSentenceVi": "Nhiệt độ cao."
+        },
+        {
+          "id": "v-weather-4-2",
+          "word": "Degree",
+          "meaningVi": "Độ",
+          "ipa": "/dɪˈɡriː/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Thirty degrees.",
+          "exampleSentenceVi": "30 độ."
+        },
+        {
+          "id": "v-weather-4-3",
+          "word": "Heat",
+          "meaningVi": "Hơi nóng",
+          "ipa": "/hiːt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The summer heat.",
+          "exampleSentenceVi": "Cái nóng mùa hè."
+        },
+        {
+          "id": "v-weather-4-4",
+          "word": "Freeze",
+          "meaningVi": "Đóng băng",
+          "ipa": "/friːz/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Freezing cold.",
+          "exampleSentenceVi": "Lạnh cóng."
+        },
+        {
+          "id": "v-weather-4-5",
+          "word": "High",
+          "meaningVi": "Cao",
+          "ipa": "/haɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "High level.",
+          "exampleSentenceVi": "Mức độ cao."
+        },
+        {
+          "id": "v-weather-4-6",
+          "word": "Low",
+          "meaningVi": "Thấp",
+          "ipa": "/loʊ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Low pressure.",
+          "exampleSentenceVi": "Áp suất thấp."
+        },
+        {
+          "id": "v-weather-4-7",
+          "word": "Rise",
+          "meaningVi": "Tăng lên",
+          "ipa": "/raɪz/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Temperatures rise.",
+          "exampleSentenceVi": "Nhiệt độ tăng lên."
+        },
+        {
+          "id": "v-weather-4-8",
+          "word": "Drop",
+          "meaningVi": "Giảm xuống",
+          "ipa": "/drɑːp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Temperatures drop.",
+          "exampleSentenceVi": "Nhiệt độ giảm xuống."
+        },
+        {
+          "id": "v-weather-4-9",
+          "word": "Thermometer",
+          "meaningVi": "Nhiệt kế",
+          "ipa": "/θərˈmɑːmɪtər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Check the thermometer.",
+          "exampleSentenceVi": "Xem nhiệt kế."
+        },
+        {
+          "id": "v-weather-4-10",
+          "word": "Sweat",
+          "meaningVi": "Đổ mồ hôi",
+          "ipa": "/swɛt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Make you sweat.",
+          "exampleSentenceVi": "Làm bạn đổ mồ hôi."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-weather-4-1",
+          "phrase": "What is the temperature outside right now?",
+          "meaningVi": "Hiện tại nhiệt độ ngoài trời là bao nhiêu?",
+          "ipa": "/wʌt ɪz ðə /ˈtɛmprətʃər ˈaʊtˈsaɪd raɪt naʊ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-4-2",
+          "phrase": "It is thirty-five degrees today.",
+          "meaningVi": "Hôm nay nhiệt độ là 35 độ.",
+          "ipa": "/ɪt ɪz ˈθɜːrti-faɪv dɪˈɡriːz təˈdeɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-4-3",
+          "phrase": "I can't stand this summer heat.",
+          "meaningVi": "Tôi không thể chịu nổi cái nóng mùa hè này.",
+          "ipa": "/aɪ kænt stænd ðɪs /ˈsʌmər hiːt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-4-4",
+          "phrase": "It is freezing outside, wear a jacket.",
+          "meaningVi": "Ngoài trời lạnh cóng, hãy mặc áo khoác vào.",
+          "ipa": "/ɪt ɪz ˈfriːzɪŋ ˈaʊtˈsaɪd wɛr ə ˈdʒækɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-4-5",
+          "phrase": "The high for today will be thirty degrees.",
+          "meaningVi": "Nhiệt độ cao nhất hôm nay sẽ là 30 độ.",
+          "ipa": "/ðə haɪ fɔːr təˈdeɪ wɪl biː ˈθɜːrti dɪˈɡriːz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-4-6",
+          "phrase": "The low will be around fifteen degrees tonight.",
+          "meaningVi": "Nhiệt độ thấp nhất đêm nay sẽ vào khoảng 15 độ.",
+          "ipa": "/ðə loʊ wɪl biː əˈraʊnd fɪfˈtiːn dɪˈɡriːz təˈnaɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-4-7",
+          "phrase": "Temperatures are expected to rise tomorrow.",
+          "meaningVi": "Nhiệt độ được dự báo sẽ tăng vào ngày mai.",
+          "ipa": "/ˈtɛmprətʃərz ɑːr ɪkˈspɛktɪd tuː raɪz təˈmɑːroʊ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-4-8",
+          "phrase": "The temperature will drop suddenly this evening.",
+          "meaningVi": "Nhiệt độ sẽ giảm đột ngột vào tối nay.",
+          "ipa": "/ðə /ˈtɛmprətʃər wɪl drɑːp ˈsʌdənli ðɪs ˈiːvnɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-4-9",
+          "phrase": "Let me check the thermometer.",
+          "meaningVi": "Để tôi xem nhiệt kế.",
+          "ipa": "/lɛt miː tʃɛk ðə θərˈmɑːmɪtər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-4-10",
+          "phrase": "The heat is making me sweat.",
+          "meaningVi": "Cái nóng đang làm tôi toát mồ hôi.",
+          "ipa": "/ðə hiːt ɪz ˈmeɪkɪŋ miː swɛt/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "weather-5",
+      "slug": "lesson-5",
+      "topicSlug": "weather",
+      "title": "Forecast & Planning",
+      "titleVi": "Dự báo thời tiết",
+      "order": 5,
+      "vocabulary": [
+        {
+          "id": "v-weather-5-1",
+          "word": "Forecast",
+          "meaningVi": "Dự báo",
+          "ipa": "/ˈfɔːrkæst/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Weather forecast.",
+          "exampleSentenceVi": "Dự báo thời tiết."
+        },
+        {
+          "id": "v-weather-5-2",
+          "word": "Plan",
+          "meaningVi": "Kế hoạch",
+          "ipa": "/plæn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Change the plan.",
+          "exampleSentenceVi": "Thay đổi kế hoạch."
+        },
+        {
+          "id": "v-weather-5-3",
+          "word": "Cancel",
+          "meaningVi": "Hủy bỏ",
+          "ipa": "/ˈkænsl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Cancel the trip.",
+          "exampleSentenceVi": "Hủy chuyến đi."
+        },
+        {
+          "id": "v-weather-5-4",
+          "word": "Stay",
+          "meaningVi": "Ở lại",
+          "ipa": "/steɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Stay home.",
+          "exampleSentenceVi": "Ở nhà."
+        },
+        {
+          "id": "v-weather-5-5",
+          "word": "Go",
+          "meaningVi": "Đi",
+          "ipa": "/ɡoʊ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Go out.",
+          "exampleSentenceVi": "Đi ra ngoài."
+        },
+        {
+          "id": "v-weather-5-6",
+          "word": "Clear",
+          "meaningVi": "Trong xanh",
+          "ipa": "/klɪr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Clear sky.",
+          "exampleSentenceVi": "Bầu trời trong xanh."
+        },
+        {
+          "id": "v-weather-5-7",
+          "word": "Change",
+          "meaningVi": "Thay đổi",
+          "ipa": "/tʃeɪndʒ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The weather changes.",
+          "exampleSentenceVi": "Thời tiết thay đổi."
+        },
+        {
+          "id": "v-weather-5-8",
+          "word": "Shine",
+          "meaningVi": "Tỏa sáng",
+          "ipa": "/ʃaɪn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The sun shines.",
+          "exampleSentenceVi": "Mặt trời chiếu sáng."
+        },
+        {
+          "id": "v-weather-5-9",
+          "word": "Tomorrow",
+          "meaningVi": "Ngày mai",
+          "ipa": "/təˈmɑːroʊ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "See you tomorrow.",
+          "exampleSentenceVi": "Hẹn gặp ngày mai."
+        },
+        {
+          "id": "v-weather-5-10",
+          "word": "Weekend",
+          "meaningVi": "Cuối tuần",
+          "ipa": "/ˈwiːkɛnd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "This weekend.",
+          "exampleSentenceVi": "Cuối tuần này."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-weather-5-1",
+          "phrase": "Let's check the weather forecast.",
+          "meaningVi": "Cùng xem dự báo thời tiết nào.",
+          "ipa": "/lɛts tʃɛk ðə /ˈwɛðər /ˈfɔːrkæst/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-5-2",
+          "phrase": "Based on the forecast, we should change our plans.",
+          "meaningVi": "Dựa vào dự báo, chúng ta nên thay đổi kế hoạch.",
+          "ipa": "/beɪst ɑːn ðə /ˈfɔːrkæst wiː ʃʊd tʃeɪndʒ aʊər plænz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-5-3",
+          "phrase": "Because of the rain, the game was canceled.",
+          "meaningVi": "Vì trời mưa, trận đấu đã bị hủy bỏ.",
+          "ipa": "/bɪˈkəz ʌv ðə reɪn ðə ɡeɪm wʌz /ˈkænsld/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-5-4",
+          "phrase": "It's better to stay inside today.",
+          "meaningVi": "Hôm nay tốt nhất là nên ở trong nhà.",
+          "ipa": "/ɪts ˈbɛtər tuː steɪ ɪnˈsaɪd təˈdeɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-5-5",
+          "phrase": "If the weather is nice, we will go out.",
+          "meaningVi": "Nếu thời tiết đẹp, chúng ta sẽ đi ra ngoài.",
+          "ipa": "/ɪf ðə /ˈwɛðər ɪz naɪs wiː wɪl ɡoʊ aʊt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-5-6",
+          "phrase": "The sky is clear, not a single cloud.",
+          "meaningVi": "Bầu trời trong vắt, không một gợn mây.",
+          "ipa": "/ðə skaɪ ɪz klɪr nɑːt ə ˈsɪŋɡl klaʊd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-5-7",
+          "phrase": "The weather can change very quickly here.",
+          "meaningVi": "Thời tiết ở đây có thể thay đổi rất nhanh.",
+          "ipa": "/ðə /ˈwɛðər kæn tʃeɪndʒ ˈvɛri ˈkwɪkli hɪr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-5-8",
+          "phrase": "I hope the sun shines tomorrow.",
+          "meaningVi": "Tôi mong ngày mai trời sẽ nắng (Mặt trời sẽ chiếu sáng).",
+          "ipa": "/aɪ hoʊp ðə sʌn ʃaɪnz təˈmɑːroʊ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-5-9",
+          "phrase": "What is the forecast for tomorrow?",
+          "meaningVi": "Dự báo thời tiết cho ngày mai thế nào?",
+          "ipa": "/wʌt ɪz ðə /ˈfɔːrkæst fɔːr təˈmɑːroʊ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-5-10",
+          "phrase": "The weather should be perfect for the weekend.",
+          "meaningVi": "Thời tiết cuối tuần này có vẻ sẽ rất hoàn hảo.",
+          "ipa": "/ðə /ˈwɛðər ʃʊd biː /ˈpɜːrfɪkt fɔːr ðə /ˈwiːkɛnd/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "weather-6",
+      "slug": "lesson-6",
+      "topicSlug": "weather",
+      "title": "Sun & Beach",
+      "titleVi": "Tắm nắng & Biển",
+      "order": 6,
+      "vocabulary": [
+        {
+          "id": "v-weather-6-1",
+          "word": "Beach",
+          "meaningVi": "Bãi biển",
+          "ipa": "/biːtʃ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Go to the beach.",
+          "exampleSentenceVi": "Đi biển."
+        },
+        {
+          "id": "v-weather-6-2",
+          "word": "Sand",
+          "meaningVi": "Cát",
+          "ipa": "/sænd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "White sand.",
+          "exampleSentenceVi": "Cát trắng."
+        },
+        {
+          "id": "v-weather-6-3",
+          "word": "Swim",
+          "meaningVi": "Bơi",
+          "ipa": "/swɪm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Swim in the sea.",
+          "exampleSentenceVi": "Bơi ở biển."
+        },
+        {
+          "id": "v-weather-6-4",
+          "word": "Tan",
+          "meaningVi": "Sạm da, tắm nắng",
+          "ipa": "/tæn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Get a tan.",
+          "exampleSentenceVi": "Đi tắm nắng."
+        },
+        {
+          "id": "v-weather-6-5",
+          "word": "Sunglasses",
+          "meaningVi": "Kính râm",
+          "ipa": "/ˈsʌnˌɡlæsɪz/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Wear sunglasses.",
+          "exampleSentenceVi": "Đeo kính râm."
+        },
+        {
+          "id": "v-weather-6-6",
+          "word": "Hat",
+          "meaningVi": "Mũ, nón",
+          "ipa": "/hæt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A sun hat.",
+          "exampleSentenceVi": "Một chiếc mũ che nắng."
+        },
+        {
+          "id": "v-weather-6-7",
+          "word": "Shade",
+          "meaningVi": "Bóng râm",
+          "ipa": "/ʃeɪd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Sit in the shade.",
+          "exampleSentenceVi": "Ngồi trong bóng râm."
+        },
+        {
+          "id": "v-weather-6-8",
+          "word": "Burn",
+          "meaningVi": "Cháy nắng",
+          "ipa": "/bɜːrn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Sunburn.",
+          "exampleSentenceVi": "Bị cháy nắng."
+        },
+        {
+          "id": "v-weather-6-9",
+          "word": "Towel",
+          "meaningVi": "Khăn tắm",
+          "ipa": "/ˈtaʊəl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Bring a towel.",
+          "exampleSentenceVi": "Mang theo khăn tắm."
+        },
+        {
+          "id": "v-weather-6-10",
+          "word": "Wave",
+          "meaningVi": "Con sóng",
+          "ipa": "/weɪv/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Catch a wave.",
+          "exampleSentenceVi": "Đón một con sóng."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-weather-6-1",
+          "phrase": "It's a perfect day to go to the beach.",
+          "meaningVi": "Hôm nay là một ngày hoàn hảo để đi biển.",
+          "ipa": "/ɪts ə /ˈpɜːrfɪkt deɪ tuː ɡoʊ tuː ðə biːtʃ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-6-2",
+          "phrase": "The sand is so hot on my feet.",
+          "meaningVi": "Cát dưới chân tôi rất nóng.",
+          "ipa": "/ðə sænd ɪz soʊ hɑːt ɑːn maɪ fiːt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-6-3",
+          "phrase": "Let's go for a swim to cool down.",
+          "meaningVi": "Cùng đi bơi cho mát nào.",
+          "ipa": "/lɛts ɡoʊ fɔːr ə swɪm tuː kuːl daʊn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-6-4",
+          "phrase": "I want to lie on the beach and get a tan.",
+          "meaningVi": "Tôi muốn nằm trên bãi biển và tắm nắng.",
+          "ipa": "/aɪ wɑːnt tuː laɪ ɑːn ðə biːtʃ ænd ɡɛt ə tæn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-6-5",
+          "phrase": "The sun is too bright, I need my sunglasses.",
+          "meaningVi": "Trời nắng chói quá, tôi cần kính râm.",
+          "ipa": "/ðə sʌn ɪz tuː braɪt aɪ niːd maɪ /ˈsʌnˌɡlæsɪz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-6-6",
+          "phrase": "You should wear a hat to protect your head.",
+          "meaningVi": "Bạn nên đội mũ để bảo vệ đầu.",
+          "ipa": "/juː ʃʊd wɛr ə hæt tuː prəˈtɛkt jʊr hɛd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-6-7",
+          "phrase": "Let's find some shade under a tree.",
+          "meaningVi": "Cùng tìm chỗ bóng râm dưới gốc cây nhé.",
+          "ipa": "/lɛts faɪnd sʌm ʃeɪd ˈʌndər ə triː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-6-8",
+          "phrase": "Put on sunscreen or you will get a sunburn.",
+          "meaningVi": "Bôi kem chống nắng đi, nếu không bạn sẽ bị cháy nắng.",
+          "ipa": "/pʊt ɑːn ˈsʌnˌskriːn ɔːr juː wɪl ɡɛt ə ˈsʌnˌbɜːrn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-6-9",
+          "phrase": "Don't forget to pack the towels.",
+          "meaningVi": "Đừng quên đóng gói khăn tắm nhé.",
+          "ipa": "/doʊnt fərˈɡɛt tuː pæk ðə /ˈtaʊəlz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-6-10",
+          "phrase": "Look at those huge waves!",
+          "meaningVi": "Hãy nhìn những con sóng khổng lồ kìa!",
+          "ipa": "/lʊk æt ðiːz hjuːdʒ weɪvz/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "weather-7",
+      "slug": "lesson-7",
+      "topicSlug": "weather",
+      "title": "Night Sky & Space",
+      "titleVi": "Bầu trời đêm & Không gian",
+      "order": 7,
+      "vocabulary": [
+        {
+          "id": "v-weather-7-1",
+          "word": "Sky",
+          "meaningVi": "Bầu trời",
+          "ipa": "/skaɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Look at the sky.",
+          "exampleSentenceVi": "Nhìn lên bầu trời."
+        },
+        {
+          "id": "v-weather-7-2",
+          "word": "Night",
+          "meaningVi": "Đêm",
+          "ipa": "/naɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "At night.",
+          "exampleSentenceVi": "Vào ban đêm."
+        },
+        {
+          "id": "v-weather-7-3",
+          "word": "Star",
+          "meaningVi": "Ngôi sao",
+          "ipa": "/stɑːr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Shooting star.",
+          "exampleSentenceVi": "Sao băng."
+        },
+        {
+          "id": "v-weather-7-4",
+          "word": "Moon",
+          "meaningVi": "Mặt trăng",
+          "ipa": "/muːn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Full moon.",
+          "exampleSentenceVi": "Trăng tròn."
+        },
+        {
+          "id": "v-weather-7-5",
+          "word": "Space",
+          "meaningVi": "Không gian",
+          "ipa": "/speɪs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Outer space.",
+          "exampleSentenceVi": "Không gian vũ trụ."
+        },
+        {
+          "id": "v-weather-7-6",
+          "word": "Planet",
+          "meaningVi": "Hành tinh",
+          "ipa": "/ˈplænɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Our planet.",
+          "exampleSentenceVi": "Hành tinh của chúng ta."
+        },
+        {
+          "id": "v-weather-7-7",
+          "word": "Dark",
+          "meaningVi": "Tối",
+          "ipa": "/dɑːrk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Pitch dark.",
+          "exampleSentenceVi": "Tối đen như mực."
+        },
+        {
+          "id": "v-weather-7-8",
+          "word": "Light",
+          "meaningVi": "Ánh sáng",
+          "ipa": "/laɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Moonlight.",
+          "exampleSentenceVi": "Ánh trăng."
+        },
+        {
+          "id": "v-weather-7-9",
+          "word": "Telescope",
+          "meaningVi": "Kính viễn vọng",
+          "ipa": "/ˈtɛlɪskoʊp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Use a telescope.",
+          "exampleSentenceVi": "Dùng kính viễn vọng."
+        },
+        {
+          "id": "v-weather-7-10",
+          "word": "Beautiful",
+          "meaningVi": "Đẹp",
+          "ipa": "/ˈbjuːtɪfl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Beautiful night.",
+          "exampleSentenceVi": "Đêm tuyệt đẹp."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-weather-7-1",
+          "phrase": "Look at the beautiful sky tonight.",
+          "meaningVi": "Hãy nhìn bầu trời đêm nay tuyệt đẹp kìa.",
+          "ipa": "/lʊk æt ðə ˈbjuːtɪfl skaɪ təˈnaɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-7-2",
+          "phrase": "It gets very cold here at night.",
+          "meaningVi": "Ở đây trời trở nên rất lạnh vào ban đêm.",
+          "ipa": "/ɪt ɡɛts ˈvɛri koʊld hɪr æt naɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-7-3",
+          "phrase": "There are millions of stars in the sky.",
+          "meaningVi": "Có hàng triệu vì sao trên bầu trời.",
+          "ipa": "/ðɛr ɑːr ˈmɪljənz ʌv stɑːrz ɪn ðə skaɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-7-4",
+          "phrase": "The full moon is shining so brightly.",
+          "meaningVi": "Trăng rằm đang chiếu sáng rực rỡ.",
+          "ipa": "/ðə fʊl muːn ɪz ˈʃaɪnɪŋ soʊ ˈbraɪtli/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-7-5",
+          "phrase": "Humans have traveled to outer space.",
+          "meaningVi": "Con người đã du hành vào không gian vũ trụ.",
+          "ipa": "/ˈhjuːmənz hæv /ˈtrævld tuː ˈaʊtər speɪs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-7-6",
+          "phrase": "Earth is the third planet from the sun.",
+          "meaningVi": "Trái đất là hành tinh thứ ba tính từ mặt trời.",
+          "ipa": "/ɜːrθ ɪz ðə θɜːrd /ˈplænɪt frʌm ðə sʌn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-7-7",
+          "phrase": "It is completely dark outside.",
+          "meaningVi": "Bên ngoài hoàn toàn tối đen.",
+          "ipa": "/ɪt ɪz kəmˈpliːtli dɑːrk ˈaʊtˈsaɪd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-7-8",
+          "phrase": "The moonlight is guiding our way.",
+          "meaningVi": "Ánh trăng đang dẫn lối cho chúng ta.",
+          "ipa": "/ðə ˈmuːnlaɪt ɪz ˈɡaɪdɪŋ aʊər weɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-7-9",
+          "phrase": "We can see Jupiter through this telescope.",
+          "meaningVi": "Chúng ta có thể nhìn thấy Sao Mộc qua kính viễn vọng này.",
+          "ipa": "/wiː kæn siː ˈdʒuːpɪtər θruː ðɪs /ˈtɛlɪskoʊp/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-7-10",
+          "phrase": "What a beautiful and clear night!",
+          "meaningVi": "Thật là một đêm quang đãng và tuyệt đẹp!",
+          "ipa": "/wʌt ə ˈbjuːtɪfl ænd klɪr naɪt/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "weather-8",
+      "slug": "lesson-8",
+      "topicSlug": "weather",
+      "title": "Natural Disasters",
+      "titleVi": "Thảm họa tự nhiên",
+      "order": 8,
+      "vocabulary": [
+        {
+          "id": "v-weather-8-1",
+          "word": "Nature",
+          "meaningVi": "Tự nhiên",
+          "ipa": "/ˈneɪtʃər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Mother nature.",
+          "exampleSentenceVi": "Mẹ thiên nhiên."
+        },
+        {
+          "id": "v-weather-8-2",
+          "word": "Earth",
+          "meaningVi": "Trái đất",
+          "ipa": "/ɜːrθ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Earthquake.",
+          "exampleSentenceVi": "Trận động đất."
+        },
+        {
+          "id": "v-weather-8-3",
+          "word": "Shake",
+          "meaningVi": "Rung lắc",
+          "ipa": "/ʃeɪk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The ground shakes.",
+          "exampleSentenceVi": "Mặt đất rung lắc."
+        },
+        {
+          "id": "v-weather-8-4",
+          "word": "Fire",
+          "meaningVi": "Ngọn lửa, hỏa hoạn",
+          "ipa": "/ˈfaɪər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Forest fire.",
+          "exampleSentenceVi": "Cháy rừng."
+        },
+        {
+          "id": "v-weather-8-5",
+          "word": "Volcano",
+          "meaningVi": "Núi lửa",
+          "ipa": "/vɑːlˈkeɪnoʊ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Active volcano.",
+          "exampleSentenceVi": "Núi lửa đang hoạt động."
+        },
+        {
+          "id": "v-weather-8-6",
+          "word": "Tsunami",
+          "meaningVi": "Sóng thần",
+          "ipa": "/tsuːˈnɑːmi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A giant tsunami.",
+          "exampleSentenceVi": "Một cơn sóng thần khổng lồ."
+        },
+        {
+          "id": "v-weather-8-7",
+          "word": "Damage",
+          "meaningVi": "Thiệt hại",
+          "ipa": "/ˈdæmɪdʒ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Cause damage.",
+          "exampleSentenceVi": "Gây thiệt hại."
+        },
+        {
+          "id": "v-weather-8-8",
+          "word": "Danger",
+          "meaningVi": "Sự nguy hiểm",
+          "ipa": "/ˈdeɪndʒər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "In danger.",
+          "exampleSentenceVi": "Đang gặp nguy hiểm."
+        },
+        {
+          "id": "v-weather-8-9",
+          "word": "Safe",
+          "meaningVi": "An toàn",
+          "ipa": "/seɪf/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Move to a safe place.",
+          "exampleSentenceVi": "Di chuyển đến nơi an toàn."
+        },
+        {
+          "id": "v-weather-8-10",
+          "word": "Help",
+          "meaningVi": "Cứu giúp",
+          "ipa": "/hɛlp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Call for help.",
+          "exampleSentenceVi": "Gọi người cứu giúp."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-weather-8-1",
+          "phrase": "We must respect the power of nature.",
+          "meaningVi": "Chúng ta phải tôn trọng sức mạnh của thiên nhiên.",
+          "ipa": "/wiː mʌst rɪˈspɛkt ðə ˈpaʊər ʌv /ˈneɪtʃər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-8-2",
+          "phrase": "Did you feel the earthquake this morning?",
+          "meaningVi": "Bạn có cảm thấy trận động đất sáng nay không?",
+          "ipa": "/dɪd juː fiːl ðə ˈɜːrθkweɪk ðɪs /ˈmɔːrnɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-8-3",
+          "phrase": "The house started to shake violently.",
+          "meaningVi": "Ngôi nhà bắt đầu rung lắc dữ dội.",
+          "ipa": "/ðə haʊs ˈstɑːrtɪd tuː ʃeɪk ˈvaɪələntli/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-8-4",
+          "phrase": "The dry weather caused a terrible forest fire.",
+          "meaningVi": "Thời tiết khô hạn đã gây ra một vụ cháy rừng tồi tệ.",
+          "ipa": "/ðə draɪ /ˈwɛðər kɔːzd ə ˈtɛrəbl ˈfɔːrɪst /ˈfaɪər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-8-5",
+          "phrase": "The volcano is expected to erupt soon.",
+          "meaningVi": "Núi lửa được dự báo sẽ sớm phun trào.",
+          "ipa": "/ðə vɑːlˈkeɪnoʊ ɪz ɪkˈspɛktɪd tuː ɪˈrʌpt suːn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-8-6",
+          "phrase": "A tsunami warning has been issued.",
+          "meaningVi": "Một cảnh báo sóng thần đã được ban hành.",
+          "ipa": "/ə tsuːˈnɑːmi ˈwɔːrnɪŋ hæz biːn ˈɪʃuːd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-8-7",
+          "phrase": "The storm caused a lot of damage to the town.",
+          "meaningVi": "Cơn bão đã gây ra nhiều thiệt hại cho thị trấn.",
+          "ipa": "/ðə stɔːrm kɔːzd ə lɑːt ʌv /ˈdæmɪdʒ tuː ðə taʊn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-8-8",
+          "phrase": "Please leave the area, you are in danger.",
+          "meaningVi": "Làm ơn rời khỏi khu vực này, bạn đang gặp nguy hiểm.",
+          "ipa": "/pliːz liːv ðə ˈɛriə juː ɑːr ɪn /ˈdeɪndʒər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-8-9",
+          "phrase": "We need to move to a safe location.",
+          "meaningVi": "Chúng ta cần di chuyển đến một vị trí an toàn.",
+          "ipa": "/wiː niːd tuː muːv tuː ə seɪf loʊˈkeɪʃn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-8-10",
+          "phrase": "If you need help, please call this number.",
+          "meaningVi": "Nếu bạn cần giúp đỡ, vui lòng gọi số này.",
+          "ipa": "/ɪf juː niːd hɛlp pliːz kɔːl ðɪs ˈnʌmbər/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "weather-9",
+      "slug": "lesson-9",
+      "topicSlug": "weather",
+      "title": "Dressing for the Weather",
+      "titleVi": "Trang phục & Thời tiết",
+      "order": 9,
+      "vocabulary": [
+        {
+          "id": "v-weather-9-1",
+          "word": "Dress",
+          "meaningVi": "Mặc quần áo",
+          "ipa": "/drɛs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Dress warmly.",
+          "exampleSentenceVi": "Mặc ấm vào."
+        },
+        {
+          "id": "v-weather-9-2",
+          "word": "Wear",
+          "meaningVi": "Mặc",
+          "ipa": "/wɛr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Wear a hat.",
+          "exampleSentenceVi": "Đội một cái nón."
+        },
+        {
+          "id": "v-weather-9-3",
+          "word": "Coat",
+          "meaningVi": "Áo khoác",
+          "ipa": "/koʊt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A winter coat.",
+          "exampleSentenceVi": "Áo khoác mùa đông."
+        },
+        {
+          "id": "v-weather-9-4",
+          "word": "Scarf",
+          "meaningVi": "Khăn quàng cổ",
+          "ipa": "/skɑːrf/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A wool scarf.",
+          "exampleSentenceVi": "Khăn quàng bằng len."
+        },
+        {
+          "id": "v-weather-9-5",
+          "word": "Glove",
+          "meaningVi": "Găng tay",
+          "ipa": "/ɡlʌv/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Pair of gloves.",
+          "exampleSentenceVi": "Một đôi găng tay."
+        },
+        {
+          "id": "v-weather-9-6",
+          "word": "Boot",
+          "meaningVi": "Bốt, ủng",
+          "ipa": "/buːt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Snow boots.",
+          "exampleSentenceVi": "Bốt đi tuyết."
+        },
+        {
+          "id": "v-weather-9-7",
+          "word": "Shirt",
+          "meaningVi": "Áo sơ mi",
+          "ipa": "/ʃɜːrt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "T-shirt.",
+          "exampleSentenceVi": "Áo thun (cộc tay)."
+        },
+        {
+          "id": "v-weather-9-8",
+          "word": "Shorts",
+          "meaningVi": "Quần đùi",
+          "ipa": "/ʃɔːrts/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Wear shorts.",
+          "exampleSentenceVi": "Mặc quần đùi."
+        },
+        {
+          "id": "v-weather-9-9",
+          "word": "Wet",
+          "meaningVi": "Ướt",
+          "ipa": "/wɛt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Get wet.",
+          "exampleSentenceVi": "Bị ướt."
+        },
+        {
+          "id": "v-weather-9-10",
+          "word": "Dry",
+          "meaningVi": "Khô",
+          "ipa": "/draɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Keep dry.",
+          "exampleSentenceVi": "Giữ cho khô ráo."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-weather-9-1",
+          "phrase": "It is cold outside, dress warmly.",
+          "meaningVi": "Ngoài trời lạnh lắm, hãy mặc ấm vào.",
+          "ipa": "/ɪt ɪz koʊld ˈaʊtˈsaɪd drɛs ˈwɔːrmli/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-9-2",
+          "phrase": "You should wear a hat in the sun.",
+          "meaningVi": "Bạn nên đội mũ khi đi dưới nắng.",
+          "ipa": "/juː ʃʊd wɛr ə hæt ɪn ðə sʌn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-9-3",
+          "phrase": "Put on your coat before you leave.",
+          "meaningVi": "Mặc áo khoác vào trước khi đi nhé.",
+          "ipa": "/pʊt ɑːn jʊr koʊt bɪˈfɔːr juː liːv/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-9-4",
+          "phrase": "My grandmother knitted this scarf for me.",
+          "meaningVi": "Bà tôi đã đan chiếc khăn quàng cổ này cho tôi.",
+          "ipa": "/maɪ ˈɡrændˌmʌðər ˈnɪtɪd ðɪs skɑːrf fɔːr miː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-9-5",
+          "phrase": "My hands are freezing, I need gloves.",
+          "meaningVi": "Tay tôi lạnh cóng rồi, tôi cần găng tay.",
+          "ipa": "/maɪ hændz ɑːr ˈfriːzɪŋ aɪ niːd ɡlʌvz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-9-6",
+          "phrase": "Wear your boots, there is a lot of snow.",
+          "meaningVi": "Đi ủng vào đi, có rất nhiều tuyết đấy.",
+          "ipa": "/wɛr jʊr buːts ðɛr ɪz ə lɑːt ʌv snoʊ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-9-7",
+          "phrase": "It's so hot, I'm just going to wear a T-shirt.",
+          "meaningVi": "Trời nóng quá, tôi sẽ chỉ mặc áo thun thôi.",
+          "ipa": "/ɪts soʊ hɑːt aɪm dʒʌst ˈɡoʊɪŋ tuː wɛr ə tiː-ʃɜːrt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-9-8",
+          "phrase": "Is it okay to wear shorts today?",
+          "meaningVi": "Hôm nay mặc quần đùi có được không?",
+          "ipa": "/ɪz ɪt oʊˈkeɪ tuː wɛr ʃɔːrts təˈdeɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-9-9",
+          "phrase": "Take an umbrella so you don't get wet.",
+          "meaningVi": "Hãy mang theo ô để không bị ướt nhé.",
+          "ipa": "/teɪk ən ʌmˈbrɛlə soʊ juː doʊnt ɡɛt wɛt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-9-10",
+          "phrase": "Stay inside and keep dry.",
+          "meaningVi": "Hãy ở trong nhà và giữ cho khô ráo.",
+          "ipa": "/steɪ ɪnˈsaɪd ænd kiːp draɪ/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "weather-10",
+      "slug": "lesson-10",
+      "topicSlug": "weather",
+      "title": "Changing Seasons",
+      "titleVi": "Giao mùa",
+      "order": 10,
+      "vocabulary": [
+        {
+          "id": "v-weather-10-1",
+          "word": "Change",
+          "meaningVi": "Thay đổi",
+          "ipa": "/tʃeɪndʒ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The weather changes.",
+          "exampleSentenceVi": "Thời tiết thay đổi."
+        },
+        {
+          "id": "v-weather-10-2",
+          "word": "Turn",
+          "meaningVi": "Chuyển sang",
+          "ipa": "/tɜːrn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Turn cold.",
+          "exampleSentenceVi": "Trở nên lạnh."
+        },
+        {
+          "id": "v-weather-10-3",
+          "word": "Fall",
+          "meaningVi": "Rơi rụng",
+          "ipa": "/fɔːl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Leaves fall.",
+          "exampleSentenceVi": "Lá rụng."
+        },
+        {
+          "id": "v-weather-10-4",
+          "word": "Dark",
+          "meaningVi": "Tối",
+          "ipa": "/dɑːrk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Gets dark early.",
+          "exampleSentenceVi": "Trời tối sớm."
+        },
+        {
+          "id": "v-weather-10-5",
+          "word": "Bright",
+          "meaningVi": "Sáng",
+          "ipa": "/braɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Bright mornings.",
+          "exampleSentenceVi": "Những buổi sáng tươi sáng."
+        },
+        {
+          "id": "v-weather-10-6",
+          "word": "Wait",
+          "meaningVi": "Chờ đợi",
+          "ipa": "/weɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Wait for spring.",
+          "exampleSentenceVi": "Chờ đợi mùa xuân."
+        },
+        {
+          "id": "v-weather-10-7",
+          "word": "Prepare",
+          "meaningVi": "Chuẩn bị",
+          "ipa": "/prɪˈpɛr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Prepare for winter.",
+          "exampleSentenceVi": "Chuẩn bị cho mùa đông."
+        },
+        {
+          "id": "v-weather-10-8",
+          "word": "Month",
+          "meaningVi": "Tháng",
+          "ipa": "/mʌnθ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Next month.",
+          "exampleSentenceVi": "Tháng sau."
+        },
+        {
+          "id": "v-weather-10-9",
+          "word": "End",
+          "meaningVi": "Kết thúc",
+          "ipa": "/ɛnd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "End of summer.",
+          "exampleSentenceVi": "Cuối mùa hè."
+        },
+        {
+          "id": "v-weather-10-10",
+          "word": "Start",
+          "meaningVi": "Bắt đầu",
+          "ipa": "/stɑːrt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Start of autumn.",
+          "exampleSentenceVi": "Bắt đầu mùa thu."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-weather-10-1",
+          "phrase": "The weather changes a lot in September.",
+          "meaningVi": "Thời tiết thay đổi nhiều vào tháng 9.",
+          "ipa": "/ðə /ˈwɛðər ˈtʃeɪndʒɪz ə lɑːt ɪn sɛpˈtɛmbər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-10-2",
+          "phrase": "The weather will soon turn cold.",
+          "meaningVi": "Thời tiết sẽ sớm trở lạnh.",
+          "ipa": "/ðə /ˈwɛðər wɪl suːn tɜːrn koʊld/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-10-3",
+          "phrase": "Leaves start to fall from the trees in autumn.",
+          "meaningVi": "Lá bắt đầu rụng khỏi cây vào mùa thu.",
+          "ipa": "/liːvz stɑːrt tuː fɔːl frʌm ðə triːz ɪn /ˈɔːtəm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-10-4",
+          "phrase": "It gets dark very early in winter.",
+          "meaningVi": "Trời tối rất sớm vào mùa đông.",
+          "ipa": "/ɪt ɡɛts dɑːrk ˈvɛri ˈɜːrli ɪn /ˈwɪntər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-10-5",
+          "phrase": "I love the bright mornings of spring.",
+          "meaningVi": "Tôi thích những buổi sáng tươi sáng của mùa xuân.",
+          "ipa": "/aɪ lʌv ðə braɪt /ˈmɔːrnɪŋz ʌv sprɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-10-6",
+          "phrase": "We just have to wait for the snow to stop.",
+          "meaningVi": "Chúng ta chỉ còn biết chờ tuyết ngừng rơi thôi.",
+          "ipa": "/wiː dʒʌst hæv tuː weɪt fɔːr ðə snoʊ tuː stɑːp/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-10-7",
+          "phrase": "We need to prepare our house for the winter.",
+          "meaningVi": "Chúng ta cần chuẩn bị nhà cửa để đón mùa đông.",
+          "ipa": "/wiː niːd tuː prɪˈpɛr aʊər haʊs fɔːr ðə /ˈwɪntər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-10-8",
+          "phrase": "Next month, the rainy season will begin.",
+          "meaningVi": "Tháng sau, mùa mưa sẽ bắt đầu.",
+          "ipa": "/nɛkst mʌnθ ðə ˈreɪni /ˈsiːzn wɪl bɪˈɡɪn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-10-9",
+          "phrase": "This is the end of the summer holidays.",
+          "meaningVi": "Đây là điểm kết thúc của kỳ nghỉ hè.",
+          "ipa": "/ðɪs ɪz ðə ɛnd ʌv ðə /ˈsʌmər ˈhɑːlədeɪz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-weather-10-10",
+          "phrase": "The start of a new season is always exciting.",
+          "meaningVi": "Sự khởi đầu của một mùa mới luôn thú vị.",
+          "ipa": "/ðə stɑːrt ʌv ə nuː /ˈsiːzn ɪz ˈɔːlweɪz ɪkˈsaɪtɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    }
+  ]
+}

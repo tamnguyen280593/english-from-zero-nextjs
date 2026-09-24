@@ -1,0 +1,1845 @@
+{
+  "topicSlug": "business",
+  "lessons": [
+    {
+      "id": "business-1",
+      "slug": "lesson-1",
+      "topicSlug": "business",
+      "title": "Job Interview",
+      "titleVi": "Phỏng vấn",
+      "order": 1,
+      "vocabulary": [
+        {
+          "id": "v-business-1-1",
+          "word": "Interview",
+          "meaningVi": "Phỏng vấn",
+          "ipa": "/ˈɪntərvjuː/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Have an interview.",
+          "exampleSentenceVi": "Có một buổi phỏng vấn."
+        },
+        {
+          "id": "v-business-1-2",
+          "word": "Resume",
+          "meaningVi": "Sơ yếu lý lịch",
+          "ipa": "/rɪˈzuːm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Send your resume.",
+          "exampleSentenceVi": "Gửi CV của bạn."
+        },
+        {
+          "id": "v-business-1-3",
+          "word": "Apply",
+          "meaningVi": "Ứng tuyển",
+          "ipa": "/əˈplaɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Apply for a job.",
+          "exampleSentenceVi": "Ứng tuyển công việc."
+        },
+        {
+          "id": "v-business-1-4",
+          "word": "Hire",
+          "meaningVi": "Thuê, mướn",
+          "ipa": "/ˈhaɪər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "They hired him.",
+          "exampleSentenceVi": "Họ đã thuê anh ấy."
+        },
+        {
+          "id": "v-business-1-5",
+          "word": "Skill",
+          "meaningVi": "Kỹ năng",
+          "ipa": "/skɪl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Good skills.",
+          "exampleSentenceVi": "Những kỹ năng tốt."
+        },
+        {
+          "id": "v-business-1-6",
+          "word": "Experience",
+          "meaningVi": "Kinh nghiệm",
+          "ipa": "/ɪkˈspɪriəns/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Years of experience.",
+          "exampleSentenceVi": "Nhiều năm kinh nghiệm."
+        },
+        {
+          "id": "v-business-1-7",
+          "word": "Salary",
+          "meaningVi": "Lương",
+          "ipa": "/ˈsæləri/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A high salary.",
+          "exampleSentenceVi": "Một mức lương cao."
+        },
+        {
+          "id": "v-business-1-8",
+          "word": "Strength",
+          "meaningVi": "Điểm mạnh",
+          "ipa": "/strɛŋθ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "What is your strength?",
+          "exampleSentenceVi": "Điểm mạnh của bạn là gì?"
+        },
+        {
+          "id": "v-business-1-9",
+          "word": "Weakness",
+          "meaningVi": "Điểm yếu",
+          "ipa": "/ˈwiːknəs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "My weakness is...",
+          "exampleSentenceVi": "Điểm yếu của tôi là..."
+        },
+        {
+          "id": "v-business-1-10",
+          "word": "Question",
+          "meaningVi": "Câu hỏi",
+          "ipa": "/ˈkwɛstʃən/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Answer the question.",
+          "exampleSentenceVi": "Trả lời câu hỏi."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-business-1-1",
+          "phrase": "I have a job interview today.",
+          "meaningVi": "Hôm nay tôi có buổi phỏng vấn việc làm.",
+          "ipa": "/aɪ hæv ə dʒɑːb /ˈɪntərvjuː təˈdeɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-1-2",
+          "phrase": "Please send us your resume.",
+          "meaningVi": "Vui lòng gửi cho chúng tôi sơ yếu lý lịch của bạn.",
+          "ipa": "/pliːz sɛnd ʌs jʊr rɪˈzuːm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-1-3",
+          "phrase": "Why do you want to apply for this job?",
+          "meaningVi": "Tại sao bạn lại muốn ứng tuyển công việc này?",
+          "ipa": "/waɪ duː juː wɑːnt tuː əˈplaɪ fɔːr ðɪs dʒɑːb/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-1-4",
+          "phrase": "Tell me about your work experience.",
+          "meaningVi": "Hãy kể cho tôi nghe về kinh nghiệm làm việc của bạn.",
+          "ipa": "/tɛl miː əˈbaʊt jʊr wɜːrk ɪkˈspɪriəns/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-1-5",
+          "phrase": "What are your greatest strengths?",
+          "meaningVi": "Những điểm mạnh nhất của bạn là gì?",
+          "ipa": "/wʌt ɑːr jʊr ˈɡreɪtɪst strɛŋθs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-1-6",
+          "phrase": "What is your biggest weakness?",
+          "meaningVi": "Điểm yếu lớn nhất của bạn là gì?",
+          "ipa": "/wʌt ɪz jʊr ˈbɪɡɪst /ˈwiːknəs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-1-7",
+          "phrase": "We are looking to hire a manager.",
+          "meaningVi": "Chúng tôi đang tìm thuê một quản lý.",
+          "ipa": "/wiː ɑːr ˈlʊkɪŋ tuː /ˈhaɪər ə /ˈmænɪdʒər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-1-8",
+          "phrase": "What are your salary expectations?",
+          "meaningVi": "Mức lương kỳ vọng của bạn là bao nhiêu?",
+          "ipa": "/wʌt ɑːr jʊr /ˈsæləri ˌɛkspɛkˈteɪʃnz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-1-9",
+          "phrase": "Do you have any questions for us?",
+          "meaningVi": "Bạn có câu hỏi nào cho chúng tôi không?",
+          "ipa": "/duː juː hæv ˈɛni /ˈkwɛstʃənz fɔːr ʌs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-1-10",
+          "phrase": "We will contact you soon.",
+          "meaningVi": "Chúng tôi sẽ sớm liên hệ với bạn.",
+          "ipa": "/wiː wɪl ˈkɑːntækt juː suːn/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "business-2",
+      "slug": "lesson-2",
+      "topicSlug": "business",
+      "title": "First Day at Work",
+      "titleVi": "Ngày đầu đi làm",
+      "order": 2,
+      "vocabulary": [
+        {
+          "id": "v-business-2-1",
+          "word": "Welcome",
+          "meaningVi": "Chào mừng",
+          "ipa": "/ˈwɛlkəm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Welcome to the team.",
+          "exampleSentenceVi": "Chào mừng đến với đội."
+        },
+        {
+          "id": "v-business-2-2",
+          "word": "Introduce",
+          "meaningVi": "Giới thiệu",
+          "ipa": "/ˌɪntrəˈduːs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Let me introduce you.",
+          "exampleSentenceVi": "Để tôi giới thiệu bạn."
+        },
+        {
+          "id": "v-business-2-3",
+          "word": "Colleague",
+          "meaningVi": "Đồng nghiệp",
+          "ipa": "/ˈkɑːliːɡ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Meet your colleagues.",
+          "exampleSentenceVi": "Gặp gỡ đồng nghiệp."
+        },
+        {
+          "id": "v-business-2-4",
+          "word": "Desk",
+          "meaningVi": "Bàn làm việc",
+          "ipa": "/dɛsk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "This is your desk.",
+          "exampleSentenceVi": "Đây là bàn của bạn."
+        },
+        {
+          "id": "v-business-2-5",
+          "word": "Rule",
+          "meaningVi": "Quy định",
+          "ipa": "/ruːl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Office rules.",
+          "exampleSentenceVi": "Nội quy văn phòng."
+        },
+        {
+          "id": "v-business-2-6",
+          "word": "Department",
+          "meaningVi": "Phòng ban",
+          "ipa": "/dɪˈpɑːrtmənt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The sales department.",
+          "exampleSentenceVi": "Phòng kinh doanh."
+        },
+        {
+          "id": "v-business-2-7",
+          "word": "Nervous",
+          "meaningVi": "Lo lắng",
+          "ipa": "/ˈnɜːrvəs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I am a bit nervous.",
+          "exampleSentenceVi": "Tôi hơi lo lắng."
+        },
+        {
+          "id": "v-business-2-8",
+          "word": "Help",
+          "meaningVi": "Giúp đỡ",
+          "ipa": "/hɛlp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "We will help you.",
+          "exampleSentenceVi": "Chúng tôi sẽ giúp bạn."
+        },
+        {
+          "id": "v-business-2-9",
+          "word": "System",
+          "meaningVi": "Hệ thống",
+          "ipa": "/ˈsɪstəm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Log into the system.",
+          "exampleSentenceVi": "Đăng nhập hệ thống."
+        },
+        {
+          "id": "v-business-2-10",
+          "word": "Tour",
+          "meaningVi": "Chuyến tham quan",
+          "ipa": "/tʊr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A tour of the office.",
+          "exampleSentenceVi": "Tham quan văn phòng."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-business-2-1",
+          "phrase": "Welcome to our company.",
+          "meaningVi": "Chào mừng đến với công ty chúng tôi.",
+          "ipa": "/ˈwɛlkəm tuː aʊər /ˈkʌmpəni/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-2-2",
+          "phrase": "Let me introduce you to the team.",
+          "meaningVi": "Để tôi giới thiệu bạn với nhóm nhé.",
+          "ipa": "/lɛt miː ˌɪntrəˈduːs juː tuː ðə tiːm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-2-3",
+          "phrase": "Everyone, this is our new colleague.",
+          "meaningVi": "Mọi người, đây là đồng nghiệp mới của chúng ta.",
+          "ipa": "/ˈɛvriwʌn ðɪs ɪz aʊər nuː /ˈkɑːliːɡ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-2-4",
+          "phrase": "This will be your desk.",
+          "meaningVi": "Đây sẽ là bàn làm việc của bạn.",
+          "ipa": "/ðɪs wɪl biː jʊr dɛsk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-2-5",
+          "phrase": "I will give you a tour of the office.",
+          "meaningVi": "Tôi sẽ dẫn bạn đi tham quan một vòng văn phòng.",
+          "ipa": "/aɪ wɪl ɡɪv juː ə tʊr ʌv ðə /ˈɔːfɪs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-2-6",
+          "phrase": "Are you familiar with this system?",
+          "meaningVi": "Bạn có quen với hệ thống này không?",
+          "ipa": "/ɑːr juː fəˈmɪliər wɪð ðɪs /ˈsɪstəm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-2-7",
+          "phrase": "Don't be nervous, we are here to help.",
+          "meaningVi": "Đừng lo lắng, chúng tôi ở đây để giúp bạn.",
+          "ipa": "/doʊnt biː /ˈnɜːrvəs wiː ɑːr hɪr tuː hɛlp/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-2-8",
+          "phrase": "Please read the office rules carefully.",
+          "meaningVi": "Vui lòng đọc kỹ nội quy văn phòng.",
+          "ipa": "/pliːz riːd ðə /ˈɔːfɪs ruːlz ˈkɛrfəli/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-2-9",
+          "phrase": "Which department are you in?",
+          "meaningVi": "Bạn ở phòng ban nào?",
+          "ipa": "/wɪtʃ dɪˈpɑːrtmənt ɑːr juː ɪn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-2-10",
+          "phrase": "Let me know if you need anything.",
+          "meaningVi": "Cứ báo tôi biết nếu bạn cần gì nhé.",
+          "ipa": "/lɛt miː noʊ ɪf juː niːd ˈɛniθɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "business-3",
+      "slug": "lesson-3",
+      "topicSlug": "business",
+      "title": "Writing Emails",
+      "titleVi": "Viết thư điện tử",
+      "order": 3,
+      "vocabulary": [
+        {
+          "id": "v-business-3-1",
+          "word": "Email",
+          "meaningVi": "Thư điện tử",
+          "ipa": "/ˈiːmeɪl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Send an email.",
+          "exampleSentenceVi": "Gửi email."
+        },
+        {
+          "id": "v-business-3-2",
+          "word": "Reply",
+          "meaningVi": "Phản hồi",
+          "ipa": "/rɪˈplaɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Reply to him.",
+          "exampleSentenceVi": "Trả lời anh ấy."
+        },
+        {
+          "id": "v-business-3-3",
+          "word": "Forward",
+          "meaningVi": "Chuyển tiếp",
+          "ipa": "/ˈfɔːrwərd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Forward the message.",
+          "exampleSentenceVi": "Chuyển tiếp tin nhắn."
+        },
+        {
+          "id": "v-business-3-4",
+          "word": "Attach",
+          "meaningVi": "Đính kèm",
+          "ipa": "/əˈtætʃ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Attach a file.",
+          "exampleSentenceVi": "Đính kèm tệp."
+        },
+        {
+          "id": "v-business-3-5",
+          "word": "Inform",
+          "meaningVi": "Thông báo",
+          "ipa": "/ɪnˈfɔːrm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Inform the client.",
+          "exampleSentenceVi": "Thông báo cho khách hàng."
+        },
+        {
+          "id": "v-business-3-6",
+          "word": "Request",
+          "meaningVi": "Yêu cầu",
+          "ipa": "/rɪˈkwɛst/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A formal request.",
+          "exampleSentenceVi": "Một yêu cầu trang trọng."
+        },
+        {
+          "id": "v-business-3-7",
+          "word": "Confirm",
+          "meaningVi": "Xác nhận",
+          "ipa": "/kənˈfɜːrm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Confirm the meeting.",
+          "exampleSentenceVi": "Xác nhận cuộc họp."
+        },
+        {
+          "id": "v-business-3-8",
+          "word": "Apologize",
+          "meaningVi": "Xin lỗi",
+          "ipa": "/əˈpɑːlədʒaɪz/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Apologize for the delay.",
+          "exampleSentenceVi": "Xin lỗi vì sự chậm trễ."
+        },
+        {
+          "id": "v-business-3-9",
+          "word": "Regards",
+          "meaningVi": "Trân trọng",
+          "ipa": "/rɪˈɡɑːrdz/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Best regards.",
+          "exampleSentenceVi": "Trân trọng kính chào."
+        },
+        {
+          "id": "v-business-3-10",
+          "word": "Delete",
+          "meaningVi": "Xóa",
+          "ipa": "/dɪˈliːt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Delete the spam.",
+          "exampleSentenceVi": "Xóa thư rác."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-business-3-1",
+          "phrase": "I am writing to inform you about the project.",
+          "meaningVi": "Tôi viết thư để thông báo về dự án.",
+          "ipa": "/aɪ æm ˈraɪtɪŋ tuː ɪnˈfɔːrm juː əˈbaʊt ðə /ˈprɑːdʒɛkt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-3-2",
+          "phrase": "Please reply as soon as possible.",
+          "meaningVi": "Vui lòng phản hồi sớm nhất có thể.",
+          "ipa": "/pliːz rɪˈplaɪ æz suːn æz ˈpɑːsəbl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-3-3",
+          "phrase": "I will forward this email to the manager.",
+          "meaningVi": "Tôi sẽ chuyển tiếp email này cho quản lý.",
+          "ipa": "/aɪ wɪl /ˈfɔːrwərd ðɪs /ˈiːmeɪl tuː ðə /ˈmænɪdʒər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-3-4",
+          "phrase": "Please find the attached document.",
+          "meaningVi": "Vui lòng xem tài liệu đính kèm.",
+          "ipa": "/pliːz faɪnd ðə əˈtætʃt ˈdɑːkjəmənt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-3-5",
+          "phrase": "We would like to request more information.",
+          "meaningVi": "Chúng tôi muốn yêu cầu thêm thông tin.",
+          "ipa": "/wiː wʊd laɪk tuː rɪˈkwɛst mɔːr ˌɪnfərˈmeɪʃn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-3-6",
+          "phrase": "Could you please confirm the date?",
+          "meaningVi": "Bạn có thể xác nhận lại ngày được không?",
+          "ipa": "/kʊd juː pliːz kənˈfɜːrm ðə deɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-3-7",
+          "phrase": "I apologize for the late response.",
+          "meaningVi": "Tôi xin lỗi vì phản hồi trễ.",
+          "ipa": "/aɪ əˈpɑːlədʒaɪz fɔːr ðə leɪt rɪˈspɑːns/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-3-8",
+          "phrase": "Let me know if you have any questions.",
+          "meaningVi": "Hãy cho tôi biết nếu bạn có bất kỳ câu hỏi nào.",
+          "ipa": "/lɛt miː noʊ ɪf juː hæv ˈɛni /ˈkwɛstʃənz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-3-9",
+          "phrase": "Looking forward to hearing from you.",
+          "meaningVi": "Rất mong nhận được phản hồi từ bạn.",
+          "ipa": "/ˈlʊkɪŋ /ˈfɔːrwərd tuː ˈhɪrɪŋ frʌm juː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-3-10",
+          "phrase": "Best regards, Tom.",
+          "meaningVi": "Trân trọng, Tom.",
+          "ipa": "/bɛst rɪˈɡɑːrdz tɑːm/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "business-4",
+      "slug": "lesson-4",
+      "topicSlug": "business",
+      "title": "Making Phone Calls",
+      "titleVi": "Gọi điện thoại",
+      "order": 4,
+      "vocabulary": [
+        {
+          "id": "v-business-4-1",
+          "word": "Call",
+          "meaningVi": "Gọi điện",
+          "ipa": "/kɔːl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Call the office.",
+          "exampleSentenceVi": "Gọi cho văn phòng."
+        },
+        {
+          "id": "v-business-4-2",
+          "word": "Speak",
+          "meaningVi": "Nói chuyện",
+          "ipa": "/spiːk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "May I speak to John?",
+          "exampleSentenceVi": "Tôi có thể nói chuyện với John không?"
+        },
+        {
+          "id": "v-business-4-3",
+          "word": "Message",
+          "meaningVi": "Tin nhắn",
+          "ipa": "/ˈmɛsɪdʒ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Leave a message.",
+          "exampleSentenceVi": "Để lại lời nhắn."
+        },
+        {
+          "id": "v-business-4-4",
+          "word": "Hold",
+          "meaningVi": "Giữ máy",
+          "ipa": "/hoʊld/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Hold on, please.",
+          "exampleSentenceVi": "Vui lòng giữ máy."
+        },
+        {
+          "id": "v-business-4-5",
+          "word": "Transfer",
+          "meaningVi": "Chuyển máy",
+          "ipa": "/trænsˈfɜːr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I will transfer you.",
+          "exampleSentenceVi": "Tôi sẽ chuyển máy."
+        },
+        {
+          "id": "v-business-4-6",
+          "word": "Available",
+          "meaningVi": "Có mặt, rảnh",
+          "ipa": "/əˈveɪləbl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "He is not available.",
+          "exampleSentenceVi": "Anh ấy không có mặt."
+        },
+        {
+          "id": "v-business-4-7",
+          "word": "Wrong",
+          "meaningVi": "Sai",
+          "ipa": "/rɔːŋ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Wrong number.",
+          "exampleSentenceVi": "Nhầm số."
+        },
+        {
+          "id": "v-business-4-8",
+          "word": "Dial",
+          "meaningVi": "Bấm số",
+          "ipa": "/ˈdaɪəl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Dial the number.",
+          "exampleSentenceVi": "Bấm số điện thoại."
+        },
+        {
+          "id": "v-business-4-9",
+          "word": "Hang up",
+          "meaningVi": "Cúp máy",
+          "ipa": "/hæŋ ʌp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Do not hang up.",
+          "exampleSentenceVi": "Đừng cúp máy."
+        },
+        {
+          "id": "v-business-4-10",
+          "word": "Busy",
+          "meaningVi": "Bận",
+          "ipa": "/ˈbɪzi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The line is busy.",
+          "exampleSentenceVi": "Đường dây đang bận."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-business-4-1",
+          "phrase": "Hello, this is Tom speaking.",
+          "meaningVi": "Xin chào, Tom đang nghe.",
+          "ipa": "/həˈloʊ ðɪs ɪz tɑːm ˈspiːkɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-4-2",
+          "phrase": "May I speak to Mr. Smith, please?",
+          "meaningVi": "Cho tôi hỏi nói chuyện với ông Smith được không?",
+          "ipa": "/meɪ aɪ spiːk tuː ˈmɪstər smɪθ pliːz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-4-3",
+          "phrase": "I am sorry, he is not available right now.",
+          "meaningVi": "Xin lỗi, anh ấy hiện không rảnh/có mặt.",
+          "ipa": "/aɪ æm /ˈsɑːri hiː ɪz nɑːt əˈveɪləbl raɪt naʊ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-4-4",
+          "phrase": "Would you like to leave a message?",
+          "meaningVi": "Bạn có muốn để lại lời nhắn không?",
+          "ipa": "/wʊd juː laɪk tuː liːv ə /ˈmɛsɪdʒ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-4-5",
+          "phrase": "Please hold the line.",
+          "meaningVi": "Vui lòng giữ máy.",
+          "ipa": "/pliːz hoʊld ðə laɪn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-4-6",
+          "phrase": "I will transfer your call.",
+          "meaningVi": "Tôi sẽ chuyển cuộc gọi của bạn.",
+          "ipa": "/aɪ wɪl trænsˈfɜːr jʊr kɔːl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-4-7",
+          "phrase": "I think you have the wrong number.",
+          "meaningVi": "Tôi nghĩ bạn nhầm số rồi.",
+          "ipa": "/aɪ θɪŋk juː hæv ðə rɔːŋ ˈnʌmbər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-4-8",
+          "phrase": "The line is busy, please try again later.",
+          "meaningVi": "Đường dây đang bận, vui lòng thử lại sau.",
+          "ipa": "/ðə laɪn ɪz /ˈbɪzi pliːz traɪ əˈɡeɪn ˈleɪtər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-4-9",
+          "phrase": "Could you ask him to call me back?",
+          "meaningVi": "Bạn có thể nhắn anh ấy gọi lại cho tôi không?",
+          "ipa": "/kʊd juː æsk hɪm tuː kɔːl miː bæk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-4-10",
+          "phrase": "Thanks for calling, goodbye.",
+          "meaningVi": "Cảm ơn vì đã gọi, tạm biệt.",
+          "ipa": "/θæŋks fɔːr ˈkɔːlɪŋ ɡʊdˈbaɪ/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "business-5",
+      "slug": "lesson-5",
+      "topicSlug": "business",
+      "title": "Meetings",
+      "titleVi": "Họp hành",
+      "order": 5,
+      "vocabulary": [
+        {
+          "id": "v-business-5-1",
+          "word": "Meeting",
+          "meaningVi": "Cuộc họp",
+          "ipa": "/ˈmiːtɪŋ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Start the meeting.",
+          "exampleSentenceVi": "Bắt đầu cuộc họp."
+        },
+        {
+          "id": "v-business-5-2",
+          "word": "Agenda",
+          "meaningVi": "Chương trình họp",
+          "ipa": "/əˈdʒɛndə/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The meeting agenda.",
+          "exampleSentenceVi": "Lịch trình cuộc họp."
+        },
+        {
+          "id": "v-business-5-3",
+          "word": "Discuss",
+          "meaningVi": "Thảo luận",
+          "ipa": "/dɪˈskʌs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Discuss the plan.",
+          "exampleSentenceVi": "Thảo luận kế hoạch."
+        },
+        {
+          "id": "v-business-5-4",
+          "word": "Agree",
+          "meaningVi": "Đồng ý",
+          "ipa": "/əˈɡriː/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I agree.",
+          "exampleSentenceVi": "Tôi đồng ý."
+        },
+        {
+          "id": "v-business-5-5",
+          "word": "Disagree",
+          "meaningVi": "Không đồng ý",
+          "ipa": "/ˌdɪsəˈɡriː/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I disagree.",
+          "exampleSentenceVi": "Tôi không đồng ý."
+        },
+        {
+          "id": "v-business-5-6",
+          "word": "Opinion",
+          "meaningVi": "Ý kiến",
+          "ipa": "/əˈpɪnjən/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "What is your opinion?",
+          "exampleSentenceVi": "Ý kiến của bạn là gì?"
+        },
+        {
+          "id": "v-business-5-7",
+          "word": "Point",
+          "meaningVi": "Điểm, ý",
+          "ipa": "/pɔɪnt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "That is a good point.",
+          "exampleSentenceVi": "Đó là một ý hay."
+        },
+        {
+          "id": "v-business-5-8",
+          "word": "Suggest",
+          "meaningVi": "Đề xuất",
+          "ipa": "/səɡˈdʒɛst/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I suggest this.",
+          "exampleSentenceVi": "Tôi đề xuất điều này."
+        },
+        {
+          "id": "v-business-5-9",
+          "word": "Decide",
+          "meaningVi": "Quyết định",
+          "ipa": "/dɪˈsaɪd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "We must decide now.",
+          "exampleSentenceVi": "Chúng ta phải quyết định ngay."
+        },
+        {
+          "id": "v-business-5-10",
+          "word": "Wrap up",
+          "meaningVi": "Kết thúc",
+          "ipa": "/ræp ʌp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Let's wrap up.",
+          "exampleSentenceVi": "Cùng tóm tắt/kết thúc nào."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-business-5-1",
+          "phrase": "Let's start the meeting.",
+          "meaningVi": "Chúng ta hãy bắt đầu cuộc họp.",
+          "ipa": "/lɛts stɑːrt ðə /ˈmiːtɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-5-2",
+          "phrase": "Here is the agenda for today.",
+          "meaningVi": "Đây là nội dung chương trình hôm nay.",
+          "ipa": "/hɪr ɪz ðə əˈdʒɛndə fɔːr təˈdeɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-5-3",
+          "phrase": "We need to discuss the new project.",
+          "meaningVi": "Chúng ta cần thảo luận về dự án mới.",
+          "ipa": "/wiː niːd tuː dɪˈskʌs ðə nuː /ˈprɑːdʒɛkt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-5-4",
+          "phrase": "What is your opinion on this?",
+          "meaningVi": "Ý kiến của bạn về việc này thế nào?",
+          "ipa": "/wʌt ɪz jʊr əˈpɪnjən ɑːn ðɪs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-5-5",
+          "phrase": "I completely agree with you.",
+          "meaningVi": "Tôi hoàn toàn đồng ý với bạn.",
+          "ipa": "/aɪ kəmˈpliːtli əˈɡriː wɪð juː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-5-6",
+          "phrase": "I am afraid I have to disagree.",
+          "meaningVi": "Tôi e là tôi không đồng ý.",
+          "ipa": "/aɪ æm əˈfreɪd aɪ hæv tuː ˌdɪsəˈɡriː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-5-7",
+          "phrase": "That is a very good point.",
+          "meaningVi": "Đó là một ý rất hay.",
+          "ipa": "/ðæt ɪz ə ˈvɛri ɡʊd pɔɪnt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-5-8",
+          "phrase": "I suggest we delay the deadline.",
+          "meaningVi": "Tôi đề xuất chúng ta lùi hạn chót.",
+          "ipa": "/aɪ səɡˈdʒɛst wiː dɪˈleɪ ðə ˈdɛdlaɪn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-5-9",
+          "phrase": "Have we decided on the budget?",
+          "meaningVi": "Chúng ta đã quyết định ngân sách chưa?",
+          "ipa": "/hæv wiː dɪˈsaɪdɪd ɑːn ðə /ˈbʌdʒɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-5-10",
+          "phrase": "Let's wrap up the meeting here.",
+          "meaningVi": "Chúng ta hãy kết thúc cuộc họp ở đây.",
+          "ipa": "/lɛts ræp ʌp ðə /ˈmiːtɪŋ hɪr/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "business-6",
+      "slug": "lesson-6",
+      "topicSlug": "business",
+      "title": "Progress Reports",
+      "titleVi": "Báo cáo tiến độ",
+      "order": 6,
+      "vocabulary": [
+        {
+          "id": "v-business-6-1",
+          "word": "Report",
+          "meaningVi": "Báo cáo",
+          "ipa": "/rɪˈpɔːrt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A weekly report.",
+          "exampleSentenceVi": "Báo cáo hàng tuần."
+        },
+        {
+          "id": "v-business-6-2",
+          "word": "Progress",
+          "meaningVi": "Tiến độ",
+          "ipa": "/ˈprɑːɡrɛs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Check the progress.",
+          "exampleSentenceVi": "Kiểm tra tiến độ."
+        },
+        {
+          "id": "v-business-6-3",
+          "word": "Update",
+          "meaningVi": "Cập nhật",
+          "ipa": "/ʌpˈdeɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Give an update.",
+          "exampleSentenceVi": "Cập nhật tình hình."
+        },
+        {
+          "id": "v-business-6-4",
+          "word": "Deadline",
+          "meaningVi": "Hạn chót",
+          "ipa": "/ˈdɛdlaɪn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Meet the deadline.",
+          "exampleSentenceVi": "Kịp hạn chót."
+        },
+        {
+          "id": "v-business-6-5",
+          "word": "Delay",
+          "meaningVi": "Trì hoãn",
+          "ipa": "/dɪˈleɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Without delay.",
+          "exampleSentenceVi": "Không chậm trễ."
+        },
+        {
+          "id": "v-business-6-6",
+          "word": "Task",
+          "meaningVi": "Nhiệm vụ",
+          "ipa": "/tæsk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Finish the task.",
+          "exampleSentenceVi": "Hoàn thành nhiệm vụ."
+        },
+        {
+          "id": "v-business-6-7",
+          "word": "Complete",
+          "meaningVi": "Hoàn thành",
+          "ipa": "/kəmˈpliːt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Project completed.",
+          "exampleSentenceVi": "Dự án hoàn thành."
+        },
+        {
+          "id": "v-business-6-8",
+          "word": "Issue",
+          "meaningVi": "Vấn đề",
+          "ipa": "/ˈɪʃuː/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Fix the issue.",
+          "exampleSentenceVi": "Giải quyết vấn đề."
+        },
+        {
+          "id": "v-business-6-9",
+          "word": "Target",
+          "meaningVi": "Mục tiêu",
+          "ipa": "/ˈtɑːrɡɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Hit the target.",
+          "exampleSentenceVi": "Đạt mục tiêu."
+        },
+        {
+          "id": "v-business-6-10",
+          "word": "Success",
+          "meaningVi": "Thành công",
+          "ipa": "/səkˈsɛs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A great success.",
+          "exampleSentenceVi": "Một thành công lớn."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-business-6-1",
+          "phrase": "Can you give me an update on the project?",
+          "meaningVi": "Bạn có thể cập nhật tình hình dự án cho tôi không?",
+          "ipa": "/kæn juː ɡɪv miː ən ʌpˈdeɪt ɑːn ðə /ˈprɑːdʒɛkt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-6-2",
+          "phrase": "We are making good progress.",
+          "meaningVi": "Chúng ta đang có tiến độ tốt.",
+          "ipa": "/wiː ɑːr ˈmeɪkɪŋ ɡʊd /ˈprɑːɡrɛs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-6-3",
+          "phrase": "The report is due on Friday.",
+          "meaningVi": "Báo cáo cần nộp vào thứ Sáu.",
+          "ipa": "/ðə rɪˈpɔːrt ɪz duː ɑːn ˈfraɪdeɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-6-4",
+          "phrase": "Are we going to meet the deadline?",
+          "meaningVi": "Chúng ta có kịp hạn chót không?",
+          "ipa": "/ɑːr wiː ˈɡoʊɪŋ tuː miːt ðə ˈdɛdlaɪn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-6-5",
+          "phrase": "There is a slight delay.",
+          "meaningVi": "Có một sự chậm trễ nhỏ.",
+          "ipa": "/ðɛr ɪz ə slaɪt dɪˈleɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-6-6",
+          "phrase": "We have completed all the tasks.",
+          "meaningVi": "Chúng tôi đã hoàn thành mọi nhiệm vụ.",
+          "ipa": "/wiː hæv kəmˈpliːtɪd ɔːl ðə tæsks/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-6-7",
+          "phrase": "We encountered a minor issue.",
+          "meaningVi": "Chúng tôi đã gặp phải một vấn đề nhỏ.",
+          "ipa": "/wiː ɪnˈkaʊntərd ə ˈmaɪnər /ˈɪʃuː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-6-8",
+          "phrase": "We have hit our sales target this month.",
+          "meaningVi": "Tháng này chúng ta đã đạt chỉ tiêu doanh số.",
+          "ipa": "/wiː hæv hɪt aʊər seɪlz /ˈtɑːrɡɪt ðɪs mʌnθ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-6-9",
+          "phrase": "The campaign was a great success.",
+          "meaningVi": "Chiến dịch đã thành công tốt đẹp.",
+          "ipa": "/ðə kæmˈpeɪn wʌz ə ɡreɪt səkˈsɛs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-6-10",
+          "phrase": "Keep up the excellent work!",
+          "meaningVi": "Hãy tiếp tục làm tốt nhé!",
+          "ipa": "/kiːp ʌp ðə ˈɛksələnt wɜːrk/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "business-7",
+      "slug": "lesson-7",
+      "topicSlug": "business",
+      "title": "Negotiations",
+      "titleVi": "Đàm phán",
+      "order": 7,
+      "vocabulary": [
+        {
+          "id": "v-business-7-1",
+          "word": "Negotiate",
+          "meaningVi": "Đàm phán",
+          "ipa": "/nɪˈɡoʊʃieɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Negotiate the price.",
+          "exampleSentenceVi": "Đàm phán giá cả."
+        },
+        {
+          "id": "v-business-7-2",
+          "word": "Deal",
+          "meaningVi": "Thỏa thuận",
+          "ipa": "/diːl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A good deal.",
+          "exampleSentenceVi": "Một thỏa thuận tốt."
+        },
+        {
+          "id": "v-business-7-3",
+          "word": "Offer",
+          "meaningVi": "Lời đề nghị",
+          "ipa": "/ˈɔːfər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Accept the offer.",
+          "exampleSentenceVi": "Chấp nhận lời đề nghị."
+        },
+        {
+          "id": "v-business-7-4",
+          "word": "Price",
+          "meaningVi": "Giá cả",
+          "ipa": "/praɪs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A fair price.",
+          "exampleSentenceVi": "Một cái giá hợp lý."
+        },
+        {
+          "id": "v-business-7-5",
+          "word": "Discount",
+          "meaningVi": "Giảm giá",
+          "ipa": "/ˈdɪskaʊnt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Give a discount.",
+          "exampleSentenceVi": "Cho chiết khấu/giảm giá."
+        },
+        {
+          "id": "v-business-7-6",
+          "word": "Compromise",
+          "meaningVi": "Thỏa hiệp",
+          "ipa": "/ˈkɑːmprəmaɪz/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Reach a compromise.",
+          "exampleSentenceVi": "Đạt được sự thỏa hiệp."
+        },
+        {
+          "id": "v-business-7-7",
+          "word": "Terms",
+          "meaningVi": "Điều khoản",
+          "ipa": "/tɜːrmz/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Agree to the terms.",
+          "exampleSentenceVi": "Đồng ý với các điều khoản."
+        },
+        {
+          "id": "v-business-7-8",
+          "word": "Contract",
+          "meaningVi": "Hợp đồng",
+          "ipa": "/ˈkɑːntrækt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Sign the contract.",
+          "exampleSentenceVi": "Ký hợp đồng."
+        },
+        {
+          "id": "v-business-7-9",
+          "word": "Partner",
+          "meaningVi": "Đối tác",
+          "ipa": "/ˈpɑːrtnər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Business partner.",
+          "exampleSentenceVi": "Đối tác kinh doanh."
+        },
+        {
+          "id": "v-business-7-10",
+          "word": "Profit",
+          "meaningVi": "Lợi nhuận",
+          "ipa": "/ˈprɑːfɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Make a profit.",
+          "exampleSentenceVi": "Tạo ra lợi nhuận."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-business-7-1",
+          "phrase": "We are open to negotiation.",
+          "meaningVi": "Chúng tôi sẵn sàng đàm phán.",
+          "ipa": "/wiː ɑːr ˈoʊpən tuː nɪˌɡoʊʃiˈeɪʃn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-7-2",
+          "phrase": "What is your best offer?",
+          "meaningVi": "Lời đề nghị tốt nhất của bạn là gì?",
+          "ipa": "/wʌt ɪz jʊr bɛst /ˈɔːfər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-7-3",
+          "phrase": "The price is a bit too high for us.",
+          "meaningVi": "Giá đó hơi cao đối với chúng tôi.",
+          "ipa": "/ðə praɪs ɪz ə bɪt tuː haɪ fɔːr ʌs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-7-4",
+          "phrase": "Can you offer us a discount?",
+          "meaningVi": "Bạn có thể chiết khấu cho chúng tôi không?",
+          "ipa": "/kæn juː /ˈɔːfər ʌs ə /ˈdɪskaʊnt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-7-5",
+          "phrase": "We need to reach a compromise.",
+          "meaningVi": "Chúng ta cần đạt được thỏa hiệp.",
+          "ipa": "/wiː niːd tuː riːtʃ ə /ˈkɑːmprəmaɪz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-7-6",
+          "phrase": "I think we have a deal.",
+          "meaningVi": "Tôi nghĩ là chúng ta đã có thỏa thuận.",
+          "ipa": "/aɪ θɪŋk wiː hæv ə diːl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-7-7",
+          "phrase": "Do you agree to these terms?",
+          "meaningVi": "Bạn có đồng ý với những điều khoản này không?",
+          "ipa": "/duː juː əˈɡriː tuː ðiːz tɜːrmz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-7-8",
+          "phrase": "Please review the contract before signing.",
+          "meaningVi": "Vui lòng xem lại hợp đồng trước khi ký.",
+          "ipa": "/pliːz rɪˈvjuː ðə /ˈkɑːntrækt bɪˈfɔːr ˈsaɪnɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-7-9",
+          "phrase": "We value you as a business partner.",
+          "meaningVi": "Chúng tôi trân trọng bạn với tư cách là đối tác.",
+          "ipa": "/wiː ˈvæljuː juː æz ə ˈbɪznəs /ˈpɑːrtnər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-7-10",
+          "phrase": "This deal will bring profit to both sides.",
+          "meaningVi": "Thỏa thuận này sẽ mang lại lợi nhuận cho cả hai bên.",
+          "ipa": "/ðɪs diːl wɪl brɪŋ /ˈprɑːfɪt tuː boʊθ saɪdz/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "business-8",
+      "slug": "lesson-8",
+      "topicSlug": "business",
+      "title": "Complaints & Resolutions",
+      "titleVi": "Phàn nàn & Giải quyết",
+      "order": 8,
+      "vocabulary": [
+        {
+          "id": "v-business-8-1",
+          "word": "Complain",
+          "meaningVi": "Phàn nàn",
+          "ipa": "/kəmˈpleɪn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Do not complain.",
+          "exampleSentenceVi": "Đừng phàn nàn."
+        },
+        {
+          "id": "v-business-8-2",
+          "word": "Mistake",
+          "meaningVi": "Lỗi",
+          "ipa": "/mɪˈsteɪk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Make a mistake.",
+          "exampleSentenceVi": "Phạm lỗi."
+        },
+        {
+          "id": "v-business-8-3",
+          "word": "Error",
+          "meaningVi": "Lỗi kỹ thuật",
+          "ipa": "/ˈɛrər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "System error.",
+          "exampleSentenceVi": "Lỗi hệ thống."
+        },
+        {
+          "id": "v-business-8-4",
+          "word": "Apology",
+          "meaningVi": "Lời xin lỗi",
+          "ipa": "/əˈpɑːlədʒi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Accept my apology.",
+          "exampleSentenceVi": "Xin hãy nhận lời xin lỗi của tôi."
+        },
+        {
+          "id": "v-business-8-5",
+          "word": "Solve",
+          "meaningVi": "Giải quyết",
+          "ipa": "/sɑːlv/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Solve the problem.",
+          "exampleSentenceVi": "Giải quyết vấn đề."
+        },
+        {
+          "id": "v-business-8-6",
+          "word": "Solution",
+          "meaningVi": "Giải pháp",
+          "ipa": "/səˈluːʃn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Find a solution.",
+          "exampleSentenceVi": "Tìm ra giải pháp."
+        },
+        {
+          "id": "v-business-8-7",
+          "word": "Refund",
+          "meaningVi": "Hoàn tiền",
+          "ipa": "/ˈriːfʌnd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Get a refund.",
+          "exampleSentenceVi": "Nhận lại tiền hoàn."
+        },
+        {
+          "id": "v-business-8-8",
+          "word": "Replace",
+          "meaningVi": "Thay thế",
+          "ipa": "/rɪˈpleɪs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Replace the item.",
+          "exampleSentenceVi": "Thay thế món đồ."
+        },
+        {
+          "id": "v-business-8-9",
+          "word": "Assure",
+          "meaningVi": "Đảm bảo",
+          "ipa": "/əˈʃʊr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I assure you.",
+          "exampleSentenceVi": "Tôi cam đoan với bạn."
+        },
+        {
+          "id": "v-business-8-10",
+          "word": "Improve",
+          "meaningVi": "Cải thiện",
+          "ipa": "/ɪmˈpruːv/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Improve the quality.",
+          "exampleSentenceVi": "Cải thiện chất lượng."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-business-8-1",
+          "phrase": "I am calling to complain about the service.",
+          "meaningVi": "Tôi gọi điện để phàn nàn về dịch vụ.",
+          "ipa": "/aɪ æm ˈkɔːlɪŋ tuː kəmˈpleɪn əˈbaʊt ðə ˈsɜːrvɪs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-8-2",
+          "phrase": "There seems to be a mistake here.",
+          "meaningVi": "Dường như có một sự nhầm lẫn ở đây.",
+          "ipa": "/ðɛr siːmz tuː biː ə mɪˈsteɪk hɪr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-8-3",
+          "phrase": "We sincerely apologize for the error.",
+          "meaningVi": "Chúng tôi thành thật xin lỗi vì sự cố này.",
+          "ipa": "/wiː sɪnˈsɪrli əˈpɑːlədʒaɪz fɔːr ðə /ˈɛrər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-8-4",
+          "phrase": "How can we solve this problem?",
+          "meaningVi": "Chúng ta có thể giải quyết vấn đề này thế nào?",
+          "ipa": "/haʊ kæn wiː sɑːlv ðɪs /ˈprɑːbləm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-8-5",
+          "phrase": "We will find a solution immediately.",
+          "meaningVi": "Chúng tôi sẽ tìm giải pháp ngay lập tức.",
+          "ipa": "/wiː wɪl faɪnd ə səˈluːʃn ɪˈmiːdiətli/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-8-6",
+          "phrase": "Can I get a full refund?",
+          "meaningVi": "Tôi có thể được hoàn tiền toàn bộ không?",
+          "ipa": "/kæn aɪ ɡɛt ə fʊl /ˈriːfʌnd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-8-7",
+          "phrase": "We will replace the damaged item.",
+          "meaningVi": "Chúng tôi sẽ thay thế mặt hàng bị hỏng.",
+          "ipa": "/wiː wɪl rɪˈpleɪs ðə ˈdæmɪdʒd ˈaɪtəm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-8-8",
+          "phrase": "I assure you this won't happen again.",
+          "meaningVi": "Tôi cam đoan điều này sẽ không lặp lại.",
+          "ipa": "/aɪ əˈʃʊr juː ðɪs woʊnt ˈhæpən əˈɡeɪn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-8-9",
+          "phrase": "Thank you for your feedback.",
+          "meaningVi": "Cảm ơn phản hồi của bạn.",
+          "ipa": "/θæŋk juː fɔːr jʊr ˈfiːdbæk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-8-10",
+          "phrase": "We are working hard to improve.",
+          "meaningVi": "Chúng tôi đang cố gắng để cải thiện.",
+          "ipa": "/wiː ɑːr ˈwɜːrkɪŋ hɑːrd tuː ɪmˈpruːv/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "business-9",
+      "slug": "lesson-9",
+      "topicSlug": "business",
+      "title": "Business Trips",
+      "titleVi": "Chuyến công tác",
+      "order": 9,
+      "vocabulary": [
+        {
+          "id": "v-business-9-1",
+          "word": "Trip",
+          "meaningVi": "Chuyến đi",
+          "ipa": "/trɪp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Business trip.",
+          "exampleSentenceVi": "Chuyến công tác."
+        },
+        {
+          "id": "v-business-9-2",
+          "word": "Flight",
+          "meaningVi": "Chuyến bay",
+          "ipa": "/flaɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Book a flight.",
+          "exampleSentenceVi": "Đặt chuyến bay."
+        },
+        {
+          "id": "v-business-9-3",
+          "word": "Hotel",
+          "meaningVi": "Khách sạn",
+          "ipa": "/hoʊˈtɛl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Stay at a hotel.",
+          "exampleSentenceVi": "Ở khách sạn."
+        },
+        {
+          "id": "v-business-9-4",
+          "word": "Expense",
+          "meaningVi": "Chi phí",
+          "ipa": "/ɪkˈspɛns/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Travel expenses.",
+          "exampleSentenceVi": "Chi phí đi lại."
+        },
+        {
+          "id": "v-business-9-5",
+          "word": "Receipt",
+          "meaningVi": "Biên lai",
+          "ipa": "/rɪˈsiːt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Keep the receipt.",
+          "exampleSentenceVi": "Giữ lại biên lai."
+        },
+        {
+          "id": "v-business-9-6",
+          "word": "Schedule",
+          "meaningVi": "Lịch trình",
+          "ipa": "/ˈskɛdʒuːl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A tight schedule.",
+          "exampleSentenceVi": "Lịch trình dày đặc."
+        },
+        {
+          "id": "v-business-9-7",
+          "word": "Meet",
+          "meaningVi": "Gặp gỡ",
+          "ipa": "/miːt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Meet the clients.",
+          "exampleSentenceVi": "Gặp gỡ khách hàng."
+        },
+        {
+          "id": "v-business-9-8",
+          "word": "Present",
+          "meaningVi": "Thuyết trình",
+          "ipa": "/prɪˈzɛnt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Present the idea.",
+          "exampleSentenceVi": "Trình bày ý tưởng."
+        },
+        {
+          "id": "v-business-9-9",
+          "word": "Return",
+          "meaningVi": "Trở về",
+          "ipa": "/rɪˈtɜːrn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Return to the office.",
+          "exampleSentenceVi": "Trở về văn phòng."
+        },
+        {
+          "id": "v-business-9-10",
+          "word": "Successful",
+          "meaningVi": "Thành công",
+          "ipa": "/səkˈsɛsfl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A successful trip.",
+          "exampleSentenceVi": "Một chuyến đi thành công."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-business-9-1",
+          "phrase": "I am going on a business trip next week.",
+          "meaningVi": "Tuần tới tôi sẽ đi công tác.",
+          "ipa": "/aɪ æm ˈɡoʊɪŋ ɑːn ə ˈbɪznəs trɪp nɛkst wiːk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-9-2",
+          "phrase": "Have you booked the flight and hotel?",
+          "meaningVi": "Bạn đã đặt chuyến bay và khách sạn chưa?",
+          "ipa": "/hæv juː bʊkt ðə flaɪt ænd hoʊˈtɛl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-9-3",
+          "phrase": "Keep all your receipts for travel expenses.",
+          "meaningVi": "Hãy giữ mọi biên lai cho chi phí công tác.",
+          "ipa": "/kiːp ɔːl jʊr rɪˈsiːts fɔːr /ˈtrævl ɪkˈspɛnsɪz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-9-4",
+          "phrase": "My schedule is very tight.",
+          "meaningVi": "Lịch trình của tôi rất kín.",
+          "ipa": "/maɪ /ˈskɛdʒuːl ɪz ˈvɛri taɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-9-5",
+          "phrase": "I will meet the clients in the morning.",
+          "meaningVi": "Tôi sẽ gặp khách hàng vào buổi sáng.",
+          "ipa": "/aɪ wɪl miːt ðə ˈklaɪənts ɪn ðə /ˈmɔːrnɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-9-6",
+          "phrase": "I need to present our new product.",
+          "meaningVi": "Tôi cần thuyết trình sản phẩm mới của chúng ta.",
+          "ipa": "/aɪ niːd tuː prɪˈzɛnt aʊər nuː ˈprɑːdʌkt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-9-7",
+          "phrase": "When will you return to the office?",
+          "meaningVi": "Khi nào bạn sẽ quay lại văn phòng?",
+          "ipa": "/wɛn wɪl juː rɪˈtɜːrn tuː ðə /ˈɔːfɪs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-9-8",
+          "phrase": "Have a safe trip!",
+          "meaningVi": "Chúc chuyến đi thượng lộ bình an!",
+          "ipa": "/hæv ə seɪf trɪp/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-9-9",
+          "phrase": "The presentation went very well.",
+          "meaningVi": "Buổi thuyết trình diễn ra rất tốt đẹp.",
+          "ipa": "/ðə ˌprɛznˈteɪʃn wɛnt ˈvɛri wɛl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-9-10",
+          "phrase": "The trip was very successful.",
+          "meaningVi": "Chuyến công tác rất thành công.",
+          "ipa": "/ðə trɪp wʌz ˈvɛri səkˈsɛsfl/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "business-10",
+      "slug": "lesson-10",
+      "topicSlug": "business",
+      "title": "Resignation & Handover",
+      "titleVi": "Nghỉ việc & Bàn giao",
+      "order": 10,
+      "vocabulary": [
+        {
+          "id": "v-business-10-1",
+          "word": "Resign",
+          "meaningVi": "Từ chức, nghỉ việc",
+          "ipa": "/rɪˈzaɪn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I will resign.",
+          "exampleSentenceVi": "Tôi sẽ nghỉ việc."
+        },
+        {
+          "id": "v-business-10-2",
+          "word": "Leave",
+          "meaningVi": "Rời đi",
+          "ipa": "/liːv/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Leave the company.",
+          "exampleSentenceVi": "Rời khỏi công ty."
+        },
+        {
+          "id": "v-business-10-3",
+          "word": "Notice",
+          "meaningVi": "Thông báo",
+          "ipa": "/ˈnoʊtɪs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Give a notice.",
+          "exampleSentenceVi": "Nộp đơn báo trước."
+        },
+        {
+          "id": "v-business-10-4",
+          "word": "Handover",
+          "meaningVi": "Bàn giao",
+          "ipa": "/ˈhændˌoʊvər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Handover the work.",
+          "exampleSentenceVi": "Bàn giao công việc."
+        },
+        {
+          "id": "v-business-10-5",
+          "word": "Task",
+          "meaningVi": "Nhiệm vụ",
+          "ipa": "/tæsk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "List of tasks.",
+          "exampleSentenceVi": "Danh sách nhiệm vụ."
+        },
+        {
+          "id": "v-business-10-6",
+          "word": "Replace",
+          "meaningVi": "Thay thế",
+          "ipa": "/rɪˈpleɪs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Find a replacement.",
+          "exampleSentenceVi": "Tìm người thay thế."
+        },
+        {
+          "id": "v-business-10-7",
+          "word": "Appreciate",
+          "meaningVi": "Trân trọng",
+          "ipa": "/əˈpriːʃieɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I appreciate it.",
+          "exampleSentenceVi": "Tôi rất trân trọng."
+        },
+        {
+          "id": "v-business-10-8",
+          "word": "Opportunity",
+          "meaningVi": "Cơ hội",
+          "ipa": "/ˌɑːpərˈtuːnəti/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A great opportunity.",
+          "exampleSentenceVi": "Một cơ hội tuyệt vời."
+        },
+        {
+          "id": "v-business-10-9",
+          "word": "Farewell",
+          "meaningVi": "Tạm biệt",
+          "ipa": "/fɛrˈwɛl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Farewell party.",
+          "exampleSentenceVi": "Tiệc chia tay."
+        },
+        {
+          "id": "v-business-10-10",
+          "word": "Wish",
+          "meaningVi": "Chúc",
+          "ipa": "/wɪʃ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I wish you luck.",
+          "exampleSentenceVi": "Chúc bạn may mắn."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-business-10-1",
+          "phrase": "I am writing to formally resign from my position.",
+          "meaningVi": "Tôi viết thư để chính thức xin nghỉ việc.",
+          "ipa": "/aɪ æm ˈraɪtɪŋ tuː ˈfɔːrməli rɪˈzaɪn frʌm maɪ pəˈzɪʃn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-10-2",
+          "phrase": "I am giving my two weeks' notice.",
+          "meaningVi": "Tôi xin báo trước nghỉ việc 2 tuần.",
+          "ipa": "/aɪ æm ˈɡɪvɪŋ maɪ tuː wiːks /ˈnoʊtɪs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-10-3",
+          "phrase": "I will leave the company next month.",
+          "meaningVi": "Tôi sẽ rời công ty vào tháng sau.",
+          "ipa": "/aɪ wɪl liːv ðə /ˈkʌmpəni nɛkst mʌnθ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-10-4",
+          "phrase": "I will do a full handover before I leave.",
+          "meaningVi": "Tôi sẽ bàn giao đầy đủ trước khi đi.",
+          "ipa": "/aɪ wɪl duː ə fʊl /ˈhændˌoʊvər bɪˈfɔːr aɪ liːv/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-10-5",
+          "phrase": "Here is the list of my current tasks.",
+          "meaningVi": "Đây là danh sách các nhiệm vụ hiện tại của tôi.",
+          "ipa": "/hɪr ɪz ðə lɪst ʌv maɪ ˈkɜːrənt tæsks/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-10-6",
+          "phrase": "Thank you for the opportunity to work here.",
+          "meaningVi": "Cảm ơn vì cơ hội được làm việc tại đây.",
+          "ipa": "/θæŋk juː fɔːr ðə ˌɑːpərˈtuːnəti tuː wɜːrk hɪr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-10-7",
+          "phrase": "I truly appreciate your support.",
+          "meaningVi": "Tôi thực sự trân trọng sự hỗ trợ của các bạn.",
+          "ipa": "/aɪ ˈtruːli əˈpriːʃieɪt jʊr səˈpɔːrt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-10-8",
+          "phrase": "We are sad to see you go.",
+          "meaningVi": "Chúng tôi rất buồn khi thấy bạn rời đi.",
+          "ipa": "/wiː ɑːr sæd tuː siː juː ɡoʊ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-10-9",
+          "phrase": "Let's have a farewell party.",
+          "meaningVi": "Hãy tổ chức một bữa tiệc chia tay nhé.",
+          "ipa": "/lɛts hæv ə fɛrˈwɛl ˈpɑːrti/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-business-10-10",
+          "phrase": "I wish you all the best in the future.",
+          "meaningVi": "Chúc bạn mọi điều tốt đẹp nhất trong tương lai.",
+          "ipa": "/aɪ wɪʃ juː ɔːl ðə bɛst ɪn ðə /ˈfjuːtʃər/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    }
+  ]
+}

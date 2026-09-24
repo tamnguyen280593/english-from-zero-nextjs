@@ -1,0 +1,24 @@
+[
+  {
+    "id": "cat-textbook",
+    "slug": "sach-giao-khoa",
+    "title": "Tiếng Anh SGK Tiểu Học",
+    "titleVi": "Tiếng Anh SGK Tiểu Học",
+    "description": "Learn English following the official textbook curriculum for grades 1 to 5.",
+    "descriptionVi": "Học tiếng Anh bám sát chương trình sách giáo khoa từ lớp 1 đến lớp 5 của Bộ GD&ĐT.",
+    "image": "/images/topics/grade-3.webp",
+    "color": "#ff7675",
+    "order": 1
+  },
+  {
+    "id": "cat-communication",
+    "slug": "giao-tiep",
+    "title": "Tiếng Anh Giao Tiếp",
+    "titleVi": "Tiếng Anh Giao Tiếp",
+    "description": "Learn natural English for daily communication with various common topics.",
+    "descriptionVi": "Học tiếng Anh giao tiếp tự nhiên thông qua các chủ đề quen thuộc trong cuộc sống.",
+    "image": "/images/topics/daily-life.webp",
+    "color": "#74b9ff",
+    "order": 2
+  }
+]

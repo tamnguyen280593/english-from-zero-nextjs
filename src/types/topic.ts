@@ -10,6 +10,7 @@ export type TopicLevel = 'starter' | 'beginner' | 'elementary';
 /** A learning topic with metadata and display properties */
 export interface Topic {
   readonly id: string;
+  readonly categoryId: string;
   readonly slug: string;
   readonly title: string;
   readonly titleVi: string;

@@ -1,0 +1,195 @@
+{
+  "topicSlug": "grade-5",
+  "lessons": [
+    { "id": "grade5-01", "slug": "all-about-me", "topicSlug": "grade-5", "title": "All about me!", "titleVi": "Tất cả về mình", "order": 1,
+      "vocabulary": [
+        { "id": "v-g5-01-address", "word": "address", "meaningVi": "Địa chỉ", "ipa": "/əˈdres/", "partOfSpeech": "noun", "image": "", "exampleSentence": "What's your address?", "exampleSentenceVi": "Địa chỉ bạn ở đâu?" },
+        { "id": "v-g5-01-street", "word": "street", "meaningVi": "Đường phố", "ipa": "/striːt/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I live on Le Loi Street.", "exampleSentenceVi": "Mình sống ở đường Lê Lợi." },
+        { "id": "v-g5-01-city", "word": "city", "meaningVi": "Thành phố", "ipa": "/ˈsɪti/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I live in Ho Chi Minh City.", "exampleSentenceVi": "Mình sống ở TP.HCM." }
+      ],
+      "phrases": [{ "id": "p-g5-01-a", "phrase": "What's your address?", "meaningVi": "Địa chỉ bạn ở đâu?", "ipa": "", "usage": "Hỏi địa chỉ." }, { "id": "p-g5-01-b", "phrase": "I live at.../I live in...", "meaningVi": "Mình sống ở...", "ipa": "", "usage": "'at' cho số nhà, 'in' cho thành phố." }],
+      "dialogues": [{ "id": "d-g5-01", "title": "Address", "titleVi": "Hỏi địa chỉ", "situation": "Hai bạn trao đổi địa chỉ.", "lines": [
+        { "speaker": "Lan", "text": "What's your address?", "textVi": "Địa chỉ bạn ở đâu?", "ipa": "" },
+        { "speaker": "Nam", "text": "I live at 25 Le Loi Street, Da Nang.", "textVi": "Mình sống ở số 25, đường Lê Lợi, Đà Nẵng.", "ipa": "" }
+      ]}],
+      "practice": [{ "id": "q-g5-01-1", "type": "multiple-choice", "question": "'I live ___ 15 Tran Phu Street.'", "questionVi": "Điền at/in/on.", "options": ["in", "at", "on"], "correctAnswer": 1, "explanation": "'at' cho địa chỉ cụ thể." }]
+    },
+    { "id": "grade5-02", "slug": "our-homes", "topicSlug": "grade-5", "title": "Our homes", "titleVi": "Nhà của chúng ta", "order": 2,
+      "vocabulary": [
+        { "id": "v-g5-02-flat", "word": "flat", "meaningVi": "Căn hộ", "ipa": "/flæt/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I live in a flat.", "exampleSentenceVi": "Mình sống ở căn hộ." },
+        { "id": "v-g5-02-villa", "word": "villa", "meaningVi": "Biệt thự", "ipa": "/ˈvɪlə/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The villa is big.", "exampleSentenceVi": "Biệt thự lớn." },
+        { "id": "v-g5-02-village", "word": "village", "meaningVi": "Làng quê", "ipa": "/ˈvɪlɪdʒ/", "partOfSpeech": "noun", "image": "", "exampleSentence": "Grandma lives in a village.", "exampleSentenceVi": "Bà sống ở làng." }
+      ],
+      "phrases": [{ "id": "p-g5-02-a", "phrase": "What type of house do you live in?", "meaningVi": "Bạn sống ở loại nhà gì?", "ipa": "", "usage": "Hỏi loại nhà." }],
+      "dialogues": [], "practice": [{ "id": "q-g5-02-1", "type": "multiple-choice", "question": "'Flat' là gì?", "questionVi": "'Flat' là gì?", "options": ["Biệt thự", "Căn hộ", "Làng"], "correctAnswer": 1, "explanation": "'Flat' là căn hộ." }]
+    },
+    { "id": "grade5-03", "slug": "my-foreign-friends", "topicSlug": "grade-5", "title": "My foreign friends", "titleVi": "Bạn bè nước ngoài", "order": 3,
+      "vocabulary": [
+        { "id": "v-g5-03-japan", "word": "Japanese", "meaningVi": "Người Nhật", "ipa": "/ˌdʒæpəˈniːz/", "partOfSpeech": "adjective", "image": "", "exampleSentence": "She is Japanese.", "exampleSentenceVi": "Bạn ấy là người Nhật." },
+        { "id": "v-g5-03-american", "word": "American", "meaningVi": "Người Mỹ", "ipa": "/əˈmerɪkən/", "partOfSpeech": "adjective", "image": "", "exampleSentence": "He is American.", "exampleSentenceVi": "Anh ấy là người Mỹ." },
+        { "id": "v-g5-03-australian", "word": "Australian", "meaningVi": "Người Úc", "ipa": "/ɒˈstreɪliən/", "partOfSpeech": "adjective", "image": "", "exampleSentence": "My friend is Australian.", "exampleSentenceVi": "Bạn mình là người Úc." }
+      ],
+      "phrases": [{ "id": "p-g5-03-a", "phrase": "Where are you from?", "meaningVi": "Bạn từ đâu?", "ipa": "", "usage": "Hỏi quốc gia." }],
+      "dialogues": [], "practice": [{ "id": "q-g5-03-1", "type": "multiple-choice", "question": "Người từ Japan gọi là?", "questionVi": "Quốc tịch Nhật là?", "options": ["Japanian", "Japanese", "Japan"], "correctAnswer": 1, "explanation": "Quốc tịch Nhật là Japanese." }]
+    },
+    { "id": "grade5-04", "slug": "our-free-time-activities", "topicSlug": "grade-5", "title": "Our free-time activities", "titleVi": "Hoạt động thời gian rảnh", "order": 4,
+      "vocabulary": [
+        { "id": "v-g5-04-surfing", "word": "surfing the Internet", "meaningVi": "Lướt web", "ipa": "", "partOfSpeech": "verb", "image": "", "exampleSentence": "I like surfing the Internet.", "exampleSentenceVi": "Mình thích lướt web." },
+        { "id": "v-g5-04-watching", "word": "watching TV", "meaningVi": "Xem TV", "ipa": "", "partOfSpeech": "verb", "image": "", "exampleSentence": "He watches TV after school.", "exampleSentenceVi": "Anh ấy xem TV sau giờ học." },
+        { "id": "v-g5-04-playing", "word": "playing chess", "meaningVi": "Chơi cờ", "ipa": "", "partOfSpeech": "verb", "image": "", "exampleSentence": "I play chess with my dad.", "exampleSentenceVi": "Mình chơi cờ với bố." }
+      ],
+      "phrases": [{ "id": "p-g5-04-a", "phrase": "What do you do in your free time?", "meaningVi": "Bạn làm gì lúc rảnh?", "ipa": "", "usage": "Hỏi hoạt động rảnh." }],
+      "dialogues": [], "practice": [{ "id": "q-g5-04-1", "type": "multiple-choice", "question": "'Playing chess' là gì?", "questionVi": "'Playing chess' là gì?", "options": ["Xem TV", "Chơi cờ", "Lướt web"], "correctAnswer": 1, "explanation": "'Playing chess' là chơi cờ." }]
+    },
+    { "id": "grade5-05", "slug": "my-future-job", "topicSlug": "grade-5", "title": "My future job", "titleVi": "Nghề nghiệp tương lai", "order": 5,
+      "vocabulary": [
+        { "id": "v-g5-05-doctor", "word": "doctor", "meaningVi": "Bác sĩ", "ipa": "/ˈdɒktər/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I want to be a doctor.", "exampleSentenceVi": "Mình muốn làm bác sĩ." },
+        { "id": "v-g5-05-pilot", "word": "pilot", "meaningVi": "Phi công", "ipa": "/ˈpaɪlət/", "partOfSpeech": "noun", "image": "", "exampleSentence": "He wants to be a pilot.", "exampleSentenceVi": "Bạn ấy muốn làm phi công." },
+        { "id": "v-g5-05-engineer", "word": "engineer", "meaningVi": "Kỹ sư", "ipa": "/ˌendʒɪˈnɪər/", "partOfSpeech": "noun", "image": "", "exampleSentence": "My dad is an engineer.", "exampleSentenceVi": "Bố mình là kỹ sư." }
+      ],
+      "phrases": [{ "id": "p-g5-05-a", "phrase": "What do you want to be in the future?", "meaningVi": "Lớn lên bạn muốn làm gì?", "ipa": "", "usage": "Hỏi ước mơ." }],
+      "dialogues": [], "practice": [{ "id": "q-g5-05-1", "type": "multiple-choice", "question": "Người lái máy bay là?", "questionVi": "Người lái máy bay là?", "options": ["doctor", "pilot", "engineer"], "correctAnswer": 1, "explanation": "'Pilot' là phi công." }]
+    },
+    { "id": "grade5-06", "slug": "our-school-rooms", "topicSlug": "grade-5", "title": "Our school rooms", "titleVi": "Phòng học", "order": 6,
+      "vocabulary": [
+        { "id": "v-g5-06-lab", "word": "science lab", "meaningVi": "Phòng thí nghiệm", "ipa": "", "partOfSpeech": "noun", "image": "", "exampleSentence": "We do experiments in the lab.", "exampleSentenceVi": "Mình thí nghiệm ở phòng lab." },
+        { "id": "v-g5-06-hall", "word": "hall", "meaningVi": "Hội trường", "ipa": "/hɔːl/", "partOfSpeech": "noun", "image": "", "exampleSentence": "We sing in the hall.", "exampleSentenceVi": "Mình hát ở hội trường." }
+      ],
+      "phrases": [{ "id": "p-g5-06-a", "phrase": "How many rooms does your school have?", "meaningVi": "Trường bạn có bao nhiêu phòng?", "ipa": "", "usage": "Hỏi về trường." }],
+      "dialogues": [], "practice": [{ "id": "q-g5-06-1", "type": "multiple-choice", "question": "'Science lab' là gì?", "questionVi": "'Science lab' là gì?", "options": ["Hội trường", "Phòng thí nghiệm", "Thư viện"], "correctAnswer": 1, "explanation": "'Science lab' là phòng thí nghiệm." }]
+    },
+    { "id": "grade5-07", "slug": "our-favourite-school-activities", "topicSlug": "grade-5", "title": "Our favourite school activities", "titleVi": "Hoạt động trường yêu thích", "order": 7,
+      "vocabulary": [
+        { "id": "v-g5-07-quiz", "word": "quiz", "meaningVi": "Trò chơi đố vui", "ipa": "/kwɪz/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I love the English quiz.", "exampleSentenceVi": "Mình thích đố vui tiếng Anh." },
+        { "id": "v-g5-07-project", "word": "project", "meaningVi": "Dự án", "ipa": "/ˈprɑːdʒekt/", "partOfSpeech": "noun", "image": "", "exampleSentence": "We do a Science project.", "exampleSentenceVi": "Mình làm dự án Khoa học." }
+      ],
+      "phrases": [{ "id": "p-g5-07-a", "phrase": "What school activity do you like?", "meaningVi": "Bạn thích hoạt động trường nào?", "ipa": "", "usage": "Hỏi hoạt động yêu thích." }],
+      "dialogues": [], "practice": [{ "id": "q-g5-07-1", "type": "multiple-choice", "question": "'Quiz' là gì?", "questionVi": "'Quiz' là gì?", "options": ["Dự án", "Đố vui", "Bài kiểm tra"], "correctAnswer": 1, "explanation": "'Quiz' là trò đố vui." }]
+    },
+    { "id": "grade5-08", "slug": "in-our-classroom", "topicSlug": "grade-5", "title": "In our classroom", "titleVi": "Trong lớp học", "order": 8,
+      "vocabulary": [
+        { "id": "v-g5-08-projector", "word": "projector", "meaningVi": "Máy chiếu", "ipa": "/prəˈdʒektər/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The teacher uses a projector.", "exampleSentenceVi": "Cô dùng máy chiếu." },
+        { "id": "v-g5-08-poster", "word": "poster", "meaningVi": "Áp phích", "ipa": "/ˈpoʊstər/", "partOfSpeech": "noun", "image": "", "exampleSentence": "There are posters on the wall.", "exampleSentenceVi": "Trên tường có áp phích." }
+      ],
+      "phrases": [{ "id": "p-g5-08-a", "phrase": "What is there in your classroom?", "meaningVi": "Trong lớp bạn có gì?", "ipa": "", "usage": "Miêu tả lớp học." }],
+      "dialogues": [], "practice": [{ "id": "q-g5-08-1", "type": "multiple-choice", "question": "'Projector' là gì?", "questionVi": "'Projector' là gì?", "options": ["Máy chiếu", "Áp phích", "Bảng"], "correctAnswer": 0, "explanation": "'Projector' là máy chiếu." }]
+    },
+    { "id": "grade5-09", "slug": "our-outdoor-activities", "topicSlug": "grade-5", "title": "Our outdoor activities", "titleVi": "Hoạt động ngoài trời", "order": 9,
+      "vocabulary": [
+        { "id": "v-g5-09-cycling", "word": "cycling", "meaningVi": "Đạp xe", "ipa": "/ˈsaɪklɪŋ/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I like cycling.", "exampleSentenceVi": "Mình thích đạp xe." },
+        { "id": "v-g5-09-fishing", "word": "fishing", "meaningVi": "Câu cá", "ipa": "/ˈfɪʃɪŋ/", "partOfSpeech": "noun", "image": "", "exampleSentence": "Dad goes fishing.", "exampleSentenceVi": "Bố đi câu cá." },
+        { "id": "v-g5-09-camping", "word": "camping", "meaningVi": "Cắm trại", "ipa": "/ˈkæmpɪŋ/", "partOfSpeech": "noun", "image": "", "exampleSentence": "We go camping.", "exampleSentenceVi": "Mình đi cắm trại." }
+      ],
+      "phrases": [{ "id": "p-g5-09-a", "phrase": "What outdoor activity do you like?", "meaningVi": "Bạn thích hoạt động ngoài trời nào?", "ipa": "", "usage": "Hỏi hoạt động ngoài trời." }],
+      "dialogues": [], "practice": [{ "id": "q-g5-09-1", "type": "multiple-choice", "question": "'Fishing' là gì?", "questionVi": "'Fishing' là gì?", "options": ["Đạp xe", "Câu cá", "Cắm trại"], "correctAnswer": 1, "explanation": "'Fishing' là câu cá." }]
+    },
+    { "id": "grade5-10", "slug": "our-school-trip", "topicSlug": "grade-5", "title": "Our school trip", "titleVi": "Chuyến đi thực tế", "order": 10,
+      "vocabulary": [
+        { "id": "v-g5-10-museum", "word": "museum", "meaningVi": "Bảo tàng", "ipa": "/mjuːˈziːəm/", "partOfSpeech": "noun", "image": "", "exampleSentence": "We visit the museum.", "exampleSentenceVi": "Mình tham quan bảo tàng." },
+        { "id": "v-g5-10-pagoda", "word": "pagoda", "meaningVi": "Chùa", "ipa": "/pəˈɡoʊdə/", "partOfSpeech": "noun", "image": "", "exampleSentence": "We visit a pagoda.", "exampleSentenceVi": "Mình thăm chùa." }
+      ],
+      "phrases": [{ "id": "p-g5-10-a", "phrase": "Where did you go on your school trip?", "meaningVi": "Chuyến thực tế bạn đi đâu?", "ipa": "", "usage": "Hỏi chuyến đi." }],
+      "dialogues": [], "practice": [{ "id": "q-g5-10-1", "type": "multiple-choice", "question": "'Museum' là gì?", "questionVi": "'Museum' là gì?", "options": ["Chùa", "Bảo tàng", "Trường"], "correctAnswer": 1, "explanation": "'Museum' là bảo tàng." }]
+    },
+    { "id": "grade5-11", "slug": "family-time", "topicSlug": "grade-5", "title": "Family time", "titleVi": "Thời gian gia đình", "order": 11,
+      "vocabulary": [
+        { "id": "v-g5-11-always", "word": "always", "meaningVi": "Luôn luôn", "ipa": "/ˈɔːlweɪz/", "partOfSpeech": "adverb", "image": "", "exampleSentence": "I always help Mom.", "exampleSentenceVi": "Mình luôn giúp mẹ." },
+        { "id": "v-g5-11-sometimes", "word": "sometimes", "meaningVi": "Thỉnh thoảng", "ipa": "/ˈsʌmtaɪmz/", "partOfSpeech": "adverb", "image": "", "exampleSentence": "We sometimes go out.", "exampleSentenceVi": "Thỉnh thoảng đi chơi." },
+        { "id": "v-g5-11-never", "word": "never", "meaningVi": "Không bao giờ", "ipa": "/ˈnevər/", "partOfSpeech": "adverb", "image": "", "exampleSentence": "I never stay up late.", "exampleSentenceVi": "Mình không bao giờ thức khuya." }
+      ],
+      "phrases": [{ "id": "p-g5-11-a", "phrase": "How often do you...?", "meaningVi": "Bạn có thường ... không?", "ipa": "", "usage": "Hỏi tần suất." }],
+      "dialogues": [], "practice": [{ "id": "q-g5-11-1", "type": "multiple-choice", "question": "'Sometimes' là gì?", "questionVi": "'Sometimes' là gì?", "options": ["Luôn luôn", "Thỉnh thoảng", "Không bao giờ"], "correctAnswer": 1, "explanation": "'Sometimes' là thỉnh thoảng." }]
+    },
+    { "id": "grade5-12", "slug": "our-tet-holiday", "topicSlug": "grade-5", "title": "Our Tet holiday", "titleVi": "Tết Nguyên đán", "order": 12,
+      "vocabulary": [
+        { "id": "v-g5-12-banh", "word": "banh chung", "meaningVi": "Bánh chưng", "ipa": "", "partOfSpeech": "noun", "image": "", "exampleSentence": "We make banh chung.", "exampleSentenceVi": "Mình gói bánh chưng." },
+        { "id": "v-g5-12-lucky", "word": "lucky money", "meaningVi": "Lì xì", "ipa": "", "partOfSpeech": "noun", "image": "", "exampleSentence": "I get lucky money.", "exampleSentenceVi": "Mình được lì xì." },
+        { "id": "v-g5-12-fireworks", "word": "fireworks", "meaningVi": "Pháo hoa", "ipa": "/ˈfaɪərwɜːrks/", "partOfSpeech": "noun", "image": "", "exampleSentence": "We watch fireworks.", "exampleSentenceVi": "Mình xem pháo hoa." }
+      ],
+      "phrases": [{ "id": "p-g5-12-a", "phrase": "Happy New Year!", "meaningVi": "Chúc mừng năm mới!", "ipa": "", "usage": "Chúc Tết." }],
+      "dialogues": [], "practice": [{ "id": "q-g5-12-1", "type": "multiple-choice", "question": "'Lucky money' là gì?", "questionVi": "'Lucky money' là gì?", "options": ["Bánh chưng", "Lì xì", "Pháo hoa"], "correctAnswer": 1, "explanation": "'Lucky money' là tiền lì xì." }]
+    },
+    { "id": "grade5-13", "slug": "our-special-days", "topicSlug": "grade-5", "title": "Our special days", "titleVi": "Ngày đặc biệt", "order": 13,
+      "vocabulary": [
+        { "id": "v-g5-13-christmas", "word": "Christmas", "meaningVi": "Giáng sinh", "ipa": "/ˈkrɪsməs/", "partOfSpeech": "noun", "image": "", "exampleSentence": "Merry Christmas!", "exampleSentenceVi": "Giáng sinh vui vẻ!" },
+        { "id": "v-g5-13-teachers", "word": "Teachers' Day", "meaningVi": "Ngày Nhà giáo", "ipa": "", "partOfSpeech": "noun", "image": "", "exampleSentence": "We celebrate Teachers' Day.", "exampleSentenceVi": "Mình kỷ niệm ngày Nhà giáo." }
+      ],
+      "phrases": [{ "id": "p-g5-13-a", "phrase": "When is...?", "meaningVi": "...khi nào?", "ipa": "", "usage": "Hỏi ngày lễ." }],
+      "dialogues": [], "practice": [{ "id": "q-g5-13-1", "type": "multiple-choice", "question": "'Christmas' là gì?", "questionVi": "'Christmas' là gì?", "options": ["Ngày Nhà giáo", "Giáng sinh", "Tết"], "correctAnswer": 1, "explanation": "'Christmas' là Giáng sinh." }]
+    },
+    { "id": "grade5-14", "slug": "staying-healthy", "topicSlug": "grade-5", "title": "Staying healthy", "titleVi": "Sống lành mạnh", "order": 14,
+      "vocabulary": [
+        { "id": "v-g5-14-exercise", "word": "exercise", "meaningVi": "Tập thể dục", "ipa": "/ˈeksərsaɪz/", "partOfSpeech": "verb", "image": "", "exampleSentence": "I exercise every morning.", "exampleSentenceVi": "Mình tập thể dục mỗi sáng." },
+        { "id": "v-g5-14-vegetables", "word": "vegetables", "meaningVi": "Rau củ", "ipa": "/ˈvedʒtəbəlz/", "partOfSpeech": "noun", "image": "", "exampleSentence": "Eat more vegetables.", "exampleSentenceVi": "Ăn nhiều rau củ." },
+        { "id": "v-g5-14-sleep", "word": "sleep early", "meaningVi": "Ngủ sớm", "ipa": "", "partOfSpeech": "verb", "image": "", "exampleSentence": "I sleep early.", "exampleSentenceVi": "Mình ngủ sớm." }
+      ],
+      "phrases": [{ "id": "p-g5-14-a", "phrase": "You should.../You shouldn't...", "meaningVi": "Bạn nên.../không nên...", "ipa": "", "usage": "Đưa ra lời khuyên." }],
+      "dialogues": [], "practice": [{ "id": "q-g5-14-1", "type": "multiple-choice", "question": "Để khỏe, bạn nên?", "questionVi": "Để khỏe mạnh, bạn nên?", "options": ["Stay up late", "Eat vegetables", "Skip breakfast"], "correctAnswer": 1, "explanation": "Ăn rau củ (eat vegetables) giúp khỏe mạnh." }]
+    },
+    { "id": "grade5-15", "slug": "our-health", "topicSlug": "grade-5", "title": "Our health", "titleVi": "Sức khỏe", "order": 15,
+      "vocabulary": [
+        { "id": "v-g5-15-headache", "word": "headache", "meaningVi": "Đau đầu", "ipa": "/ˈhedeɪk/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I have a headache.", "exampleSentenceVi": "Mình bị đau đầu." },
+        { "id": "v-g5-15-fever", "word": "fever", "meaningVi": "Sốt", "ipa": "/ˈfiːvər/", "partOfSpeech": "noun", "image": "", "exampleSentence": "He has a fever.", "exampleSentenceVi": "Bạn ấy bị sốt." },
+        { "id": "v-g5-15-cold", "word": "cold", "meaningVi": "Cảm lạnh", "ipa": "/koʊld/", "partOfSpeech": "noun", "image": "", "exampleSentence": "I have a cold.", "exampleSentenceVi": "Mình bị cảm." }
+      ],
+      "phrases": [{ "id": "p-g5-15-a", "phrase": "What's the matter?", "meaningVi": "Bạn bị sao vậy?", "ipa": "", "usage": "Hỏi tình trạng sức khỏe." }],
+      "dialogues": [{ "id": "d-g5-15", "title": "At school", "titleVi": "Ở trường", "situation": "Bạn bị ốm.", "lines": [
+        { "speaker": "Teacher", "text": "What's the matter, Minh?", "textVi": "Em bị sao vậy, Minh?", "ipa": "" },
+        { "speaker": "Minh", "text": "I have a headache.", "textVi": "Em bị đau đầu ạ.", "ipa": "" },
+        { "speaker": "Teacher", "text": "You should see a doctor.", "textVi": "Em nên đi khám bác sĩ.", "ipa": "" }
+      ]}],
+      "practice": [{ "id": "q-g5-15-1", "type": "multiple-choice", "question": "'Fever' là gì?", "questionVi": "'Fever' là gì?", "options": ["Đau đầu", "Sốt", "Cảm lạnh"], "correctAnswer": 1, "explanation": "'Fever' là sốt." }]
+    },
+    { "id": "grade5-16", "slug": "seasons-and-the-weather", "topicSlug": "grade-5", "title": "Seasons and the weather", "titleVi": "Mùa và thời tiết", "order": 16,
+      "vocabulary": [
+        { "id": "v-g5-16-spring", "word": "spring", "meaningVi": "Mùa xuân", "ipa": "/sprɪŋ/", "partOfSpeech": "noun", "image": "", "exampleSentence": "Spring is warm.", "exampleSentenceVi": "Mùa xuân ấm áp." },
+        { "id": "v-g5-16-summer", "word": "summer", "meaningVi": "Mùa hè", "ipa": "/ˈsʌmər/", "partOfSpeech": "noun", "image": "", "exampleSentence": "Summer is hot.", "exampleSentenceVi": "Mùa hè nóng." },
+        { "id": "v-g5-16-autumn", "word": "autumn", "meaningVi": "Mùa thu", "ipa": "/ˈɔːtəm/", "partOfSpeech": "noun", "image": "", "exampleSentence": "Autumn is cool.", "exampleSentenceVi": "Mùa thu mát mẻ." },
+        { "id": "v-g5-16-winter", "word": "winter", "meaningVi": "Mùa đông", "ipa": "/ˈwɪntər/", "partOfSpeech": "noun", "image": "", "exampleSentence": "Winter is cold.", "exampleSentenceVi": "Mùa đông lạnh." }
+      ],
+      "phrases": [{ "id": "p-g5-16-a", "phrase": "What season do you like?", "meaningVi": "Bạn thích mùa nào?", "ipa": "", "usage": "Hỏi mùa yêu thích." }],
+      "dialogues": [], "practice": [{ "id": "q-g5-16-1", "type": "multiple-choice", "question": "Mùa nào nóng nhất?", "questionVi": "Mùa nào nóng nhất?", "options": ["spring", "summer", "winter"], "correctAnswer": 1, "explanation": "Summer (mùa hè) nóng nhất." }]
+    },
+    { "id": "grade5-17", "slug": "stories-for-children", "topicSlug": "grade-5", "title": "Stories for children", "titleVi": "Truyện cho thiếu nhi", "order": 17,
+      "vocabulary": [
+        { "id": "v-g5-17-princess", "word": "princess", "meaningVi": "Công chúa", "ipa": "/ˈprɪnses/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The princess is beautiful.", "exampleSentenceVi": "Công chúa xinh đẹp." },
+        { "id": "v-g5-17-dragon", "word": "dragon", "meaningVi": "Rồng", "ipa": "/ˈdræɡən/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The dragon can fly.", "exampleSentenceVi": "Con rồng biết bay." },
+        { "id": "v-g5-17-fairy", "word": "fairy", "meaningVi": "Nàng tiên", "ipa": "/ˈferi/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The fairy has wings.", "exampleSentenceVi": "Nàng tiên có cánh." }
+      ],
+      "phrases": [{ "id": "p-g5-17-a", "phrase": "Once upon a time...", "meaningVi": "Ngày xửa ngày xưa...", "ipa": "", "usage": "Mở đầu câu chuyện." }],
+      "dialogues": [], "practice": [{ "id": "q-g5-17-1", "type": "multiple-choice", "question": "'Dragon' là gì?", "questionVi": "'Dragon' là gì?", "options": ["Công chúa", "Rồng", "Nàng tiên"], "correctAnswer": 1, "explanation": "'Dragon' là con rồng." }]
+    },
+    { "id": "grade5-18", "slug": "means-of-transport", "topicSlug": "grade-5", "title": "Means of transport", "titleVi": "Phương tiện giao thông", "order": 18,
+      "vocabulary": [
+        { "id": "v-g5-18-plane", "word": "plane", "meaningVi": "Máy bay", "ipa": "/pleɪn/", "partOfSpeech": "noun", "image": "", "exampleSentence": "We go by plane.", "exampleSentenceVi": "Mình đi máy bay." },
+        { "id": "v-g5-18-train", "word": "train", "meaningVi": "Tàu hỏa", "ipa": "/treɪn/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The train is fast.", "exampleSentenceVi": "Tàu hỏa nhanh." },
+        { "id": "v-g5-18-motorbike", "word": "motorbike", "meaningVi": "Xe máy", "ipa": "/ˈmoʊtərbaɪk/", "partOfSpeech": "noun", "image": "", "exampleSentence": "Dad rides a motorbike.", "exampleSentenceVi": "Bố đi xe máy." }
+      ],
+      "phrases": [{ "id": "p-g5-18-a", "phrase": "How do you go to school?", "meaningVi": "Bạn đi học bằng gì?", "ipa": "", "usage": "Hỏi phương tiện." }],
+      "dialogues": [], "practice": [{ "id": "q-g5-18-1", "type": "multiple-choice", "question": "'Train' là gì?", "questionVi": "'Train' là gì?", "options": ["Máy bay", "Tàu hỏa", "Xe máy"], "correctAnswer": 1, "explanation": "'Train' là tàu hỏa." }]
+    },
+    { "id": "grade5-19", "slug": "places-of-interest", "topicSlug": "grade-5", "title": "Places of interest", "titleVi": "Địa danh du lịch", "order": 19,
+      "vocabulary": [
+        { "id": "v-g5-19-temple", "word": "temple", "meaningVi": "Đền", "ipa": "/ˈtempəl/", "partOfSpeech": "noun", "image": "", "exampleSentence": "We visit a temple.", "exampleSentenceVi": "Mình thăm đền." },
+        { "id": "v-g5-19-lake", "word": "lake", "meaningVi": "Hồ", "ipa": "/leɪk/", "partOfSpeech": "noun", "image": "", "exampleSentence": "The lake is beautiful.", "exampleSentenceVi": "Hồ rất đẹp." },
+        { "id": "v-g5-19-island", "word": "island", "meaningVi": "Hòn đảo", "ipa": "/ˈaɪlənd/", "partOfSpeech": "noun", "image": "", "exampleSentence": "Phu Quoc is an island.", "exampleSentenceVi": "Phú Quốc là một hòn đảo." }
+      ],
+      "phrases": [{ "id": "p-g5-19-a", "phrase": "Have you been to...?", "meaningVi": "Bạn đã từng đến...?", "ipa": "", "usage": "Hỏi về trải nghiệm du lịch." }],
+      "dialogues": [], "practice": [{ "id": "q-g5-19-1", "type": "multiple-choice", "question": "'Island' là gì?", "questionVi": "'Island' là gì?", "options": ["Đền", "Hồ", "Hòn đảo"], "correctAnswer": 2, "explanation": "'Island' là hòn đảo." }]
+    },
+    { "id": "grade5-20", "slug": "our-summer-holidays-g5", "topicSlug": "grade-5", "title": "Our summer holidays", "titleVi": "Kỳ nghỉ hè", "order": 20,
+      "vocabulary": [
+        { "id": "v-g5-20-went", "word": "went", "meaningVi": "Đã đi (quá khứ)", "ipa": "/went/", "partOfSpeech": "verb", "image": "", "exampleSentence": "I went to the beach.", "exampleSentenceVi": "Mình đã đi biển." },
+        { "id": "v-g5-20-enjoyed", "word": "enjoyed", "meaningVi": "Đã thích", "ipa": "/ɪnˈdʒɔɪd/", "partOfSpeech": "verb", "image": "", "exampleSentence": "I enjoyed the trip.", "exampleSentenceVi": "Mình đã thích chuyến đi." },
+        { "id": "v-g5-20-took", "word": "took photos", "meaningVi": "Đã chụp ảnh", "ipa": "", "partOfSpeech": "verb", "image": "", "exampleSentence": "I took many photos.", "exampleSentenceVi": "Mình đã chụp nhiều ảnh." }
+      ],
+      "phrases": [{ "id": "p-g5-20-a", "phrase": "What did you do last summer?", "meaningVi": "Hè vừa rồi bạn làm gì?", "ipa": "", "usage": "Hỏi về quá khứ." }],
+      "dialogues": [{ "id": "d-g5-20", "title": "After summer", "titleVi": "Sau hè", "situation": "Bạn bè kể chuyện hè.", "lines": [
+        { "speaker": "Teacher", "text": "What did you do last summer, Mai?", "textVi": "Hè vừa rồi em làm gì, Mai?", "ipa": "" },
+        { "speaker": "Mai", "text": "I went to Nha Trang. I enjoyed swimming!", "textVi": "Em đi Nha Trang. Em thích bơi lắm!", "ipa": "" },
+        { "speaker": "Teacher", "text": "That sounds wonderful!", "textVi": "Nghe tuyệt vời!", "ipa": "" }
+      ]}],
+      "practice": [{ "id": "q-g5-20-1", "type": "multiple-choice", "question": "'Went' là quá khứ của?", "questionVi": "'Went' là quá khứ của?", "options": ["come", "go", "get"], "correctAnswer": 1, "explanation": "'Went' là quá khứ của 'go'." }]
+    }
+  ]
+}

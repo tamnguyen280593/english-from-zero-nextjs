@@ -2,156 +2,1844 @@
   "topicSlug": "travel",
   "lessons": [
     {
-      "id": "travel-01",
-      "slug": "transportation",
-      "topicSlug": "travel",
-      "title": "Transportation",
-      "titleVi": "Phương tiện giao thông",
-      "order": 1,
-      "vocabulary": [
-        { "id": "v-bus", "word": "Bus", "meaningVi": "Xe buýt", "ipa": "/bʌs/", "partOfSpeech": "noun", "image": "/images/lessons/travel/bus.webp", "exampleSentence": "I go to work by bus.", "exampleSentenceVi": "Tôi đi làm bằng xe buýt." },
-        { "id": "v-taxi", "word": "Taxi", "meaningVi": "Xe taxi", "ipa": "/ˈtæksi/", "partOfSpeech": "noun", "image": "/images/lessons/travel/taxi.webp", "exampleSentence": "Let's take a taxi.", "exampleSentenceVi": "Hãy đi taxi." },
-        { "id": "v-train", "word": "Train", "meaningVi": "Tàu hỏa", "ipa": "/treɪn/", "partOfSpeech": "noun", "image": "/images/lessons/travel/train.webp", "exampleSentence": "The train is fast.", "exampleSentenceVi": "Tàu hỏa rất nhanh." },
-        { "id": "v-airplane", "word": "Airplane", "meaningVi": "Máy bay", "ipa": "/ˈɛrpleɪn/", "partOfSpeech": "noun", "image": "/images/lessons/travel/airplane.webp", "exampleSentence": "We fly by airplane.", "exampleSentenceVi": "Chúng tôi bay bằng máy bay." },
-        { "id": "v-bicycle", "word": "Bicycle", "meaningVi": "Xe đạp", "ipa": "/ˈbaɪsɪkəl/", "partOfSpeech": "noun", "image": "/images/lessons/travel/bicycle.webp", "exampleSentence": "I ride a bicycle to school.", "exampleSentenceVi": "Tôi đạp xe đến trường." }
-      ],
-      "phrases": [
-        { "id": "p-by-bus", "phrase": "I go by bus.", "meaningVi": "Tôi đi bằng xe buýt.", "ipa": "/aɪ ɡoʊ baɪ bʌs/", "usage": "Nói về phương tiện di chuyển" },
-        { "id": "p-take-taxi", "phrase": "Let's take a taxi.", "meaningVi": "Hãy đi taxi.", "ipa": "/lɛts teɪk ə ˈtæksi/", "usage": "Đề nghị đi taxi" },
-        { "id": "p-how-get-there", "phrase": "How do I get there?", "meaningVi": "Tôi đến đó bằng cách nào?", "ipa": "/haʊ duː aɪ ɡɛt ðɛr/", "usage": "Hỏi cách đi đến một nơi" }
-      ],
-      "dialogues": [
-        {
-          "id": "d-travel-01-01", "title": "Getting around", "titleVi": "Di chuyển",
-          "situation": "Khách du lịch hỏi về phương tiện di chuyển.",
-          "lines": [
-            { "speaker": "Tourist", "text": "How do I get to the city center?", "textVi": "Tôi đến trung tâm thành phố bằng cách nào?", "ipa": "/haʊ duː aɪ ɡɛt tuː ðə ˈsɪti ˈsɛntər/" },
-            { "speaker": "Local", "text": "You can take a bus or a taxi.", "textVi": "Bạn có thể đi xe buýt hoặc taxi.", "ipa": "/juː kæn teɪk ə bʌs ɔːr ə ˈtæksi/" },
-            { "speaker": "Tourist", "text": "How long by bus?", "textVi": "Đi xe buýt mất bao lâu?", "ipa": "/haʊ lɔːŋ baɪ bʌs/" },
-            { "speaker": "Local", "text": "About 30 minutes.", "textVi": "Khoảng 30 phút.", "ipa": "/əˈbaʊt ˈθɜːrti ˈmɪnɪts/" }
-          ]
-        }
-      ],
-      "practice": [
-        { "id": "q-travel-01-01", "type": "multiple-choice", "question": "What does 'Bus' mean?", "questionVi": "'Bus' nghĩa là gì?", "options": ["Tàu hỏa", "Xe buýt", "Máy bay", "Xe đạp"], "correctAnswer": 1, "explanation": "'Bus' = Xe buýt." },
-        { "id": "q-travel-01-02", "type": "fill-blank", "question": "I go to work _____ bus.", "questionVi": "Điền giới từ đúng", "options": ["in", "on", "by", "at"], "correctAnswer": 2, "explanation": "'By bus/taxi/train' = bằng xe buýt/taxi/tàu. 'By' dùng cho phương tiện." },
-        { "id": "q-travel-01-03", "type": "match-meaning", "question": "Match: 'Airplane'", "questionVi": "Nối nghĩa: 'Airplane'", "options": ["Xe buýt", "Tàu hỏa", "Máy bay", "Taxi"], "correctAnswer": 2, "explanation": "'Airplane' = Máy bay." },
-        { "id": "q-travel-01-04", "type": "multiple-choice", "question": "'Let's take a taxi' means _____.", "questionVi": "Câu này nghĩa là _____.", "options": ["Đừng đi taxi", "Hãy đi taxi", "Taxi ở đâu?", "Tôi thích taxi"], "correctAnswer": 1, "explanation": "'Let's' = Hãy cùng... 'Let's take a taxi' = Hãy đi taxi." }
-      ]
-    },
-    {
-      "id": "travel-02",
-      "slug": "asking-directions",
-      "topicSlug": "travel",
-      "title": "Asking Directions",
-      "titleVi": "Hỏi đường",
-      "order": 2,
-      "vocabulary": [
-        { "id": "v-left", "word": "Left", "meaningVi": "Trái", "ipa": "/lɛft/", "partOfSpeech": "noun", "image": "/images/lessons/travel/left.webp", "exampleSentence": "Turn left at the corner.", "exampleSentenceVi": "Rẽ trái ở góc đường." },
-        { "id": "v-right", "word": "Right", "meaningVi": "Phải", "ipa": "/raɪt/", "partOfSpeech": "noun", "image": "/images/lessons/travel/right.webp", "exampleSentence": "Turn right here.", "exampleSentenceVi": "Rẽ phải ở đây." },
-        { "id": "v-straight", "word": "Straight", "meaningVi": "Thẳng", "ipa": "/streɪt/", "partOfSpeech": "adverb", "image": "/images/lessons/travel/straight.webp", "exampleSentence": "Go straight ahead.", "exampleSentenceVi": "Đi thẳng phía trước." },
-        { "id": "v-near", "word": "Near", "meaningVi": "Gần", "ipa": "/nɪr/", "partOfSpeech": "preposition", "image": "/images/lessons/travel/near.webp", "exampleSentence": "The hotel is near the station.", "exampleSentenceVi": "Khách sạn gần nhà ga." },
-        { "id": "v-far", "word": "Far", "meaningVi": "Xa", "ipa": "/fɑːr/", "partOfSpeech": "adjective", "image": "/images/lessons/travel/far.webp", "exampleSentence": "Is it far from here?", "exampleSentenceVi": "Nó có xa đây không?" }
-      ],
-      "phrases": [
-        { "id": "p-where-is", "phrase": "Where is the train station?", "meaningVi": "Nhà ga ở đâu?", "ipa": "/wɛr ɪz ðə treɪn ˈsteɪʃən/", "usage": "Hỏi vị trí một địa điểm" },
-        { "id": "p-turn-left", "phrase": "Turn left, then go straight.", "meaningVi": "Rẽ trái, rồi đi thẳng.", "ipa": "/tɜːrn lɛft ðɛn ɡoʊ streɪt/", "usage": "Chỉ đường cho ai đó" },
-        { "id": "p-is-it-far", "phrase": "Is it far from here?", "meaningVi": "Nó có xa đây không?", "ipa": "/ɪz ɪt fɑːr frɑːm hɪr/", "usage": "Hỏi khoảng cách" }
-      ],
-      "dialogues": [
-        {
-          "id": "d-travel-02-01", "title": "Finding the way", "titleVi": "Tìm đường",
-          "situation": "Du khách hỏi đường đến bưu điện.",
-          "lines": [
-            { "speaker": "Tourist", "text": "Excuse me, where is the post office?", "textVi": "Xin lỗi, bưu điện ở đâu ạ?", "ipa": "/ɪkˈskjuːz miː wɛr ɪz ðə poʊst ˈɔːfɪs/" },
-            { "speaker": "Local", "text": "Go straight, then turn left.", "textVi": "Đi thẳng, rồi rẽ trái.", "ipa": "/ɡoʊ streɪt ðɛn tɜːrn lɛft/" },
-            { "speaker": "Tourist", "text": "Is it far from here?", "textVi": "Có xa đây không ạ?", "ipa": "/ɪz ɪt fɑːr frɑːm hɪr/" },
-            { "speaker": "Local", "text": "No, it's very near. About 5 minutes.", "textVi": "Không, rất gần. Khoảng 5 phút.", "ipa": "/noʊ ɪts ˈvɛri nɪr əˈbaʊt faɪv ˈmɪnɪts/" }
-          ]
-        }
-      ],
-      "practice": [
-        { "id": "q-travel-02-01", "type": "multiple-choice", "question": "How do you ask for directions?", "questionVi": "Bạn hỏi đường thế nào?", "options": ["What time is it?", "Where is the...?", "How are you?", "What's your name?"], "correctAnswer": 1, "explanation": "'Where is the...?' = ...ở đâu? Dùng để hỏi đường." },
-        { "id": "q-travel-02-02", "type": "fill-blank", "question": "Go _____ ahead, then turn right.", "questionVi": "Điền từ chỉ hướng", "options": ["left", "right", "straight", "near"], "correctAnswer": 2, "explanation": "'Go straight' = Đi thẳng." },
-        { "id": "q-travel-02-03", "type": "match-meaning", "question": "Match: 'Near'", "questionVi": "Nối nghĩa: 'Near'", "options": ["Xa", "Thẳng", "Gần", "Phải"], "correctAnswer": 2, "explanation": "'Near' = Gần. 'Far' = Xa." },
-        { "id": "q-travel-02-04", "type": "multiple-choice", "question": "'Turn left' means _____.", "questionVi": "'Turn left' nghĩa là _____.", "options": ["Đi thẳng", "Rẽ trái", "Rẽ phải", "Quay lại"], "correctAnswer": 1, "explanation": "'Turn left' = Rẽ trái. 'Turn right' = Rẽ phải." }
-      ]
-    },
-    {
-      "id": "travel-03",
-      "slug": "at-the-hotel",
-      "topicSlug": "travel",
-      "title": "At the Hotel",
-      "titleVi": "Ở khách sạn",
-      "order": 3,
-      "vocabulary": [
-        { "id": "v-hotel", "word": "Hotel", "meaningVi": "Khách sạn", "ipa": "/hoʊˈtɛl/", "partOfSpeech": "noun", "image": "/images/lessons/travel/hotel.webp", "exampleSentence": "I booked a hotel.", "exampleSentenceVi": "Tôi đã đặt khách sạn." },
-        { "id": "v-room-hotel", "word": "Room", "meaningVi": "Phòng", "ipa": "/ruːm/", "partOfSpeech": "noun", "image": "/images/lessons/travel/room.webp", "exampleSentence": "I'd like a single room.", "exampleSentenceVi": "Tôi muốn một phòng đơn." },
-        { "id": "v-key", "word": "Key", "meaningVi": "Chìa khóa", "ipa": "/kiː/", "partOfSpeech": "noun", "image": "/images/lessons/travel/key.webp", "exampleSentence": "Here is your room key.", "exampleSentenceVi": "Đây là chìa khóa phòng bạn." },
-        { "id": "v-check-in", "word": "Check in", "meaningVi": "Nhận phòng", "ipa": "/tʃɛk ɪn/", "partOfSpeech": "verb", "image": "/images/lessons/travel/check-in.webp", "exampleSentence": "I'd like to check in.", "exampleSentenceVi": "Tôi muốn nhận phòng." },
-        { "id": "v-check-out", "word": "Check out", "meaningVi": "Trả phòng", "ipa": "/tʃɛk aʊt/", "partOfSpeech": "verb", "image": "/images/lessons/travel/check-out.webp", "exampleSentence": "I'd like to check out.", "exampleSentenceVi": "Tôi muốn trả phòng." }
-      ],
-      "phrases": [
-        { "id": "p-check-in", "phrase": "I'd like to check in, please.", "meaningVi": "Tôi muốn nhận phòng, làm ơn.", "ipa": "/aɪd laɪk tuː tʃɛk ɪn pliːz/", "usage": "Khi đến khách sạn để nhận phòng" },
-        { "id": "p-reservation", "phrase": "I have a reservation.", "meaningVi": "Tôi có đặt phòng trước.", "ipa": "/aɪ hæv ə ˌrɛzərˈveɪʃən/", "usage": "Thông báo đã đặt phòng trước" },
-        { "id": "p-wifi", "phrase": "What's the WiFi password?", "meaningVi": "Mật khẩu WiFi là gì?", "ipa": "/wɑːts ðə ˈwaɪfaɪ ˈpæswɜːrd/", "usage": "Hỏi mật khẩu WiFi" }
-      ],
-      "dialogues": [
-        {
-          "id": "d-travel-03-01", "title": "Hotel check-in", "titleVi": "Nhận phòng khách sạn",
-          "situation": "Du khách nhận phòng khách sạn.",
-          "lines": [
-            { "speaker": "Guest", "text": "Hello! I'd like to check in. I have a reservation.", "textVi": "Xin chào! Tôi muốn nhận phòng. Tôi có đặt trước.", "ipa": "/həˈloʊ aɪd laɪk tuː tʃɛk ɪn aɪ hæv ə ˌrɛzərˈveɪʃən/" },
-            { "speaker": "Receptionist", "text": "Welcome! Your name, please?", "textVi": "Chào mừng! Tên bạn là gì ạ?", "ipa": "/ˈwɛlkəm jʊr neɪm pliːz/" },
-            { "speaker": "Guest", "text": "My name is Nguyen Van A.", "textVi": "Tên tôi là Nguyễn Văn A.", "ipa": "/maɪ neɪm ɪz ŋwɪn væn eɪ/" },
-            { "speaker": "Receptionist", "text": "Here is your key. Room 302. Enjoy your stay!", "textVi": "Đây là chìa khóa. Phòng 302. Chúc ở vui!", "ipa": "/hɪr ɪz jʊr kiː ruːm θriː oʊ tuː ɪnˈdʒɔɪ jʊr steɪ/" }
-          ]
-        }
-      ],
-      "practice": [
-        { "id": "q-travel-03-01", "type": "multiple-choice", "question": "What does 'Check in' mean?", "questionVi": "'Check in' nghĩa là gì?", "options": ["Trả phòng", "Nhận phòng", "Đặt phòng", "Hủy phòng"], "correctAnswer": 1, "explanation": "'Check in' = Nhận phòng. 'Check out' = Trả phòng." },
-        { "id": "q-travel-03-02", "type": "fill-blank", "question": "I have a _____ . (đã đặt trước)", "questionVi": "Điền từ khi đã đặt phòng trước", "options": ["question", "problem", "reservation", "room"], "correctAnswer": 2, "explanation": "'Reservation' = sự đặt trước. 'I have a reservation' = Tôi có đặt trước." },
-        { "id": "q-travel-03-03", "type": "match-meaning", "question": "Match: 'Key'", "questionVi": "Nối nghĩa: 'Key'", "options": ["Phòng", "Chìa khóa", "Khách sạn", "Mật khẩu"], "correctAnswer": 1, "explanation": "'Key' = Chìa khóa." },
-        { "id": "q-travel-03-04", "type": "multiple-choice", "question": "'Enjoy your stay' means _____.", "questionVi": "Câu này nghĩa là _____.", "options": ["Đi nhanh đi", "Chúc ở vui", "Trả phòng đi", "Xin cảm ơn"], "correctAnswer": 1, "explanation": "'Enjoy your stay!' = Chúc ở vui! Nhân viên khách sạn thường nói câu này." }
-      ]
-    },
-    {
-      "id": "travel-04",
-      "slug": "at-the-airport",
+      "id": "travel-1",
+      "slug": "lesson-1",
       "topicSlug": "travel",
       "title": "At the Airport",
-      "titleVi": "Ở sân bay",
-      "order": 4,
+      "titleVi": "Tại sân bay",
+      "order": 1,
       "vocabulary": [
-        { "id": "v-airport", "word": "Airport", "meaningVi": "Sân bay", "ipa": "/ˈɛrpɔːrt/", "partOfSpeech": "noun", "image": "/images/lessons/travel/airport.webp", "exampleSentence": "We are at the airport.", "exampleSentenceVi": "Chúng tôi đang ở sân bay." },
-        { "id": "v-passport", "word": "Passport", "meaningVi": "Hộ chiếu", "ipa": "/ˈpæspɔːrt/", "partOfSpeech": "noun", "image": "/images/lessons/travel/passport.webp", "exampleSentence": "Please show your passport.", "exampleSentenceVi": "Xin vui lòng trình hộ chiếu." },
-        { "id": "v-ticket", "word": "Ticket", "meaningVi": "Vé", "ipa": "/ˈtɪkɪt/", "partOfSpeech": "noun", "image": "/images/lessons/travel/ticket.webp", "exampleSentence": "Here is my ticket.", "exampleSentenceVi": "Đây là vé của tôi." },
-        { "id": "v-gate", "word": "Gate", "meaningVi": "Cổng (lên máy bay)", "ipa": "/ɡeɪt/", "partOfSpeech": "noun", "image": "/images/lessons/travel/gate.webp", "exampleSentence": "Your gate is B5.", "exampleSentenceVi": "Cổng của bạn là B5." },
-        { "id": "v-luggage", "word": "Luggage", "meaningVi": "Hành lý", "ipa": "/ˈlʌɡɪdʒ/", "partOfSpeech": "noun", "image": "/images/lessons/travel/luggage.webp", "exampleSentence": "Where is my luggage?", "exampleSentenceVi": "Hành lý của tôi ở đâu?" }
-      ],
-      "phrases": [
-        { "id": "p-boarding-pass", "phrase": "Here is my boarding pass.", "meaningVi": "Đây là thẻ lên máy bay của tôi.", "ipa": "/hɪr ɪz maɪ ˈbɔːrdɪŋ pæs/", "usage": "Trình thẻ lên máy bay" },
-        { "id": "p-which-gate", "phrase": "Which gate is my flight?", "meaningVi": "Chuyến bay của tôi ở cổng nào?", "ipa": "/wɪtʃ ɡeɪt ɪz maɪ flaɪt/", "usage": "Hỏi cổng lên máy bay" },
-        { "id": "p-delayed", "phrase": "Is the flight delayed?", "meaningVi": "Chuyến bay có bị trễ không?", "ipa": "/ɪz ðə flaɪt dɪˈleɪd/", "usage": "Hỏi về tình trạng chuyến bay" }
-      ],
-      "dialogues": [
         {
-          "id": "d-travel-04-01", "title": "At the check-in counter", "titleVi": "Ở quầy check-in",
-          "situation": "Hành khách làm thủ tục tại sân bay.",
-          "lines": [
-            { "speaker": "Staff", "text": "Good morning! Your passport and ticket, please.", "textVi": "Chào buổi sáng! Xin cho xem hộ chiếu và vé.", "ipa": "/ɡʊd ˈmɔːrnɪŋ jʊr ˈpæspɔːrt ænd ˈtɪkɪt pliːz/" },
-            { "speaker": "Passenger", "text": "Here you go.", "textVi": "Đây ạ.", "ipa": "/hɪr juː ɡoʊ/" },
-            { "speaker": "Staff", "text": "Your gate is B5. Boarding starts at 10 AM.", "textVi": "Cổng của bạn là B5. Lên máy bay bắt đầu lúc 10 giờ.", "ipa": "/jʊr ɡeɪt ɪz biː faɪv ˈbɔːrdɪŋ stɑːrts æt tɛn eɪ ɛm/" },
-            { "speaker": "Passenger", "text": "Thank you! Where is gate B5?", "textVi": "Cảm ơn! Cổng B5 ở đâu?", "ipa": "/θæŋk juː wɛr ɪz ɡeɪt biː faɪv/" }
-          ]
+          "id": "v-travel-1-1",
+          "word": "Airport",
+          "meaningVi": "Sân bay",
+          "ipa": "/ˈɛrpɔːrt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Go to the airport.",
+          "exampleSentenceVi": "Đi đến sân bay."
+        },
+        {
+          "id": "v-travel-1-2",
+          "word": "Flight",
+          "meaningVi": "Chuyến bay",
+          "ipa": "/flaɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "My flight is late.",
+          "exampleSentenceVi": "Chuyến bay của tôi bị trễ."
+        },
+        {
+          "id": "v-travel-1-3",
+          "word": "Ticket",
+          "meaningVi": "Vé",
+          "ipa": "/ˈtɪkɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Show your ticket.",
+          "exampleSentenceVi": "Xuất trình vé của bạn."
+        },
+        {
+          "id": "v-travel-1-4",
+          "word": "Passport",
+          "meaningVi": "Hộ chiếu",
+          "ipa": "/ˈpæspɔːrt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Where is my passport?",
+          "exampleSentenceVi": "Hộ chiếu của tôi đâu?"
+        },
+        {
+          "id": "v-travel-1-5",
+          "word": "Board",
+          "meaningVi": "Lên máy bay",
+          "ipa": "/bɔːrd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Time to board.",
+          "exampleSentenceVi": "Đến giờ lên máy bay."
+        },
+        {
+          "id": "v-travel-1-6",
+          "word": "Luggage",
+          "meaningVi": "Hành lý",
+          "ipa": "/ˈlʌɡɪdʒ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Heavy luggage.",
+          "exampleSentenceVi": "Hành lý nặng."
+        },
+        {
+          "id": "v-travel-1-7",
+          "word": "Gate",
+          "meaningVi": "Cửa ra máy bay",
+          "ipa": "/ɡeɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Go to gate 5.",
+          "exampleSentenceVi": "Đi đến cửa số 5."
+        },
+        {
+          "id": "v-travel-1-8",
+          "word": "Seat",
+          "meaningVi": "Chỗ ngồi",
+          "ipa": "/siːt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Take your seat.",
+          "exampleSentenceVi": "Hãy ngồi xuống chỗ của bạn."
+        },
+        {
+          "id": "v-travel-1-9",
+          "word": "Pilot",
+          "meaningVi": "Phi công",
+          "ipa": "/ˈpaɪlət/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "He is a pilot.",
+          "exampleSentenceVi": "Anh ấy là phi công."
+        },
+        {
+          "id": "v-travel-1-10",
+          "word": "Delay",
+          "meaningVi": "Trì hoãn",
+          "ipa": "/dɪˈleɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The flight is delayed.",
+          "exampleSentenceVi": "Chuyến bay bị hoãn."
         }
       ],
-      "practice": [
-        { "id": "q-travel-04-01", "type": "multiple-choice", "question": "What do you show at the airport?", "questionVi": "Bạn trình gì ở sân bay?", "options": ["Hóa đơn", "Hộ chiếu", "Thực đơn", "Chìa khóa"], "correctAnswer": 1, "explanation": "'Passport' = Hộ chiếu. Bạn cần trình hộ chiếu khi check-in." },
-        { "id": "q-travel-04-02", "type": "fill-blank", "question": "Your _____ is B5. (nơi lên máy bay)", "questionVi": "Điền từ chỉ nơi lên máy bay", "options": ["room", "door", "gate", "table"], "correctAnswer": 2, "explanation": "'Gate' = Cổng (lên máy bay)." },
-        { "id": "q-travel-04-03", "type": "match-meaning", "question": "Match: 'Luggage'", "questionVi": "Nối nghĩa: 'Luggage'", "options": ["Hộ chiếu", "Vé máy bay", "Hành lý", "Cổng"], "correctAnswer": 2, "explanation": "'Luggage' = Hành lý (vali, túi xách...)." },
-        { "id": "q-travel-04-04", "type": "multiple-choice", "question": "'Boarding pass' is _____.", "questionVi": "'Boarding pass' là _____.", "options": ["Hộ chiếu", "Thẻ lên máy bay", "Vé tàu", "Giấy phép"], "correctAnswer": 1, "explanation": "'Boarding pass' = Thẻ lên máy bay. Bạn nhận sau khi check-in." }
-      ]
+      "phrases": [
+        {
+          "id": "p-travel-1-1",
+          "phrase": "How do I get to the airport?",
+          "meaningVi": "Làm sao để tôi đi đến sân bay?",
+          "ipa": "/haʊ duː aɪ ɡɛt tuː ðə /ˈɛrpɔːrt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-1-2",
+          "phrase": "Here is my passport and ticket.",
+          "meaningVi": "Đây là hộ chiếu và vé của tôi.",
+          "ipa": "/hɪr ɪz maɪ /ˈpæspɔːrt ænd /ˈtɪkɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-1-3",
+          "phrase": "Do you have any luggage to check in?",
+          "meaningVi": "Bạn có hành lý nào cần ký gửi không?",
+          "ipa": "/duː juː hæv ˈɛni /ˈlʌɡɪdʒ tuː tʃɛk ɪn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-1-4",
+          "phrase": "What gate is my flight?",
+          "meaningVi": "Chuyến bay của tôi ở cửa nào?",
+          "ipa": "/wʌt ɡeɪt ɪz maɪ flaɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-1-5",
+          "phrase": "The flight is delayed by an hour.",
+          "meaningVi": "Chuyến bay bị trễ 1 tiếng.",
+          "ipa": "/ðə flaɪt ɪz dɪˈleɪd baɪ ən ˈaʊər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-1-6",
+          "phrase": "Please proceed to gate five.",
+          "meaningVi": "Vui lòng tiến đến cửa số 5.",
+          "ipa": "/pliːz prəˈsiːd tuː ɡeɪt faɪv/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-1-7",
+          "phrase": "Can I have a window seat?",
+          "meaningVi": "Cho tôi chỗ ngồi cạnh cửa sổ được không?",
+          "ipa": "/kæn aɪ hæv ə ˈwɪndoʊ siːt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-1-8",
+          "phrase": "Fasten your seatbelt, please.",
+          "meaningVi": "Vui lòng thắt dây an toàn.",
+          "ipa": "/ˈfæsn jʊr ˈsiːtbɛlt pliːz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-1-9",
+          "phrase": "Have a safe flight!",
+          "meaningVi": "Chúc chuyến bay an toàn!",
+          "ipa": "/hæv ə seɪf flaɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-1-10",
+          "phrase": "Welcome aboard!",
+          "meaningVi": "Chào mừng quý khách lên máy bay!",
+          "ipa": "/ˈwɛlkəm əˈbɔːrd/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "travel-2",
+      "slug": "lesson-2",
+      "topicSlug": "travel",
+      "title": "At the Hotel",
+      "titleVi": "Tại khách sạn",
+      "order": 2,
+      "vocabulary": [
+        {
+          "id": "v-travel-2-1",
+          "word": "Hotel",
+          "meaningVi": "Khách sạn",
+          "ipa": "/hoʊˈtɛl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A nice hotel.",
+          "exampleSentenceVi": "Một khách sạn đẹp."
+        },
+        {
+          "id": "v-travel-2-2",
+          "word": "Room",
+          "meaningVi": "Phòng",
+          "ipa": "/ruːm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Book a room.",
+          "exampleSentenceVi": "Đặt một phòng."
+        },
+        {
+          "id": "v-travel-2-3",
+          "word": "Key",
+          "meaningVi": "Chìa khóa",
+          "ipa": "/kiː/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Here is your key.",
+          "exampleSentenceVi": "Chìa khóa của bạn đây."
+        },
+        {
+          "id": "v-travel-2-4",
+          "word": "Bed",
+          "meaningVi": "Giường",
+          "ipa": "/bɛd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A soft bed.",
+          "exampleSentenceVi": "Một chiếc giường mềm."
+        },
+        {
+          "id": "v-travel-2-5",
+          "word": "Towel",
+          "meaningVi": "Khăn tắm",
+          "ipa": "/ˈtaʊəl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I need a towel.",
+          "exampleSentenceVi": "Tôi cần một chiếc khăn tắm."
+        },
+        {
+          "id": "v-travel-2-6",
+          "word": "Lobby",
+          "meaningVi": "Sảnh",
+          "ipa": "/ˈlɑːbi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Wait in the lobby.",
+          "exampleSentenceVi": "Đợi ở sảnh."
+        },
+        {
+          "id": "v-travel-2-7",
+          "word": "Reception",
+          "meaningVi": "Lễ tân",
+          "ipa": "/rɪˈsɛpʃn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Ask the reception.",
+          "exampleSentenceVi": "Hỏi quầy lễ tân."
+        },
+        {
+          "id": "v-travel-2-8",
+          "word": "Check-in",
+          "meaningVi": "Nhận phòng",
+          "ipa": "/tʃɛk ɪn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Time to check-in.",
+          "exampleSentenceVi": "Đến giờ nhận phòng."
+        },
+        {
+          "id": "v-travel-2-9",
+          "word": "Check-out",
+          "meaningVi": "Trả phòng",
+          "ipa": "/tʃɛk aʊt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Check-out is at noon.",
+          "exampleSentenceVi": "Trả phòng lúc buổi trưa."
+        },
+        {
+          "id": "v-travel-2-10",
+          "word": "Stay",
+          "meaningVi": "Ở lại",
+          "ipa": "/steɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Enjoy your stay.",
+          "exampleSentenceVi": "Chúc bạn có kỳ lưu trú vui vẻ."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-travel-2-1",
+          "phrase": "I would like to book a room.",
+          "meaningVi": "Tôi muốn đặt một phòng.",
+          "ipa": "/aɪ wʊd laɪk tuː bʊk ə ruːm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-2-2",
+          "phrase": "Do you have a reservation?",
+          "meaningVi": "Bạn đã đặt phòng trước chưa?",
+          "ipa": "/duː juː hæv ə ˌrɛzərˈveɪʃn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-2-3",
+          "phrase": "I have a reservation under the name Tom.",
+          "meaningVi": "Tôi đã đặt phòng dưới tên Tom.",
+          "ipa": "/aɪ hæv ə ˌrɛzərˈveɪʃn ˈʌndər ðə neɪm tɑːm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-2-4",
+          "phrase": "Here is your room key.",
+          "meaningVi": "Chìa khóa phòng của bạn đây.",
+          "ipa": "/hɪr ɪz jʊr ruːm kiː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-2-5",
+          "phrase": "Could I get some extra towels?",
+          "meaningVi": "Cho tôi xin thêm vài chiếc khăn tắm được không?",
+          "ipa": "/kʊd aɪ ɡɛt sʌm ˈɛkstrə /ˈtaʊəlz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-2-6",
+          "phrase": "What time is check-out?",
+          "meaningVi": "Giờ trả phòng là lúc mấy giờ?",
+          "ipa": "/wʌt taɪm ɪz tʃɛk aʊt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-2-7",
+          "phrase": "Is breakfast included?",
+          "meaningVi": "Đã bao gồm bữa sáng chưa?",
+          "ipa": "/ɪz /ˈbrɛkfəst ɪnˈkluːdɪd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-2-8",
+          "phrase": "Please wait in the lobby.",
+          "meaningVi": "Vui lòng đợi ở sảnh.",
+          "ipa": "/pliːz weɪt ɪn ðə /ˈlɑːbi/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-2-9",
+          "phrase": "We hope you enjoy your stay.",
+          "meaningVi": "Chúng tôi hy vọng bạn thích kỳ nghỉ của mình.",
+          "ipa": "/wiː hoʊp juː ɪnˈdʒɔɪ jʊr steɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-2-10",
+          "phrase": "I would like to check out now.",
+          "meaningVi": "Tôi muốn làm thủ tục trả phòng bây giờ.",
+          "ipa": "/aɪ wʊd laɪk tuː tʃɛk aʊt naʊ/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "travel-3",
+      "slug": "lesson-3",
+      "topicSlug": "travel",
+      "title": "Asking for Directions",
+      "titleVi": "Hỏi đường",
+      "order": 3,
+      "vocabulary": [
+        {
+          "id": "v-travel-3-1",
+          "word": "Direction",
+          "meaningVi": "Phương hướng",
+          "ipa": "/dɪˈrɛkʃn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Ask for directions.",
+          "exampleSentenceVi": "Hỏi đường."
+        },
+        {
+          "id": "v-travel-3-2",
+          "word": "Map",
+          "meaningVi": "Bản đồ",
+          "ipa": "/mæp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Look at the map.",
+          "exampleSentenceVi": "Xem bản đồ."
+        },
+        {
+          "id": "v-travel-3-3",
+          "word": "Left",
+          "meaningVi": "Trái",
+          "ipa": "/lɛft/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Turn left.",
+          "exampleSentenceVi": "Rẽ trái."
+        },
+        {
+          "id": "v-travel-3-4",
+          "word": "Right",
+          "meaningVi": "Phải",
+          "ipa": "/raɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Turn right.",
+          "exampleSentenceVi": "Rẽ phải."
+        },
+        {
+          "id": "v-travel-3-5",
+          "word": "Straight",
+          "meaningVi": "Thẳng",
+          "ipa": "/streɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Go straight.",
+          "exampleSentenceVi": "Đi thẳng."
+        },
+        {
+          "id": "v-travel-3-6",
+          "word": "Corner",
+          "meaningVi": "Góc phố",
+          "ipa": "/ˈkɔːrnər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "At the corner.",
+          "exampleSentenceVi": "Ở góc phố."
+        },
+        {
+          "id": "v-travel-3-7",
+          "word": "Block",
+          "meaningVi": "Dãy nhà",
+          "ipa": "/blɑːk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Walk one block.",
+          "exampleSentenceVi": "Đi bộ một dãy nhà."
+        },
+        {
+          "id": "v-travel-3-8",
+          "word": "Near",
+          "meaningVi": "Gần",
+          "ipa": "/nɪr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "It is near here.",
+          "exampleSentenceVi": "Nó ở gần đây."
+        },
+        {
+          "id": "v-travel-3-9",
+          "word": "Far",
+          "meaningVi": "Xa",
+          "ipa": "/fɑːr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Is it far?",
+          "exampleSentenceVi": "Nó có xa không?"
+        },
+        {
+          "id": "v-travel-3-10",
+          "word": "Lost",
+          "meaningVi": "Lạc",
+          "ipa": "/lɔːst/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I am lost.",
+          "exampleSentenceVi": "Tôi bị lạc rồi."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-travel-3-1",
+          "phrase": "Excuse me, I am lost.",
+          "meaningVi": "Xin lỗi, tôi bị lạc rồi.",
+          "ipa": "/ɪkˈskjuːz miː aɪ æm lɔːst/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-3-2",
+          "phrase": "Can you show me the way to the museum?",
+          "meaningVi": "Bạn có thể chỉ đường đến bảo tàng cho tôi không?",
+          "ipa": "/kæn juː ʃoʊ miː ðə weɪ tuː ðə mjuˈziːəm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-3-3",
+          "phrase": "Go straight ahead.",
+          "meaningVi": "Hãy đi thẳng về phía trước.",
+          "ipa": "/ɡoʊ streɪt əˈhɛd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-3-4",
+          "phrase": "Turn left at the next corner.",
+          "meaningVi": "Rẽ trái ở góc phố tiếp theo.",
+          "ipa": "/tɜːrn lɛft æt ðə nɛkst /ˈkɔːrnər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-3-5",
+          "phrase": "Take the second right.",
+          "meaningVi": "Rẽ vào ngã rẽ thứ hai bên phải.",
+          "ipa": "/teɪk ðə ˈsɛkənd raɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-3-6",
+          "phrase": "It is just a few blocks away.",
+          "meaningVi": "Nó chỉ cách vài dãy nhà thôi.",
+          "ipa": "/ɪt ɪz dʒʌst ə fjuː blɑːks əˈweɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-3-7",
+          "phrase": "Is it far from here?",
+          "meaningVi": "Chỗ đó có xa đây không?",
+          "ipa": "/ɪz ɪt fɑːr frʌm hɪr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-3-8",
+          "phrase": "No, it is quite near.",
+          "meaningVi": "Không, nó khá gần.",
+          "ipa": "/noʊ ɪt ɪz kwaɪt nɪr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-3-9",
+          "phrase": "You can walk there.",
+          "meaningVi": "Bạn có thể đi bộ tới đó.",
+          "ipa": "/juː kæn wɔːk ðɛr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-3-10",
+          "phrase": "Thank you for the directions.",
+          "meaningVi": "Cảm ơn bạn đã chỉ đường.",
+          "ipa": "/θæŋk juː fɔːr ðə dɪˈrɛkʃnz/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "travel-4",
+      "slug": "lesson-4",
+      "topicSlug": "travel",
+      "title": "Public Transport",
+      "titleVi": "Giao thông công cộng",
+      "order": 4,
+      "vocabulary": [
+        {
+          "id": "v-travel-4-1",
+          "word": "Bus",
+          "meaningVi": "Xe buýt",
+          "ipa": "/bʌs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Catch a bus.",
+          "exampleSentenceVi": "Bắt xe buýt."
+        },
+        {
+          "id": "v-travel-4-2",
+          "word": "Train",
+          "meaningVi": "Tàu hỏa",
+          "ipa": "/treɪn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The train is fast.",
+          "exampleSentenceVi": "Tàu hỏa rất nhanh."
+        },
+        {
+          "id": "v-travel-4-3",
+          "word": "Taxi",
+          "meaningVi": "Xe taxi",
+          "ipa": "/ˈtæksi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Call a taxi.",
+          "exampleSentenceVi": "Gọi một chiếc taxi."
+        },
+        {
+          "id": "v-travel-4-4",
+          "word": "Subway",
+          "meaningVi": "Tàu điện ngầm",
+          "ipa": "/ˈsʌbweɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Take the subway.",
+          "exampleSentenceVi": "Đi tàu điện ngầm."
+        },
+        {
+          "id": "v-travel-4-5",
+          "word": "Station",
+          "meaningVi": "Nhà ga",
+          "ipa": "/ˈsteɪʃn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Train station.",
+          "exampleSentenceVi": "Ga tàu hỏa."
+        },
+        {
+          "id": "v-travel-4-6",
+          "word": "Stop",
+          "meaningVi": "Trạm dừng",
+          "ipa": "/stɑːp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Bus stop.",
+          "exampleSentenceVi": "Trạm xe buýt."
+        },
+        {
+          "id": "v-travel-4-7",
+          "word": "Ticket",
+          "meaningVi": "Vé",
+          "ipa": "/ˈtɪkɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Buy a ticket.",
+          "exampleSentenceVi": "Mua một tấm vé."
+        },
+        {
+          "id": "v-travel-4-8",
+          "word": "Fare",
+          "meaningVi": "Tiền vé",
+          "ipa": "/fɛr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Pay the fare.",
+          "exampleSentenceVi": "Trả tiền vé."
+        },
+        {
+          "id": "v-travel-4-9",
+          "word": "Ride",
+          "meaningVi": "Đi xe",
+          "ipa": "/raɪd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Enjoy the ride.",
+          "exampleSentenceVi": "Hãy tận hưởng chuyến đi."
+        },
+        {
+          "id": "v-travel-4-10",
+          "word": "Wait",
+          "meaningVi": "Đợi",
+          "ipa": "/weɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Wait here.",
+          "exampleSentenceVi": "Đợi ở đây."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-travel-4-1",
+          "phrase": "Where is the nearest bus stop?",
+          "meaningVi": "Trạm xe buýt gần nhất ở đâu?",
+          "ipa": "/wɛr ɪz ðə ˈnɪrɪst bʌs stɑːp/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-4-2",
+          "phrase": "Which bus goes to the city center?",
+          "meaningVi": "Xe buýt nào đi đến trung tâm thành phố?",
+          "ipa": "/wɪtʃ bʌs ɡoʊz tuː ðə /ˈsɪti ˈsɛntər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-4-3",
+          "phrase": "I need a ticket to London.",
+          "meaningVi": "Tôi cần một vé đi London.",
+          "ipa": "/aɪ niːd ə /ˈtɪkɪt tuː ˈlʌndən/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-4-4",
+          "phrase": "How much is the fare?",
+          "meaningVi": "Tiền vé là bao nhiêu?",
+          "ipa": "/haʊ mʌtʃ ɪz ðə fɛr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-4-5",
+          "phrase": "Does this train stop at York?",
+          "meaningVi": "Tàu này có dừng ở York không?",
+          "ipa": "/dʌz ðɪs treɪn stɑːp æt jɔːrk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-4-6",
+          "phrase": "The train will arrive in five minutes.",
+          "meaningVi": "Tàu sẽ đến trong 5 phút nữa.",
+          "ipa": "/ðə treɪn wɪl əˈraɪv ɪn faɪv ˈmɪnɪts/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-4-7",
+          "phrase": "Can you call a taxi for me?",
+          "meaningVi": "Bạn có thể gọi taxi giúp tôi không?",
+          "ipa": "/kæn juː kɔːl ə /ˈtæksi fɔːr miː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-4-8",
+          "phrase": "Take me to this address, please.",
+          "meaningVi": "Vui lòng đưa tôi đến địa chỉ này.",
+          "ipa": "/teɪk miː tuː ðɪs əˈdrɛs pliːz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-4-9",
+          "phrase": "We should take the subway.",
+          "meaningVi": "Chúng ta nên đi tàu điện ngầm.",
+          "ipa": "/wiː ʃʊd teɪk ðə /ˈsʌbweɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-4-10",
+          "phrase": "Wait behind the yellow line.",
+          "meaningVi": "Vui lòng đứng đợi sau vạch vàng.",
+          "ipa": "/weɪt bɪˈhaɪnd ðə ˈjɛloʊ laɪn/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "travel-5",
+      "slug": "lesson-5",
+      "topicSlug": "travel",
+      "title": "Sightseeing",
+      "titleVi": "Ngắm cảnh",
+      "order": 5,
+      "vocabulary": [
+        {
+          "id": "v-travel-5-1",
+          "word": "Tour",
+          "meaningVi": "Chuyến du lịch",
+          "ipa": "/tʊr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A city tour.",
+          "exampleSentenceVi": "Một chuyến tham quan thành phố."
+        },
+        {
+          "id": "v-travel-5-2",
+          "word": "Guide",
+          "meaningVi": "Hướng dẫn viên",
+          "ipa": "/ɡaɪd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A tour guide.",
+          "exampleSentenceVi": "Hướng dẫn viên du lịch."
+        },
+        {
+          "id": "v-travel-5-3",
+          "word": "Museum",
+          "meaningVi": "Bảo tàng",
+          "ipa": "/mjuˈziːəm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Visit a museum.",
+          "exampleSentenceVi": "Thăm bảo tàng."
+        },
+        {
+          "id": "v-travel-5-4",
+          "word": "Temple",
+          "meaningVi": "Đền, chùa",
+          "ipa": "/ˈtɛmpl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "An old temple.",
+          "exampleSentenceVi": "Một ngôi đền cổ."
+        },
+        {
+          "id": "v-travel-5-5",
+          "word": "Photo",
+          "meaningVi": "Bức ảnh",
+          "ipa": "/ˈfoʊtoʊ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Take a photo.",
+          "exampleSentenceVi": "Chụp một bức ảnh."
+        },
+        {
+          "id": "v-travel-5-6",
+          "word": "Camera",
+          "meaningVi": "Máy ảnh",
+          "ipa": "/ˈkæmərə/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A digital camera.",
+          "exampleSentenceVi": "Máy ảnh kỹ thuật số."
+        },
+        {
+          "id": "v-travel-5-7",
+          "word": "View",
+          "meaningVi": "Cảnh vật",
+          "ipa": "/vjuː/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A beautiful view.",
+          "exampleSentenceVi": "Một khung cảnh đẹp."
+        },
+        {
+          "id": "v-travel-5-8",
+          "word": "Famous",
+          "meaningVi": "Nổi tiếng",
+          "ipa": "/ˈfeɪməs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A famous place.",
+          "exampleSentenceVi": "Một địa điểm nổi tiếng."
+        },
+        {
+          "id": "v-travel-5-9",
+          "word": "Souvenir",
+          "meaningVi": "Quà lưu niệm",
+          "ipa": "/ˌsuːvəˈnɪr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Buy a souvenir.",
+          "exampleSentenceVi": "Mua một món quà lưu niệm."
+        },
+        {
+          "id": "v-travel-5-10",
+          "word": "Enjoy",
+          "meaningVi": "Thưởng thức",
+          "ipa": "/ɪnˈdʒɔɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Enjoy the trip.",
+          "exampleSentenceVi": "Hãy tận hưởng chuyến đi."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-travel-5-1",
+          "phrase": "We are going on a city tour today.",
+          "meaningVi": "Hôm nay chúng ta sẽ đi tham quan thành phố.",
+          "ipa": "/wiː ɑːr ˈɡoʊɪŋ ɑːn ə /ˈsɪti tʊr təˈdeɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-5-2",
+          "phrase": "The tour guide is very friendly.",
+          "meaningVi": "Hướng dẫn viên rất thân thiện.",
+          "ipa": "/ðə tʊr ɡaɪd ɪz ˈvɛri ˈfrɛndli/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-5-3",
+          "phrase": "Let's visit the museum.",
+          "meaningVi": "Hãy cùng đi thăm bảo tàng.",
+          "ipa": "/lɛts ˈvɪzɪt ðə mjuˈziːəm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-5-4",
+          "phrase": "This temple is very old.",
+          "meaningVi": "Ngôi đền này đã rất cổ.",
+          "ipa": "/ðɪs /ˈtɛmpl ɪz ˈvɛri oʊld/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-5-5",
+          "phrase": "Can you take a photo for me?",
+          "meaningVi": "Bạn chụp giúp tôi một tấm ảnh được không?",
+          "ipa": "/kæn juː teɪk ə /ˈfoʊtoʊ fɔːr miː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-5-6",
+          "phrase": "The view from here is amazing.",
+          "meaningVi": "Khung cảnh từ đây thật tuyệt vời.",
+          "ipa": "/ðə vjuː frʌm hɪr ɪz əˈmeɪzɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-5-7",
+          "phrase": "This place is famous for its history.",
+          "meaningVi": "Nơi này nổi tiếng vì lịch sử của nó.",
+          "ipa": "/ðɪs pleɪs ɪz /ˈfeɪməs fɔːr ɪts ˈhɪstəri/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-5-8",
+          "phrase": "I want to buy some souvenirs.",
+          "meaningVi": "Tôi muốn mua vài món quà lưu niệm.",
+          "ipa": "/aɪ wɑːnt tuː baɪ sʌm ˌsuːvəˈnɪr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-5-9",
+          "phrase": "Don't forget your camera.",
+          "meaningVi": "Đừng quên mang theo máy ảnh nhé.",
+          "ipa": "/doʊnt fərˈɡɛt jʊr /ˈkæmərə/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-5-10",
+          "phrase": "Hope you enjoy the trip.",
+          "meaningVi": "Chúc bạn đi chơi vui vẻ.",
+          "ipa": "/hoʊp juː ɪnˈdʒɔɪ ðə trɪp/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "travel-6",
+      "slug": "lesson-6",
+      "topicSlug": "travel",
+      "title": "Dealing with Problems",
+      "titleVi": "Giải quyết vấn đề",
+      "order": 6,
+      "vocabulary": [
+        {
+          "id": "v-travel-6-1",
+          "word": "Problem",
+          "meaningVi": "Vấn đề",
+          "ipa": "/ˈprɑːbləm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A big problem.",
+          "exampleSentenceVi": "Một vấn đề lớn."
+        },
+        {
+          "id": "v-travel-6-2",
+          "word": "Help",
+          "meaningVi": "Giúp đỡ",
+          "ipa": "/hɛlp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I need help.",
+          "exampleSentenceVi": "Tôi cần giúp đỡ."
+        },
+        {
+          "id": "v-travel-6-3",
+          "word": "Lost",
+          "meaningVi": "Lạc, mất",
+          "ipa": "/lɔːst/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I lost my bag.",
+          "exampleSentenceVi": "Tôi làm mất túi."
+        },
+        {
+          "id": "v-travel-6-4",
+          "word": "Stolen",
+          "meaningVi": "Bị trộm",
+          "ipa": "/ˈstoʊlən/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "My phone is stolen.",
+          "exampleSentenceVi": "Điện thoại của tôi bị trộm."
+        },
+        {
+          "id": "v-travel-6-5",
+          "word": "Police",
+          "meaningVi": "Cảnh sát",
+          "ipa": "/pəˈliːs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Call the police.",
+          "exampleSentenceVi": "Gọi cảnh sát."
+        },
+        {
+          "id": "v-travel-6-6",
+          "word": "Sick",
+          "meaningVi": "Ốm",
+          "ipa": "/sɪk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I feel sick.",
+          "exampleSentenceVi": "Tôi cảm thấy ốm."
+        },
+        {
+          "id": "v-travel-6-7",
+          "word": "Doctor",
+          "meaningVi": "Bác sĩ",
+          "ipa": "/ˈdɑːktər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Call a doctor.",
+          "exampleSentenceVi": "Hãy gọi bác sĩ."
+        },
+        {
+          "id": "v-travel-6-8",
+          "word": "Pharmacy",
+          "meaningVi": "Hiệu thuốc",
+          "ipa": "/ˈfɑːrməsi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Find a pharmacy.",
+          "exampleSentenceVi": "Tìm một hiệu thuốc."
+        },
+        {
+          "id": "v-travel-6-9",
+          "word": "Embassy",
+          "meaningVi": "Đại sứ quán",
+          "ipa": "/ˈɛmbəsi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Go to the embassy.",
+          "exampleSentenceVi": "Đến đại sứ quán."
+        },
+        {
+          "id": "v-travel-6-10",
+          "word": "Safe",
+          "meaningVi": "An toàn",
+          "ipa": "/seɪf/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Keep it safe.",
+          "exampleSentenceVi": "Giữ nó an toàn."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-travel-6-1",
+          "phrase": "Can you help me, please?",
+          "meaningVi": "Làm ơn giúp tôi với được không?",
+          "ipa": "/kæn juː hɛlp miː pliːz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-6-2",
+          "phrase": "I have a big problem.",
+          "meaningVi": "Tôi đang gặp một rắc rối lớn.",
+          "ipa": "/aɪ hæv ə bɪɡ /ˈprɑːbləm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-6-3",
+          "phrase": "I lost my passport.",
+          "meaningVi": "Tôi đã làm mất hộ chiếu.",
+          "ipa": "/aɪ lɔːst maɪ /ˈpæspɔːrt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-6-4",
+          "phrase": "My wallet was stolen.",
+          "meaningVi": "Ví của tôi đã bị lấy cắp.",
+          "ipa": "/maɪ ˈwɑːlɪt wʌz /ˈstoʊlən/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-6-5",
+          "phrase": "Please call the police.",
+          "meaningVi": "Vui lòng gọi cảnh sát.",
+          "ipa": "/pliːz kɔːl ðə pəˈliːs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-6-6",
+          "phrase": "I feel very sick.",
+          "meaningVi": "Tôi cảm thấy rất mệt/ốm.",
+          "ipa": "/aɪ fiːl ˈvɛri sɪk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-6-7",
+          "phrase": "We need to find a doctor.",
+          "meaningVi": "Chúng ta cần tìm bác sĩ.",
+          "ipa": "/wiː niːd tuː faɪnd ə /ˈdɑːktər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-6-8",
+          "phrase": "Is there a pharmacy near here?",
+          "meaningVi": "Có hiệu thuốc nào gần đây không?",
+          "ipa": "/ɪz ðɛr ə /ˈfɑːrməsi nɪr hɪr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-6-9",
+          "phrase": "I need to contact my embassy.",
+          "meaningVi": "Tôi cần liên lạc với đại sứ quán của tôi.",
+          "ipa": "/aɪ niːd tuː ˈkɑːntækt maɪ /ˈɛmbəsi/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-6-10",
+          "phrase": "Don't worry, you are safe now.",
+          "meaningVi": "Đừng lo, bây giờ bạn an toàn rồi.",
+          "ipa": "/doʊnt ˈwɜːri juː ɑːr seɪf naʊ/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "travel-7",
+      "slug": "lesson-7",
+      "topicSlug": "travel",
+      "title": "Going to the Beach",
+      "titleVi": "Đi biển",
+      "order": 7,
+      "vocabulary": [
+        {
+          "id": "v-travel-7-1",
+          "word": "Beach",
+          "meaningVi": "Bãi biển",
+          "ipa": "/biːtʃ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Go to the beach.",
+          "exampleSentenceVi": "Đi biển."
+        },
+        {
+          "id": "v-travel-7-2",
+          "word": "Sand",
+          "meaningVi": "Cát",
+          "ipa": "/sænd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "White sand.",
+          "exampleSentenceVi": "Cát trắng."
+        },
+        {
+          "id": "v-travel-7-3",
+          "word": "Sea",
+          "meaningVi": "Biển",
+          "ipa": "/siː/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The blue sea.",
+          "exampleSentenceVi": "Biển xanh."
+        },
+        {
+          "id": "v-travel-7-4",
+          "word": "Swim",
+          "meaningVi": "Bơi",
+          "ipa": "/swɪm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I like to swim.",
+          "exampleSentenceVi": "Tôi thích bơi lỏi."
+        },
+        {
+          "id": "v-travel-7-5",
+          "word": "Sun",
+          "meaningVi": "Mặt trời",
+          "ipa": "/sʌn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The sun is hot.",
+          "exampleSentenceVi": "Mặt trời rất nóng."
+        },
+        {
+          "id": "v-travel-7-6",
+          "word": "Tan",
+          "meaningVi": "Rám nắng",
+          "ipa": "/tæn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Get a tan.",
+          "exampleSentenceVi": "Làm sạm da (tắm nắng)."
+        },
+        {
+          "id": "v-travel-7-7",
+          "word": "Towel",
+          "meaningVi": "Khăn",
+          "ipa": "/ˈtaʊəl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Bring a towel.",
+          "exampleSentenceVi": "Mang theo khăn tắm."
+        },
+        {
+          "id": "v-travel-7-8",
+          "word": "Boat",
+          "meaningVi": "Thuyền",
+          "ipa": "/boʊt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Rent a boat.",
+          "exampleSentenceVi": "Thuê một chiếc thuyền."
+        },
+        {
+          "id": "v-travel-7-9",
+          "word": "Wave",
+          "meaningVi": "Con sóng",
+          "ipa": "/weɪv/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Big waves.",
+          "exampleSentenceVi": "Những con sóng lớn."
+        },
+        {
+          "id": "v-travel-7-10",
+          "word": "Relax",
+          "meaningVi": "Thư giãn",
+          "ipa": "/rɪˈlæks/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Relax on the beach.",
+          "exampleSentenceVi": "Thư giãn trên bãi biển."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-travel-7-1",
+          "phrase": "Let's go to the beach today.",
+          "meaningVi": "Hôm nay đi biển nhé.",
+          "ipa": "/lɛts ɡoʊ tuː ðə biːtʃ təˈdeɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-7-2",
+          "phrase": "The sand is very soft.",
+          "meaningVi": "Cát ở đây rất mềm.",
+          "ipa": "/ðə sænd ɪz ˈvɛri sɔːft/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-7-3",
+          "phrase": "I want to swim in the sea.",
+          "meaningVi": "Tôi muốn bơi trên biển.",
+          "ipa": "/aɪ wɑːnt tuː swɪm ɪn ðə siː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-7-4",
+          "phrase": "Don't forget your sunscreen.",
+          "meaningVi": "Đừng quên mang theo kem chống nắng.",
+          "ipa": "/doʊnt fərˈɡɛt jʊr ˈsʌnˌskriːn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-7-5",
+          "phrase": "I just want to get a tan.",
+          "meaningVi": "Tôi chỉ muốn tắm nắng thôi.",
+          "ipa": "/aɪ dʒʌst wɑːnt tuː ɡɛt ə tæn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-7-6",
+          "phrase": "Let's rent a small boat.",
+          "meaningVi": "Cùng thuê một chiếc thuyền nhỏ đi.",
+          "ipa": "/lɛts rɛnt ə smɔːl boʊt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-7-7",
+          "phrase": "The waves are too big today.",
+          "meaningVi": "Hôm nay sóng to quá.",
+          "ipa": "/ðə weɪvz ɑːr tuː bɪɡ təˈdeɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-7-8",
+          "phrase": "Bring a towel with you.",
+          "meaningVi": "Hãy mang theo một chiếc khăn tắm.",
+          "ipa": "/brɪŋ ə /ˈtaʊəl wɪð juː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-7-9",
+          "phrase": "This is so relaxing.",
+          "meaningVi": "Điều này thật là thư giãn.",
+          "ipa": "/ðɪs ɪz soʊ rɪˈlæksɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-7-10",
+          "phrase": "What a beautiful sunset!",
+          "meaningVi": "Hoàng hôn mới đẹp làm sao!",
+          "ipa": "/wʌt ə ˈbjuːtɪfl ˈsʌnˌsɛt/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "travel-8",
+      "slug": "lesson-8",
+      "topicSlug": "travel",
+      "title": "Planning a Trip",
+      "titleVi": "Lên kế hoạch",
+      "order": 8,
+      "vocabulary": [
+        {
+          "id": "v-travel-8-1",
+          "word": "Plan",
+          "meaningVi": "Kế hoạch",
+          "ipa": "/plæn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Make a plan.",
+          "exampleSentenceVi": "Lên kế hoạch."
+        },
+        {
+          "id": "v-travel-8-2",
+          "word": "Trip",
+          "meaningVi": "Chuyến đi",
+          "ipa": "/trɪp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A short trip.",
+          "exampleSentenceVi": "Một chuyến đi ngắn."
+        },
+        {
+          "id": "v-travel-8-3",
+          "word": "Book",
+          "meaningVi": "Đặt trước",
+          "ipa": "/bʊk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Book a flight.",
+          "exampleSentenceVi": "Đặt chuyến bay."
+        },
+        {
+          "id": "v-travel-8-4",
+          "word": "Pack",
+          "meaningVi": "Đóng gói",
+          "ipa": "/pæk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Pack your bags.",
+          "exampleSentenceVi": "Đóng gói hành lý."
+        },
+        {
+          "id": "v-travel-8-5",
+          "word": "Visa",
+          "meaningVi": "Thị thực",
+          "ipa": "/ˈviːzə/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Apply for a visa.",
+          "exampleSentenceVi": "Xin cấp visa."
+        },
+        {
+          "id": "v-travel-8-6",
+          "word": "Budget",
+          "meaningVi": "Ngân sách",
+          "ipa": "/ˈbʌdʒɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Travel on a budget.",
+          "exampleSentenceVi": "Du lịch tiết kiệm."
+        },
+        {
+          "id": "v-travel-8-7",
+          "word": "Map",
+          "meaningVi": "Bản đồ",
+          "ipa": "/mæp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Check the map.",
+          "exampleSentenceVi": "Kiểm tra bản đồ."
+        },
+        {
+          "id": "v-travel-8-8",
+          "word": "Guidebook",
+          "meaningVi": "Sách hướng dẫn",
+          "ipa": "/ˈɡaɪdbʊk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Read a guidebook.",
+          "exampleSentenceVi": "Đọc sách hướng dẫn."
+        },
+        {
+          "id": "v-travel-8-9",
+          "word": "Camera",
+          "meaningVi": "Máy ảnh",
+          "ipa": "/ˈkæmərə/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Bring a camera.",
+          "exampleSentenceVi": "Mang theo máy ảnh."
+        },
+        {
+          "id": "v-travel-8-10",
+          "word": "Ready",
+          "meaningVi": "Sẵn sàng",
+          "ipa": "/ˈrɛdi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Are you ready?",
+          "exampleSentenceVi": "Bạn đã sẵn sàng chưa?"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-travel-8-1",
+          "phrase": "Where should we go for our trip?",
+          "meaningVi": "Chúng ta nên đi đâu cho chuyến đi này?",
+          "ipa": "/wɛr ʃʊd wiː ɡoʊ fɔːr aʊər trɪp/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-8-2",
+          "phrase": "Let's make a travel plan.",
+          "meaningVi": "Cùng lập kế hoạch du lịch nhé.",
+          "ipa": "/lɛts meɪk ə /ˈtrævl plæn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-8-3",
+          "phrase": "I need to book my flights early.",
+          "meaningVi": "Tôi cần đặt vé máy bay sớm.",
+          "ipa": "/aɪ niːd tuː bʊk maɪ flaɪts ˈɜːrli/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-8-4",
+          "phrase": "Did you pack your bags?",
+          "meaningVi": "Bạn đã đóng gói hành lý chưa?",
+          "ipa": "/dɪd juː pæk jʊr bæɡz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-8-5",
+          "phrase": "Do I need a visa to go there?",
+          "meaningVi": "Tôi có cần visa để tới đó không?",
+          "ipa": "/duː aɪ niːd ə /ˈviːzə tuː ɡoʊ ðɛr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-8-6",
+          "phrase": "We have to stick to our budget.",
+          "meaningVi": "Chúng ta phải bám sát ngân sách.",
+          "ipa": "/wiː hæv tuː stɪk tuː aʊər /ˈbʌdʒɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-8-7",
+          "phrase": "Let's check the map.",
+          "meaningVi": "Cùng xem bản đồ nào.",
+          "ipa": "/lɛts tʃɛk ðə mæp/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-8-8",
+          "phrase": "A guidebook is very helpful.",
+          "meaningVi": "Sách hướng dẫn rất có ích.",
+          "ipa": "/ə /ˈɡaɪdbʊk ɪz ˈvɛri ˈhɛlpfl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-8-9",
+          "phrase": "Make sure your camera is charged.",
+          "meaningVi": "Nhớ sạc đầy pin máy ảnh nhé.",
+          "ipa": "/meɪk ʃʊr jʊr /ˈkæmərə ɪz tʃɑːrdʒd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-8-10",
+          "phrase": "I am so ready for this trip!",
+          "meaningVi": "Tôi quá sẵn sàng cho chuyến đi này rồi!",
+          "ipa": "/aɪ æm soʊ ˈrɛdi fɔːr ðɪs trɪp/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "travel-9",
+      "slug": "lesson-9",
+      "topicSlug": "travel",
+      "title": "At the Post Office",
+      "titleVi": "Bưu điện",
+      "order": 9,
+      "vocabulary": [
+        {
+          "id": "v-travel-9-1",
+          "word": "Post",
+          "meaningVi": "Bưu điện",
+          "ipa": "/poʊst/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Go to the post office.",
+          "exampleSentenceVi": "Đi bưu điện."
+        },
+        {
+          "id": "v-travel-9-2",
+          "word": "Letter",
+          "meaningVi": "Lá thư",
+          "ipa": "/ˈlɛtər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Send a letter.",
+          "exampleSentenceVi": "Gửi thư."
+        },
+        {
+          "id": "v-travel-9-3",
+          "word": "Stamp",
+          "meaningVi": "Tem",
+          "ipa": "/stæmp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Buy a stamp.",
+          "exampleSentenceVi": "Mua một con tem."
+        },
+        {
+          "id": "v-travel-9-4",
+          "word": "Package",
+          "meaningVi": "Gói hàng",
+          "ipa": "/ˈpækɪdʒ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Mail a package.",
+          "exampleSentenceVi": "Gửi một gói hàng."
+        },
+        {
+          "id": "v-travel-9-5",
+          "word": "Scale",
+          "meaningVi": "Cái cân",
+          "ipa": "/skeɪl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Put it on the scale.",
+          "exampleSentenceVi": "Đặt nó lên cân."
+        },
+        {
+          "id": "v-travel-9-6",
+          "word": "Address",
+          "meaningVi": "Địa chỉ",
+          "ipa": "/əˈdrɛs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Write the address.",
+          "exampleSentenceVi": "Viết địa chỉ."
+        },
+        {
+          "id": "v-travel-9-7",
+          "word": "Send",
+          "meaningVi": "Gửi",
+          "ipa": "/sɛnd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I want to send this.",
+          "exampleSentenceVi": "Tôi muốn gửi cái này."
+        },
+        {
+          "id": "v-travel-9-8",
+          "word": "Receive",
+          "meaningVi": "Nhận",
+          "ipa": "/rɪˈsiːv/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Receive a gift.",
+          "exampleSentenceVi": "Nhận một món quà."
+        },
+        {
+          "id": "v-travel-9-9",
+          "word": "Mailbox",
+          "meaningVi": "Hòm thư",
+          "ipa": "/ˈmeɪlbɑːks/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Check the mailbox.",
+          "exampleSentenceVi": "Kiểm tra hòm thư."
+        },
+        {
+          "id": "v-travel-9-10",
+          "word": "Delivery",
+          "meaningVi": "Giao hàng",
+          "ipa": "/dɪˈlɪvəri/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Fast delivery.",
+          "exampleSentenceVi": "Giao hàng nhanh."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-travel-9-1",
+          "phrase": "Where is the nearest post office?",
+          "meaningVi": "Bưu điện gần nhất ở đâu?",
+          "ipa": "/wɛr ɪz ðə ˈnɪrɪst poʊst ˈɔːfɪs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-9-2",
+          "phrase": "I want to send a letter to France.",
+          "meaningVi": "Tôi muốn gửi thư sang Pháp.",
+          "ipa": "/aɪ wɑːnt tuː sɛnd ə /ˈlɛtər tuː fræns/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-9-3",
+          "phrase": "I need to buy some stamps.",
+          "meaningVi": "Tôi cần mua vài con tem.",
+          "ipa": "/aɪ niːd tuː baɪ sʌm stæmps/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-9-4",
+          "phrase": "How much does it cost to send this package?",
+          "meaningVi": "Gửi gói hàng này tốn bao nhiêu tiền?",
+          "ipa": "/haʊ mʌtʃ dʌz ɪt kɔːst tuː sɛnd ðɪs /ˈpækɪdʒ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-9-5",
+          "phrase": "Please put it on the scale.",
+          "meaningVi": "Vui lòng đặt nó lên chiếc cân.",
+          "ipa": "/pliːz pʊt ɪt ɑːn ðə skeɪl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-9-6",
+          "phrase": "Write the address clearly, please.",
+          "meaningVi": "Vui lòng viết địa chỉ rõ ràng.",
+          "ipa": "/raɪt ðə əˈdrɛs ˈklɪrli pliːz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-9-7",
+          "phrase": "When will it arrive?",
+          "meaningVi": "Khi nào thì nó sẽ tới nơi?",
+          "ipa": "/wɛn wɪl ɪt əˈraɪv/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-9-8",
+          "phrase": "Can I have tracking for this package?",
+          "meaningVi": "Tôi có thể lấy mã theo dõi cho gói hàng này không?",
+          "ipa": "/kæn aɪ hæv ˈtrækɪŋ fɔːr ðɪs /ˈpækɪdʒ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-9-9",
+          "phrase": "Drop it in the mailbox outside.",
+          "meaningVi": "Hãy thả nó vào hòm thư bên ngoài.",
+          "ipa": "/drɑːp ɪt ɪn ðə /ˈmeɪlbɑːks ˈaʊtˈsaɪd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-9-10",
+          "phrase": "Thank you for your fast delivery.",
+          "meaningVi": "Cảm ơn vì dịch vụ giao hàng nhanh.",
+          "ipa": "/θæŋk juː fɔːr jʊr fæst dɪˈlɪvəri/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "travel-10",
+      "slug": "lesson-10",
+      "topicSlug": "travel",
+      "title": "Cultural Differences",
+      "titleVi": "Văn hóa",
+      "order": 10,
+      "vocabulary": [
+        {
+          "id": "v-travel-10-1",
+          "word": "Culture",
+          "meaningVi": "Văn hóa",
+          "ipa": "/ˈkʌltʃər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A rich culture.",
+          "exampleSentenceVi": "Một nền văn hóa phong phú."
+        },
+        {
+          "id": "v-travel-10-2",
+          "word": "Custom",
+          "meaningVi": "Phong tục",
+          "ipa": "/ˈkʌstəm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Local customs.",
+          "exampleSentenceVi": "Phong tục địa phương."
+        },
+        {
+          "id": "v-travel-10-3",
+          "word": "Traditional",
+          "meaningVi": "Truyền thống",
+          "ipa": "/trəˈdɪʃənl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Traditional food.",
+          "exampleSentenceVi": "Món ăn truyền thống."
+        },
+        {
+          "id": "v-travel-10-4",
+          "word": "Polite",
+          "meaningVi": "Lịch sự",
+          "ipa": "/pəˈlaɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "It is polite to bow.",
+          "exampleSentenceVi": "Cúi chào là lịch sự."
+        },
+        {
+          "id": "v-travel-10-5",
+          "word": "Rude",
+          "meaningVi": "Thô lỗ",
+          "ipa": "/ruːd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Do not be rude.",
+          "exampleSentenceVi": "Đừng thô lỗ."
+        },
+        {
+          "id": "v-travel-10-6",
+          "word": "Respect",
+          "meaningVi": "Tôn trọng",
+          "ipa": "/rɪˈspɛkt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Respect the elders.",
+          "exampleSentenceVi": "Tôn trọng người lớn tuổi."
+        },
+        {
+          "id": "v-travel-10-7",
+          "word": "Gift",
+          "meaningVi": "Món quà",
+          "ipa": "/ɡɪft/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Bring a gift.",
+          "exampleSentenceVi": "Mang theo quà."
+        },
+        {
+          "id": "v-travel-10-8",
+          "word": "Greet",
+          "meaningVi": "Chào hỏi",
+          "ipa": "/ɡriːt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "How to greet people?",
+          "exampleSentenceVi": "Cách chào hỏi mọi người?"
+        },
+        {
+          "id": "v-travel-10-9",
+          "word": "Language",
+          "meaningVi": "Ngôn ngữ",
+          "ipa": "/ˈlæŋɡwɪdʒ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A foreign language.",
+          "exampleSentenceVi": "Ngoại ngữ."
+        },
+        {
+          "id": "v-travel-10-10",
+          "word": "Different",
+          "meaningVi": "Khác biệt",
+          "ipa": "/ˈdɪfrənt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Very different.",
+          "exampleSentenceVi": "Rất khác biệt."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-travel-10-1",
+          "phrase": "Every country has its own culture.",
+          "meaningVi": "Mỗi quốc gia đều có văn hóa riêng.",
+          "ipa": "/ˈɛvri /ˈkʌntri hæz ɪts oʊn /ˈkʌltʃər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-10-2",
+          "phrase": "You should learn about local customs.",
+          "meaningVi": "Bạn nên tìm hiểu về phong tục địa phương.",
+          "ipa": "/juː ʃʊd lɜːrn əˈbaʊt ˈloʊkl /ˈkʌstəmz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-10-3",
+          "phrase": "What is the traditional food here?",
+          "meaningVi": "Món ăn truyền thống ở đây là gì?",
+          "ipa": "/wʌt ɪz ðə trəˈdɪʃənl fuːd hɪr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-10-4",
+          "phrase": "It is polite to say thank you.",
+          "meaningVi": "Nói lời cảm ơn là phép lịch sự.",
+          "ipa": "/ɪt ɪz pəˈlaɪt tuː seɪ θæŋk juː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-10-5",
+          "phrase": "Pointing at people is considered rude.",
+          "meaningVi": "Chỉ trỏ vào người khác bị coi là thô lỗ.",
+          "ipa": "/ˈpɔɪntɪŋ æt ˈpiːpl ɪz kənˈsɪdərd ruːd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-10-6",
+          "phrase": "We must respect their traditions.",
+          "meaningVi": "Chúng ta phải tôn trọng truyền thống của họ.",
+          "ipa": "/wiː mʌst rɪˈspɛkt ðɛr trəˈdɪʃənz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-10-7",
+          "phrase": "It is a good idea to bring a small gift.",
+          "meaningVi": "Mang theo một món quà nhỏ là ý kiến hay.",
+          "ipa": "/ɪt ɪz ə ɡʊd aɪˈdiːə tuː brɪŋ ə smɔːl ɡɪft/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-10-8",
+          "phrase": "How do people greet each other here?",
+          "meaningVi": "Mọi người ở đây chào nhau thế nào?",
+          "ipa": "/haʊ duː ˈpiːpl ɡriːt iːtʃ ˈʌðər hɪr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-10-9",
+          "phrase": "I am trying to learn the language.",
+          "meaningVi": "Tôi đang cố gắng học ngôn ngữ này.",
+          "ipa": "/aɪ æm ˈtraɪɪŋ tuː lɜːrn ðə /ˈlæŋɡwɪdʒ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-travel-10-10",
+          "phrase": "Things are very different here.",
+          "meaningVi": "Mọi thứ ở đây rất khác biệt.",
+          "ipa": "/θɪŋz ɑːr ˈvɛri /ˈdɪfrənt hɪr/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
     }
   ]
 }

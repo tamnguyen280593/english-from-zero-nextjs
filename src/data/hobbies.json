@@ -1,0 +1,1845 @@
+{
+  "topicSlug": "hobbies",
+  "lessons": [
+    {
+      "id": "hobbies-1",
+      "slug": "lesson-1",
+      "topicSlug": "hobbies",
+      "title": "Sports",
+      "titleVi": "Thể thao",
+      "order": 1,
+      "vocabulary": [
+        {
+          "id": "v-hobbies-1-1",
+          "word": "Sport",
+          "meaningVi": "Thể thao",
+          "ipa": "/spɔːrt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Play a sport.",
+          "exampleSentenceVi": "Chơi một môn thể thao."
+        },
+        {
+          "id": "v-hobbies-1-2",
+          "word": "Football",
+          "meaningVi": "Bóng đá",
+          "ipa": "/ˈfʊtbɔːl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Play football.",
+          "exampleSentenceVi": "Chơi bóng đá."
+        },
+        {
+          "id": "v-hobbies-1-3",
+          "word": "Swim",
+          "meaningVi": "Bơi lội",
+          "ipa": "/swɪm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Go swimming.",
+          "exampleSentenceVi": "Đi bơi."
+        },
+        {
+          "id": "v-hobbies-1-4",
+          "word": "Run",
+          "meaningVi": "Chạy bộ",
+          "ipa": "/rʌn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Run fast.",
+          "exampleSentenceVi": "Chạy nhanh."
+        },
+        {
+          "id": "v-hobbies-1-5",
+          "word": "Gym",
+          "meaningVi": "Phòng tập",
+          "ipa": "/dʒɪm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Go to the gym.",
+          "exampleSentenceVi": "Đi tập gym."
+        },
+        {
+          "id": "v-hobbies-1-6",
+          "word": "Match",
+          "meaningVi": "Trận đấu",
+          "ipa": "/mætʃ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Watch a match.",
+          "exampleSentenceVi": "Xem một trận đấu."
+        },
+        {
+          "id": "v-hobbies-1-7",
+          "word": "Team",
+          "meaningVi": "Đội",
+          "ipa": "/tiːm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "My favorite team.",
+          "exampleSentenceVi": "Đội bóng yêu thích của tôi."
+        },
+        {
+          "id": "v-hobbies-1-8",
+          "word": "Win",
+          "meaningVi": "Chiến thắng",
+          "ipa": "/wɪn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Win the game.",
+          "exampleSentenceVi": "Thắng trận đấu."
+        },
+        {
+          "id": "v-hobbies-1-9",
+          "word": "Lose",
+          "meaningVi": "Thua",
+          "ipa": "/luːz/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Lose the game.",
+          "exampleSentenceVi": "Thua trận đấu."
+        },
+        {
+          "id": "v-hobbies-1-10",
+          "word": "Fan",
+          "meaningVi": "Người hâm mộ",
+          "ipa": "/fæn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A big fan.",
+          "exampleSentenceVi": "Một fan hâm mộ bự."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-hobbies-1-1",
+          "phrase": "What sport do you like?",
+          "meaningVi": "Bạn thích môn thể thao nào?",
+          "ipa": "/wʌt spɔːrt duː juː laɪk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-1-2",
+          "phrase": "I like playing football.",
+          "meaningVi": "Tôi thích chơi bóng đá.",
+          "ipa": "/aɪ laɪk ˈpleɪɪŋ /ˈfʊtbɔːl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-1-3",
+          "phrase": "Let's go swimming this afternoon.",
+          "meaningVi": "Chiều nay đi bơi nhé.",
+          "ipa": "/lɛts ɡoʊ ˈswɪmɪŋ ðɪs ˌæftərˈnuːn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-1-4",
+          "phrase": "I usually go for a run in the morning.",
+          "meaningVi": "Tôi thường chạy bộ vào buổi sáng.",
+          "ipa": "/aɪ ˈjuːʒuəli ɡoʊ fɔːr ə rʌn ɪn ðə /ˈmɔːrnɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-1-5",
+          "phrase": "I go to the gym three times a week.",
+          "meaningVi": "Tôi đến phòng tập 3 lần 1 tuần.",
+          "ipa": "/aɪ ɡoʊ tuː ðə dʒɪm θriː taɪmz ə wiːk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-1-6",
+          "phrase": "Did you watch the match last night?",
+          "meaningVi": "Bạn có xem trận đấu tối qua không?",
+          "ipa": "/dɪd juː wɑːtʃ ðə mætʃ læst naɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-1-7",
+          "phrase": "Which team do you support?",
+          "meaningVi": "Bạn ủng hộ đội nào?",
+          "ipa": "/wɪtʃ tiːm duː juː səˈpɔːrt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-1-8",
+          "phrase": "We are going to win this game.",
+          "meaningVi": "Chúng ta sẽ thắng trận này.",
+          "ipa": "/wiː ɑːr ˈɡoʊɪŋ tuː wɪn ðɪs ɡeɪm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-1-9",
+          "phrase": "It is okay to lose sometimes.",
+          "meaningVi": "Thỉnh thoảng thua cũng không sao.",
+          "ipa": "/ɪt ɪz oʊˈkeɪ tuː luːz /ˈsʌmtaɪmz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-1-10",
+          "phrase": "I am a big fan of this team.",
+          "meaningVi": "Tôi là một fan bự của đội bóng này.",
+          "ipa": "/aɪ æm ə bɪɡ fæn ʌv ðɪs tiːm/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "hobbies-2",
+      "slug": "lesson-2",
+      "topicSlug": "hobbies",
+      "title": "Music",
+      "titleVi": "Âm nhạc",
+      "order": 2,
+      "vocabulary": [
+        {
+          "id": "v-hobbies-2-1",
+          "word": "Music",
+          "meaningVi": "Âm nhạc",
+          "ipa": "/ˈmjuːzɪk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Listen to music.",
+          "exampleSentenceVi": "Nghe nhạc."
+        },
+        {
+          "id": "v-hobbies-2-2",
+          "word": "Song",
+          "meaningVi": "Bài hát",
+          "ipa": "/sɔːŋ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A sad song.",
+          "exampleSentenceVi": "Một bài hát buồn."
+        },
+        {
+          "id": "v-hobbies-2-3",
+          "word": "Sing",
+          "meaningVi": "Hát",
+          "ipa": "/sɪŋ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Sing a song.",
+          "exampleSentenceVi": "Hát một bài hát."
+        },
+        {
+          "id": "v-hobbies-2-4",
+          "word": "Band",
+          "meaningVi": "Ban nhạc",
+          "ipa": "/bænd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A rock band.",
+          "exampleSentenceVi": "Ban nhạc rock."
+        },
+        {
+          "id": "v-hobbies-2-5",
+          "word": "Concert",
+          "meaningVi": "Buổi hòa nhạc",
+          "ipa": "/ˈkɑːnsərt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Go to a concert.",
+          "exampleSentenceVi": "Đi xem hòa nhạc."
+        },
+        {
+          "id": "v-hobbies-2-6",
+          "word": "Guitar",
+          "meaningVi": "Đàn ghi-ta",
+          "ipa": "/ɡɪˈtɑːr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Play the guitar.",
+          "exampleSentenceVi": "Chơi đàn ghi-ta."
+        },
+        {
+          "id": "v-hobbies-2-7",
+          "word": "Piano",
+          "meaningVi": "Đàn pi-a-nô",
+          "ipa": "/piˈænoʊ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Learn the piano.",
+          "exampleSentenceVi": "Học đàn piano."
+        },
+        {
+          "id": "v-hobbies-2-8",
+          "word": "Loud",
+          "meaningVi": "To, ồn ào",
+          "ipa": "/laʊd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Too loud.",
+          "exampleSentenceVi": "Quá ồn."
+        },
+        {
+          "id": "v-hobbies-2-9",
+          "word": "Soft",
+          "meaningVi": "Nhẹ nhàng",
+          "ipa": "/sɔːft/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Soft music.",
+          "exampleSentenceVi": "Nhạc nhẹ."
+        },
+        {
+          "id": "v-hobbies-2-10",
+          "word": "Dance",
+          "meaningVi": "Nhảy múa",
+          "ipa": "/dæns/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Dance to the music.",
+          "exampleSentenceVi": "Nhảy theo điệu nhạc."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-hobbies-2-1",
+          "phrase": "What kind of music do you listen to?",
+          "meaningVi": "Bạn thường nghe thể loại nhạc gì?",
+          "ipa": "/wʌt kaɪnd ʌv /ˈmjuːzɪk duː juː ˈlɪsn tuː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-2-2",
+          "phrase": "That is a very beautiful song.",
+          "meaningVi": "Đó là một bài hát rất hay.",
+          "ipa": "/ðæt ɪz ə ˈvɛri ˈbjuːtɪfl sɔːŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-2-3",
+          "phrase": "She loves to sing in the shower.",
+          "meaningVi": "Cô ấy thích hát trong lúc tắm.",
+          "ipa": "/ʃiː lʌvz tuː sɪŋ ɪn ðə /ˈʃaʊər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-2-4",
+          "phrase": "They are a very famous rock band.",
+          "meaningVi": "Họ là một ban nhạc rock rất nổi tiếng.",
+          "ipa": "/ðeɪ ɑːr ə ˈvɛri /ˈfeɪməs rɑːk bænd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-2-5",
+          "phrase": "I bought tickets for the concert.",
+          "meaningVi": "Tôi đã mua vé xem hòa nhạc rồi.",
+          "ipa": "/aɪ bɔːt ˈtɪkɪts fɔːr ðə /ˈkɑːnsərt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-2-6",
+          "phrase": "Can you play the guitar?",
+          "meaningVi": "Bạn có biết chơi ghi-ta không?",
+          "ipa": "/kæn juː pleɪ ðə ɡɪˈtɑːr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-2-7",
+          "phrase": "My sister is learning the piano.",
+          "meaningVi": "Em gái tôi đang học piano.",
+          "ipa": "/maɪ ˈsɪstər ɪz /ˈlɜːrnɪŋ ðə piˈænoʊ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-2-8",
+          "phrase": "Please turn down the music, it's too loud.",
+          "meaningVi": "Làm ơn vặn nhỏ nhạc lại, ồn quá.",
+          "ipa": "/pliːz tɜːrn daʊn ðə /ˈmjuːzɪk ɪts tuː laʊd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-2-9",
+          "phrase": "I prefer soft and relaxing music.",
+          "meaningVi": "Tôi thích nhạc nhẹ nhàng thư giãn hơn.",
+          "ipa": "/aɪ prɪˈfɜːr sɔːft ænd rɪˈlæksɪŋ /ˈmjuːzɪk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-2-10",
+          "phrase": "Do you want to dance?",
+          "meaningVi": "Bạn có muốn khiêu vũ/nhảy không?",
+          "ipa": "/duː juː wɑːnt tuː dæns/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "hobbies-3",
+      "slug": "lesson-3",
+      "topicSlug": "hobbies",
+      "title": "Reading & Books",
+      "titleVi": "Đọc sách",
+      "order": 3,
+      "vocabulary": [
+        {
+          "id": "v-hobbies-3-1",
+          "word": "Book",
+          "meaningVi": "Sách",
+          "ipa": "/bʊk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Read a book.",
+          "exampleSentenceVi": "Đọc một cuốn sách."
+        },
+        {
+          "id": "v-hobbies-3-2",
+          "word": "Story",
+          "meaningVi": "Câu chuyện",
+          "ipa": "/ˈstɔːri/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Tell a story.",
+          "exampleSentenceVi": "Kể một câu chuyện."
+        },
+        {
+          "id": "v-hobbies-3-3",
+          "word": "Novel",
+          "meaningVi": "Tiểu thuyết",
+          "ipa": "/ˈnɑːvl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A long novel.",
+          "exampleSentenceVi": "Một cuốn tiểu thuyết dài."
+        },
+        {
+          "id": "v-hobbies-3-4",
+          "word": "Author",
+          "meaningVi": "Tác giả",
+          "ipa": "/ˈɔːθər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A famous author.",
+          "exampleSentenceVi": "Một tác giả nổi tiếng."
+        },
+        {
+          "id": "v-hobbies-3-5",
+          "word": "Page",
+          "meaningVi": "Trang",
+          "ipa": "/peɪdʒ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Turn the page.",
+          "exampleSentenceVi": "Lật trang."
+        },
+        {
+          "id": "v-hobbies-3-6",
+          "word": "Chapter",
+          "meaningVi": "Chương",
+          "ipa": "/ˈtʃæptər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The first chapter.",
+          "exampleSentenceVi": "Chương đầu tiên."
+        },
+        {
+          "id": "v-hobbies-3-7",
+          "word": "Library",
+          "meaningVi": "Thư viện",
+          "ipa": "/ˈlaɪbrəri/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Go to the library.",
+          "exampleSentenceVi": "Đến thư viện."
+        },
+        {
+          "id": "v-hobbies-3-8",
+          "word": "Borrow",
+          "meaningVi": "Mượn",
+          "ipa": "/ˈbɔːroʊ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Borrow a book.",
+          "exampleSentenceVi": "Mượn một cuốn sách."
+        },
+        {
+          "id": "v-hobbies-3-9",
+          "word": "Read",
+          "meaningVi": "Đọc",
+          "ipa": "/riːd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Read aloud.",
+          "exampleSentenceVi": "Đọc to lên."
+        },
+        {
+          "id": "v-hobbies-3-10",
+          "word": "Interesting",
+          "meaningVi": "Thú vị",
+          "ipa": "/ˈɪntrəstɪŋ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "An interesting book.",
+          "exampleSentenceVi": "Một cuốn sách thú vị."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-hobbies-3-1",
+          "phrase": "Do you like reading books?",
+          "meaningVi": "Bạn có thích đọc sách không?",
+          "ipa": "/duː juː laɪk ˈriːdɪŋ bʊks/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-3-2",
+          "phrase": "This is a very interesting story.",
+          "meaningVi": "Đây là một câu chuyện rất thú vị.",
+          "ipa": "/ðɪs ɪz ə ˈvɛri /ˈɪntrəstɪŋ /ˈstɔːri/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-3-3",
+          "phrase": "I am reading a novel by Stephen King.",
+          "meaningVi": "Tôi đang đọc một tiểu thuyết của Stephen King.",
+          "ipa": "/aɪ æm ˈriːdɪŋ ə /ˈnɑːvl baɪ ˈstiːvn kɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-3-4",
+          "phrase": "Who is the author of this book?",
+          "meaningVi": "Ai là tác giả của cuốn sách này?",
+          "ipa": "/huː ɪz ðə /ˈɔːθər ʌv ðɪs bʊk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-3-5",
+          "phrase": "Turn to page twenty, please.",
+          "meaningVi": "Vui lòng lật sang trang 20.",
+          "ipa": "/tɜːrn tuː peɪdʒ ˈtwɛnti pliːz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-3-6",
+          "phrase": "I have only read the first chapter.",
+          "meaningVi": "Tôi mới chỉ đọc xong chương đầu tiên.",
+          "ipa": "/aɪ hæv ˈoʊnli riːd ðə fɜːrst /ˈtʃæptər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-3-7",
+          "phrase": "Let's go to the library to study.",
+          "meaningVi": "Cùng đến thư viện để học đi.",
+          "ipa": "/lɛts ɡoʊ tuː ðə /ˈlaɪbrəri tuː ˈstʌdi/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-3-8",
+          "phrase": "Can I borrow this book from you?",
+          "meaningVi": "Tôi có thể mượn cuốn sách này của bạn không?",
+          "ipa": "/kæn aɪ /ˈbɔːroʊ ðɪs bʊk frʌm juː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-3-9",
+          "phrase": "He loves to read before going to sleep.",
+          "meaningVi": "Anh ấy thích đọc sách trước khi đi ngủ.",
+          "ipa": "/hiː lʌvz tuː riːd bɪˈfɔːr ˈɡoʊɪŋ tuː sliːp/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-3-10",
+          "phrase": "This book is really interesting.",
+          "meaningVi": "Cuốn sách này thực sự rất hấp dẫn.",
+          "ipa": "/ðɪs bʊk ɪz ˈrɪəli /ˈɪntrəstɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "hobbies-4",
+      "slug": "lesson-4",
+      "topicSlug": "hobbies",
+      "title": "Movies & Cinema",
+      "titleVi": "Phim ảnh",
+      "order": 4,
+      "vocabulary": [
+        {
+          "id": "v-hobbies-4-1",
+          "word": "Movie",
+          "meaningVi": "Phim",
+          "ipa": "/ˈmuːvi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Watch a movie.",
+          "exampleSentenceVi": "Xem phim."
+        },
+        {
+          "id": "v-hobbies-4-2",
+          "word": "Cinema",
+          "meaningVi": "Rạp phim",
+          "ipa": "/ˈsɪnəmə/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Go to the cinema.",
+          "exampleSentenceVi": "Đi đến rạp chiếu phim."
+        },
+        {
+          "id": "v-hobbies-4-3",
+          "word": "Ticket",
+          "meaningVi": "Vé",
+          "ipa": "/ˈtɪkɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Movie ticket.",
+          "exampleSentenceVi": "Vé xem phim."
+        },
+        {
+          "id": "v-hobbies-4-4",
+          "word": "Actor",
+          "meaningVi": "Diễn viên nam",
+          "ipa": "/ˈæktər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A great actor.",
+          "exampleSentenceVi": "Một diễn viên xuất sắc."
+        },
+        {
+          "id": "v-hobbies-4-5",
+          "word": "Actress",
+          "meaningVi": "Diễn viên nữ",
+          "ipa": "/ˈæktrəs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A beautiful actress.",
+          "exampleSentenceVi": "Một nữ diễn viên xinh đẹp."
+        },
+        {
+          "id": "v-hobbies-4-6",
+          "word": "Action",
+          "meaningVi": "Hành động",
+          "ipa": "/ˈækʃn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Action movie.",
+          "exampleSentenceVi": "Phim hành động."
+        },
+        {
+          "id": "v-hobbies-4-7",
+          "word": "Comedy",
+          "meaningVi": "Hài kịch",
+          "ipa": "/ˈkɑːmədi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A funny comedy.",
+          "exampleSentenceVi": "Một bộ phim hài."
+        },
+        {
+          "id": "v-hobbies-4-8",
+          "word": "Horror",
+          "meaningVi": "Kinh dị",
+          "ipa": "/ˈhɔːrər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Horror movie.",
+          "exampleSentenceVi": "Phim kinh dị."
+        },
+        {
+          "id": "v-hobbies-4-9",
+          "word": "Popcorn",
+          "meaningVi": "Bỏng ngô",
+          "ipa": "/ˈpɑːpkɔːrn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Eat popcorn.",
+          "exampleSentenceVi": "Ăn bỏng ngô."
+        },
+        {
+          "id": "v-hobbies-4-10",
+          "word": "Screen",
+          "meaningVi": "Màn hình",
+          "ipa": "/skriːn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The big screen.",
+          "exampleSentenceVi": "Màn hình lớn."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-hobbies-4-1",
+          "phrase": "Let's go see a movie tonight.",
+          "meaningVi": "Tối nay đi xem phim đi.",
+          "ipa": "/lɛts ɡoʊ siː ə /ˈmuːvi təˈnaɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-4-2",
+          "phrase": "We should go to the cinema early.",
+          "meaningVi": "Chúng ta nên đến rạp phim sớm.",
+          "ipa": "/wiː ʃʊd ɡoʊ tuː ðə /ˈsɪnəmə ˈɜːrli/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-4-3",
+          "phrase": "I have already bought the tickets.",
+          "meaningVi": "Tôi đã mua vé xong rồi.",
+          "ipa": "/aɪ hæv ɔːlˈrɛdi bɔːt ðə ˈtɪkɪts/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-4-4",
+          "phrase": "He is my favorite actor.",
+          "meaningVi": "Anh ấy là nam diễn viên yêu thích của tôi.",
+          "ipa": "/hiː ɪz maɪ ˈfeɪvərɪt /ˈæktər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-4-5",
+          "phrase": "She is a very talented actress.",
+          "meaningVi": "Cô ấy là một nữ diễn viên rất tài năng.",
+          "ipa": "/ʃiː ɪz ə ˈvɛri ˈtæləntɪd /ˈæktrəs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-4-6",
+          "phrase": "Do you like action movies?",
+          "meaningVi": "Bạn có thích phim hành động không?",
+          "ipa": "/duː juː laɪk /ˈækʃn /ˈmuːviz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-4-7",
+          "phrase": "I prefer watching comedies.",
+          "meaningVi": "Tôi thích xem phim hài hơn.",
+          "ipa": "/aɪ prɪˈfɜːr ˈwɑːtʃɪŋ /ˈkɑːmədiz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-4-8",
+          "phrase": "Horror movies scare me.",
+          "meaningVi": "Những bộ phim kinh dị làm tôi sợ.",
+          "ipa": "/ˈhɔːrər /ˈmuːviz skɛr miː/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-4-9",
+          "phrase": "Let's get some popcorn and drinks.",
+          "meaningVi": "Cùng đi mua bỏng ngô và nước uống nào.",
+          "ipa": "/lɛts ɡɛt sʌm /ˈpɑːpkɔːrn ænd drɪŋks/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-4-10",
+          "phrase": "Look at the big screen!",
+          "meaningVi": "Hãy nhìn vào màn hình lớn kìa!",
+          "ipa": "/lʊk æt ðə bɪɡ skriːn/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "hobbies-5",
+      "slug": "lesson-5",
+      "topicSlug": "hobbies",
+      "title": "Arts & Crafts",
+      "titleVi": "Nghệ thuật & Thủ công",
+      "order": 5,
+      "vocabulary": [
+        {
+          "id": "v-hobbies-5-1",
+          "word": "Art",
+          "meaningVi": "Nghệ thuật",
+          "ipa": "/ɑːrt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Modern art.",
+          "exampleSentenceVi": "Nghệ thuật hiện đại."
+        },
+        {
+          "id": "v-hobbies-5-2",
+          "word": "Draw",
+          "meaningVi": "Vẽ (bằng bút)",
+          "ipa": "/drɔː/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Draw a picture.",
+          "exampleSentenceVi": "Vẽ một bức tranh."
+        },
+        {
+          "id": "v-hobbies-5-3",
+          "word": "Paint",
+          "meaningVi": "Sơn, vẽ (bằng màu)",
+          "ipa": "/peɪnt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Paint the wall.",
+          "exampleSentenceVi": "Sơn bức tường."
+        },
+        {
+          "id": "v-hobbies-5-4",
+          "word": "Picture",
+          "meaningVi": "Bức tranh/ảnh",
+          "ipa": "/ˈpɪktʃər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A pretty picture.",
+          "exampleSentenceVi": "Một bức tranh đẹp."
+        },
+        {
+          "id": "v-hobbies-5-5",
+          "word": "Color",
+          "meaningVi": "Màu sắc",
+          "ipa": "/ˈkʌlər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Bright colors.",
+          "exampleSentenceVi": "Những màu sắc tươi sáng."
+        },
+        {
+          "id": "v-hobbies-5-6",
+          "word": "Paper",
+          "meaningVi": "Giấy",
+          "ipa": "/ˈpeɪpər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A piece of paper.",
+          "exampleSentenceVi": "Một tờ giấy."
+        },
+        {
+          "id": "v-hobbies-5-7",
+          "word": "Pencil",
+          "meaningVi": "Bút chì",
+          "ipa": "/ˈpɛnsl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Use a pencil.",
+          "exampleSentenceVi": "Dùng một chiếc bút chì."
+        },
+        {
+          "id": "v-hobbies-5-8",
+          "word": "Brush",
+          "meaningVi": "Cọ vẽ",
+          "ipa": "/brʌʃ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A paintbrush.",
+          "exampleSentenceVi": "Một chiếc cọ vẽ."
+        },
+        {
+          "id": "v-hobbies-5-9",
+          "word": "Craft",
+          "meaningVi": "Thủ công",
+          "ipa": "/kræft/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Paper crafts.",
+          "exampleSentenceVi": "Thủ công bằng giấy."
+        },
+        {
+          "id": "v-hobbies-5-10",
+          "word": "Make",
+          "meaningVi": "Làm, tạo ra",
+          "ipa": "/meɪk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Make a card.",
+          "exampleSentenceVi": "Làm một tấm thiệp."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-hobbies-5-1",
+          "phrase": "Do you like art?",
+          "meaningVi": "Bạn có thích nghệ thuật không?",
+          "ipa": "/duː juː laɪk ɑːrt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-5-2",
+          "phrase": "I love to draw in my free time.",
+          "meaningVi": "Tôi thích vẽ trong thời gian rảnh.",
+          "ipa": "/aɪ lʌv tuː drɔː ɪn maɪ friː taɪm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-5-3",
+          "phrase": "She is painting a beautiful landscape.",
+          "meaningVi": "Cô ấy đang vẽ một bức phong cảnh tuyệt đẹp.",
+          "ipa": "/ʃiː ɪz ˈpeɪntɪŋ ə ˈbjuːtɪfl ˈlændskeɪp/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-5-4",
+          "phrase": "That is a very nice picture.",
+          "meaningVi": "Đó là một bức tranh rất đẹp.",
+          "ipa": "/ðæt ɪz ə ˈvɛri naɪs /ˈpɪktʃər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-5-5",
+          "phrase": "Try to use different colors.",
+          "meaningVi": "Hãy thử sử dụng các màu sắc khác nhau.",
+          "ipa": "/traɪ tuː juːz ˈdɪfrənt /ˈkʌlərz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-5-6",
+          "phrase": "I need a piece of paper.",
+          "meaningVi": "Tôi cần một tờ giấy.",
+          "ipa": "/aɪ niːd ə piːs ʌv /ˈpeɪpər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-5-7",
+          "phrase": "Can I borrow your pencil?",
+          "meaningVi": "Tôi có thể mượn bút chì của bạn không?",
+          "ipa": "/kæn aɪ /ˈbɔːroʊ jʊr /ˈpɛnsl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-5-8",
+          "phrase": "Wash the brush after painting.",
+          "meaningVi": "Hãy rửa cọ sau khi vẽ xong nhé.",
+          "ipa": "/wɑːʃ ðə brʌʃ ˈæftər ˈpeɪntɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-5-9",
+          "phrase": "The children are doing crafts.",
+          "meaningVi": "Bọn trẻ đang làm đồ thủ công.",
+          "ipa": "/ðə ˈtʃɪldrən ɑːr ˈduːɪŋ kræfts/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-5-10",
+          "phrase": "I want to make a gift for you.",
+          "meaningVi": "Tôi muốn làm một món quà cho bạn.",
+          "ipa": "/aɪ wɑːnt tuː meɪk ə ɡɪft fɔːr juː/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "hobbies-6",
+      "slug": "lesson-6",
+      "topicSlug": "hobbies",
+      "title": "Gaming",
+      "titleVi": "Chơi game",
+      "order": 6,
+      "vocabulary": [
+        {
+          "id": "v-hobbies-6-1",
+          "word": "Game",
+          "meaningVi": "Trò chơi",
+          "ipa": "/ɡeɪm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Play a game.",
+          "exampleSentenceVi": "Chơi một trò chơi."
+        },
+        {
+          "id": "v-hobbies-6-2",
+          "word": "Play",
+          "meaningVi": "Chơi",
+          "ipa": "/pleɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Play online.",
+          "exampleSentenceVi": "Chơi trực tuyến."
+        },
+        {
+          "id": "v-hobbies-6-3",
+          "word": "Win",
+          "meaningVi": "Thắng",
+          "ipa": "/wɪn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I want to win.",
+          "exampleSentenceVi": "Tôi muốn chiến thắng."
+        },
+        {
+          "id": "v-hobbies-6-4",
+          "word": "Lose",
+          "meaningVi": "Thua",
+          "ipa": "/luːz/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Don't lose.",
+          "exampleSentenceVi": "Đừng để thua nhé."
+        },
+        {
+          "id": "v-hobbies-6-5",
+          "word": "Score",
+          "meaningVi": "Điểm số",
+          "ipa": "/skɔːr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "High score.",
+          "exampleSentenceVi": "Điểm số cao."
+        },
+        {
+          "id": "v-hobbies-6-6",
+          "word": "Team",
+          "meaningVi": "Đội",
+          "ipa": "/tiːm/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Join my team.",
+          "exampleSentenceVi": "Tham gia vào đội của tôi."
+        },
+        {
+          "id": "v-hobbies-6-7",
+          "word": "Level",
+          "meaningVi": "Cấp độ",
+          "ipa": "/ˈlɛvl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "The next level.",
+          "exampleSentenceVi": "Cấp độ tiếp theo."
+        },
+        {
+          "id": "v-hobbies-6-8",
+          "word": "Online",
+          "meaningVi": "Trực tuyến",
+          "ipa": "/ˌɑːnˈlaɪn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Play online games.",
+          "exampleSentenceVi": "Chơi game trực tuyến."
+        },
+        {
+          "id": "v-hobbies-6-9",
+          "word": "Fun",
+          "meaningVi": "Vui vẻ",
+          "ipa": "/fʌn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "It is fun.",
+          "exampleSentenceVi": "Trò này rất vui."
+        },
+        {
+          "id": "v-hobbies-6-10",
+          "word": "Hard",
+          "meaningVi": "Khó",
+          "ipa": "/hɑːrd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A hard game.",
+          "exampleSentenceVi": "Một trò chơi khó."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-hobbies-6-1",
+          "phrase": "Do you play video games?",
+          "meaningVi": "Bạn có chơi trò chơi điện tử không?",
+          "ipa": "/duː juː pleɪ /ˈvɪdioʊ ɡeɪmz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-6-2",
+          "phrase": "Let's play a game together.",
+          "meaningVi": "Cùng chơi một ván nhé.",
+          "ipa": "/lɛts pleɪ ə ɡeɪm təˈɡɛðər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-6-3",
+          "phrase": "I am going to win this time.",
+          "meaningVi": "Lần này tôi sẽ thắng.",
+          "ipa": "/aɪ æm ˈɡoʊɪŋ tuː wɪn ðɪs taɪm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-6-4",
+          "phrase": "Oh no, I lost again.",
+          "meaningVi": "Ôi không, tôi lại thua rồi.",
+          "ipa": "/oʊ noʊ aɪ lɔːst əˈɡeɪn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-6-5",
+          "phrase": "What is your highest score?",
+          "meaningVi": "Điểm cao nhất của bạn là bao nhiêu?",
+          "ipa": "/wʌt ɪz jʊr ˈhaɪɪst skɔːr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-6-6",
+          "phrase": "We make a great team.",
+          "meaningVi": "Chúng ta tạo thành một đội tuyệt vời.",
+          "ipa": "/wiː meɪk ə ɡreɪt tiːm/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-6-7",
+          "phrase": "This level is very difficult.",
+          "meaningVi": "Màn này rất khó.",
+          "ipa": "/ðɪs /ˈlɛvl ɪz ˈvɛri ˈdɪfɪkəlt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-6-8",
+          "phrase": "I like playing games online with my friends.",
+          "meaningVi": "Tôi thích chơi game trực tuyến với bạn bè.",
+          "ipa": "/aɪ laɪk ˈpleɪɪŋ ɡeɪmz /ˌɑːnˈlaɪn/ wɪð maɪ frɛndz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-6-9",
+          "phrase": "This game is a lot of fun.",
+          "meaningVi": "Trò chơi này rất là vui.",
+          "ipa": "/ðɪs ɡeɪm ɪz ə lɑːt ʌv fʌn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-6-10",
+          "phrase": "It is too hard for me.",
+          "meaningVi": "Nó quá khó đối với tôi.",
+          "ipa": "/ɪt ɪz tuː hɑːrd fɔːr miː/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "hobbies-7",
+      "slug": "lesson-7",
+      "topicSlug": "hobbies",
+      "title": "Gardening",
+      "titleVi": "Làm vườn",
+      "order": 7,
+      "vocabulary": [
+        {
+          "id": "v-hobbies-7-1",
+          "word": "Garden",
+          "meaningVi": "Khu vườn",
+          "ipa": "/ˈɡɑːrdn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "In the garden.",
+          "exampleSentenceVi": "Ở trong vườn."
+        },
+        {
+          "id": "v-hobbies-7-2",
+          "word": "Plant",
+          "meaningVi": "Cây, trồng",
+          "ipa": "/plænt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Plant a tree.",
+          "exampleSentenceVi": "Trồng một cái cây."
+        },
+        {
+          "id": "v-hobbies-7-3",
+          "word": "Flower",
+          "meaningVi": "Bông hoa",
+          "ipa": "/ˈflaʊər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A red flower.",
+          "exampleSentenceVi": "Một bông hoa đỏ."
+        },
+        {
+          "id": "v-hobbies-7-4",
+          "word": "Tree",
+          "meaningVi": "Cái cây",
+          "ipa": "/triː/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A tall tree.",
+          "exampleSentenceVi": "Một cái cây cao."
+        },
+        {
+          "id": "v-hobbies-7-5",
+          "word": "Water",
+          "meaningVi": "Tưới, nước",
+          "ipa": "/ˈwɔːtər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Water the plants.",
+          "exampleSentenceVi": "Tưới cây."
+        },
+        {
+          "id": "v-hobbies-7-6",
+          "word": "Dirt",
+          "meaningVi": "Đất",
+          "ipa": "/dɜːrt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Dig the dirt.",
+          "exampleSentenceVi": "Đào đất."
+        },
+        {
+          "id": "v-hobbies-7-7",
+          "word": "Grow",
+          "meaningVi": "Mọc, trồng",
+          "ipa": "/ɡroʊ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Grow vegetables.",
+          "exampleSentenceVi": "Trồng rau."
+        },
+        {
+          "id": "v-hobbies-7-8",
+          "word": "Seed",
+          "meaningVi": "Hạt giống",
+          "ipa": "/siːd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Plant the seeds.",
+          "exampleSentenceVi": "Gieo hạt giống."
+        },
+        {
+          "id": "v-hobbies-7-9",
+          "word": "Grass",
+          "meaningVi": "Cỏ",
+          "ipa": "/ɡræs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Green grass.",
+          "exampleSentenceVi": "Cỏ xanh."
+        },
+        {
+          "id": "v-hobbies-7-10",
+          "word": "Sun",
+          "meaningVi": "Mặt trời",
+          "ipa": "/sʌn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Need some sun.",
+          "exampleSentenceVi": "Cần chút ánh mặt trời."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-hobbies-7-1",
+          "phrase": "I spend my weekends in the garden.",
+          "meaningVi": "Tôi dành những ngày cuối tuần ở trong vườn.",
+          "ipa": "/aɪ spɛnd maɪ ˈwiːkɛndz ɪn ðə /ˈɡɑːrdn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-7-2",
+          "phrase": "Let's plant some new flowers.",
+          "meaningVi": "Cùng trồng vài bông hoa mới nào.",
+          "ipa": "/lɛts plænt sʌm nuː /ˈflaʊərz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-7-3",
+          "phrase": "These flowers smell so sweet.",
+          "meaningVi": "Những bông hoa này có mùi rất ngọt ngào.",
+          "ipa": "/ðiːz /ˈflaʊərz smɛl soʊ swiːt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-7-4",
+          "phrase": "That tree is getting very tall.",
+          "meaningVi": "Cái cây đó đang mọc rất cao.",
+          "ipa": "/ðæt triː ɪz ˈɡɛtɪŋ ˈvɛri tɔːl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-7-5",
+          "phrase": "Don't forget to water the plants.",
+          "meaningVi": "Đừng quên tưới cây nhé.",
+          "ipa": "/doʊnt fərˈɡɛt tuː /ˈwɔːtər ðə plænts/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-7-6",
+          "phrase": "My hands are covered in dirt.",
+          "meaningVi": "Tay tôi dính đầy đất rồi.",
+          "ipa": "/maɪ hændz ɑːr ˈkʌvərd ɪn dɜːrt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-7-7",
+          "phrase": "We grow our own vegetables.",
+          "meaningVi": "Chúng tôi tự trồng rau.",
+          "ipa": "/wiː ɡroʊ aʊər oʊn /ˈvɛdʒtəblz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-7-8",
+          "phrase": "Put the seeds in the dirt.",
+          "meaningVi": "Hãy đặt các hạt giống xuống đất.",
+          "ipa": "/pʊt ðə siːdz ɪn ðə dɜːrt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-7-9",
+          "phrase": "The grass needs to be cut.",
+          "meaningVi": "Bãi cỏ cần được cắt.",
+          "ipa": "/ðə ɡræs niːdz tuː biː kʌt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-7-10",
+          "phrase": "Plants need water and sun to grow.",
+          "meaningVi": "Cây cần nước và ánh mặt trời để phát triển.",
+          "ipa": "/plænts niːd /ˈwɔːtər ænd sʌn tuː ɡroʊ/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "hobbies-8",
+      "slug": "lesson-8",
+      "topicSlug": "hobbies",
+      "title": "Cooking as a Hobby",
+      "titleVi": "Nấu ăn (Sở thích)",
+      "order": 8,
+      "vocabulary": [
+        {
+          "id": "v-hobbies-8-1",
+          "word": "Cook",
+          "meaningVi": "Nấu ăn",
+          "ipa": "/kʊk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Cook a meal.",
+          "exampleSentenceVi": "Nấu một bữa ăn."
+        },
+        {
+          "id": "v-hobbies-8-2",
+          "word": "Bake",
+          "meaningVi": "Nướng bánh",
+          "ipa": "/beɪk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Bake a cake.",
+          "exampleSentenceVi": "Nướng một chiếc bánh."
+        },
+        {
+          "id": "v-hobbies-8-3",
+          "word": "Recipe",
+          "meaningVi": "Công thức",
+          "ipa": "/ˈrɛsəpi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A new recipe.",
+          "exampleSentenceVi": "Một công thức mới."
+        },
+        {
+          "id": "v-hobbies-8-4",
+          "word": "Taste",
+          "meaningVi": "Nếm",
+          "ipa": "/teɪst/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Taste the soup.",
+          "exampleSentenceVi": "Nếm thử súp."
+        },
+        {
+          "id": "v-hobbies-8-5",
+          "word": "Try",
+          "meaningVi": "Thử",
+          "ipa": "/traɪ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Try this dish.",
+          "exampleSentenceVi": "Hãy thử món này."
+        },
+        {
+          "id": "v-hobbies-8-6",
+          "word": "Mix",
+          "meaningVi": "Trộn",
+          "ipa": "/mɪks/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Mix the flour.",
+          "exampleSentenceVi": "Trộn bột."
+        },
+        {
+          "id": "v-hobbies-8-7",
+          "word": "Flour",
+          "meaningVi": "Bột mì",
+          "ipa": "/ˈflaʊər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Add some flour.",
+          "exampleSentenceVi": "Thêm chút bột mì."
+        },
+        {
+          "id": "v-hobbies-8-8",
+          "word": "Sugar",
+          "meaningVi": "Đường",
+          "ipa": "/ˈʃʊɡər/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Too much sugar.",
+          "exampleSentenceVi": "Quá nhiều đường."
+        },
+        {
+          "id": "v-hobbies-8-9",
+          "word": "Share",
+          "meaningVi": "Chia sẻ",
+          "ipa": "/ʃɛr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Share the food.",
+          "exampleSentenceVi": "Chia sẻ thức ăn."
+        },
+        {
+          "id": "v-hobbies-8-10",
+          "word": "Yummy",
+          "meaningVi": "Ngon (khẩu ngữ)",
+          "ipa": "/ˈjʌmi/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Very yummy.",
+          "exampleSentenceVi": "Rất ngon."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-hobbies-8-1",
+          "phrase": "Cooking is my favorite hobby.",
+          "meaningVi": "Nấu ăn là sở thích yêu thích nhất của tôi.",
+          "ipa": "/ˈkʊkɪŋ ɪz maɪ ˈfeɪvərɪt /ˈhɑːbi/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-8-2",
+          "phrase": "I love to bake cakes on Sundays.",
+          "meaningVi": "Tôi thích nướng bánh vào các ngày Chủ Nhật.",
+          "ipa": "/aɪ lʌv tuː beɪk keɪks ɑːn ˈsʌndeɪz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-8-3",
+          "phrase": "I am trying a new recipe today.",
+          "meaningVi": "Hôm nay tôi đang thử một công thức mới.",
+          "ipa": "/aɪ æm ˈtraɪɪŋ ə nuː /ˈrɛsəpi təˈdeɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-8-4",
+          "phrase": "Please taste this and tell me what you think.",
+          "meaningVi": "Hãy nếm thử và cho tôi biết bạn nghĩ gì nhé.",
+          "ipa": "/pliːz teɪst ðɪs ænd tɛl miː wʌt juː θɪŋk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-8-5",
+          "phrase": "You should try this, it's delicious.",
+          "meaningVi": "Bạn nên thử cái này, ngon lắm đấy.",
+          "ipa": "/juː ʃʊd traɪ ðɪs ɪts dɪˈlɪʃəs/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-8-6",
+          "phrase": "First, mix the eggs and milk.",
+          "meaningVi": "Đầu tiên, hãy trộn trứng và sữa.",
+          "ipa": "/fɜːrst mɪks ðə ɛɡz ænd mɪlk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-8-7",
+          "phrase": "We need more flour for the dough.",
+          "meaningVi": "Chúng ta cần thêm bột mì để nhào bột.",
+          "ipa": "/wiː niːd mɔːr /ˈflaʊər fɔːr ðə doʊ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-8-8",
+          "phrase": "Don't add too much sugar.",
+          "meaningVi": "Đừng cho quá nhiều đường.",
+          "ipa": "/doʊnt æd tuː mʌtʃ /ˈʃʊɡər/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-8-9",
+          "phrase": "I will share this cake with my neighbors.",
+          "meaningVi": "Tôi sẽ chia sẻ chiếc bánh này với hàng xóm.",
+          "ipa": "/aɪ wɪl ʃɛr ðɪs keɪk wɪð maɪ ˈneɪbərz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-8-10",
+          "phrase": "Wow, this is so yummy!",
+          "meaningVi": "Chà, món này ngon tuyệt!",
+          "ipa": "/waʊ ðɪs ɪz soʊ /ˈjʌmi/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "hobbies-9",
+      "slug": "lesson-9",
+      "topicSlug": "hobbies",
+      "title": "Traveling for Fun",
+      "titleVi": "Đi phượt / Du lịch",
+      "order": 9,
+      "vocabulary": [
+        {
+          "id": "v-hobbies-9-1",
+          "word": "Travel",
+          "meaningVi": "Du lịch",
+          "ipa": "/ˈtrævl/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Travel the world.",
+          "exampleSentenceVi": "Đi du lịch vòng quanh thế giới."
+        },
+        {
+          "id": "v-hobbies-9-2",
+          "word": "Visit",
+          "meaningVi": "Thăm quan",
+          "ipa": "/ˈvɪzɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Visit a city.",
+          "exampleSentenceVi": "Tham quan một thành phố."
+        },
+        {
+          "id": "v-hobbies-9-3",
+          "word": "Trip",
+          "meaningVi": "Chuyến đi",
+          "ipa": "/trɪp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A road trip.",
+          "exampleSentenceVi": "Một chuyến đi bằng ô tô."
+        },
+        {
+          "id": "v-hobbies-9-4",
+          "word": "Explore",
+          "meaningVi": "Khám phá",
+          "ipa": "/ɪkˈsplɔːr/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Explore the forest.",
+          "exampleSentenceVi": "Khám phá khu rừng."
+        },
+        {
+          "id": "v-hobbies-9-5",
+          "word": "Camp",
+          "meaningVi": "Cắm trại",
+          "ipa": "/kæmp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Camp in the woods.",
+          "exampleSentenceVi": "Cắm trại trong rừng."
+        },
+        {
+          "id": "v-hobbies-9-6",
+          "word": "Hike",
+          "meaningVi": "Đi bộ đường dài",
+          "ipa": "/haɪk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Go for a hike.",
+          "exampleSentenceVi": "Đi bộ đường dài."
+        },
+        {
+          "id": "v-hobbies-9-7",
+          "word": "Map",
+          "meaningVi": "Bản đồ",
+          "ipa": "/mæp/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Look at the map.",
+          "exampleSentenceVi": "Xem bản đồ."
+        },
+        {
+          "id": "v-hobbies-9-8",
+          "word": "Photo",
+          "meaningVi": "Bức ảnh",
+          "ipa": "/ˈfoʊtoʊ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Take a photo.",
+          "exampleSentenceVi": "Chụp một tấm ảnh."
+        },
+        {
+          "id": "v-hobbies-9-9",
+          "word": "Pack",
+          "meaningVi": "Đóng gói",
+          "ipa": "/pæk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Pack a bag.",
+          "exampleSentenceVi": "Đóng gói hành lý."
+        },
+        {
+          "id": "v-hobbies-9-10",
+          "word": "Fun",
+          "meaningVi": "Vui",
+          "ipa": "/fʌn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Have fun.",
+          "exampleSentenceVi": "Hãy vui vẻ nhé."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-hobbies-9-1",
+          "phrase": "I love to travel and see new places.",
+          "meaningVi": "Tôi thích đi du lịch và ngắm nhìn những vùng đất mới.",
+          "ipa": "/aɪ lʌv tuː /ˈtrævl ænd siː nuː ˈpleɪsɪz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-9-2",
+          "phrase": "We are going to visit Paris next year.",
+          "meaningVi": "Chúng tôi sẽ đi thăm Paris vào năm tới.",
+          "ipa": "/wiː ɑːr ˈɡoʊɪŋ tuː /ˈvɪzɪt ˈpærɪs nɛkst jɪr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-9-3",
+          "phrase": "Let's go on a road trip this weekend.",
+          "meaningVi": "Cùng đi một chuyến phượt bằng ô tô cuối tuần này nhé.",
+          "ipa": "/lɛts ɡoʊ ɑːn ə roʊd trɪp ðɪs /ˈwiːkɛnd/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-9-4",
+          "phrase": "I want to explore the old castle.",
+          "meaningVi": "Tôi muốn khám phá lâu đài cổ đó.",
+          "ipa": "/aɪ wɑːnt tuː ɪkˈsplɔːr ðə oʊld ˈkæsl/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-9-5",
+          "phrase": "We can camp near the lake.",
+          "meaningVi": "Chúng ta có thể cắm trại gần hồ nước.",
+          "ipa": "/wiː kæn kæmp nɪr ðə leɪk/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-9-6",
+          "phrase": "Do you want to go for a hike in the mountains?",
+          "meaningVi": "Bạn có muốn đi bộ đường dài trên núi không?",
+          "ipa": "/duː juː wɑːnt tuː ɡoʊ fɔːr ə haɪk ɪn ðə ˈmaʊntənz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-9-7",
+          "phrase": "Make sure you bring a map so we don't get lost.",
+          "meaningVi": "Nhớ mang theo bản đồ để chúng ta không bị lạc.",
+          "ipa": "/meɪk ʃʊr juː brɪŋ ə mæp soʊ wiː doʊnt ɡɛt lɔːst/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-9-8",
+          "phrase": "Let me take a photo of you here.",
+          "meaningVi": "Để tôi chụp cho bạn một tấm ảnh ở đây nhé.",
+          "ipa": "/lɛt miː teɪk ə /ˈfoʊtoʊ ʌv juː hɪr/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-9-9",
+          "phrase": "I need to pack my bags tonight.",
+          "meaningVi": "Tôi cần đóng gói hành lý vào tối nay.",
+          "ipa": "/aɪ niːd tuː pæk maɪ bæɡz təˈnaɪt/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-9-10",
+          "phrase": "Have a lot of fun on your trip!",
+          "meaningVi": "Chúc bạn có một chuyến đi thật vui vẻ!",
+          "ipa": "/hæv ə lɑːt ʌv fʌn ɑːn jʊr trɪp/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    },
+    {
+      "id": "hobbies-10",
+      "slug": "lesson-10",
+      "topicSlug": "hobbies",
+      "title": "Learning Languages",
+      "titleVi": "Học ngoại ngữ",
+      "order": 10,
+      "vocabulary": [
+        {
+          "id": "v-hobbies-10-1",
+          "word": "Language",
+          "meaningVi": "Ngôn ngữ",
+          "ipa": "/ˈlæŋɡwɪdʒ/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Learn a language.",
+          "exampleSentenceVi": "Học một ngôn ngữ."
+        },
+        {
+          "id": "v-hobbies-10-2",
+          "word": "Word",
+          "meaningVi": "Từ vựng",
+          "ipa": "/wɜːrd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "A new word.",
+          "exampleSentenceVi": "Một từ mới."
+        },
+        {
+          "id": "v-hobbies-10-3",
+          "word": "Speak",
+          "meaningVi": "Nói",
+          "ipa": "/spiːk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Speak slowly.",
+          "exampleSentenceVi": "Nói chậm lại."
+        },
+        {
+          "id": "v-hobbies-10-4",
+          "word": "Listen",
+          "meaningVi": "Nghe",
+          "ipa": "/ˈlɪsn/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Listen carefully.",
+          "exampleSentenceVi": "Lắng nghe cẩn thận."
+        },
+        {
+          "id": "v-hobbies-10-5",
+          "word": "Read",
+          "meaningVi": "Đọc",
+          "ipa": "/riːd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Read a book.",
+          "exampleSentenceVi": "Đọc một cuốn sách."
+        },
+        {
+          "id": "v-hobbies-10-6",
+          "word": "Write",
+          "meaningVi": "Viết",
+          "ipa": "/raɪt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Write a letter.",
+          "exampleSentenceVi": "Viết một lá thư."
+        },
+        {
+          "id": "v-hobbies-10-7",
+          "word": "Practice",
+          "meaningVi": "Luyện tập",
+          "ipa": "/ˈpræktɪs/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Practice every day.",
+          "exampleSentenceVi": "Luyện tập mỗi ngày."
+        },
+        {
+          "id": "v-hobbies-10-8",
+          "word": "Mistake",
+          "meaningVi": "Lỗi sai",
+          "ipa": "/mɪˈsteɪk/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Make a mistake.",
+          "exampleSentenceVi": "Phạm lỗi."
+        },
+        {
+          "id": "v-hobbies-10-9",
+          "word": "Understand",
+          "meaningVi": "Hiểu",
+          "ipa": "/ˌʌndərˈstænd/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "I understand.",
+          "exampleSentenceVi": "Tôi hiểu."
+        },
+        {
+          "id": "v-hobbies-10-10",
+          "word": "Fluent",
+          "meaningVi": "Lưu loát",
+          "ipa": "/ˈfluːənt/",
+          "partOfSpeech": "noun",
+          "image": "/images/lessons/placeholder.webp",
+          "exampleSentence": "Speak fluently.",
+          "exampleSentenceVi": "Nói lưu loát."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p-hobbies-10-1",
+          "phrase": "Learning a new language is my hobby.",
+          "meaningVi": "Học ngoại ngữ mới là sở thích của tôi.",
+          "ipa": "/ˈlɜːrnɪŋ ə nuː /ˈlæŋɡwɪdʒ ɪz maɪ /ˈhɑːbi/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-10-2",
+          "phrase": "I try to learn five new words every day.",
+          "meaningVi": "Tôi cố gắng học 5 từ mới mỗi ngày.",
+          "ipa": "/aɪ traɪ tuː lɜːrn faɪv nuː wɜːrdz /ˈɛvri deɪ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-10-3",
+          "phrase": "Could you speak more slowly, please?",
+          "meaningVi": "Bạn có thể nói chậm hơn một chút được không?",
+          "ipa": "/kʊd juː spiːk mɔːr ˈsloʊli pliːz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-10-4",
+          "phrase": "You need to listen carefully to the native speakers.",
+          "meaningVi": "Bạn cần lắng nghe kỹ người bản xứ.",
+          "ipa": "/juː niːd tuː /ˈlɪsn ˈkɛrfəli tuː ðə ˈneɪtɪv ˈspiːkərz/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-10-5",
+          "phrase": "Reading books helps improve my vocabulary.",
+          "meaningVi": "Đọc sách giúp cải thiện vốn từ vựng của tôi.",
+          "ipa": "/ˈriːdɪŋ bʊks hɛlps ɪmˈpruːv maɪ voʊˈkæbjəleri/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-10-6",
+          "phrase": "I practice writing emails in English.",
+          "meaningVi": "Tôi luyện viết email bằng tiếng Anh.",
+          "ipa": "/aɪ /ˈpræktɪs ˈraɪtɪŋ ˈiːmeɪlz ɪn ˈɪŋɡlɪʃ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-10-7",
+          "phrase": "The most important thing is to practice speaking.",
+          "meaningVi": "Điều quan trọng nhất là phải luyện nói.",
+          "ipa": "/ðə moʊst ɪmˈpɔːrtnt θɪŋ ɪz tuː /ˈpræktɪs ˈspiːkɪŋ/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-10-8",
+          "phrase": "Don't be afraid of making mistakes.",
+          "meaningVi": "Đừng sợ mắc lỗi.",
+          "ipa": "/doʊnt biː əˈfreɪd ʌv ˈmeɪkɪŋ mɪˈsteɪks/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-10-9",
+          "phrase": "Sorry, I don't understand what you mean.",
+          "meaningVi": "Xin lỗi, tôi không hiểu ý bạn là gì.",
+          "ipa": "/ˈsɑːri aɪ doʊnt ˌʌndərˈstænd wʌt juː miːn/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-hobbies-10-10",
+          "phrase": "My goal is to become fluent in English.",
+          "meaningVi": "Mục tiêu của tôi là nói tiếng Anh lưu loát.",
+          "ipa": "/maɪ ɡoʊl ɪz tuː bɪˈkʌm /ˈfluːənt ɪn ˈɪŋɡlɪʃ/",
+          "usage": "Dùng trong giao tiếp"
+        }
+      ],
+      "dialogues": [],
+      "practice": []
+    }
+  ]
+}

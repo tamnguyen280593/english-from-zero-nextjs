@@ -39,9 +39,9 @@ export function useProgress() {
     });
   }, []);
 
-  const setLastAccessed = useCallback((topicSlug: string, lessonSlug: string) => {
+  const setLastAccessed = useCallback((categorySlug: string, topicSlug: string, lessonSlug: string) => {
     setProgress((prev) => {
-      const next = updateLastAccessedUtil(topicSlug, lessonSlug, prev);
+      const next = updateLastAccessedUtil(categorySlug, topicSlug, lessonSlug, prev);
       saveProgress(next);
       return next;
     });
