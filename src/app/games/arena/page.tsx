@@ -164,7 +164,7 @@ export default function GameArena() {
               }}
             />
             {mode === 'multi' && players.length > 2 && (
-              <button 
+              <button
                 className={styles.removePlayerBtn}
                 onClick={() => {
                   const newP = [...players];
