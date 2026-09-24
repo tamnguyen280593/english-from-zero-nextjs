@@ -73,12 +73,22 @@ export default function GameArena() {
     if (isCorrect && (gameState.currentQuestion as PracticeQuestion & { wordToSpeak?: string }).wordToSpeak) {
       speakWord((gameState.currentQuestion as PracticeQuestion & { wordToSpeak?: string }).wordToSpeak!);
     }
+
+    // Scroll down slightly so the Next button is fully visible on mobile
+    setTimeout(() => {
+      window.scrollBy({ top: 120, behavior: 'smooth' });
+    }, 100);
   };
 
   const handleTimeOut = useCallback(() => {
     if (isAnswered) return;
     setIsAnswered(true);
     setSelectedOption(-1); // -1 signifies timeout
+
+    // Scroll down slightly so the Next button is fully visible on mobile
+    setTimeout(() => {
+      window.scrollBy({ top: 100, behavior: 'smooth' });
+    }, 100);
   }, [isAnswered]);
 
   useEffect(() => {
