@@ -14,8 +14,10 @@ This project uses a sophisticated Agentic Workflow. **BEFORE generating or modif
 1. Read the strict coding standards in `.agents/rules/coding-standards.md` (e.g., No `any` types, Clean Code principles).
 2. Read the UI design rules in `.agents/rules/ui-design-rules.md`.
 3. Check the skills folder (`.agents/skills/`) to use predefined workflows (like `build-json-data`).
+4. **MANDATORY**: Before considering any task complete, you MUST run `npm run lint` and `npm run build` to ensure the codebase has no errors.
+5. **MANDATORY**: When rendering, planning, or generating code, you MUST always read and strictly follow all rules defined in the `.agents/` directory.
 
-Failure to run your generated code against these rules before committing is unacceptable.
+Failure to run your generated code against these rules and build checks before committing is unacceptable.
 
 ## Content Guidelines
 

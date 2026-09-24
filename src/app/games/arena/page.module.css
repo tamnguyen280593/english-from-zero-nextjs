@@ -167,6 +167,26 @@
   border-color: var(--accent-primary);
 }
 
+.categoriesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+.categorySection {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.categoryTitle {
+  font-size: 0.8rem;
+  color: var(--accent-secondary);
+  margin-bottom: var(--space-xs);
+  padding-bottom: var(--space-xs);
+  border-bottom: 1px dashed var(--glass-border);
+}
+
 .topicsGrid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
@@ -369,7 +389,7 @@
   align-items: center;
   gap: var(--space-md);
   text-align: left;
-  padding: var(--space-xl);
+  padding: 16px 24px;
   background: rgba(255, 255, 255, 0.05);
   border: 2px solid var(--glass-border);
   border-radius: var(--radius-md);
@@ -522,4 +542,89 @@
   font-size: 1.2rem;
   font-weight: bold;
   color: var(--accent-secondary);
+}
+
+/* Modal Overlay */
+.modalOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  animation: fadeIn 0.2s ease-out;
+}
+
+.modalContent {
+  background: var(--bg-card);
+  padding: var(--space-xl);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-card);
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  animation: scaleUp 0.2s ease-out;
+}
+
+.modalContent h3 {
+  color: #ff7675;
+  font-size: 1.5rem;
+  margin-bottom: var(--space-md);
+}
+
+.modalContent p {
+  color: var(--text-primary);
+  margin-bottom: var(--space-xl);
+  line-height: 1.5;
+}
+
+.modalActions {
+  display: flex;
+  gap: var(--space-md);
+  justify-content: center;
+}
+
+.cancelBtn, .confirmBtn {
+  padding: var(--space-md) var(--space-xl);
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: none;
+}
+
+.cancelBtn {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-primary);
+  border: 1px solid var(--glass-border);
+}
+
+.cancelBtn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.confirmBtn {
+  background: #ff7675;
+  color: white;
+}
+
+.confirmBtn:hover {
+  background: #d63031;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scaleUp {
+  from { transform: scale(0.9); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
 }

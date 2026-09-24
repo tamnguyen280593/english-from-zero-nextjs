@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback, useEffect, createContext, useContext, useRef } from 'react';
+import { useState, useCallback, useEffect, createContext, useContext } from 'react';
 import { createPortal } from 'react-dom';
 import styles from './Toast.module.css';
 
@@ -38,6 +38,7 @@ export function ToastProvider({ children }: { children: React.ReactNode }) {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
   }, []);
 

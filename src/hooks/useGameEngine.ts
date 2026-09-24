@@ -1,7 +1,8 @@
 import { useState, useCallback, useEffect } from 'react';
+import type { Category } from '../types/category';
 import type { Topic } from '../types/topic';
 import type { Lesson, PracticeQuestion } from '../types/lesson';
-import { getAllTopics, getLessonsByTopicSlug } from '../lib/data';
+import { getAllTopics, getLessonsByTopicSlug, getAllCategories } from '../lib/data';
 
 export type GameMode = 'single' | 'multi';
 
@@ -52,11 +53,8 @@ export function useGameEngine() {
     totalRounds: 0
   });
   
-  const [availableTopics, setAvailableTopics] = useState<ReadonlyArray<Topic>>([]);
-  
-  useEffect(() => {
-    setAvailableTopics(getAllTopics());
-  }, []);
+  const [availableTopics] = useState<ReadonlyArray<Topic>>(() => getAllTopics());
+  const [availableCategories] = useState<ReadonlyArray<Category>>(() => getAllCategories());
 
   const startGame = useCallback((config: GameConfig) => {
     // 1. Initialize Players
@@ -204,6 +202,7 @@ export function useGameEngine() {
   return {
     gameState,
     availableTopics,
+    availableCategories,
     startGame,
     nextTurn,
     resetGame

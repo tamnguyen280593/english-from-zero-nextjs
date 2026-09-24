@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import styles from './page.module.css';
 import { useGameEngine, GameMode, Player } from '../../../hooks/useGameEngine';
 import { useToast } from '../../../components/ui/Toast';
@@ -9,7 +9,7 @@ import type { PracticeQuestion } from '../../../types/lesson';
 const AVATARS = ['🦁', '🦊', '🐰', '🐼', '🐸', '🦄', '🐯', '🐧'];
 
 export default function GameArena() {
-  const { gameState, availableTopics, startGame, nextTurn, resetGame } = useGameEngine();
+  const { gameState, availableTopics, availableCategories, startGame, nextTurn, resetGame } = useGameEngine();
   const { showToast } = useToast();
   const playerInputRefs = useRef<(HTMLInputElement | null)[]>([]);
 
@@ -26,6 +26,7 @@ export default function GameArena() {
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [isAnswered, setIsAnswered] = useState(false);
   const [timeLeft, setTimeLeft] = useState<number>(0);
+  const [showQuitConfirm, setShowQuitConfirm] = useState(false);
 
   // Handle TTS
   const speakWord = (word: string) => {
@@ -73,11 +74,11 @@ export default function GameArena() {
     }
   };
 
-  const handleTimeOut = () => {
+  const handleTimeOut = useCallback(() => {
     if (isAnswered) return;
     setIsAnswered(true);
     setSelectedOption(-1); // -1 signifies timeout
-  };
+  }, [isAnswered]);
 
   useEffect(() => {
     if (gameState.status !== 'playing' || timeLimit === 0 || isAnswered || !gameState.currentQuestion) {
@@ -96,7 +97,7 @@ export default function GameArena() {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [gameState.status, timeLimit, isAnswered, gameState.currentQuestion]);
+  }, [gameState.status, timeLimit, isAnswered, gameState.currentQuestion, handleTimeOut]);
 
   const handleNextTurn = () => {
     if (!gameState.currentQuestion) return;
@@ -223,28 +224,35 @@ export default function GameArena() {
         <label className={styles.label}>
           Chủ đề <span style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', fontWeight: 'normal' }}>(Bỏ trống để tự động chọn tất cả chủ đề)</span>
         </label>
-        <div className={styles.topicsGrid}>
-          {availableTopics.map(topic => {
-            const isChecked = selectedTopics.includes(topic.slug);
-            return (
-              <label key={topic.id} className={`${styles.topicCheckboxLabel} ${isChecked ? styles.topicCheckboxLabelActive : ''}`}>
-                <input
-                  type="checkbox"
-                  className={styles.hiddenCheckbox}
-                  checked={isChecked}
-                  onChange={(e) => {
-                    if (e.target.checked) {
-                      setSelectedTopics([...selectedTopics, topic.slug]);
-                    } else {
-                      setSelectedTopics(selectedTopics.filter(t => t !== topic.slug));
-                    }
-                  }}
-                />
-                <span className={styles.customCheckmark}></span>
-                {topic.title}
-              </label>
-            );
-          })}
+        <div className={styles.categoriesContainer}>
+          {availableCategories.map(cat => (
+            <div key={cat.id} className={styles.categorySection}>
+              <h3 className={styles.categoryTitle}>{cat.title}</h3>
+              <div className={styles.topicsGrid}>
+                {availableTopics.filter(t => t.categoryId === cat.id).map(topic => {
+                  const isChecked = selectedTopics.includes(topic.slug);
+                  return (
+                    <label key={topic.id} className={`${styles.topicCheckboxLabel} ${isChecked ? styles.topicCheckboxLabelActive : ''}`}>
+                      <input
+                        type="checkbox"
+                        className={styles.hiddenCheckbox}
+                        checked={isChecked}
+                        onChange={(e) => {
+                          if (e.target.checked) {
+                            setSelectedTopics([...selectedTopics, topic.slug]);
+                          } else {
+                            setSelectedTopics(selectedTopics.filter(t => t !== topic.slug));
+                          }
+                        }}
+                      />
+                      <span className={styles.customCheckmark}></span>
+                      {topic.title}
+                    </label>
+                  );
+                })}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
 
@@ -265,11 +273,7 @@ export default function GameArena() {
       <div className={styles.gameBoard}>
         <button
           className={styles.quitBtn}
-          onClick={() => {
-            if (window.confirm("Bạn có chắc chắn muốn thoát game không? Điểm số sẽ bị hủy.")) {
-              resetGame();
-            }
-          }}
+          onClick={() => setShowQuitConfirm(true)}
         >
           ✕ Thiết lập lại
         </button>
@@ -335,6 +339,22 @@ export default function GameArena() {
             <button className={styles.nextBtn} onClick={handleNextTurn}>
               Tiếp tục ➡️
             </button>
+          </div>
+        )}
+
+        {showQuitConfirm && (
+          <div className={styles.modalOverlay}>
+            <div className={styles.modalContent}>
+              <h3>Thoát Game?</h3>
+              <p>Bạn có chắc chắn muốn thoát game không? Mọi điểm số hiện tại sẽ bị hủy.</p>
+              <div className={styles.modalActions}>
+                <button className={styles.cancelBtn} onClick={() => setShowQuitConfirm(false)}>Hủy</button>
+                <button className={styles.confirmBtn} onClick={() => {
+                  setShowQuitConfirm(false);
+                  resetGame();
+                }}>Thoát</button>
+              </div>
+            </div>
           </div>
         )}
       </div>

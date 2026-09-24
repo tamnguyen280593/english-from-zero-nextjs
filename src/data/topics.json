@@ -161,7 +161,7 @@
       "icon": "🎒",
       "image": "/images/topics/grade-1.webp",
       "level": "starter",
-      "order": 6,
+      "order": 11,
       "lessonCount": 16,
       "color": "#ff7675"
     },
@@ -176,7 +176,7 @@
       "icon": "🧸",
       "image": "/images/topics/grade-2.webp",
       "level": "starter",
-      "order": 7,
+      "order": 12,
       "lessonCount": 16,
       "color": "#74b9ff"
     },
@@ -191,7 +191,7 @@
       "icon": "🏫",
       "image": "/images/topics/grade-3.webp",
       "level": "beginner",
-      "order": 8,
+      "order": 13,
       "lessonCount": 20,
       "color": "#a29bfe"
     },
@@ -206,7 +206,7 @@
       "icon": "📚",
       "image": "/images/topics/grade-4.webp",
       "level": "beginner",
-      "order": 9,
+      "order": 14,
       "lessonCount": 20,
       "color": "#55efc4"
     },
@@ -221,7 +221,7 @@
       "icon": "🌍",
       "image": "/images/topics/grade-5.webp",
       "level": "elementary",
-      "order": 10,
+      "order": 15,
       "lessonCount": 20,
       "color": "#fab1a0"
     }

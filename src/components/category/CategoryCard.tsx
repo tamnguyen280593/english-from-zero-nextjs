@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
 import styles from './CategoryCard.module.css';
 import type { Category } from '../../types/category';
