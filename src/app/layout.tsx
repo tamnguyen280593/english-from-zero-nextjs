@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "../components/layout/Header";
 import Footer from "../components/layout/Footer";
 import { APP_NAME, APP_DESCRIPTION } from "../constants";
+import { ToastProvider } from "../components/ui/Toast";
 
 const inter = Inter({ 
   subsets: ["latin"], 
@@ -35,9 +36,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${outfit.variable}`}>
       <body>
-        <Header />
-        {children}
-        <Footer />
+        <ToastProvider>
+          <Header />
+          {children}
+          <Footer />
+        </ToastProvider>
       </body>
     </html>
   );

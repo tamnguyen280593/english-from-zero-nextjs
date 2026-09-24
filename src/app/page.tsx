@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 import styles from './page.module.css';
 import { getAllCategories } from '../lib/data';
 import CategoryCard from '../components/category/CategoryCard';
@@ -32,11 +33,13 @@ export default function Home() {
         ))}
       </section>
 
-      <section className={styles.gameSection} style={{ textAlign: 'center', padding: '2rem', background: 'linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%)', borderRadius: '16px', color: 'white', cursor: 'pointer', boxShadow: '0 10px 30px rgba(108, 92, 231, 0.3)' }} onClick={() => window.location.href = '/games/arena'}>
-        <h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>🎮 Đấu Trường Tiếng Anh (Game Arena)</h2>
-        <p style={{ fontSize: '1.2rem', marginBottom: '1.5rem', opacity: 0.9 }}>Chế độ chơi nhiều người cực vui! Thi tài từ vựng và nhận điểm số.</p>
-        <button style={{ padding: '12px 30px', fontSize: '1.2rem', fontWeight: 'bold', borderRadius: '30px', border: 'none', background: 'white', color: '#6c5ce7', cursor: 'pointer' }}>Vào Game Ngay ➡️</button>
-      </section>
+      <Link href="/games/arena" style={{ textDecoration: 'none' }}>
+        <section className={styles.gameSection} style={{ textAlign: 'center', padding: '2rem', background: 'linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%)', borderRadius: '16px', color: 'white', cursor: 'pointer', boxShadow: '0 10px 30px rgba(108, 92, 231, 0.3)' }}>
+          <h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>🎮 Đấu Trường Tiếng Anh (Game Arena)</h2>
+          <p style={{ fontSize: '1.2rem', marginBottom: '1.5rem', opacity: 0.9 }}>Chế độ chơi nhiều người cực vui! Thi tài từ vựng và nhận điểm số.</p>
+          <button style={{ padding: '12px 30px', fontSize: '1.2rem', fontWeight: 'bold', borderRadius: '30px', border: 'none', background: 'white', color: '#6c5ce7', cursor: 'pointer' }}>Vào Game Ngay ➡️</button>
+        </section>
+      </Link>
     </main>
   );
 }

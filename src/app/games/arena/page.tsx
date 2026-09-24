@@ -1,14 +1,17 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import styles from './page.module.css';
 import { useGameEngine, GameMode, Player } from '../../../hooks/useGameEngine';
+import { useToast } from '../../../components/ui/Toast';
 import type { PracticeQuestion } from '../../../types/lesson';
 
 const AVATARS = ['🦁', '🦊', '🐰', '🐼', '🐸', '🦄', '🐯', '🐧'];
 
 export default function GameArena() {
   const { gameState, availableTopics, startGame, nextTurn, resetGame } = useGameEngine();
+  const { showToast } = useToast();
+  const playerInputRefs = useRef<(HTMLInputElement | null)[]>([]);
   
   // Setup State
   const [mode, setMode] = useState<GameMode>('single');
@@ -34,8 +37,15 @@ export default function GameArena() {
   };
 
   const handleStart = () => {
-    if (players.some(p => !p.name.trim())) {
-      alert("Vui lòng nhập tên cho tất cả người chơi!");
+    const firstEmptyIndex = players.findIndex(p => !p.name.trim());
+    if (firstEmptyIndex !== -1) {
+      showToast('Vui lòng nhập tên cho tất cả người chơi!', 'error');
+      // Scroll to and focus the first empty input
+      const inputEl = playerInputRefs.current[firstEmptyIndex];
+      if (inputEl) {
+        inputEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        inputEl.focus();
+      }
       return;
     }
     const finalTopics = selectedTopics.length > 0 ? selectedTopics : availableTopics.map(t => t.slug);
@@ -143,6 +153,7 @@ export default function GameArena() {
               {AVATARS.map(a => <option key={a} value={a}>{a}</option>)}
             </select>
             <input 
+              ref={(el) => { playerInputRefs.current[idx] = el; }}
               className={styles.input}
               placeholder={`Tên người chơi ${idx + 1}`}
               value={p.name}
@@ -163,6 +174,36 @@ export default function GameArena() {
             + Thêm người chơi
           </button>
         )}
+      </div>
+
+      <div className={styles.inlineFormRow}>
+        <div className={styles.formGroup}>
+          <label className={styles.label}>Số câu hỏi mỗi người</label>
+          <select 
+            className={styles.inputSelect} 
+            value={questionCount}
+            onChange={(e) => setQuestionCount(Number(e.target.value))}
+          >
+            <option value={5}>5 câu</option>
+            <option value={10}>10 câu</option>
+            <option value={20}>20 câu</option>
+            <option value={50}>50 câu</option>
+          </select>
+        </div>
+
+        <div className={styles.formGroup}>
+          <label className={styles.label}>Thời gian trả lời (Time Attack)</label>
+          <select 
+            className={styles.inputSelect} 
+            value={timeLimit}
+            onChange={(e) => setTimeLimit(Number(e.target.value))}
+          >
+            <option value={0}>Không giới hạn</option>
+            <option value={10}>10 giây / câu</option>
+            <option value={15}>15 giây / câu</option>
+            <option value={20}>20 giây / câu</option>
+          </select>
+        </div>
       </div>
 
       <div className={styles.formGroup}>
@@ -194,33 +235,7 @@ export default function GameArena() {
         </div>
       </div>
 
-      <div className={styles.formGroup}>
-        <label className={styles.label}>Số câu hỏi mỗi người</label>
-        <select 
-          className={styles.inputSelect} 
-          value={questionCount}
-          onChange={(e) => setQuestionCount(Number(e.target.value))}
-        >
-          <option value={5}>5 câu</option>
-          <option value={10}>10 câu</option>
-          <option value={20}>20 câu</option>
-          <option value={50}>50 câu</option>
-        </select>
-      </div>
 
-      <div className={styles.formGroup}>
-        <label className={styles.label}>Thời gian trả lời (Time Attack)</label>
-        <select 
-          className={styles.inputSelect} 
-          value={timeLimit}
-          onChange={(e) => setTimeLimit(Number(e.target.value))}
-        >
-          <option value={0}>Không giới hạn</option>
-          <option value={10}>10 giây / câu</option>
-          <option value={15}>15 giây / câu</option>
-          <option value={20}>20 giây / câu</option>
-        </select>
-      </div>
 
       <button className={styles.startBtn} onClick={handleStart}>
         🚀 BẮT ĐẦU GAME

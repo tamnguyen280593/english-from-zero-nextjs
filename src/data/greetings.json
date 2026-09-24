@@ -112,73 +112,73 @@
       ],
       "phrases": [
         {
-          "id": "p-greetings-1-1",
-          "phrase": "Hello there!",
-          "meaningVi": "Chào bạn! (lịch sự)",
-          "ipa": "/həˈloʊ ðɛr/",
+          "id": "p-1790265298269-0-0",
+          "phrase": "Hello, how are you?",
+          "meaningVi": "Xin chào, bạn khỏe không?",
+          "ipa": "/hello how are you/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-1-2",
-          "phrase": "See you later!",
-          "meaningVi": "Hẹn gặp lại sau!",
-          "ipa": "/siː juː ˈleɪtər/",
+          "id": "p-1790265298269-0-1",
+          "phrase": "Hi there!",
+          "meaningVi": "Chào bạn!",
+          "ipa": "/hi there/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-1-3",
-          "phrase": "See you tomorrow!",
-          "meaningVi": "Hẹn gặp lại ngày mai!",
-          "ipa": "/siː juː təˈmɑːroʊ/",
+          "id": "p-1790265298269-0-2",
+          "phrase": "Hey, it's good to see you.",
+          "meaningVi": "Này, rất vui được gặp bạn.",
+          "ipa": "/hey its good to see you/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-1-4",
-          "phrase": "Have a nice day!",
-          "meaningVi": "Chúc một ngày tốt lành!",
-          "ipa": "/hæv ə naɪs deɪ/",
+          "id": "p-1790265298269-0-3",
+          "phrase": "Goodbye, see you later.",
+          "meaningVi": "Tạm biệt, hẹn gặp lại sau.",
+          "ipa": "/goodbye see you later/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-1-5",
-          "phrase": "Welcome back!",
-          "meaningVi": "Chào mừng quay trở lại!",
-          "ipa": "/ˈwɛlkəm bæk/",
+          "id": "p-1790265298269-0-4",
+          "phrase": "Bye for now.",
+          "meaningVi": "Tạm biệt nhé.",
+          "ipa": "/bye for now/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-1-6",
-          "phrase": "It is nice to see you.",
+          "id": "p-1790265298269-0-5",
+          "phrase": "See you tomorrow.",
+          "meaningVi": "Hẹn gặp bạn ngày mai.",
+          "ipa": "/see you tomorrow/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-1790265298269-0-6",
+          "phrase": "Welcome to our home.",
+          "meaningVi": "Chào mừng đến với nhà của chúng tôi.",
+          "ipa": "/welcome to our home/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-1790265298269-0-7",
+          "phrase": "Greetings from Vietnam.",
+          "meaningVi": "Lời chào từ Việt Nam.",
+          "ipa": "/greetings from vietnam/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-1790265298269-0-8",
+          "phrase": "Nice to meet you.",
           "meaningVi": "Rất vui được gặp bạn.",
-          "ipa": "/ɪt ɪz naɪs tuː siː juː/",
+          "ipa": "/nice to meet you/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-1-7",
-          "phrase": "Long time no see.",
-          "meaningVi": "Lâu rồi không gặp.",
-          "ipa": "/lɔːŋ taɪm noʊ siː/",
-          "usage": "Dùng trong giao tiếp"
-        },
-        {
-          "id": "p-greetings-1-8",
-          "phrase": "Take care.",
-          "meaningVi": "Bảo trọng nhé.",
-          "ipa": "/teɪk kɛr/",
-          "usage": "Dùng trong giao tiếp"
-        },
-        {
-          "id": "p-greetings-1-9",
-          "phrase": "Catch you later.",
-          "meaningVi": "Gặp lại sau nhé.",
-          "ipa": "/kætʃ juː ˈleɪtər/",
-          "usage": "Dùng trong giao tiếp"
-        },
-        {
-          "id": "p-greetings-1-10",
-          "phrase": "Farewell my friend.",
-          "meaningVi": "Tạm biệt bạn tôi.",
-          "ipa": "/fɛrˈwɛl maɪ frɛnd/",
+          "id": "p-1790265298269-0-9",
+          "phrase": "She is my best friend.",
+          "meaningVi": "Cô ấy là bạn thân nhất của tôi.",
+          "ipa": "/she is my best friend/",
           "usage": "Dùng trong giao tiếp"
         }
       ],
@@ -296,73 +296,73 @@
       ],
       "phrases": [
         {
-          "id": "p-greetings-2-1",
-          "phrase": "Good morning!",
-          "meaningVi": "Chào buổi sáng!",
-          "ipa": "/ɡʊd ˈmɔːrnɪŋ/",
+          "id": "p-1790265298269-1-0",
+          "phrase": "Good morning, everyone.",
+          "meaningVi": "Chào buổi sáng, mọi người.",
+          "ipa": "/good morning everyone/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-2-2",
-          "phrase": "Good afternoon!",
-          "meaningVi": "Chào buổi chiều!",
-          "ipa": "/ɡʊd ˌæftərˈnuːn/",
+          "id": "p-1790265298269-1-1",
+          "phrase": "Good afternoon, sir.",
+          "meaningVi": "Chào buổi chiều, ngài.",
+          "ipa": "/good afternoon sir/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-2-3",
-          "phrase": "Good evening!",
-          "meaningVi": "Chào buổi tối!",
-          "ipa": "/ɡʊd ˈiːvnɪŋ/",
+          "id": "p-1790265298269-1-2",
+          "phrase": "Good evening, ladies and gentlemen.",
+          "meaningVi": "Chào buổi tối, thưa quý ông và quý bà.",
+          "ipa": "/good evening ladies and gentlemen/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-2-4",
-          "phrase": "Good night!",
-          "meaningVi": "Chúc ngủ ngon!",
-          "ipa": "/ɡʊd naɪt/",
+          "id": "p-1790265298269-1-3",
+          "phrase": "Have a good night.",
+          "meaningVi": "Chúc một đêm tốt lành.",
+          "ipa": "/have a good night/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-2-5",
-          "phrase": "Sweet dreams!",
-          "meaningVi": "Chúc mơ đẹp!",
-          "ipa": "/swiːt driːmz/",
+          "id": "p-1790265298269-1-4",
+          "phrase": "How are you today?",
+          "meaningVi": "Hôm nay bạn thế nào?",
+          "ipa": "/how are you today/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-2-6",
-          "phrase": "Sleep well.",
-          "meaningVi": "Ngủ ngon nhé.",
-          "ipa": "/sliːp wɛl/",
+          "id": "p-1790265298269-1-5",
+          "phrase": "See you tomorrow morning.",
+          "meaningVi": "Hẹn gặp bạn sáng mai.",
+          "ipa": "/see you tomorrow morning/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-2-7",
-          "phrase": "Did you sleep well?",
-          "meaningVi": "Bạn ngủ ngon không?",
-          "ipa": "/dɪd juː sliːp wɛl/",
+          "id": "p-1790265298269-1-6",
+          "phrase": "I need to sleep now.",
+          "meaningVi": "Tôi cần phải ngủ bây giờ.",
+          "ipa": "/i need to sleep now/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-2-8",
-          "phrase": "Have a good afternoon.",
-          "meaningVi": "Buổi chiều vui vẻ.",
-          "ipa": "/hæv ə ɡʊd ˌæftərˈnuːn/",
+          "id": "p-1790265298269-1-7",
+          "phrase": "Wake up early.",
+          "meaningVi": "Thức dậy sớm.",
+          "ipa": "/wake up early/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-2-9",
-          "phrase": "See you in the morning.",
-          "meaningVi": "Sáng mai gặp nhé.",
-          "ipa": "/siː juː ɪn ðə ˈmɔːrnɪŋ/",
+          "id": "p-1790265298269-1-8",
+          "phrase": "Sweet dreams.",
+          "meaningVi": "Chúc những giấc mơ đẹp.",
+          "ipa": "/sweet dreams/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-2-10",
-          "phrase": "Time for bed.",
-          "meaningVi": "Đến giờ đi ngủ rồi.",
-          "ipa": "/taɪm fɔːr bɛd/",
+          "id": "p-1790265298269-1-9",
+          "phrase": "Have a good rest.",
+          "meaningVi": "Nghỉ ngơi tốt nhé.",
+          "ipa": "/have a good rest/",
           "usage": "Dùng trong giao tiếp"
         }
       ],
@@ -480,73 +480,73 @@
       ],
       "phrases": [
         {
-          "id": "p-greetings-3-1",
-          "phrase": "How are you?",
-          "meaningVi": "Bạn khỏe không?",
-          "ipa": "/haʊ ɑːr juː/",
+          "id": "p-1790265298269-2-0",
+          "phrase": "I am fine, thank you.",
+          "meaningVi": "Tôi khỏe, cảm ơn bạn.",
+          "ipa": "/i am fine thank you/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-3-2",
-          "phrase": "How are you doing?",
-          "meaningVi": "Bạn đang thế nào?",
-          "ipa": "/haʊ ɑːr juː ˈduːɪŋ/",
+          "id": "p-1790265298269-2-1",
+          "phrase": "That is great news.",
+          "meaningVi": "Đó là tin tuyệt vời.",
+          "ipa": "/that is great news/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-3-3",
-          "phrase": "How have you been?",
-          "meaningVi": "Dạo này bạn thế nào?",
-          "ipa": "/haʊ hæv juː biːn/",
+          "id": "p-1790265298269-2-2",
+          "phrase": "I had a good day.",
+          "meaningVi": "Tôi đã có một ngày tốt lành.",
+          "ipa": "/i had a good day/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-3-4",
-          "phrase": "How about you?",
-          "meaningVi": "Còn bạn thì sao?",
-          "ipa": "/haʊ əˈbaʊt juː/",
+          "id": "p-1790265298269-2-3",
+          "phrase": "It is not a bad idea.",
+          "meaningVi": "Đó không phải là một ý tồi.",
+          "ipa": "/it is not a bad idea/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-3-5",
-          "phrase": "I'm fine, thanks.",
-          "meaningVi": "Tôi khỏe, cảm ơn.",
-          "ipa": "/aɪm faɪn θæŋks/",
+          "id": "p-1790265298269-2-4",
+          "phrase": "Why are you sad?",
+          "meaningVi": "Tại sao bạn buồn?",
+          "ipa": "/why are you sad/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-3-6",
-          "phrase": "I'm doing great.",
-          "meaningVi": "Tôi đang rất tuyệt.",
-          "ipa": "/aɪm ˈduːɪŋ ɡreɪt/",
+          "id": "p-1790265298269-2-5",
+          "phrase": "I am very happy for you.",
+          "meaningVi": "Tôi rất vui cho bạn.",
+          "ipa": "/i am very happy for you/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-3-7",
-          "phrase": "Not bad at all.",
-          "meaningVi": "Không tệ chút nào.",
-          "ipa": "/nɑːt bæd æt ɔːl/",
+          "id": "p-1790265298269-2-6",
+          "phrase": "I feel tired today.",
+          "meaningVi": "Hôm nay tôi cảm thấy mệt.",
+          "ipa": "/i feel tired today/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-3-8",
-          "phrase": "I feel a bit tired.",
-          "meaningVi": "Tôi cảm thấy hơi mệt.",
-          "ipa": "/aɪ fiːl ə bɪt ˈtaɪərd/",
+          "id": "p-1790265298269-2-7",
+          "phrase": "I am too busy right now.",
+          "meaningVi": "Bây giờ tôi quá bận.",
+          "ipa": "/i am too busy right now/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-3-9",
-          "phrase": "I have been busy.",
-          "meaningVi": "Dạo này tôi rất bận.",
-          "ipa": "/aɪ hæv biːn ˈbɪzi/",
+          "id": "p-1790265298269-2-8",
+          "phrase": "He is sick in bed.",
+          "meaningVi": "Anh ấy đang ốm nằm trên giường.",
+          "ipa": "/he is sick in bed/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-3-10",
-          "phrase": "Everything is fine.",
-          "meaningVi": "Mọi thứ đều ổn.",
-          "ipa": "/ˈɛvriθɪŋ ɪz faɪn/",
+          "id": "p-1790265298269-2-9",
+          "phrase": "Are you okay?",
+          "meaningVi": "Bạn có ổn không?",
+          "ipa": "/are you okay/",
           "usage": "Dùng trong giao tiếp"
         }
       ],
@@ -664,73 +664,73 @@
       ],
       "phrases": [
         {
-          "id": "p-greetings-4-1",
-          "phrase": "Nice to meet you.",
-          "meaningVi": "Rất vui được gặp bạn.",
-          "ipa": "/naɪs tuː miːt juː/",
+          "id": "p-1790265298269-3-0",
+          "phrase": "It is a nice day.",
+          "meaningVi": "Đó là một ngày đẹp trời.",
+          "ipa": "/it is a nice day/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-4-2",
-          "phrase": "Glad to meet you.",
-          "meaningVi": "Rất hân hạnh được gặp bạn.",
-          "ipa": "/ɡlæd tuː miːt juː/",
+          "id": "p-1790265298269-3-1",
+          "phrase": "I am glad to be here.",
+          "meaningVi": "Tôi rất vui khi ở đây.",
+          "ipa": "/i am glad to be here/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-4-3",
-          "phrase": "Happy to meet you.",
-          "meaningVi": "Vui được gặp bạn.",
-          "ipa": "/ˈhæpi tuː miːt juː/",
+          "id": "p-1790265298269-3-2",
+          "phrase": "Happy to see you again.",
+          "meaningVi": "Rất vui được gặp lại bạn.",
+          "ipa": "/happy to see you again/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-4-4",
-          "phrase": "Nice to meet you too.",
-          "meaningVi": "Mình cũng rất vui được gặp bạn.",
-          "ipa": "/naɪs tuː miːt juː tuː/",
+          "id": "p-1790265298269-3-3",
+          "phrase": "Let's meet at the cafe.",
+          "meaningVi": "Hãy gặp nhau ở quán cà phê.",
+          "ipa": "/lets meet at the cafe/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-4-5",
-          "phrase": "I have heard a lot about you.",
-          "meaningVi": "Tôi đã nghe nhiều về bạn.",
-          "ipa": "/aɪ hæv hɜːrd ə lɑːt əˈbaʊt juː/",
+          "id": "p-1790265298269-3-4",
+          "phrase": "I don't know him.",
+          "meaningVi": "Tôi không biết anh ấy.",
+          "ipa": "/i dont know him/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-4-6",
-          "phrase": "It is a pleasure to meet you.",
-          "meaningVi": "Rất hân hạnh được gặp bạn.",
-          "ipa": "/ɪt ɪz ə ˈplɛʒər tuː miːt juː/",
+          "id": "p-1790265298269-3-5",
+          "phrase": "Let me introduce myself.",
+          "meaningVi": "Hãy để tôi giới thiệu bản thân.",
+          "ipa": "/let me introduce myself/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-4-7",
-          "phrase": "Welcome to our team.",
-          "meaningVi": "Chào mừng đến với đội của chúng tôi.",
-          "ipa": "/ˈwɛlkəm tuː aʊər tiːm/",
+          "id": "p-1790265298269-3-6",
+          "phrase": "I have a new phone.",
+          "meaningVi": "Tôi có một chiếc điện thoại mới.",
+          "ipa": "/i have a new phone/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-4-8",
-          "phrase": "Let me introduce you.",
-          "meaningVi": "Để tôi giới thiệu bạn.",
-          "ipa": "/lɛt miː ˌɪntrəˈduːs juː/",
+          "id": "p-1790265298269-3-7",
+          "phrase": "He is my colleague.",
+          "meaningVi": "Anh ấy là đồng nghiệp của tôi.",
+          "ipa": "/he is my colleague/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-4-9",
-          "phrase": "Have we met before?",
-          "meaningVi": "Chúng ta từng gặp nhau chưa?",
-          "ipa": "/hæv wiː mɛt bɪˈfɔːr/",
+          "id": "p-1790265298269-3-8",
+          "phrase": "My boss is very strict.",
+          "meaningVi": "Sếp của tôi rất nghiêm khắc.",
+          "ipa": "/my boss is very strict/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-4-10",
-          "phrase": "Nice meeting you.",
-          "meaningVi": "Rất vui vì cuộc gặp gỡ này.",
-          "ipa": "/naɪs ˈmiːtɪŋ juː/",
+          "id": "p-1790265298269-3-9",
+          "phrase": "We are a great team.",
+          "meaningVi": "Chúng ta là một đội tuyệt vời.",
+          "ipa": "/we are a great team/",
           "usage": "Dùng trong giao tiếp"
         }
       ],
@@ -848,73 +848,73 @@
       ],
       "phrases": [
         {
-          "id": "p-greetings-5-1",
-          "phrase": "Thank you very much.",
-          "meaningVi": "Cảm ơn bạn rất nhiều.",
-          "ipa": "/θæŋk juː ˈvɛri mʌtʃ/",
+          "id": "p-1790265298269-4-0",
+          "phrase": "Please sit down.",
+          "meaningVi": "Làm ơn ngồi xuống.",
+          "ipa": "/please sit down/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-5-2",
-          "phrase": "You are welcome.",
-          "meaningVi": "Không có chi.",
-          "ipa": "/juː ɑːr ˈwɛlkəm/",
-          "usage": "Dùng trong giao tiếp"
-        },
-        {
-          "id": "p-greetings-5-3",
-          "phrase": "Excuse me.",
-          "meaningVi": "Xin lỗi (để ngắt lời/hỏi).",
-          "ipa": "/ɪkˈskjuːz miː/",
-          "usage": "Dùng trong giao tiếp"
-        },
-        {
-          "id": "p-greetings-5-4",
+          "id": "p-1790265298269-4-1",
           "phrase": "I am so sorry.",
           "meaningVi": "Tôi rất xin lỗi.",
-          "ipa": "/aɪ æm soʊ ˈsɑːri/",
+          "ipa": "/i am so sorry/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-5-5",
-          "phrase": "No problem.",
-          "meaningVi": "Không có gì.",
-          "ipa": "/noʊ ˈprɑːbləm/",
+          "id": "p-1790265298269-4-2",
+          "phrase": "Excuse me, where is the toilet?",
+          "meaningVi": "Xin lỗi, nhà vệ sinh ở đâu?",
+          "ipa": "/excuse me where is the toilet/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-5-6",
-          "phrase": "Don't worry about it.",
-          "meaningVi": "Đừng bận tâm về nó.",
-          "ipa": "/doʊnt ˈwɜːri əˈbaʊt ɪt/",
+          "id": "p-1790265298269-4-3",
+          "phrase": "Thanks for your help.",
+          "meaningVi": "Cảm ơn vì sự giúp đỡ của bạn.",
+          "ipa": "/thanks for your help/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-5-7",
-          "phrase": "That is very kind of you.",
-          "meaningVi": "Bạn thật tốt bụng.",
-          "ipa": "/ðæt ɪz ˈvɛri kaɪnd ʌv juː/",
-          "usage": "Dùng trong giao tiếp"
-        },
-        {
-          "id": "p-greetings-5-8",
-          "phrase": "Could you help me please?",
-          "meaningVi": "Bạn có thể giúp tôi được không?",
-          "ipa": "/kʊd juː hɛlp miː pliːz/",
-          "usage": "Dùng trong giao tiếp"
-        },
-        {
-          "id": "p-greetings-5-9",
+          "id": "p-1790265298269-4-4",
           "phrase": "I beg your pardon?",
-          "meaningVi": "Xin lỗi, bạn vừa nói gì?",
-          "ipa": "/aɪ bɛɡ jʊr ˈpɑːrdn/",
+          "meaningVi": "Xin lỗi, bạn nói gì cơ?",
+          "ipa": "/i beg your pardon/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-5-10",
-          "phrase": "It was my fault.",
-          "meaningVi": "Đó là lỗi của tôi.",
-          "ipa": "/ɪt wʌz maɪ fɔːlt/",
+          "id": "p-1790265298269-4-5",
+          "phrase": "You are always welcome.",
+          "meaningVi": "Bạn luôn được chào đón.",
+          "ipa": "/you are always welcome/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-1790265298269-4-6",
+          "phrase": "Can you help me?",
+          "meaningVi": "Bạn có thể giúp tôi không?",
+          "ipa": "/can you help me/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-1790265298269-4-7",
+          "phrase": "Are you sure about that?",
+          "meaningVi": "Bạn có chắc về điều đó không?",
+          "ipa": "/are you sure about that/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-1790265298269-4-8",
+          "phrase": "No problem at all.",
+          "meaningVi": "Không có vấn đề gì cả.",
+          "ipa": "/no problem at all/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-1790265298269-4-9",
+          "phrase": "That is very kind of you.",
+          "meaningVi": "Bạn thật là tốt bụng.",
+          "ipa": "/that is very kind of you/",
           "usage": "Dùng trong giao tiếp"
         }
       ],
@@ -1032,73 +1032,73 @@
       ],
       "phrases": [
         {
-          "id": "p-greetings-6-1",
-          "phrase": "What is up?",
-          "meaningVi": "Có chuyện gì không?",
-          "ipa": "/wʌt ɪz ʌp/",
+          "id": "p-1790265298269-5-0",
+          "phrase": "What's sup today?",
+          "meaningVi": "Hôm nay có gì mới không?",
+          "ipa": "/whats sup today/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-6-2",
-          "phrase": "Not much.",
-          "meaningVi": "Không có gì nhiều.",
-          "ipa": "/nɑːt mʌtʃ/",
+          "id": "p-1790265298269-5-1",
+          "phrase": "Hey bro, long time no see.",
+          "meaningVi": "Chào người anh em, lâu rồi không gặp.",
+          "ipa": "/hey bro long time no see/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-6-3",
-          "phrase": "What is going on?",
-          "meaningVi": "Chuyện gì đang xảy ra vậy?",
-          "ipa": "/wʌt ɪz ˈɡoʊɪŋ ɑːn/",
+          "id": "p-1790265298269-5-2",
+          "phrase": "What's up, dude?",
+          "meaningVi": "Có chuyện gì thế, anh bạn?",
+          "ipa": "/whats up dude/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-6-4",
-          "phrase": "Nothing special.",
-          "meaningVi": "Không có gì đặc biệt.",
-          "ipa": "/ˈnʌθɪŋ ˈspɛʃl/",
+          "id": "p-1790265298269-5-3",
+          "phrase": "Thanks, mate.",
+          "meaningVi": "Cảm ơn, bạn hiền.",
+          "ipa": "/thanks mate/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-6-5",
-          "phrase": "Just chilling.",
-          "meaningVi": "Chỉ đang thư giãn thôi.",
-          "ipa": "/dʒʌst ˈtʃɪlɪŋ/",
+          "id": "p-1790265298269-5-4",
+          "phrase": "That sounds crazy.",
+          "meaningVi": "Nghe có vẻ điên rồ.",
+          "ipa": "/that sounds crazy/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-6-6",
-          "phrase": "How is it going?",
-          "meaningVi": "Mọi việc dạo này thế nào?",
-          "ipa": "/haʊ ɪz ɪt ˈɡoʊɪŋ/",
+          "id": "p-1790265298269-5-5",
+          "phrase": "Let's just chill out.",
+          "meaningVi": "Hãy cứ thư giãn thôi.",
+          "ipa": "/lets just chill out/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-6-7",
-          "phrase": "Same as usual.",
-          "meaningVi": "Vẫn như mọi khi.",
-          "ipa": "/seɪm æz ˈjuːʒuəl/",
+          "id": "p-1790265298269-5-6",
+          "phrase": "Do you want to hang out?",
+          "meaningVi": "Bạn có muốn đi chơi không?",
+          "ipa": "/do you want to hang out/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-6-8",
-          "phrase": "Long time no talk.",
-          "meaningVi": "Lâu rồi không trò chuyện.",
-          "ipa": "/lɔːŋ taɪm noʊ tɔːk/",
+          "id": "p-1790265298269-5-7",
+          "phrase": "That car looks cool.",
+          "meaningVi": "Chiếc xe đó trông ngầu thật.",
+          "ipa": "/that car looks cool/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-6-9",
-          "phrase": "What's new?",
-          "meaningVi": "Có gì mới không?",
-          "ipa": "/wʌts nuː/",
+          "id": "p-1790265298269-5-8",
+          "phrase": "Hey man, how is it going?",
+          "meaningVi": "Chào anh bạn, mọi chuyện thế nào rồi?",
+          "ipa": "/hey man how is it going/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-6-10",
-          "phrase": "Keep in touch.",
-          "meaningVi": "Giữ liên lạc nhé.",
-          "ipa": "/kiːp ɪn tʌtʃ/",
+          "id": "p-1790265298269-5-9",
+          "phrase": "I will catch you later.",
+          "meaningVi": "Tôi sẽ gặp lại bạn sau nhé.",
+          "ipa": "/i will catch you later/",
           "usage": "Dùng trong giao tiếp"
         }
       ],
@@ -1216,73 +1216,73 @@
       ],
       "phrases": [
         {
-          "id": "p-greetings-7-1",
-          "phrase": "Good morning, Mom!",
-          "meaningVi": "Chào buổi sáng, mẹ!",
-          "ipa": "/ɡʊd ˈmɔːrnɪŋ mɑːm/",
+          "id": "p-1790265298269-6-0",
+          "phrase": "I love my mom.",
+          "meaningVi": "Tôi yêu mẹ tôi.",
+          "ipa": "/i love my mom/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-7-2",
-          "phrase": "How is everyone doing?",
-          "meaningVi": "Mọi người khỏe cả chứ?",
-          "ipa": "/haʊ ɪz ˈɛvriwʌn ˈduːɪŋ/",
+          "id": "p-1790265298269-6-1",
+          "phrase": "My dad is a doctor.",
+          "meaningVi": "Bố tôi là bác sĩ.",
+          "ipa": "/my dad is a doctor/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-7-3",
-          "phrase": "I missed you so much.",
-          "meaningVi": "Con nhớ mọi người rất nhiều.",
-          "ipa": "/aɪ mɪst juː soʊ mʌtʃ/",
+          "id": "p-1790265298269-6-2",
+          "phrase": "Her son is very smart.",
+          "meaningVi": "Con trai cô ấy rất thông minh.",
+          "ipa": "/her son is very smart/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-7-4",
-          "phrase": "Welcome home.",
-          "meaningVi": "Chào mừng về nhà.",
-          "ipa": "/ˈwɛlkəm hoʊm/",
+          "id": "p-1790265298269-6-3",
+          "phrase": "My daughter loves drawing.",
+          "meaningVi": "Con gái tôi thích vẽ.",
+          "ipa": "/my daughter loves drawing/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-7-5",
-          "phrase": "Did you have a good day?",
-          "meaningVi": "Ngày hôm nay của con tốt chứ?",
-          "ipa": "/dɪd juː hæv ə ɡʊd deɪ/",
+          "id": "p-1790265298269-6-4",
+          "phrase": "He is my older brother.",
+          "meaningVi": "Anh ấy là anh trai tôi.",
+          "ipa": "/he is my older brother/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-7-6",
-          "phrase": "Give grandma a hug.",
-          "meaningVi": "Ôm bà một cái nào.",
-          "ipa": "/ɡɪv ˈɡrænmɑː ə hʌɡ/",
+          "id": "p-1790265298269-6-5",
+          "phrase": "My sister is studying.",
+          "meaningVi": "Em gái tôi đang học.",
+          "ipa": "/my sister is studying/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-7-7",
-          "phrase": "I am glad you are here.",
-          "meaningVi": "Thật vui vì con ở đây.",
-          "ipa": "/aɪ æm ɡlæd juː ɑːr hɪr/",
+          "id": "p-1790265298269-6-6",
+          "phrase": "Grandpa is reading a newspaper.",
+          "meaningVi": "Ông nội đang đọc báo.",
+          "ipa": "/grandpa is reading a newspaper/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-7-8",
-          "phrase": "How is school?",
-          "meaningVi": "Ở trường thế nào?",
-          "ipa": "/haʊ ɪz skuːl/",
+          "id": "p-1790265298269-6-7",
+          "phrase": "Grandma makes the best cookies.",
+          "meaningVi": "Bà nội làm bánh quy ngon nhất.",
+          "ipa": "/grandma makes the best cookies/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-7-9",
-          "phrase": "Let's eat dinner.",
-          "meaningVi": "Cùng ăn tối nào.",
-          "ipa": "/lɛts iːt ˈdɪnər/",
+          "id": "p-1790265298269-6-8",
+          "phrase": "My uncle lives in London.",
+          "meaningVi": "Chú tôi sống ở London.",
+          "ipa": "/my uncle lives in london/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-7-10",
-          "phrase": "Sleep well, dear.",
-          "meaningVi": "Ngủ ngon nhé, con yêu.",
-          "ipa": "/sliːp wɛl dɪr/",
+          "id": "p-1790265298269-6-9",
+          "phrase": "Aunt Mary is coming today.",
+          "meaningVi": "Dì Mary sẽ đến hôm nay.",
+          "ipa": "/aunt mary is coming today/",
           "usage": "Dùng trong giao tiếp"
         }
       ],
@@ -1400,73 +1400,73 @@
       ],
       "phrases": [
         {
-          "id": "p-greetings-8-1",
-          "phrase": "Excuse me, can you help me?",
-          "meaningVi": "Xin lỗi, bạn có thể giúp tôi không?",
-          "ipa": "/ɪkˈskjuːz miː kæn juː hɛlp miː/",
+          "id": "p-1790265298269-7-0",
+          "phrase": "Don't talk to strangers.",
+          "meaningVi": "Đừng nói chuyện với người lạ.",
+          "ipa": "/dont talk to strangers/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-8-2",
-          "phrase": "I am lost.",
-          "meaningVi": "Tôi bị lạc đường rồi.",
-          "ipa": "/aɪ æm lɔːst/",
+          "id": "p-1790265298269-7-1",
+          "phrase": "Excuse me, do you have the time?",
+          "meaningVi": "Xin lỗi, bạn có biết mấy giờ rồi không?",
+          "ipa": "/excuse me do you have the time/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-8-3",
-          "phrase": "Do you know where this is?",
-          "meaningVi": "Bạn có biết chỗ này ở đâu không?",
-          "ipa": "/duː juː noʊ wɛr ðɪs ɪz/",
+          "id": "p-1790265298269-7-2",
+          "phrase": "Can I ask you a question?",
+          "meaningVi": "Tôi có thể hỏi bạn một câu được không?",
+          "ipa": "/can i ask you a question/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-8-4",
-          "phrase": "I do not think we have met.",
-          "meaningVi": "Tôi không nghĩ là chúng ta đã gặp nhau.",
-          "ipa": "/aɪ duː nɑːt θɪŋk wiː hæv mɛt/",
+          "id": "p-1790265298269-7-3",
+          "phrase": "Do you know this place?",
+          "meaningVi": "Bạn có biết nơi này không?",
+          "ipa": "/do you know this place/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-8-5",
-          "phrase": "May I know your name?",
-          "meaningVi": "Tôi có thể biết tên bạn không?",
-          "ipa": "/meɪ aɪ noʊ jʊr neɪm/",
+          "id": "p-1790265298269-7-4",
+          "phrase": "What is your name?",
+          "meaningVi": "Tên của bạn là gì?",
+          "ipa": "/what is your name/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-8-6",
-          "phrase": "Sorry to bother you.",
-          "meaningVi": "Xin lỗi vì đã làm phiền bạn.",
-          "ipa": "/ˈsɑːri tuː ˈbɑːðər juː/",
+          "id": "p-1790265298269-7-5",
+          "phrase": "I need some help here.",
+          "meaningVi": "Tôi cần một chút giúp đỡ ở đây.",
+          "ipa": "/i need some help here/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-8-7",
-          "phrase": "Do you speak English?",
-          "meaningVi": "Bạn có nói tiếng Anh không?",
-          "ipa": "/duː juː spiːk ˈɪŋɡlɪʃ/",
+          "id": "p-1790265298269-7-6",
+          "phrase": "I think I am lost.",
+          "meaningVi": "Tôi nghĩ là tôi bị lạc rồi.",
+          "ipa": "/i think i am lost/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-8-8",
-          "phrase": "Thank you for your help.",
-          "meaningVi": "Cảm ơn sự giúp đỡ của bạn.",
-          "ipa": "/θæŋk juː fɔːr jʊr hɛlp/",
+          "id": "p-1790265298269-7-7",
+          "phrase": "Which direction should I go?",
+          "meaningVi": "Tôi nên đi hướng nào?",
+          "ipa": "/which direction should i go/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-8-9",
-          "phrase": "Have a safe trip.",
-          "meaningVi": "Chúc chuyến đi an toàn.",
-          "ipa": "/hæv ə seɪf trɪp/",
+          "id": "p-1790265298269-7-8",
+          "phrase": "The train is arriving soon.",
+          "meaningVi": "Tàu sắp đến rồi.",
+          "ipa": "/the train is arriving soon/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-8-10",
-          "phrase": "Nice talking to you.",
-          "meaningVi": "Rất vui được nói chuyện với bạn.",
-          "ipa": "/naɪs ˈtɔːkɪŋ tuː juː/",
+          "id": "p-1790265298269-7-9",
+          "phrase": "Where is the bus station?",
+          "meaningVi": "Bến xe buýt ở đâu?",
+          "ipa": "/where is the bus station/",
           "usage": "Dùng trong giao tiếp"
         }
       ],
@@ -1584,73 +1584,73 @@
       ],
       "phrases": [
         {
-          "id": "p-greetings-9-1",
-          "phrase": "Morning everyone!",
-          "meaningVi": "Chào buổi sáng mọi người!",
-          "ipa": "/ˈmɔːrnɪŋ ˈɛvriwʌn/",
+          "id": "p-1790265298269-8-0",
+          "phrase": "Morning everyone, let's start.",
+          "meaningVi": "Chào buổi sáng mọi người, hãy bắt đầu nào.",
+          "ipa": "/morning everyone lets start/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-9-2",
-          "phrase": "Did you beat the traffic?",
-          "meaningVi": "Bạn có tránh được kẹt xe không?",
-          "ipa": "/dɪd juː biːt ðə ˈtræfɪk/",
+          "id": "p-1790265298269-8-1",
+          "phrase": "The boss wants to see you.",
+          "meaningVi": "Sếp muốn gặp bạn.",
+          "ipa": "/the boss wants to see you/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-9-3",
-          "phrase": "Let's get to work.",
-          "meaningVi": "Bắt tay vào việc thôi.",
-          "ipa": "/lɛts ɡɛt tuː wɜːrk/",
+          "id": "p-1790265298269-8-2",
+          "phrase": "Sorry I am late.",
+          "meaningVi": "Xin lỗi tôi đến trễ.",
+          "ipa": "/sorry i am late/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-9-4",
-          "phrase": "I need a cup of coffee.",
-          "meaningVi": "Tôi cần một tách cà phê.",
-          "ipa": "/aɪ niːd ə kʌp ʌv ˈkɔːfi/",
+          "id": "p-1790265298269-8-3",
+          "phrase": "I woke up early today.",
+          "meaningVi": "Hôm nay tôi thức dậy sớm.",
+          "ipa": "/i woke up early today/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-9-5",
-          "phrase": "Are you busy right now?",
-          "meaningVi": "Bây giờ bạn có bận không?",
-          "ipa": "/ɑːr juː ˈbɪzi raɪt naʊ/",
+          "id": "p-1790265298269-8-4",
+          "phrase": "Do you want some coffee?",
+          "meaningVi": "Bạn có muốn uống chút cà phê không?",
+          "ipa": "/do you want some coffee/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-9-6",
-          "phrase": "Have a productive day.",
-          "meaningVi": "Chúc một ngày làm việc hiệu quả.",
-          "ipa": "/hæv ə prəˈdʌktɪv deɪ/",
+          "id": "p-1790265298269-8-5",
+          "phrase": "Let's take a short break.",
+          "meaningVi": "Hãy nghỉ giải lao một lát.",
+          "ipa": "/lets take a short break/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-9-7",
-          "phrase": "See you at the meeting.",
-          "meaningVi": "Hẹn gặp ở cuộc họp.",
-          "ipa": "/siː juː æt ðə ˈmiːtɪŋ/",
+          "id": "p-1790265298269-8-6",
+          "phrase": "We are very busy this week.",
+          "meaningVi": "Chúng tôi rất bận trong tuần này.",
+          "ipa": "/we are very busy this week/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-9-8",
-          "phrase": "Time for a lunch break.",
-          "meaningVi": "Đến giờ nghỉ trưa rồi.",
-          "ipa": "/taɪm fɔːr ə lʌntʃ breɪk/",
+          "id": "p-1790265298269-8-7",
+          "phrase": "I have a lot of work.",
+          "meaningVi": "Tôi có rất nhiều việc.",
+          "ipa": "/i have a lot of work/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-9-9",
-          "phrase": "Good job today.",
-          "meaningVi": "Hôm nay làm tốt lắm.",
-          "ipa": "/ɡʊd dʒɑːb təˈdeɪ/",
+          "id": "p-1790265298269-8-8",
+          "phrase": "I am feeling tired.",
+          "meaningVi": "Tôi đang cảm thấy mệt.",
+          "ipa": "/i am feeling tired/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-9-10",
-          "phrase": "See you tomorrow.",
-          "meaningVi": "Hẹn gặp lại vào ngày mai.",
-          "ipa": "/siː juː təˈmɑːroʊ/",
+          "id": "p-1790265298269-8-9",
+          "phrase": "Are you ready to go?",
+          "meaningVi": "Bạn đã sẵn sàng đi chưa?",
+          "ipa": "/are you ready to go/",
           "usage": "Dùng trong giao tiếp"
         }
       ],
@@ -1768,73 +1768,73 @@
       ],
       "phrases": [
         {
-          "id": "p-greetings-10-1",
+          "id": "p-1790265298269-9-0",
           "phrase": "Dear Mr. Smith,",
           "meaningVi": "Kính gửi ông Smith,",
-          "ipa": "/dɪr ˈmɪstər smɪθ/",
+          "ipa": "/dear mr smith/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-10-2",
-          "phrase": "To whom it may concern,",
-          "meaningVi": "Gửi những ai có liên quan,",
-          "ipa": "/tuː huːm ɪt meɪ kənˈsɜːrn/",
+          "id": "p-1790265298269-9-1",
+          "phrase": "Dear Madam,",
+          "meaningVi": "Kính gửi bà,",
+          "ipa": "/dear madam/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-10-3",
-          "phrase": "I hope this email finds you well.",
-          "meaningVi": "Tôi hy vọng bạn vẫn khỏe khi nhận email này.",
-          "ipa": "/aɪ hoʊp ðɪs ˈiːmeɪl faɪndz juː wɛl/",
+          "id": "p-1790265298269-9-2",
+          "phrase": "Dear Sir,",
+          "meaningVi": "Kính thưa ngài,",
+          "ipa": "/dear sir/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-10-4",
-          "phrase": "Thank you for your email.",
-          "meaningVi": "Cảm ơn email của bạn.",
-          "ipa": "/θæŋk juː fɔːr jʊr ˈiːmeɪl/",
+          "id": "p-1790265298269-9-3",
+          "phrase": "I will write an email.",
+          "meaningVi": "Tôi sẽ viết một email.",
+          "ipa": "/i will write an email/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-10-5",
-          "phrase": "I am writing to inform you that...",
-          "meaningVi": "Tôi viết thư để thông báo rằng...",
-          "ipa": "/aɪ æm ˈraɪtɪŋ tuː ɪnˈfɔːrm juː ðæt/",
+          "id": "p-1790265298269-9-4",
+          "phrase": "I hope you are well.",
+          "meaningVi": "Tôi hy vọng bạn vẫn khỏe.",
+          "ipa": "/i hope you are well/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-10-6",
-          "phrase": "Please find the attached file.",
-          "meaningVi": "Vui lòng xem tệp đính kèm.",
-          "ipa": "/pliːz faɪnd ðə əˈtætʃt faɪl/",
-          "usage": "Dùng trong giao tiếp"
-        },
-        {
-          "id": "p-greetings-10-7",
-          "phrase": "I look forward to hearing from you.",
-          "meaningVi": "Tôi mong nhận được phản hồi từ bạn.",
-          "ipa": "/aɪ lʊk ˈfɔːrwərd tuː ˈhɪrɪŋ frʌm juː/",
-          "usage": "Dùng trong giao tiếp"
-        },
-        {
-          "id": "p-greetings-10-8",
-          "phrase": "If you have any questions, please let me know.",
-          "meaningVi": "Nếu có câu hỏi, hãy cho tôi biết.",
-          "ipa": "/ɪf juː hæv ˈɛni ˈkwɛstʃənz pliːz lɛt miː noʊ/",
-          "usage": "Dùng trong giao tiếp"
-        },
-        {
-          "id": "p-greetings-10-9",
+          "id": "p-1790265298269-9-5",
           "phrase": "Best regards,",
           "meaningVi": "Trân trọng,",
-          "ipa": "/bɛst rɪˈɡɑːrdz/",
+          "ipa": "/best regards/",
           "usage": "Dùng trong giao tiếp"
         },
         {
-          "id": "p-greetings-10-10",
+          "id": "p-1790265298269-9-6",
           "phrase": "Yours sincerely,",
-          "meaningVi": "Trân trọng kính chào,",
-          "ipa": "/jʊrz sɪnˈsɪrli/",
+          "meaningVi": "Chân thành,",
+          "ipa": "/yours sincerely/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-1790265298269-9-7",
+          "phrase": "I am waiting for your reply.",
+          "meaningVi": "Tôi đang chờ phản hồi của bạn.",
+          "ipa": "/i am waiting for your reply/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-1790265298269-9-8",
+          "phrase": "Please see the attached file.",
+          "meaningVi": "Vui lòng xem file đính kèm.",
+          "ipa": "/please see the attached file/",
+          "usage": "Dùng trong giao tiếp"
+        },
+        {
+          "id": "p-1790265298269-9-9",
+          "phrase": "Send me an email later.",
+          "meaningVi": "Hãy gửi email cho tôi sau.",
+          "ipa": "/send me an email later/",
           "usage": "Dùng trong giao tiếp"
         }
       ],

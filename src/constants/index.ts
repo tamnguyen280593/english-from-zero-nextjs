@@ -22,7 +22,7 @@ export const APP_NAME = 'English From Zero' as const;
 export const APP_DESCRIPTION = 'Học tiếng Anh giao tiếp từ con số 0' as const;
 
 /** GitHub repository URL */
-export const GITHUB_REPO_URL = 'https://github.com/tamnh280593/english-from-zero-nextjs' as const;
+export const GITHUB_REPO_URL = 'https://github.com/tamnguyen280593/english-from-zero-nextjs' as const;
 
 /** Base path for GitHub Pages deployment */
 export const BASE_PATH = process.env.NODE_ENV === 'production' ? '/english-from-zero-nextjs' : '' as const;
