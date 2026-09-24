@@ -15,7 +15,7 @@ export default function CategoryCard({ category }: CategoryCardProps) {
         style={{ backgroundColor: category.color }}
       >
         <img 
-          src={category.image} 
+          src={(process.env.NODE_ENV === 'production' ? '/english-from-zero-nextjs' : '') + category.image} 
           alt={category.title} 
           className={styles.image}
           loading="lazy"

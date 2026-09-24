@@ -25,7 +25,7 @@ export default function TopicCard({ topic, progress, href }: TopicCardProps) {
         
         {/* We use an img tag instead of next/image for static export compatibility */}
         <img 
-          src={topic.image} 
+          src={(process.env.NODE_ENV === 'production' ? '/english-from-zero-nextjs' : '') + topic.image} 
           alt={topic.title} 
           className={styles.image}
           loading="lazy"
