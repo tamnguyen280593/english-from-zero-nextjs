@@ -222,7 +222,7 @@ export default function GameArena() {
 
       <div className={styles.formGroup}>
         <label className={styles.label}>
-          Chủ đề <span style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', fontWeight: 'normal' }}>(Bỏ trống để tự động chọn tất cả chủ đề)</span>
+          Chọn chủ đề <span style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', fontWeight: 'normal' }}>(Bỏ trống để tự động chọn tất cả chủ đề)</span>
         </label>
         <div className={styles.categoriesContainer}>
           {availableCategories.map(cat => (

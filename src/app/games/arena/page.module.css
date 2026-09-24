@@ -67,7 +67,7 @@
 .label {
   display: block;
   font-weight: 600;
-  margin-bottom: var(--space-sm);
+  margin-bottom: var(--space-md);
   color: var(--text-primary);
   font-size: 1.1rem;
 }
@@ -142,7 +142,8 @@
   border-color: var(--accent-primary);
 }
 
-.avatarSelect, .inputSelect {
+.avatarSelect,
+.inputSelect {
   padding: var(--space-md);
   background: rgba(0, 0, 0, 0.2);
   border: 1px solid var(--glass-border);
@@ -162,7 +163,8 @@
   width: 100%;
 }
 
-.avatarSelect:focus, .inputSelect:focus {
+.avatarSelect:focus,
+.inputSelect:focus {
   outline: none;
   border-color: var(--accent-primary);
 }
@@ -170,7 +172,7 @@
 .categoriesContainer {
   display: flex;
   flex-direction: column;
-  gap: var(--space-xl);
+  gap: var(--space-md);
 }
 
 .categorySection {
@@ -260,7 +262,6 @@
   cursor: pointer;
   box-shadow: 0 4px 15px rgba(108, 92, 231, 0.4);
   transition: transform 0.2s;
-  margin-top: var(--space-xl);
 }
 
 .startBtn:hover {
@@ -357,8 +358,13 @@
 }
 
 @keyframes pulse {
-  0% { transform: scale(1); }
-  100% { transform: scale(1.2); }
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
 }
 
 .questionBox {
@@ -449,8 +455,15 @@
 }
 
 @keyframes slideUp {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .correctFeedback {
@@ -498,8 +511,15 @@
 }
 
 @keyframes bounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-15px); }
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
 }
 
 .winnerText {
@@ -590,7 +610,8 @@
   justify-content: center;
 }
 
-.cancelBtn, .confirmBtn {
+.cancelBtn,
+.confirmBtn {
   padding: var(--space-md) var(--space-xl);
   border-radius: var(--radius-md);
   font-size: 1rem;
@@ -620,11 +641,23 @@
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes scaleUp {
-  from { transform: scale(0.9); opacity: 0; }
-  to { transform: scale(1); opacity: 1; }
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
