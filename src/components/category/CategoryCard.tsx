@@ -18,7 +18,6 @@ export default function CategoryCard({ category }: CategoryCardProps) {
           src={(process.env.NODE_ENV === 'production' ? '/english-from-zero-nextjs' : '') + category.image} 
           alt={category.title} 
           className={styles.image}
-          loading="lazy"
         />
         
         <div className={styles.overlay}></div>

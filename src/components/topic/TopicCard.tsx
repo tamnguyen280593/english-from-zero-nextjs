@@ -28,7 +28,6 @@ export default function TopicCard({ topic, progress, href }: TopicCardProps) {
           src={(process.env.NODE_ENV === 'production' ? '/english-from-zero-nextjs' : '') + topic.image} 
           alt={topic.title} 
           className={styles.image}
-          loading="lazy"
         />
         
         <div className={styles.overlay}></div>
